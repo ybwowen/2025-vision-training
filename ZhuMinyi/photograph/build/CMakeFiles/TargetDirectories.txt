@@ -1,0 +1,3 @@
+/home/zmyyy/ZhuMinyi/photograph/build/CMakeFiles/photograph.dir
+/home/zmyyy/ZhuMinyi/photograph/build/CMakeFiles/edit_cache.dir
+/home/zmyyy/ZhuMinyi/photograph/build/CMakeFiles/rebuild_cache.dir
