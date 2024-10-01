@@ -1,3 +1,0 @@
-/home/siberia/zhaodingyi/Work/rm/Learning/Jixun/Day1/Homework/photograph/build/CMakeFiles/rebuild_cache.dir
-/home/siberia/zhaodingyi/Work/rm/Learning/Jixun/Day1/Homework/photograph/build/CMakeFiles/edit_cache.dir
-/home/siberia/zhaodingyi/Work/rm/Learning/Jixun/Day1/Homework/photograph/build/CMakeFiles/photograph.dir

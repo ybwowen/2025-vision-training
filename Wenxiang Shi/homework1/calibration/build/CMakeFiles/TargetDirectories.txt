@@ -1,3 +1,0 @@
-/home/luna/2025-vision-training-master/homework1/calibration/build/CMakeFiles/calibration.dir
-/home/luna/2025-vision-training-master/homework1/calibration/build/CMakeFiles/edit_cache.dir
-/home/luna/2025-vision-training-master/homework1/calibration/build/CMakeFiles/rebuild_cache.dir

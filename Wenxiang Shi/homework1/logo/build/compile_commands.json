@@ -1,7 +1,0 @@
-[
-{
-  "directory": "/home/luna/2025-vision-training-master/homework1/logo/build",
-  "command": "/usr/bin/c++  -isystem /usr/include/opencv4 -std=gnu++11 -o CMakeFiles/logo.dir/logo.cpp.o -c /home/luna/2025-vision-training-master/homework1/logo/logo.cpp",
-  "file": "/home/luna/2025-vision-training-master/homework1/logo/logo.cpp"
-}
-]
