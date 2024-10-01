@@ -56,7 +56,7 @@ int main() {
     Mat R = quaternionToRotationMatrix(qx, qy, qz, qw);
 
     // 初始化图像
-    Mat image(320, 240, CV_8UC3, Scalar(0, 0, 0));  // 创建一个空图像，大小320x240
+    Mat image(1024, 1657, CV_8UC3, Scalar(0, 0, 0));  // 创建一个空图像
 
     // 投影三维点到二维图像上
     for (const auto& worldPoint : worldPoints) {
