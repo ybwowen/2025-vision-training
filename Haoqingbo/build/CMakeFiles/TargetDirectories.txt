@@ -1,3 +1,0 @@
-/home/rm-jiaolong/Workspace/CVhomework/Haoqingbo/build/CMakeFiles/DEMO.dir
-/home/rm-jiaolong/Workspace/CVhomework/Haoqingbo/build/CMakeFiles/edit_cache.dir
-/home/rm-jiaolong/Workspace/CVhomework/Haoqingbo/build/CMakeFiles/rebuild_cache.dir

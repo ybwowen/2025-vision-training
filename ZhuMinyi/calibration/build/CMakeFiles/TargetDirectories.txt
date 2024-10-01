@@ -1,3 +1,0 @@
-/home/zmyyy/ZhuMinyi/calibration/build/CMakeFiles/calibration.dir
-/home/zmyyy/ZhuMinyi/calibration/build/CMakeFiles/edit_cache.dir
-/home/zmyyy/ZhuMinyi/calibration/build/CMakeFiles/rebuild_cache.dir

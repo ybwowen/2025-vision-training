@@ -1,7 +1,0 @@
-[
-{
-  "directory": "/home/zmyyy/ZhuMinyi/calibration/build",
-  "command": "/usr/bin/c++  -isystem /usr/include/opencv4 -std=gnu++11 -o CMakeFiles/calibration.dir/main.cpp.o -c /home/zmyyy/ZhuMinyi/calibration/main.cpp",
-  "file": "/home/zmyyy/ZhuMinyi/calibration/main.cpp"
-}
-]
