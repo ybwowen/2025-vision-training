@@ -73,13 +73,11 @@ int main() {
   if (corner_pos_vec.size()) {
   }
 
-  double rms_error = calibrateCamera(
+  calibrateCamera(
       object_points, corner_pos_vec,
       Size(imread(images[0]).cols, imread(images[0]).rows), camera_matrix,
       dist_coeffs, rvecs, tvecs, 0,
       TermCriteria(TermCriteria::COUNT + TermCriteria::EPS, 30, DBL_EPSILON));
-
-  cout << "Re-projection error: " << rms_error << endl;
   cout << "Camera Matrix: " << endl << camera_matrix << endl;
   cout << "Distortion Coefficients: " << endl << dist_coeffs << endl;
 
