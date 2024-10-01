@@ -18,8 +18,10 @@ int main() {
             0.0, 0.0, 1.0, 0.0;
 
     // 相机坐标和姿态四元数
-    Vector3d cameraPosition(2.0, 2.0, 2.0);
-    Quaternion<double> quaternion(0.5, 0.5, -0.5, -0.5);
+    Quaternion<double> quaternion(-0.5, 0.5, 0.5, -0.5);
+    Quaternion<double>quaternion_inv = quaternion.inverse();
+    Vector3d T(2.0, 2.0, 2.0);
+    Vector3d T_inv = -(quaternion_inv * T);
 
     // 读取点坐标
     ifstream inputFile("points.txt");
@@ -35,7 +37,7 @@ int main() {
     inputFile.close();
 
     // 计算相机坐标系的旋转矩阵
-    Matrix3d R = quaternion.toRotationMatrix();
+    Matrix3d R = quaternion_inv.toRotationMatrix();
 
     // 存储投影点
     vector<cv::Point2d> projectedPoints;
@@ -43,9 +45,9 @@ int main() {
     for (const auto &point: worldPoints) {
         Matrix<double, 4, 4> RT;
 
-        RT << R(0, 0), R(0, 1), R(0, 2), cameraPosition(0),
-                R(1, 0), R(1, 1), R(1, 2), cameraPosition(1),
-                R(2, 0), R(2, 1), R(2, 2), cameraPosition(2),
+        RT << R(0, 0), R(0, 1), R(0, 2), T_inv(0),
+                R(1, 0), R(1, 1), R(1, 2), T_inv(1),
+                R(2, 0), R(2, 1), R(2, 2), T_inv(2),
                 0, 0, 0, 1;
 
         Matrix<double, 4, 1> camPoint = RT * point;
