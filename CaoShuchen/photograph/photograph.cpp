@@ -61,7 +61,7 @@ cv::Mat takePhoto(const vector<Matrix<double, 4, 1>> &points,const Quaternion<do
     Vector3d T = -(quaternion * T_inv);
 
     // 计算相机坐标系的旋转矩阵
-    Matrix3d R = quaternionInv.toRotationMatrix();
+    Matrix3d R = quaternion.toRotationMatrix();
 
     // 将世界坐标系的点投影到图像平面
     vector<cv::Point2d> projectedPoints = projectPointsToCV(points, R, T, K);
