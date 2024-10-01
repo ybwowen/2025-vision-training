@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/rm-jiaolong/Workspace/CVhomework/Haoqingbo/build",
+  "command": "/usr/bin/g++  -isystem /usr/local/include/opencv4 -g -o CMakeFiles/DEMO.dir/main.cpp.o -c /home/rm-jiaolong/Workspace/CVhomework/Haoqingbo/main.cpp",
+  "file": "/home/rm-jiaolong/Workspace/CVhomework/Haoqingbo/main.cpp"
+}
+]
