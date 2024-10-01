@@ -91,12 +91,17 @@ int main() {
 
     // 相机坐标和姿态四元数
     Quaternion<double> quaternionInv(-0.5, 0.5, 0.5, -0.5);
-    Vector3d T_inv(2.0, 2.0, 2.0);
+    Vector3d T_inv(-2.0, 2.0, 2.0);
 
-    auto image = takePhoto(worldPoints, quaternionInv, T_inv, K);
+    for (int i = 0; i < 41; ++i) { // 输出10张照片
+        auto image = takePhoto(worldPoints, quaternionInv, T_inv, K);
+        cv::imshow("Projected Points", image);
+        cv::waitKey(25); // 等待100毫秒
 
-    // 显示图像
-    cv::imshow("Projected Points", image);
-    cv::waitKey(0);
+        // 向后移动相机
+        T_inv.x() += 0.1; // 向后移动0.1单位
+    }
+    cv::waitKey(250); // 等待100毫秒
+
     return 0;
 }
