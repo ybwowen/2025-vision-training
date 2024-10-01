@@ -54,6 +54,22 @@ cv::Mat drawPoints(const vector<cv::Point2d> &points) {
     return image;
 }
 
+cv::Mat takePhoto(const vector<Matrix<double, 4, 1>> &points,const Quaternion<double> &quaternionInv, const Vector3d &T_inv,
+                  const Matrix<double, 3, 4> &K) {
+    // 计算相机坐标系的平移向量
+    Quaternion<double> quaternion = quaternionInv.inverse();
+    Vector3d T = -(quaternion * T_inv);
+
+    // 计算相机坐标系的旋转矩阵
+    Matrix3d R = quaternionInv.toRotationMatrix();
+
+    // 将世界坐标系的点投影到图像平面
+    vector<cv::Point2d> projectedPoints = projectPointsToCV(points, R, T, K);
+
+    // 绘制投影点
+    return drawPoints(projectedPoints);
+}
+
 int main() {
     // 读取点坐标
     ifstream inputFile("points.txt");
@@ -76,18 +92,9 @@ int main() {
 
     // 相机坐标和姿态四元数
     Quaternion<double> quaternionInv(-0.5, 0.5, 0.5, -0.5);
-    Quaternion<double> quaternion = quaternionInv.inverse();
     Vector3d T_inv(2.0, 2.0, 2.0);
-    Vector3d T = -(quaternion * T_inv);
 
-    // 计算相机坐标系的旋转矩阵
-    Matrix3d R = quaternion.toRotationMatrix();
-
-    // 存储投影点
-    vector<cv::Point2d> projectedPoints = projectPointsToCV(worldPoints, R, T, K);
-
-    // 创建图像并绘制投影点
-    cv::Mat image = drawPoints(projectedPoints);
+    auto image = takePhoto(worldPoints, quaternionInv, T_inv, K);
 
     // 显示图像
     cv::imshow("Projected Points", image);
