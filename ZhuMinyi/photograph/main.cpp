@@ -6,14 +6,11 @@
 #include <opencv2/core/core.hpp>
 #include <opencv2/highgui.hpp>
 #include <opencv2/opencv.hpp>
+#include <vector>
 
 using namespace std;
 using namespace cv;
 using namespace Eigen;
-
-struct Point3D {
-  double x, y, z;
-};
 
 int main() {
   ifstream file("../points.txt");
@@ -24,14 +21,16 @@ int main() {
 
   int point_number;
   file >> point_number;
-  vector<Point3D> points(point_number);
-  for (int i = 0; i < point_number; i++) {
-    file >> points[i].x >> points[i].y >> points[i].z;
+  vector<Vector3d> points(point_number);
+  for (int i = 0; i < point_number; ++i) {
+    double x, y, z;
+    file >> x >> y >> z;
+    points.push_back(Vector3d(x, y, z));
   }
 
-  // Matrix4d intrinsics_matrix;
-  Matrix<double, 3, 4> intrinsics_matrix;
-  intrinsics_matrix << 400., 0., 190., 0., 0., 400., 160., 0., 0., 0., 1., 0.;
+  Matrix3d intrinsics_matrix;
+  // Matrix<double, 3, 4> intrinsics_matrix;
+  intrinsics_matrix << 400., 0., 190., 0., 400., 160., 0., 0., 1.;
 
   Quaterniond q(-0.5, 0.5, 0.5, -0.5);
   Matrix3d R = q.toRotationMatrix();
@@ -43,12 +42,14 @@ int main() {
   extrinsics_matrix(3, 3) = 1;
   cout << extrinsics_matrix << endl;
 
-  Mat image = Mat::zeros(800, 1050, CV_8UC3);
+  Mat image = Mat::zeros(1080, 1960, CV_8UC3);
 
   vector<Point2d> image_points;
   for (const auto &point : points) {
-    Vector4d Pw(point.x, point.y, point.z, 1.0);
-    Vector3d uv = intrinsics_matrix * extrinsics_matrix * Pw;
+    // Vector4d Pw(point.x, point.y, point.z, 1.0);
+    // Vector3d uv = intrinsics_matrix * extrinsics_matrix * Pw;
+    Vector3d cam_point = R * (point - T);
+    Vector3d uv = intrinsics_matrix * cam_point;
     Point2d image_point(uv(0) / uv(2), uv(1) / uv(2));
     // cout << uv(0) << " " << uv(2) << endl;
     image_points.push_back(image_point);
