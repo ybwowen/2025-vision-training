@@ -14,6 +14,7 @@
 #include <opencv2/imgproc/imgproc.hpp>
 #include <opencv2/calib3d/calib3d.hpp>
 
+//不是这些点画出来为什么都在顶上？？？
 
 // 声明已知的相机参数
 cv::Mat cameraMatrix, rotationMatrix; // 相机内参矩阵和旋转矩阵
