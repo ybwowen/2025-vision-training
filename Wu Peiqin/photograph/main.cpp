@@ -61,10 +61,9 @@ int main() {
     readDataFromFile( worldPoints);
 
     // 创建图像并设置大小（根据需要调整）
-    cv::Mat image(360, 640, CV_8UC3, cv::Scalar(255,255, 255));
+    cv::Mat image(720, 720, CV_8UC3, cv::Scalar(255,255, 255));
 
     // 投影并绘制点
-    cv::Mat distCoeffs = cv::Mat::zeros(4, 1, CV_64F); // 假设没有径向畸变和切向畸变
 
     for (const cv::Point3f& point3D : worldPoints) 
     {
