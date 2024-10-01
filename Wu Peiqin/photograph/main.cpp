@@ -14,7 +14,6 @@
 #include <opencv2/imgproc/imgproc.hpp>
 #include <opencv2/calib3d/calib3d.hpp>
 
-//不是这些点画出来为什么都在顶上？？？
 
 // 声明已知的相机参数
 cv::Mat cameraMatrix, rotationMatrix; // 相机内参矩阵和旋转矩阵
@@ -78,8 +77,7 @@ int main() {
         point2D=point2D/point2D.at<float>(2,0);
 
         // 绘制点
-        cv::circle(image, cv::Point(cvRound(point2D.at<double>(0, 0)), cvRound(point2D.at<double>(1, 0))), 3, cv::Scalar(0, 0, 255), -1);
-        std::cout<<"painted successfully!\n";
+        cv::circle(image, cv::Point(cvRound(point2D.at<double>(0, 0)), cvRound(point2D.at<double>(0, 0))), 2, cv::Scalar(0, 0, 255), -1);
     }
 
     // 显示图像
