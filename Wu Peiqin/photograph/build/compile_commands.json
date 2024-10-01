@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/rm-jiaolong/Downloads/photograph/build",
+  "command": "/usr/bin/g++  -isystem /usr/local/include/opencv4 -g -std=gnu++20 -o CMakeFiles/photograph.dir/main.cpp.o -c /home/rm-jiaolong/Downloads/photograph/main.cpp",
+  "file": "/home/rm-jiaolong/Downloads/photograph/main.cpp"
+}
+]

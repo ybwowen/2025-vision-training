@@ -1,0 +1,3 @@
+/home/rm-jiaolong/Downloads/photograph/build/CMakeFiles/photograph.dir
+/home/rm-jiaolong/Downloads/photograph/build/CMakeFiles/edit_cache.dir
+/home/rm-jiaolong/Downloads/photograph/build/CMakeFiles/rebuild_cache.dir
