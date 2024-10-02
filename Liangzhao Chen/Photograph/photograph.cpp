@@ -79,7 +79,7 @@ int main() {
         }
     }
 
-    // 6. 显示图像
+    // 显示图像
     imshow("Projected Points", image);
     waitKey(0);
 

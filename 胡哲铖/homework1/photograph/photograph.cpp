@@ -39,7 +39,7 @@ int main(){
     //将每个点变换后画上去
     for (const auto& point : points){
         Vector3f pointPosInWorld(point.x,point.y,point.z); 
-        Vector3f pointPosInCamera = cameraQuat * (pointPosInWorld - cameraPos);
+        Vector3f pointPosInCamera = cameraQuat.inverse() * (pointPosInWorld - cameraPos);
         float x = cameraMatrix.at<float>(0, 0) * pointPosInCamera[0] + cameraMatrix.at<float>(0, 2) * pointPosInCamera[2];
         float y = cameraMatrix.at<float>(1, 1) * pointPosInCamera[1] + cameraMatrix.at<float>(1, 2) * pointPosInCamera[2];
         float z = pointPosInCamera[2];
