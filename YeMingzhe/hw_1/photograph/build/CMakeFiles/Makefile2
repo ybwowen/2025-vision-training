@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ymz/Codes/2025-vision-training/hw1_ymz/photograph
+CMAKE_SOURCE_DIR = /home/ymz/Codes/2025-vision-training/YeMingzhe/hw_1/photograph
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ymz/Codes/2025-vision-training/hw1_ymz/photograph/build
+CMAKE_BINARY_DIR = /home/ymz/Codes/2025-vision-training/YeMingzhe/hw_1/photograph/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -81,14 +81,14 @@ clean: CMakeFiles/photograph.dir/clean
 CMakeFiles/photograph.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/photograph.dir/build.make CMakeFiles/photograph.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/photograph.dir/build.make CMakeFiles/photograph.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/ymz/Codes/2025-vision-training/hw1_ymz/photograph/build/CMakeFiles --progress-num=1,2 "Built target photograph"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/ymz/Codes/2025-vision-training/YeMingzhe/hw_1/photograph/build/CMakeFiles --progress-num=1,2 "Built target photograph"
 .PHONY : CMakeFiles/photograph.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/photograph.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ymz/Codes/2025-vision-training/hw1_ymz/photograph/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ymz/Codes/2025-vision-training/YeMingzhe/hw_1/photograph/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/photograph.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ymz/Codes/2025-vision-training/hw1_ymz/photograph/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ymz/Codes/2025-vision-training/YeMingzhe/hw_1/photograph/build/CMakeFiles 0
 .PHONY : CMakeFiles/photograph.dir/rule
 
 # Convenience name for target.
