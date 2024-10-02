@@ -26,7 +26,7 @@ int main() {
   vector<Point3d> object_points = PW_BIG;
 
   Quaterniond q(-0.0816168, 0.994363, -0.0676645, -0.00122528);
-  Matrix3d R_camera_to_world = q.toRotationMatrix().inverse();
+  Matrix3d R_camera_to_world = q.toRotationMatrix();
 
   vector<Point2d> image_points;
   image_points.push_back(Point2d(575.508, 282.175));
