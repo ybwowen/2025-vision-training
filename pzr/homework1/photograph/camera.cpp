@@ -50,7 +50,7 @@ void make_circle_pic(const Eigen::MatrixXd & mat){
     // std::cout<< mat<< std::endl;
     // std::cout<< "size of mat:" << mat.cols() <<std::endl;
     for(int i=0; i< mat.cols(); i++){
-        cv::Point center(mat(0, i)+center_p , mat(1, i)+center_p);
+        cv::Point center(mat(0, i) / mat(2,i) +center_p , mat(1, i) / mat(2,i) +center_p);
         // 绘制圆
         cv::circle(image, center, radius, color, thickness);
     }
@@ -88,7 +88,7 @@ int main(int argc, char* argv[]){
                     0., 0., 1., 0.;
     Point point;
     point << 2, 2, 2;
-    Eigen::Quaterniond q(0.5, 0.5, -0.5, -0.5);
+    Eigen::Quaterniond q( -0.5, 0.5, 0.5, -0.5);
     Camera camera(camera_param, point, q);
 
     Eigen::MatrixXd result = camera.take_picture(mat);
