@@ -69,13 +69,17 @@ int main() {
     std::vector<cv::Point2f> armorPoints;
     readIMUAndArmor("assets/imu_and_armor.txt", imuQuat, armorPoints);
 
-    std::cout << "Camera Matrix:\n" << cameraMatrix << std::endl;
-    std::cout << "Distortion Coefficients:\n" << distCoeffs << std::endl;
-    std::cout << "IMU Quaternion: " << imuQuat << std::endl;
-    std::cout << "Armor Points:\n";
-    for (const auto& point : armorPoints) {
-        std::cout << point << std::endl;
-    }
+    // 去畸变
+    std::vector<cv::Point2f> undistortedPoints;
+    undistortPoints(armorPoints, undistortedPoints, cameraMatrix, distCoeffs);
+
+    // 假设相机的焦距为 fx 和 fy，主点为 cx 和 cy
+    double fx = cameraMatrix.at<double>(0, 0);
+    double fy = cameraMatrix.at<double>(1, 1);
+    double cx = cameraMatrix.at<double>(0, 2);
+    double cy = cameraMatrix.at<double>(1, 2);
+
+
 
     return 0;
 }
