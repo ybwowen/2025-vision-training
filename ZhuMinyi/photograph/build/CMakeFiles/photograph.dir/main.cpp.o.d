@@ -1,6 +1,7 @@
 CMakeFiles/photograph.dir/main.cpp.o: \
- /home/zmyyy/ZhuMinyi/photograph/main.cpp /usr/include/stdc-predef.h \
- /usr/include/eigen3/Eigen/Dense /usr/include/eigen3/Eigen/Core \
+ /home/zmyyy/2025-vision-training/ZhuMinyi/photograph/main.cpp \
+ /usr/include/stdc-predef.h /usr/include/eigen3/Eigen/Dense \
+ /usr/include/eigen3/Eigen/Core \
  /usr/include/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h \
  /usr/include/eigen3/Eigen/src/Core/util/Macros.h \
  /usr/include/c++/11/cmath \

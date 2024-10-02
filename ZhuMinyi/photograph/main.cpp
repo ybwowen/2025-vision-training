@@ -33,7 +33,9 @@ int main() {
   intrinsics_matrix << 400., 0., 190., 0., 400., 160., 0., 0., 1.;
 
   Quaterniond q(-0.5, 0.5, 0.5, -0.5);
-  Matrix3d R = q.toRotationMatrix();
+  Matrix3d R = q.toRotationMatrix().inverse();
+  // cout << "Rotation matrix R: \n" << R << endl;
+  //  R.inverse();
   Vector3d T(2, 2, 2);
   Matrix4d extrinsics_matrix = Matrix4d::Identity();
   // Matrix<double, 4, 4> extrinsics_matrix;
