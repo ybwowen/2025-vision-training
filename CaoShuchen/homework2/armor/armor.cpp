@@ -59,6 +59,14 @@ void readCameraMatrixAndDistCoeffs(const std::string& filename, cv::Mat& cameraM
     fs.release();
 }
 
+void cvMatToEigen(const cv::Mat& rotationMatrix, Eigen::Matrix3d& eigenMatrix) {
+    // 确保输入是 3x3 矩阵
+    assert(rotationMatrix.rows == 3 && rotationMatrix.cols == 3);
+
+    // 使用 Eigen::Map 将 cv::Mat 数据映射到 Eigen::Matrix3d
+    eigenMatrix = Eigen::Map<const Eigen::Matrix<double, 3, 3, Eigen::RowMajor>>(rotationMatrix.ptr<double>());
+}
+
 int main() {
     // 读取内参和畸变参数
     cv::Mat cameraMatrix, distCoeffs;
@@ -73,13 +81,22 @@ int main() {
     std::vector<cv::Point2f> undistortedPoints;
     undistortPoints(armorPoints, undistortedPoints, cameraMatrix, distCoeffs);
 
-    // 假设相机的焦距为 fx 和 fy，主点为 cx 和 cy
-    double fx = cameraMatrix.at<double>(0, 0);
-    double fy = cameraMatrix.at<double>(1, 1);
-    double cx = cameraMatrix.at<double>(0, 2);
-    double cy = cameraMatrix.at<double>(1, 2);
+    // PNP 求解
+    cv::Mat rvec, tvec;
+    solvePnP(PW_BIG, undistortedPoints, cameraMatrix, distCoeffs, rvec, tvec);
 
+    // 将装甲板坐标系原点转到相机坐标系
+    cv::Mat rotationMatrix;
+    Rodrigues(rvec, rotationMatrix);
+    Eigen::Matrix3d rotationMatrixEigen;
+    Eigen::Vector3d translationVector(tvec.at<double>(0), tvec.at<double>(1), tvec.at<double>(2));
+    cvMatToEigen(rotationMatrix, rotationMatrixEigen);
 
+    Eigen::Vector3d armorOriginInCamera = rotationMatrixEigen.transpose() * (-translationVector);
+    Eigen::Matrix3d cameraToWorldRotation = imuQuat.toRotationMatrix();
+
+    Eigen::Vector3d armorOriginInWorld = cameraToWorldRotation * armorOriginInCamera;
+    std::cout << armorOriginInWorld.transpose() << std::endl;
 
     return 0;
 }
