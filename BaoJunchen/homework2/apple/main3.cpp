@@ -71,7 +71,7 @@ int main(int argc, char** argv) {
     func(0, nullptr);
     cv::waitKey(0);
 
-    imwrite("../apple_detect.png",dst);
+    imwrite("../output_detect.png",dst);
 
     return 0;
 }
