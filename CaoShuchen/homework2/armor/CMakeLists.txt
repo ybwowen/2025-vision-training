@@ -11,4 +11,4 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 add_executable(armor armor.cpp)
 
-target_link_libraries(apple ${OpenCV_LIBS})
+target_link_libraries(armor ${OpenCV_LIBS})
