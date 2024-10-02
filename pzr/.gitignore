@@ -1,0 +1,5 @@
+assets
+*.md
+*.mp4
+*.png
+!out.png

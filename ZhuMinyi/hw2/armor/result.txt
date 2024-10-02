@@ -1,0 +1,1 @@
+Armor center in world coordinates: 0.00227777  -0.145467   -1.49393
