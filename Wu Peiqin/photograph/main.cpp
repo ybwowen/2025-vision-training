@@ -76,7 +76,7 @@ int main() {
         point2D=point2D/point2D.at<float>(2,0);
 
         // 绘制点
-        cv::circle(image, cv::Point(cvRound(point2D.at<double>(0, 0)), cvRound(point2D.at<double>(0, 0))), 2, cv::Scalar(0, 0, 255), -1);
+        cv::circle(image, cv::Point(cvRound(point2D.at<double>(0, 0)), cvRound(point2D.at<double>(1, 0))), 2, cv::Scalar(0, 0, 255), -1);
     }
 
     // 显示图像
