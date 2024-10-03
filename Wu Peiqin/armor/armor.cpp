@@ -15,6 +15,7 @@
 #include "assets/big_armor_scale.hpp" // 装甲板四点的真实尺寸 const std::vector<cv::Point3d> PW_BIG
 
 
+// line 87 一直在报错，不知道为啥
 
 
 // 读取yml文件中的相机内参和畸变矩阵
