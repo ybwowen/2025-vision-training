@@ -29,7 +29,7 @@ Eigen::Quaterniond parseQuaternion(const std::string& str) {
     }
     numbers.push_back(std::stod(temp));
 
-    return {numbers[1], numbers[2], numbers[3], numbers[0]};
+    return {numbers[3], numbers[0], numbers[1], numbers[2]};
 }
 
 
