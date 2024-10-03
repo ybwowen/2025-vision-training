@@ -52,16 +52,16 @@ int main() {
     // 将相机坐标系下的位姿转换为陀螺仪坐标系下的位姿
     Eigen::Matrix3d R_cam_to_gyro = q.toRotationMatrix();
     Eigen::Matrix3d R_armor_to_cam;
-    cv::cv2eigen(R, R_armor_to_cam);
-    Eigen::Matrix3d R_armor_to_gyro = R_cam_to_gyro * R_armor_to_cam;
+  
 
-    // camera center in armour coordinate
+    // armor center in camera coordinate
     cv::Point3f center_cam = cv::Point3f(tvec.at<double>(0), tvec.at<double>(1), tvec.at<double>(2));
 
     // get the center in gyro coordinate
-    Eigen::Vector3d center_gyro = R_armor_to_gyro * Eigen::Vector3d(-center_cam.x, -center_cam.y, -center_cam.z);
+    Eigen::Vector3d center_gyro = R_cam_to_gyro * Eigen::Vector3d(center_cam.x, center_cam.y, center_cam.z);
 
     // 输出结果
     std::cout << "装甲板中心在陀螺仪坐标系下的坐标: " << center_gyro.transpose() << std::endl;
 
     return 0;
+}
