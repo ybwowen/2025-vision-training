@@ -54,6 +54,7 @@ int main() {
 
     // 将四元数转换为旋转矩阵
     Mat R = quaternionToRotationMatrix(qx, qy, qz, qw);
+    Mat inv = R.inv();
 
     // 初始化图像
     Mat image(1024, 1657, CV_8UC3, Scalar(0, 0, 0));  // 创建一个空图像
@@ -64,7 +65,7 @@ int main() {
         Mat worldPointMat = (Mat_<float>(3, 1) << worldPoint.x - cameraPosition.x,
                                                    worldPoint.y - cameraPosition.y,
                                                    worldPoint.z - cameraPosition.z);
-        Mat cameraPointMat = R * worldPointMat;
+        Mat cameraPointMat = inv * worldPointMat;
 
         // 透视投影
         Mat imagePointMat = K * cameraPointMat;

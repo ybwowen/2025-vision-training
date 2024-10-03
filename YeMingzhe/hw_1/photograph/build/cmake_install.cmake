@@ -1,4 +1,4 @@
-# Install script for directory: /home/ymz/Codes/2025-vision-training/hw1_ymz/photograph
+# Install script for directory: /home/ymz/Codes/2025-vision-training/YeMingzhe/hw_1/photograph
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/ymz/Codes/2025-vision-training/hw1_ymz/photograph/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/ymz/Codes/2025-vision-training/YeMingzhe/hw_1/photograph/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

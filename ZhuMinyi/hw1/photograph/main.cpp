@@ -32,6 +32,7 @@ int main() {
   // Matrix<double, 3, 4> intrinsics_matrix;
   intrinsics_matrix << 400., 0., 190., 0., 400., 160., 0., 0., 1.;
 
+  // inverse the matrix
   Quaterniond q(-0.5, 0.5, 0.5, -0.5);
   Matrix3d R = q.toRotationMatrix().inverse();
   // cout << "Rotation matrix R: \n" << R << endl;
