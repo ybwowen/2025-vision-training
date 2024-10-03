@@ -2,4 +2,6 @@ assets
 *.md
 *.mp4
 *.png
+*.txt
+*.log
 !out.png
