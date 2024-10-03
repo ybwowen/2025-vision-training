@@ -4,7 +4,8 @@
 #include <Eigen/Dense>
 
 // 读取数据
-std::vector<double> readData(const std::string& filename) {
+std::vector<double> readData(const std::string& filename) 
+{
     std::vector<double> data;
     std::ifstream file(filename);
     double value;
@@ -15,17 +16,20 @@ std::vector<double> readData(const std::string& filename) {
 }
 
 // 卡尔曼滤波器类
-class Kalman {
+class Kalman 
+{
 public:
     Kalman(const Eigen::Vector2d& x0, const Eigen::Matrix2d& P0, const Eigen::RowVector2d& H)
         : x(x0), P(P0), H(H) {}
 
-    void predict(const Eigen::Matrix2d& F, const Eigen::Matrix2d& Q) {
+    void predict(const Eigen::Matrix2d& F, const Eigen::Matrix2d& Q) 
+    {
         x = F * x;
         P = F * P * F.transpose() + Q;
     }
 
-    void update(const Eigen::VectorXd& z, const Eigen::MatrixXd& R) {
+    void update(const Eigen::VectorXd& z, const Eigen::MatrixXd& R) 
+    {
         Eigen::VectorXd y = z - H * x; 
         Eigen::MatrixXd S = H * P * H.transpose() + R;  
         Eigen::VectorXd K = P * H.transpose() * S.inverse();  
@@ -33,7 +37,8 @@ public:
         P = (Eigen::Matrix2d::Identity() - K * H) * P;
     }
 
-    Eigen::Vector2d getState() const {
+    Eigen::Vector2d getState() const 
+    {
         return x;
     }
 
@@ -73,7 +78,8 @@ int main() {
     Eigen::MatrixXd R = Eigen::MatrixXd::Identity(1, 1) * 50;
 
     // 卡尔曼滤波
-    for (int i = 0; i < n; ++i) {
+    for (int i = 0; i < n; ++i) 
+    {
         Eigen::VectorXd z(1);
         z << data[i];
         kalman.predict(F, Q);
@@ -88,15 +94,24 @@ int main() {
     int future_days = 10;
     double last_price = data.back();
     std::vector<double> predicted_prices;
-    for (int i = 1; i <= future_days; ++i) {
+    for (int i = 1; i <= future_days; ++i) 
+    {
         predicted_prices.push_back(last_price + v_est * i);
     }
 
     // 输出
     std::cout << "Predicted prices for the next 10 days:" << std::endl;
-    for (double price : predicted_prices) {
+    for (double price : predicted_prices) 
+    {
         std::cout << price << std::endl;
     }
+
+    // 输出预测结果到文件
+    std::ofstream outfile("../predictions.txt");
+    for (double price : predicted_prices) {
+        outfile << price << std::endl;
+    }
+    outfile.close();
 
     return 0;
 }
