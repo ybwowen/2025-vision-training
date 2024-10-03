@@ -15,20 +15,7 @@
 using namespace std;
 using namespace cv;
 using namespace Eigen;
-// 为什么不乘上相机的pose的R^T反而对了？？？
-// 我的思路：pnp求出相机姿态，相当于相机对于世界的坐标转换
-// 1. 相机坐标系下点的坐标：center''=R^T+(center-tvec)
-// 2. q.matrix()*center''
-//
-// 实际上：
-// 1. center''=center-tvec
-// 2. res = q.matrix*center''
-//
-// 为什么没有关于相机的旋转？
-// 为什么没有关于相机的旋转？
-// 为什么没有关于相机的旋转？
-// 为什么没有关于相机的旋转？
-// 为什么没有关于相机的旋转？
+
 
 int main(){
     // Data input and definition.
