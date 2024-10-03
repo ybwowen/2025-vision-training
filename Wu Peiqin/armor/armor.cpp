@@ -1,21 +1,23 @@
 #include <iostream>
 #include <fstream>
-#include <opencv2/calib3d.hpp>
-#include <opencv2/core/mat.hpp>
 #include <vector>
 #include <utility>
 
 #include <eigen3/Eigen/Dense>
+#include <eigen3/Eigen/Core>
+#include <eigen3/Eigen/Geometry>
+#include <Eigen/src/Core/Matrix.h>
 
 #include <opencv2/opencv.hpp>
 #include <opencv2/highgui/highgui.hpp>
 #include <opencv2/core/core.hpp>
 #include <opencv2/imgproc/imgproc.hpp>
+#include <opencv2/calib3d.hpp>
+#include <opencv2/core/mat.hpp>
+#include <opencv2/core/eigen.hpp>
 
 #include "assets/big_armor_scale.hpp" // 装甲板四点的真实尺寸 const std::vector<cv::Point3d> PW_BIG
 
-
-// 结果并不对，不知道为啥
 
 
 // 读取yml文件中的相机内参和畸变矩阵
@@ -54,6 +56,7 @@ cv::Mat quaternionToRotationMatrix(const Eigen::Quaterniond& q)
     return rot;
 }
 
+
 int main() 
 {
     try {
@@ -81,17 +84,14 @@ int main()
 
         // 将旋转向量转换为旋转矩阵
         cv::Rodrigues(out_rotat, rot_mat);
+        std::cout<<"out_trans: "<<out_trans<<std::endl;
 
-        // 将相机坐标系下的点转换到陀螺仪坐标系
-        cv::Point3d Center = PW_BIG[0]  + PW_BIG[2] ;
-        Center *= 0.5;
-        cv::Mat CenterMat = (cv::Mat_<double>(3, 1) << Center.x, Center.y, Center.z);
-        cv::Mat gyroCenter = rot_mat * CenterMat + out_trans;
-        std::cout << "Armor center in camera coordinate system: " << gyroCenter.t() << std::endl;
-
-        // 将结果转换到陀螺仪坐标系
-        gyroCenter = rotMatrix * gyroCenter;
-        std::cout << "Armor center in gyroscope coordinate system: " << gyroCenter.t() << std::endl;
+        // 将相机坐标系下的点转换到陀螺仪坐标系下
+        Eigen::Vector3d gyroCenter;
+        cv::cv2eigen(out_trans, gyroCenter);
+        gyroCenter = q * gyroCenter;
+        std::cout << "Armor center in gyroscope coordinate system: " << gyroCenter << std::endl;
+        //[0.01385977190554271; -0.0009431309653542967; -1.707837210397347e-05]
 
     } catch (const std::exception& e) {
         std::cerr << "Error: " << e.what() << std::endl;
