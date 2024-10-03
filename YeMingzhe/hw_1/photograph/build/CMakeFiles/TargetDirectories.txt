@@ -1,3 +1,3 @@
-/home/ymz/Codes/2025-vision-training/hw1_ymz/photograph/build/CMakeFiles/photograph.dir
-/home/ymz/Codes/2025-vision-training/hw1_ymz/photograph/build/CMakeFiles/edit_cache.dir
-/home/ymz/Codes/2025-vision-training/hw1_ymz/photograph/build/CMakeFiles/rebuild_cache.dir
+/home/ymz/Codes/2025-vision-training/YeMingzhe/hw_1/photograph/build/CMakeFiles/photograph.dir
+/home/ymz/Codes/2025-vision-training/YeMingzhe/hw_1/photograph/build/CMakeFiles/edit_cache.dir
+/home/ymz/Codes/2025-vision-training/YeMingzhe/hw_1/photograph/build/CMakeFiles/rebuild_cache.dir

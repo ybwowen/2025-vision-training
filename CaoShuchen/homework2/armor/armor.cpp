@@ -29,7 +29,7 @@ Eigen::Quaterniond parseQuaternion(const std::string& str) {
     }
     numbers.push_back(std::stod(temp));
 
-    return {numbers[1], numbers[2], numbers[3], numbers[0]};
+    return {numbers[3], numbers[0], numbers[1], numbers[2]};
 }
 
 
@@ -77,26 +77,15 @@ int main() {
     std::vector<cv::Point2f> armorPoints;
     readIMUAndArmor("assets/imu_and_armor.txt", imuQuat, armorPoints);
 
-    // 去畸变
-    std::vector<cv::Point2f> undistortedPoints;
-    undistortPoints(armorPoints, undistortedPoints, cameraMatrix, distCoeffs);
-
     // PNP 求解
     cv::Mat rvec, tvec;
-    solvePnP(PW_BIG, undistortedPoints, cameraMatrix, distCoeffs, rvec, tvec);
+    solvePnP(PW_BIG, armorPoints, cameraMatrix, distCoeffs, rvec, tvec);
 
-    // 将装甲板坐标系原点转到相机坐标系
-    cv::Mat rotationMatrix;
-    Rodrigues(rvec, rotationMatrix);
-    Eigen::Matrix3d rotationMatrixEigen;
-    Eigen::Vector3d translationVector(tvec.at<double>(0), tvec.at<double>(1), tvec.at<double>(2));
-    cvMatToEigen(rotationMatrix, rotationMatrixEigen);
-
-    Eigen::Vector3d armorOriginInCamera = rotationMatrixEigen.transpose() * (-translationVector);
+    Eigen::Vector3d armorOriginInCamera(tvec.at<double>(0), tvec.at<double>(1), tvec.at<double>(2));
     Eigen::Matrix3d cameraToWorldRotation = imuQuat.toRotationMatrix();
 
-    Eigen::Vector3d armorOriginInWorld = cameraToWorldRotation * armorOriginInCamera;
-    std::cout << armorOriginInWorld.transpose() << std::endl;
+    Eigen::Vector3d armorOriginInIMU = cameraToWorldRotation * armorOriginInCamera;
+    std::cout << armorOriginInIMU.transpose() << std::endl;
 
     return 0;
 }

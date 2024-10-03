@@ -15,7 +15,7 @@
 #include "assets/big_armor_scale.hpp" // 装甲板四点的真实尺寸 const std::vector<cv::Point3d> PW_BIG
 
 
-// line 87 一直在报错，不知道为啥
+// 结果并不对，不知道为啥
 
 
 // 读取yml文件中的相机内参和畸变矩阵
@@ -30,7 +30,7 @@ std::pair<cv::Mat,cv::Mat> readCameraParameters(const std::string& filename)
     fs["C"] >> C; // 畸变系数
     fs.release();
 
-    cv::Mat F2=cv::Mat::zeros(3,4,F.type());
+    cv::Mat F2=cv::Mat::zeros(3,3,F.type());
     F.copyTo(F2(cv::Rect(0,0,3,3)));
 
     return std::make_pair(F2, C);
@@ -70,28 +70,27 @@ int main()
             {764.518, 337.652},
             {765.729, 286.741}
         };
-
-        // 计算装甲板中心的像素坐标
-        cv::Point2d armorCenter = armorPoints[0] + armorPoints[1]+ armorPoints[2]+ armorPoints[3];
-        armorCenter *= 0.25;
-
-        // 去畸变并转换为归一化相机坐标
-        cv::Point2d normCenter = pixelToNormalized(armorCenter, camera_intrinsic);
-
-        // 陀螺仪给出的四元数
-        Eigen::Quaterniond q( -0.0816168, 0.994363, -0.0676645,-0.00122528);
+        
+        // 陀螺仪四元数
+        Eigen::Quaterniond q(-0.0816168, 0.994363, -0.0676645, -0.00122528);
         cv::Mat rotMatrix = quaternionToRotationMatrix(q.conjugate());
 
-        // 装甲板中心在相机坐标系下的三维坐标
-        cv::Mat out_rotat,out_trans;
-        cv::solvePnP(PW_BIG,armorPoints,camera_intrinsic,discoeffs,out_rotat,out_trans);
-        cv::Mat rot_mat;
+        // PNP求解
+        cv::Mat out_rotat, out_trans, rot_mat;
+        cv::solvePnP(PW_BIG, armorPoints, camera_intrinsic, discoeffs, out_rotat, out_trans);
+
+        // 将旋转向量转换为旋转矩阵
         cv::Rodrigues(out_rotat, rot_mat);
 
         // 将相机坐标系下的点转换到陀螺仪坐标系
-        cv::Point3d cameraCenter; 
-        cv::Mat gyroCenter = rot_mat* cv::Mat_<double>(3,1)(cameraCenter.x, cameraCenter.y, cameraCenter.z)+out_trans;
+        cv::Point3d Center = PW_BIG[0]  + PW_BIG[2] ;
+        Center *= 0.5;
+        cv::Mat CenterMat = (cv::Mat_<double>(3, 1) << Center.x, Center.y, Center.z);
+        cv::Mat gyroCenter = rot_mat * CenterMat + out_trans;
+        std::cout << "Armor center in camera coordinate system: " << gyroCenter.t() << std::endl;
 
+        // 将结果转换到陀螺仪坐标系
+        gyroCenter = rotMatrix * gyroCenter;
         std::cout << "Armor center in gyroscope coordinate system: " << gyroCenter.t() << std::endl;
 
     } catch (const std::exception& e) {
