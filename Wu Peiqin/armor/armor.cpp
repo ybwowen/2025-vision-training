@@ -15,6 +15,8 @@
 #include "assets/big_armor_scale.hpp" // 装甲板四点的真实尺寸 const std::vector<cv::Point3d> PW_BIG
 
 
+// line 87 一直在报错，不知道为啥
+
 
 // 读取yml文件中的相机内参和畸变矩阵
 std::pair<cv::Mat,cv::Mat> readCameraParameters(const std::string& filename) 
@@ -70,25 +72,26 @@ int main()
         };
         
         // 陀螺仪四元数
-        Eigen::Quaterniond q( -0.0816168, 0.994363, -0.0676645,-0.00122528);
+        Eigen::Quaterniond q(-0.0816168, 0.994363, -0.0676645, -0.00122528);
         cv::Mat rotMatrix = quaternionToRotationMatrix(q.conjugate());
 
         // PNP求解
-        cv::Mat out_rotat,out_trans, rot_mat;
-        cv::solvePnP(PW_BIG,armorPoints,camera_intrinsic,discoeffs,out_rotat,out_trans);
-        
+        cv::Mat out_rotat, out_trans, rot_mat;
+        cv::solvePnP(PW_BIG, armorPoints, camera_intrinsic, discoeffs, out_rotat, out_trans);
+
         // 将旋转向量转换为旋转矩阵
         cv::Rodrigues(out_rotat, rot_mat);
 
-        // 将坐标系下的点转换到陀螺仪坐标系
-        cv::Point3d cameraCenter=PW_BIG[0] + PW_BIG[1]+ PW_BIG[2]+ PW_BIG[3]; 
-        cameraCenter *= 0.25;
-        cv::Mat cameraCenterMat = (cv::Mat_<double>(3, 1) << cameraCenter.x, cameraCenter.y, cameraCenter.z);
-        cv::Mat gyroCenter = rot_mat*cameraCenterMat +out_trans;
-        std::cout << "Armor center in gyroscope coordinate system: " << gyroCenter << std::endl;
-        gyroCenter=rotMatrix*gyroCenter;
+        // 将相机坐标系下的点转换到陀螺仪坐标系
+        cv::Point3d Center = PW_BIG[0]  + PW_BIG[2] ;
+        Center *= 0.5;
+        cv::Mat CenterMat = (cv::Mat_<double>(3, 1) << Center.x, Center.y, Center.z);
+        cv::Mat gyroCenter = rot_mat * CenterMat + out_trans;
+        std::cout << "Armor center in camera coordinate system: " << gyroCenter.t() << std::endl;
 
-        std::cout << "Armor center in gyroscope coordinate system: " << gyroCenter << std::endl;
+        // 将结果转换到陀螺仪坐标系
+        gyroCenter = rotMatrix * gyroCenter;
+        std::cout << "Armor center in gyroscope coordinate system: " << gyroCenter.t() << std::endl;
 
     } catch (const std::exception& e) {
         std::cerr << "Error: " << e.what() << std::endl;
