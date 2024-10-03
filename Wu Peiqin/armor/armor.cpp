@@ -82,7 +82,7 @@ int main()
         cv::cv2eigen(out_trans, gyroCenter);
         gyroCenter = q * gyroCenter;
         std::cout << "use quaterniond :\n" << gyroCenter << std::endl;
-        //[0.01385977190554271; -0.0009431309653542967; -1.707837210397347e-05]
+
         std::cout<<"use rotation matrix:\n"<<(cvRotMatrix*out_trans).t()<<std::endl;
 
     } catch (const std::exception& e) {
