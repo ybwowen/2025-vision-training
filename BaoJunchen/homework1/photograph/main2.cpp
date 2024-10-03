@@ -48,7 +48,7 @@ int main() {
         double u=pixels.at<double>(0,0)/pixels.at<double>(2,0);
         double v=pixels.at<double>(1,0)/pixels.at<double>(2,0);
         //cout<<pixels<<endl;
-        circle(img, Point(u,v), 1, Scalar(255, 255, 255), 1);
+        circle(img, Point(u,v), 2, Scalar(255, 255, 255), 1);
 
     }
     imshow("img",img);
