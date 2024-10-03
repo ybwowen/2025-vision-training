@@ -1,0 +1,17 @@
+cmake_minimum_required(VERSION 3.10)
+
+project(calibration)
+
+find_package(OpenCV REQUIRED)
+
+find_package(Eigen3 REQUIRED)
+
+# 包含 OpenCV 和 Eigen 头文件路径
+include_directories(${OpenCV_INCLUDE_DIRS})
+include_directories(${EIGEN3_INCLUDE_DIR})
+
+# 添加可执行文件
+add_executable(logo main.cpp)
+
+# 链接 OpenCV 和 Eigen 库
+target_link_libraries(logo PRIVATE ${OpenCV_LIBS})

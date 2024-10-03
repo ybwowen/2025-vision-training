@@ -1,0 +1,81 @@
+#include <iostream>
+#include <fstream>
+#include <vector>
+#include <utility>
+
+#include <eigen3/Eigen/Dense>
+#include <eigen3/Eigen/Core>
+#include <eigen3/Eigen/Geometry>
+#include <Eigen/src/Core/Matrix.h>
+
+#include <opencv2/opencv.hpp>
+#include <opencv2/highgui/highgui.hpp>
+#include <opencv2/core/core.hpp>
+#include <opencv2/imgproc/imgproc.hpp>
+#include <opencv2/calib3d.hpp>
+#include <opencv2/core/mat.hpp>
+#include <opencv2/core/eigen.hpp>
+
+#include "assets/big_armor_scale.hpp" // 装甲板四点的真实尺寸 const std::vector<cv::Point3d> PW_BIG
+
+// 读取yml文件中的相机内参和畸变矩阵
+std::pair<cv::Mat, cv::Mat> readCameraParameters(const std::string &filename) {
+  cv::FileStorage fs(filename, cv::FileStorage::READ);
+  if (!fs.isOpened()) {
+    throw std::runtime_error("Could not open file: " + filename);
+  }
+  cv::Mat F, C;
+  fs["F"] >> F; // 相机内参矩阵
+  fs["C"] >> C; // 畸变系数
+  fs.release();
+
+  cv::Mat F2 = cv::Mat::zeros(3, 3, F.type());
+  F.copyTo(F2(cv::Rect(0, 0, 3, 3)));
+
+  return std::make_pair(F2, C);
+}
+
+int main() 
+{
+    try {
+        // 读取相机参数
+        auto params = readCameraParameters("../assets/f_mat_and_c_mat.yml");
+        cv::Mat camera_intrinsic = params.first;
+        cv::Mat discoeffs = params.second;
+
+
+        // 装甲板像素坐标
+        std::vector<cv::Point2d> armorPoints = {
+            {575.508, 282.175},
+            {573.93, 331.819},
+            {764.518, 337.652},
+            {765.729, 286.741}
+        };
+        
+        // 陀螺仪四元数
+        Eigen::Quaterniond q(-0.0816168, 0.994363, -0.0676645, -0.00122528);
+        Eigen::Matrix3d rotMatrix = q.toRotationMatrix();
+        cv::Mat cvRotMatrix;
+        cv::eigen2cv(rotMatrix, cvRotMatrix);
+
+        // PNP求解
+        cv::Mat out_rotat, out_trans, rot_mat;
+        cv::solvePnP(PW_BIG, armorPoints, camera_intrinsic, discoeffs, out_rotat, out_trans);
+
+        // 将旋转向量转换为旋转矩阵
+        cv::Rodrigues(out_rotat, rot_mat);
+        std::cout<<"out_trans: "<<out_trans<<std::endl;
+
+        // 将相机坐标系下的点转换到陀螺仪坐标系下
+        Eigen::Vector3d gyroCenter;
+        cv::cv2eigen(out_trans, gyroCenter);
+        gyroCenter = q * gyroCenter;
+        std::cout << "use quaterniond :\n" << gyroCenter << std::endl;
+
+        std::cout<<"use rotation matrix:\n"<<(cvRotMatrix*out_trans).t()<<std::endl;
+
+    } catch (const std::exception& e) {
+        std::cerr << "Error: " << e.what() << std::endl;
+    }
+    return 0;
+}

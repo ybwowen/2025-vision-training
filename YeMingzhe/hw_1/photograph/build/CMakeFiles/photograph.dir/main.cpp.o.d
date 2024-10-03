@@ -1,5 +1,5 @@
 CMakeFiles/photograph.dir/main.cpp.o: \
- /home/ymz/Codes/2025-vision-training/hw1_ymz/photograph/main.cpp \
+ /home/ymz/Codes/2025-vision-training/YeMingzhe/hw_1/photograph/main.cpp \
  /usr/include/stdc-predef.h \
  /home/nano/OpenCV4/include/opencv4/opencv2/opencv.hpp \
  /home/nano/OpenCV4/include/opencv4/opencv2/opencv_modules.hpp \
