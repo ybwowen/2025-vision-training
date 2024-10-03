@@ -28,9 +28,9 @@ int main(){
     Matrix3d rotmat = rotate.normalized().toRotationMatrix();
     Mat rotvec;
     eigen2cv(rotmat, rotvec);
-    Mat w2tvec = -1 * tvec;
+    Mat t_p = rotvec * tvec;
     std::ofstream of("../ans/ans.txt");
     of << "装甲板中心在陀螺仪坐标系下的坐标："<< std::endl;
-    of <<  w2tvec;
+    of <<  t_p;
     return 0;
 }
