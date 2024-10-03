@@ -37,15 +37,6 @@ std::pair<cv::Mat, cv::Mat> readCameraParameters(const std::string &filename) {
   return std::make_pair(F2, C);
 }
 
-// 四元数到旋转矩阵
-cv::Mat quaternionToRotationMatrix(const Eigen::Quaterniond& q) 
-{
-    cv::Mat rot=(cv::Mat_<double>(3,3) << q.x() * q.x(), q.x() * q.y(), q.x() * q.z(),
-           q.y() * q.x(), q.y() * q.y(), q.y() * q.z(),
-           q.z() * q.x(), q.z() * q.y(), q.z() * q.z());
-    return rot;
-}
-
 int main() 
 {
     try {
