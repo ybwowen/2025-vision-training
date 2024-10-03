@@ -26,9 +26,9 @@ public:
     }
 
     void update(const Eigen::VectorXd& z, const Eigen::MatrixXd& R) {
-        Eigen::VectorXd y = z - H * x;  // 观测残差
-        Eigen::MatrixXd S = H * P * H.transpose() + R;  // 残差协方差
-        Eigen::VectorXd K = P * H.transpose() * S.inverse();  // 卡尔曼增益
+        Eigen::VectorXd y = z - H * x; 
+        Eigen::MatrixXd S = H * P * H.transpose() + R;  
+        Eigen::VectorXd K = P * H.transpose() * S.inverse();  
         x = x + K * y;
         P = (Eigen::Matrix2d::Identity() - K * H) * P;
     }
@@ -48,8 +48,8 @@ int main() {
     std::vector<double> data = readData("../dollar.txt");
 
     // 初始化卡尔曼滤波器
-    Eigen::Vector2d x0(0, 0);  // 初始状态
-    Eigen::Matrix2d P0 = Eigen::Matrix2d::Identity() * 1e6;  // 初始协方差矩阵
+    Eigen::Vector2d x0(0, 0);  
+    Eigen::Matrix2d P0 = Eigen::Matrix2d::Identity()*1e6;  
     Eigen::RowVector2d H;
     H << 1, 0;
 
@@ -57,19 +57,19 @@ int main() {
     std::vector<Eigen::Vector2d> pos_v_kalman;
 
     int n = data.size();
-    double dt = 1.0;  // 间隔1天
+    double dt = 1.0;  
 
     // 状态转移矩阵
     Eigen::Matrix2d F;
     F(0, 0) = 1; F(0, 1) = dt;
     F(1, 0) = 0; F(1, 1) = 1;
 
-    // 过程噪声协方差矩阵
+    // 过程噪声
     Eigen::Matrix2d Q;
     Q(0, 0) = 1e-5; Q(0, 1) = 0;
     Q(1, 0) = 0; Q(1, 1) = 1e-5;
 
-    // 观测噪声协方差矩阵
+    // 观测噪声
     Eigen::MatrixXd R = Eigen::MatrixXd::Identity(1, 1) * 50;
 
     // 卡尔曼滤波
@@ -81,7 +81,7 @@ int main() {
         pos_v_kalman.push_back(kalman.getState());
     }
 
-    // 提取估计的速率v
+    // 提取估计的v
     double v_est = pos_v_kalman.back()(1);
 
     // 预测未来10天的汇率
@@ -92,7 +92,7 @@ int main() {
         predicted_prices.push_back(last_price + v_est * i);
     }
 
-    // 输出预测结果
+    // 输出
     std::cout << "Predicted prices for the next 10 days:" << std::endl;
     for (double price : predicted_prices) {
         std::cout << price << std::endl;
