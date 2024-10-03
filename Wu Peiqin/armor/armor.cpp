@@ -18,33 +18,23 @@
 
 #include "assets/big_armor_scale.hpp" // 装甲板四点的真实尺寸 const std::vector<cv::Point3d> PW_BIG
 
-
-
 // 读取yml文件中的相机内参和畸变矩阵
-std::pair<cv::Mat,cv::Mat> readCameraParameters(const std::string& filename) 
-{
-    cv::FileStorage fs(filename, cv::FileStorage::READ);
-    if (!fs.isOpened()) {
-        throw std::runtime_error("Could not open file: " + filename);
-    }
-    cv::Mat F, C;
-    fs["F"] >> F; // 相机内参矩阵
-    fs["C"] >> C; // 畸变系数
-    fs.release();
+using cv::Mat;
 
-    cv::Mat F2=cv::Mat::zeros(3,3,F.type());
-    F.copyTo(F2(cv::Rect(0,0,3,3)));
+std::pair<cv::Mat, cv::Mat> readCameraParameters(const std::string &filename) {
+  cv::FileStorage fs(filename, cv::FileStorage::READ);
+  if (!fs.isOpened()) {
+    throw std::runtime_error("Could not open file: " + filename);
+  }
+  cv::Mat F, C;
+  fs["F"] >> F; // 相机内参矩阵
+  fs["C"] >> C; // 畸变系数
+  fs.release();
 
-    return std::make_pair(F2, C);
-}
+  cv::Mat F2 = cv::Mat::zeros(3, 3, F.type());
+  F.copyTo(F2(cv::Rect(0, 0, 3, 3)));
 
-// 将像素坐标转换为归一化相机坐标
-cv::Point2d pixelToNormalized(const cv::Point2d& pixel, const cv::Mat& F) 
-{
-    cv::Point2d norm;
-    norm.x = (pixel.x - F.at<double>(0, 2)) / F.at<double>(0, 0);
-    norm.y = (pixel.y - F.at<double>(1, 2)) / F.at<double>(1, 1);
-    return norm;
+  return std::make_pair(F2, C);
 }
 
 // 四元数到旋转矩阵
@@ -55,7 +45,6 @@ cv::Mat quaternionToRotationMatrix(const Eigen::Quaterniond& q)
            q.z() * q.x(), q.z() * q.y(), q.z() * q.z());
     return rot;
 }
-
 
 int main() 
 {
@@ -76,7 +65,9 @@ int main()
         
         // 陀螺仪四元数
         Eigen::Quaterniond q(-0.0816168, 0.994363, -0.0676645, -0.00122528);
-        cv::Mat rotMatrix = quaternionToRotationMatrix(q.conjugate());
+        Eigen::Matrix3d rotMatrix = q.toRotationMatrix();
+        cv::Mat cvRotMatrix;
+        cv::eigen2cv(rotMatrix, cvRotMatrix);
 
         // PNP求解
         cv::Mat out_rotat, out_trans, rot_mat;
@@ -90,8 +81,9 @@ int main()
         Eigen::Vector3d gyroCenter;
         cv::cv2eigen(out_trans, gyroCenter);
         gyroCenter = q * gyroCenter;
-        std::cout << "Armor center in gyroscope coordinate system: " << gyroCenter << std::endl;
+        std::cout << "use quaterniond :\n" << gyroCenter << std::endl;
         //[0.01385977190554271; -0.0009431309653542967; -1.707837210397347e-05]
+        std::cout<<"use rotation matrix:\n"<<(cvRotMatrix*out_trans).t()<<std::endl;
 
     } catch (const std::exception& e) {
         std::cerr << "Error: " << e.what() << std::endl;
