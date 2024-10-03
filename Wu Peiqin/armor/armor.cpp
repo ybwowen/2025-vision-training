@@ -19,8 +19,6 @@
 #include "assets/big_armor_scale.hpp" // 装甲板四点的真实尺寸 const std::vector<cv::Point3d> PW_BIG
 
 // 读取yml文件中的相机内参和畸变矩阵
-using cv::Mat;
-
 std::pair<cv::Mat, cv::Mat> readCameraParameters(const std::string &filename) {
   cv::FileStorage fs(filename, cv::FileStorage::READ);
   if (!fs.isOpened()) {
