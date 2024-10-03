@@ -84,8 +84,8 @@ int main() {
     Eigen::Vector3d armorOriginInCamera(tvec.at<double>(0), tvec.at<double>(1), tvec.at<double>(2));
     Eigen::Matrix3d cameraToWorldRotation = imuQuat.toRotationMatrix();
 
-    Eigen::Vector3d armorOriginInWorld = cameraToWorldRotation * armorOriginInCamera;
-    std::cout << armorOriginInWorld.transpose() << std::endl;
+    Eigen::Vector3d armorOriginInIMU = cameraToWorldRotation * armorOriginInCamera;
+    std::cout << armorOriginInIMU.transpose() << std::endl;
 
     return 0;
 }
