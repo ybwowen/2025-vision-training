@@ -60,6 +60,7 @@ int main(int argc, char* argv[]){
     cv::Rodrigues(rvec, rot_mat);
     Eigen::MatrixXd rot_mat_e;
     cv::cv2eigen(rot_mat, rot_mat_e);
+    // std::cout << rot_mat << rot_mat_e <<std::endl;
     
 
     // 输出四元数
@@ -74,8 +75,10 @@ int main(int argc, char* argv[]){
     avg.x /= objectPoints.size();
     avg.y /= objectPoints.size();
     avg.z /= objectPoints.size();
-    Eigen::Vector3d world_p(avg.x - tvec_in_cv.x , avg.y - tvec_in_cv.y, avg.z - tvec_in_cv.z);
-    std::cout<<" 装甲板中心坐标 : " << quaternion.matrix() *rot_mat_e * world_p << std::endl;
+    // std::cout << avg << std::endl;
+    std::cout << tvec_in_cv << std::endl;
+    Eigen::Vector3d world_p( tvec_in_cv.x ,  tvec_in_cv.y,  tvec_in_cv.z);
+    std::cout<<" 装甲板中心坐标 : " << quaternion.matrix() * world_p << std::endl;
 
 
     fs.release();
