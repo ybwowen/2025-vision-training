@@ -20,7 +20,7 @@ int main() {
         double x,y,z;
         inFile >> x >> y >> z;
         worldPoints.push_back(Vector3d(x,y,z));
-        cout<<i<<endl;
+
         count++;
     }
     inFile.close();
@@ -35,13 +35,17 @@ int main() {
     Vector3d camPos(2, 2, 2);
     Quaterniond q(-0.5, 0.5, 0.5, -0.5);
     Matrix3d R = q.toRotationMatrix();
-
+    Matrix3d R_t = R.transpose();
     // 创建图像
     cv::Mat image = cv::Mat::zeros(1080, 1960, CV_8UC3);
+    //write all the points in a file
+    ofstream outFile("../points_output.txt");
+    outFile<<count<<endl;
+
 
     // 投影点到图像
     for (const auto& point : worldPoints) {
-        Vector3d camPoint = R * (point - camPos);
+        Vector3d camPoint = R_t * (point - camPos);
         Eigen::Vector3d imgPoint = K * camPoint;
         imgPoint /= imgPoint(2);
 
@@ -50,12 +54,15 @@ int main() {
 
         // 绘制点
         cv::circle(image, cv::Point(x, y), 3, cv::Scalar(0, 0, 255), -1);
-        cout<<"1"<<endl;
+        outFile<<x<<" "<<y<<endl;
     }
+
+    
+
 
     // 显示图像
     cv::imshow("Image", image);
-    cv::imwrite("output.jpg", image);
+    cv::imwrite("../output.jpg", image);
     cv::waitKey(0);
 
     return 0;

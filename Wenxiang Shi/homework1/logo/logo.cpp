@@ -1,75 +1,93 @@
 #include <opencv2/opencv.hpp>
 #include <vector>
+#include <fstream>
+#include <Eigen/Dense>
 
 using namespace std;
-
-
-//NOTFINISHED
-
-
-// 函数：添加随机抖动
-void jitterPoints(std::vector<cv::Point3f>& points, float maxJitter) {
-    for (auto& point : points) {
-        point.z += (rand() % 100) / 100.0f * maxJitter - maxJitter / 2.0f;
-    }
-}
-
-// 函数：模拟相机移动
-void simulateCameraMovement(std::vector<cv::Point3f>& points, cv::VideoWriter& videoWriter) {
-    // 定义视频的FPS和大小
-    int fps = 30;
-    int frameCount = 360; // 总帧数
-    cv::Mat image = cv::Mat::zeros(480, 640, CV_8UC3);
-
-    for (int i = 0; i < frameCount; ++i) {
-        float angle = i * CV_PI / 180.0f;
-        // 这里只是简单地旋转X轴
-        for (auto& point : points) {
-            float zNew = point.z * cos(angle) - point.y * sin(angle);
-            float yNew = point.z * sin(angle) + point.y * cos(angle);
-            point.z = zNew;
-            point.y = yNew;
-        }
-        // 重新绘制图像
-        for (const auto& point : points) {
-            cv::circle(image, cv::Point(point.x, point.y), 3, cv::Scalar(0, 255, 0), -1);
-        }
-        // 写入视频
-        videoWriter.write(image);
-    }
-}
+using namespace Eigen;
 
 int main() {
-    // 读取图像
-    cv::Mat image = cv::imread("../img.png", cv::IMREAD_GRAYSCALE);
-    if (image.empty()) {
-        std::cout << "Image load failed." << std::endl;
-        return -1;
+    // 读取点的世界坐标
+    ifstream inFile("../points.txt");
+    int numPoints;
+    inFile >> numPoints;
+    cout<<numPoints;
+    vector<Vector3d> worldPoints;
+    Vector3d temppoint(0,0,0);
+
+    int count = 0;
+    for (int i = 0; i < numPoints; ++i) {
+        double x,y,z;
+        inFile >> x >> y >> z;
+        worldPoints.push_back(Vector3d(x,y,z));
+
+        count++;
     }
+    inFile.close();
 
-    // 提取轮廓
-    std::vector<std::vector<cv::Point> > contours;
-    cv::findContours(image, contours, cv::RETR_EXTERNAL, cv::CHAIN_APPROX_SIMPLE);
+    // 相机内参矩阵
+    Matrix3d K;
+    K << 400, 0, 190,
+         0, 400, 160,
+         0, 0, 1;
 
-    // 存储轮廓点
-    std::vector<cv::Point3f> contourPoints;
-    for (const auto& contour : contours[0]) {
-        contourPoints.push_back(cv::Point3f(contour.x, contour.y, 0.0f));
-        cout<<"i"<<endl;
+    // 相机坐标和姿态四元数
+    Vector3d camPos(2, 2, 2);
+    Quaterniond q(-0.5, 0.5, 0.5, -0.5);
+
+
+    Quaterniond q1(1,0,0,0);
+    // 创建图像
+
+
+    //video writer
+    cv::VideoWriter video("../output.avi", cv::VideoWriter::fourcc('M', 'J', 'P', 'G'), 30, cv::Size(1960, 1080));
+
+    //interpolate the q from q1 to q
+    for (double i = 0; i < 1; i+=0.01) {
+        cv::Mat image = cv::Mat::zeros(1080, 1960, CV_8UC3);
+        Quaterniond q_inter = q1.slerp(i, q);
+        Matrix3d R = q_inter.toRotationMatrix();
+        Matrix3d R_t = R.transpose();
+        // 投影点到图像
+        for (const auto& point : worldPoints) {
+            Vector3d camPoint = R_t * (point - camPos);
+            Eigen::Vector3d imgPoint = K * camPoint;
+            imgPoint /= imgPoint(2);
+
+            int x = imgPoint(0);
+            int y = imgPoint(1);
+
+            // 绘制点
+            cv::circle(image, cv::Point(x, y), 3, cv::Scalar(0, 0, 255), -1);
+
+        }
+        video.write(image);
     }
+    //write the last frame for 1 second
+    for (int i = 0; i < 30; i++) {
+        cv::Mat image = cv::Mat::zeros(1080, 1960, CV_8UC3);
+        Quaterniond q_inter = q1.slerp(1, q);
+        Matrix3d R = q_inter.toRotationMatrix();
+        Matrix3d R_t = R.transpose();
+        // 投影点到图像
+        for (const auto& point : worldPoints) {
+            Vector3d camPoint = R_t * (point - camPos);
+            Eigen::Vector3d imgPoint = K * camPoint;
+            imgPoint /= imgPoint(2);
 
-    // 抖动Z值
-    jitterPoints(contourPoints, 10.0f);
+            int x = imgPoint(0);
+            int y = imgPoint(1);
 
-    // 创建视频写入对象
-    cv::VideoWriter videoWriter;
-    videoWriter.open("output_video.avi", cv::VideoWriter::fourcc('M','J','P','G'), 30, image.size());
+            // 绘制点
+            cv::circle(image, cv::Point(x, y), 3, cv::Scalar(0, 0, 255), -1);
 
-    // 模拟相机移动并写入视频
-    simulateCameraMovement(contourPoints, videoWriter);
+        }
+        video.write(image);
+    }
+    video.release();
 
-    // 释放视频写入对象
-    videoWriter.release();
+    
 
     return 0;
 }
