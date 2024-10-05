@@ -2,4 +2,4 @@
 
 1. [x] calibration
 2. [x] photograph
-3. [ ] logo
+3. [x] logo(finished in homework2)
