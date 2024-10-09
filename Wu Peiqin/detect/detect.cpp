@@ -12,6 +12,7 @@
 
 
 // 效果不是很好，大体上可以实现了
+// 不知道为啥边缘并不是很连续，后面再慢慢调参吧
 
 
 // 读取视频文件
@@ -58,7 +59,7 @@ int main()
         cv::cvtColor(image, hsv, cv::COLOR_BGR2HSV);
 
         // 橙色的HSV范围
-        cv::Scalar lower_orange(5, 100, 100);
+        cv::Scalar lower_orange(0, 100, 100);
         cv::Scalar upper_orange(15, 255, 255);
 
         // 颜色过滤
@@ -66,6 +67,7 @@ int main()
         cv::inRange(hsv, lower_orange, upper_orange, mask);
 
         // 轮廓检测
+        cv::Canny(mask, mask, 100, 200);
         std::vector<std::vector<cv::Point>> contours;
         cv::findContours(mask, contours, cv::RETR_TREE, cv::CHAIN_APPROX_SIMPLE);
 
@@ -97,7 +99,7 @@ int main()
                 int center_y2 = box2.y + box2.height / 2;
 
                 // 判断两个轮廓是否相邻
-                if (std::abs(center_x1 - center_x2) < 50 && std::abs(center_y1 - center_y2) < 50) 
+                if (std::abs(center_x1 - center_x2) < 80 && std::abs(center_y1 - center_y2) < 50 && std::abs(center_x1 - center_x2) > 30) 
                 {
                     // 绘制框
                     cv::rectangle(image, box1, cv::Scalar(0, 255, 0), 2);
