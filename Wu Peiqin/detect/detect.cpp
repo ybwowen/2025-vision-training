@@ -99,7 +99,7 @@ int main()
                 int center_y2 = box2.y + box2.height / 2;
 
                 // 判断两个轮廓是否相邻
-                if (std::abs(center_x1 - center_x2) < 80 && std::abs(center_y1 - center_y2) < 50 && std::abs(center_x1 - center_x2) > 30) 
+                if (std::abs(center_x1 - center_x2) < 70 && std::abs(center_y1 - center_y2) < 35 && std::abs(center_x1 - center_x2) > 30)  
                 {
                     // 绘制框
                     cv::rectangle(image, box1, cv::Scalar(0, 255, 0), 2);
