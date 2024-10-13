@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from division_interface/srv/Robot.srv
+// generated code does not contain a copyright notice
+
+
+module division_interface {
+  module srv {
+    struct Robot_Request {
+      int64 num1;
+
+      int64 num2;
+    };
+    struct Robot_Response {
+      int64 quotient;
+
+      int64 remainder;
+    };
+  };
+};

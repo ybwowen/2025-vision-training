@@ -1,0 +1,14 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from division_interface/msg/Robot.msg
+// generated code does not contain a copyright notice
+
+
+module division_interface {
+  module msg {
+    struct Robot {
+      int64 num1;
+
+      int64 num2;
+    };
+  };
+};
