@@ -24,6 +24,10 @@ private:
         std::shared_ptr<division_interface::srv::Robot::Response> response) {
             RCLCPP_INFO(this->get_logger(), "收到num1: %ld num2: %ld", request->num1,
                 request->num2);
+        if(request->num2==0){
+            RCLCPP_ERROR(this->get_logger(), "不能除以0!");
+            return;
+        }
         response->quotient = request->num1 / request->num2;
         response->remainder = request->num1 % request->num2;
     };
