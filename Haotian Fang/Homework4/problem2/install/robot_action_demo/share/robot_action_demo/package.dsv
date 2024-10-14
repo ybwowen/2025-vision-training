@@ -1,0 +1,11 @@
+source;share/robot_action_demo/hook/cmake_prefix_path.ps1
+source;share/robot_action_demo/hook/cmake_prefix_path.dsv
+source;share/robot_action_demo/hook/cmake_prefix_path.sh
+source;share/robot_action_demo/hook/ld_library_path_lib.ps1
+source;share/robot_action_demo/hook/ld_library_path_lib.dsv
+source;share/robot_action_demo/hook/ld_library_path_lib.sh
+source;share/robot_action_demo/local_setup.bash
+source;share/robot_action_demo/local_setup.dsv
+source;share/robot_action_demo/local_setup.ps1
+source;share/robot_action_demo/local_setup.sh
+source;share/robot_action_demo/local_setup.zsh

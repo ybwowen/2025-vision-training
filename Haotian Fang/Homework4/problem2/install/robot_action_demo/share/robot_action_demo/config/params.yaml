@@ -1,0 +1,8 @@
+move_action_server:
+  ros__parameters:
+    v: 1.0
+    time_limit: 5.0
+
+move_action_client:
+  ros__parameters:
+    s: 10.0
