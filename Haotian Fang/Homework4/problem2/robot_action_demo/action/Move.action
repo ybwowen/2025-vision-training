@@ -1,0 +1,9 @@
+# Goal
+float64 distance
+---
+# Result
+bool success
+float64 final_distance
+---
+# Feedback
+float64 remaining_distance
