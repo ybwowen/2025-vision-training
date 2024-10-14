@@ -1,0 +1,7 @@
+/action_cli:
+  ros__parameters:
+    s: 1000.0
+    time_limit: 10
+/action_srv:
+  ros__parameters:
+    v: 10.0

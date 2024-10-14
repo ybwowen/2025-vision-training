@@ -1,0 +1,9 @@
+# Goal: 要移动的距离
+float32 distance
+---
+# Result: 最终的位置
+float32 remain
+---
+# Feedback: 中间反馈的位置
+float32 remain
+

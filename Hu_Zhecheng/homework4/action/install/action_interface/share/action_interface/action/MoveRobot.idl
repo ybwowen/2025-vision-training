@@ -1,0 +1,24 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from action_interface/action/MoveRobot.action
+// generated code does not contain a copyright notice
+
+
+module action_interface {
+  module action {
+    @verbatim (language="comment", text=
+      "Goal: 要移动的距离")
+    struct MoveRobot_Goal {
+      float distance;
+    };
+    @verbatim (language="comment", text=
+      "Result: 最终的位置")
+    struct MoveRobot_Result {
+      float remain;
+    };
+    @verbatim (language="comment", text=
+      "Feedback: 中间反馈的位置")
+    struct MoveRobot_Feedback {
+      float remain;
+    };
+  };
+};
