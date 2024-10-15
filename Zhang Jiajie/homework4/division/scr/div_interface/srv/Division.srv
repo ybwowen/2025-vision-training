@@ -1,0 +1,5 @@
+uint64 a
+uint64 b
+---
+uint64 quotient
+uint64 remainder
