@@ -1,0 +1,72 @@
+[0.008s] Invoking command in '/home/luna/2025-vision-training-master (1)/2025-vision-training-master/homework4/ros_ws/build/example_service_rclcpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/luna/2025-vision-training-master (1)/2025-vision-training-master/homework4/ros_ws/build/example_service_rclcpp -- -j32 -l32
+[0.021s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.200s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.223s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.225s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.230s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.238s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.249s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.277s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.278s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.363s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.418s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.756s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.332s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.563s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.564s] [33mCMake Warning (dev) at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:20 (find_package):
+[1.564s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[1.564s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[1.564s]   the cmake_policy command to set the policy and suppress this warning.
+[1.564s] 
+[1.565s] Call Stack (most recent call first):
+[1.565s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[1.565s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[1.565s]   CMakeLists.txt:9 (rosidl_generate_interfaces)
+[1.565s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.565s] [0m
+[1.580s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.581s] [33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:52 (find_package):
+[1.581s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[1.581s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[1.581s]   the cmake_policy command to set the policy and suppress this warning.
+[1.581s] 
+[1.581s] Call Stack (most recent call first):
+[1.581s]   /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[1.581s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[1.581s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[1.581s]   CMakeLists.txt:9 (rosidl_generate_interfaces)
+[1.581s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.581s] [0m
+[1.595s] [33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:140 (find_package):
+[1.595s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[1.595s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[1.595s]   the cmake_policy command to set the policy and suppress this warning.
+[1.595s] 
+[1.595s] Call Stack (most recent call first):
+[1.595s]   /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[1.595s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[1.595s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[1.595s]   CMakeLists.txt:9 (rosidl_generate_interfaces)
+[1.595s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.595s] [0m
+[1.596s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.596s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.596s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.607s] -- Configuring done (1.6s)
+[1.609s] [31mCMake Error at CMakeLists.txt:19 (add_executable):
+[1.609s]   Cannot find source file:
+[1.609s] 
+[1.609s]     src/divide_service.cpp
+[1.609s] 
+[1.609s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm
+[1.609s]   .ccm .cxxm .c++m .h .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90
+[1.609s]   .f95 .f03 .hip .ispc
+[1.609s] 
+[1.609s] [0m
+[1.610s] [31mCMake Error at CMakeLists.txt:19 (add_executable):
+[1.610s]   No SOURCES given to target: divide_service
+[1.610s] 
+[1.610s] [0m
+[1.611s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[1.616s] gmake: *** [Makefile:829: cmake_check_build_system] Error 1
+[1.617s] Invoked command in '/home/luna/2025-vision-training-master (1)/2025-vision-training-master/homework4/ros_ws/build/example_service_rclcpp' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/luna/2025-vision-training-master (1)/2025-vision-training-master/homework4/ros_ws/build/example_service_rclcpp -- -j32 -l32

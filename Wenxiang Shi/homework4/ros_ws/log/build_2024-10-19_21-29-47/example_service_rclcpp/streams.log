@@ -1,0 +1,20 @@
+[0.008s] Invoking command in '/home/luna/2025-vision-training-master (1)/2025-vision-training-master/homework4/ros_ws/build/example_service_rclcpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/luna/2025-vision-training-master (1)/2025-vision-training-master/homework4/ros_ws/build/example_service_rclcpp -- -j32 -l32
+[0.035s] /bin/sh: 1: Syntax error: "(" unexpected
+[0.035s] gmake[2]: *** [CMakeFiles/ament_cmake_python_copy_example_service_rclcpp.dir/build.make:70: CMakeFiles/ament_cmake_python_copy_example_service_rclcpp] Error 2
+[0.035s] gmake[1]: *** [CMakeFiles/Makefile2:425: CMakeFiles/ament_cmake_python_copy_example_service_rclcpp.dir/all] Error 2
+[0.035s] gmake[1]: *** Waiting for unfinished jobs....
+[0.037s] [  2%] Built target example_service_rclcpp__cpp
+[0.038s] [ 11%] Built target example_service_rclcpp__rosidl_generator_c
+[0.039s] [ 14%] [32mBuilding CXX object CMakeFiles/server.dir/src/server.cpp.o[0m
+[0.046s] [ 20%] Built target client
+[0.155s] [01m[K/home/luna/2025-vision-training-master (1)/2025-vision-training-master/homework4/ros_ws/src/example_service_rclcpp/src/server.cpp:3:51:[m[K [01;35m[Kwarning: [m[Kextra tokens at end of #include directive
+[0.155s]     3 | #include "example_service_rclcpp/srv/divide.hpp"  [01;35m[Ks[m[K // Adjust according to your package name
+[0.155s]       |                                                   [01;35m[K^[m[K
+[0.155s] [01m[K/home/luna/2025-vision-training-master (1)/2025-vision-training-master/homework4/ros_ws/src/example_service_rclcpp/src/server.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Kexample_service_rclcpp/srv/divide.hpp: No such file or directory
+[0.155s]     3 | #include [01;31m[K"example_service_rclcpp/srv/divide.hpp"[m[K  s // Adjust according to your package name
+[0.155s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.155s] compilation terminated.
+[0.158s] gmake[2]: *** [CMakeFiles/server.dir/build.make:76: CMakeFiles/server.dir/src/server.cpp.o] Error 1
+[0.158s] gmake[1]: *** [CMakeFiles/Makefile2:620: CMakeFiles/server.dir/all] Error 2
+[0.158s] gmake: *** [Makefile:146: all] Error 2
+[0.160s] Invoked command in '/home/luna/2025-vision-training-master (1)/2025-vision-training-master/homework4/ros_ws/build/example_service_rclcpp' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/luna/2025-vision-training-master (1)/2025-vision-training-master/homework4/ros_ws/build/example_service_rclcpp -- -j32 -l32

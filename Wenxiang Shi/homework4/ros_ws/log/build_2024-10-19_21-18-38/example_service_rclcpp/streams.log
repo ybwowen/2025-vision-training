@@ -1,0 +1,56 @@
+[0.007s] Invoking command in '/home/luna/2025-vision-training-master (1)/2025-vision-training-master/homework4/ros_ws/build/example_service_rclcpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/luna/2025-vision-training-master (1)/2025-vision-training-master/homework4/ros_ws/src/example_service_rclcpp -DCMAKE_INSTALL_PREFIX=/home/luna/2025-vision-training-master (1)/2025-vision-training-master/homework4/ros_ws/install/example_service_rclcpp
+[0.058s] -- The C compiler identification is GNU 12.3.0
+[0.113s] -- The CXX compiler identification is GNU 11.4.0
+[0.135s] -- Detecting C compiler ABI info
+[0.210s] -- Detecting C compiler ABI info - done
+[0.223s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.223s] -- Detecting C compile features
+[0.223s] -- Detecting C compile features - done
+[0.238s] -- Detecting CXX compiler ABI info
+[0.326s] -- Detecting CXX compiler ABI info - done
+[0.340s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.341s] -- Detecting CXX compile features
+[0.341s] -- Detecting CXX compile features - done
+[0.342s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.457s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.512s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.541s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.544s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.550s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.559s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.571s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.604s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.605s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.675s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.699s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.729s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.734s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.799s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.800s] -- Found Threads: TRUE  
+[0.850s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.856s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.905s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.905s] -- Configured cppcheck include dirs: 
+[0.905s] -- Configured cppcheck exclude dirs and/or files: 
+[0.905s] -- Added test 'lint_cmake' to check CMake code style
+[0.906s] -- Added test 'uncrustify' to check C / C++ code style
+[0.906s] -- Configured uncrustify additional arguments: 
+[0.906s] -- Added test 'xmllint' to check XML markup files
+[0.907s] -- Configuring done (0.9s)
+[0.914s] -- Generating done (0.0s)
+[0.916s] -- Build files have been written to: /home/luna/2025-vision-training-master (1)/2025-vision-training-master/homework4/ros_ws/build/example_service_rclcpp
+[0.923s] Invoked command in '/home/luna/2025-vision-training-master (1)/2025-vision-training-master/homework4/ros_ws/build/example_service_rclcpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/luna/2025-vision-training-master (1)/2025-vision-training-master/homework4/ros_ws/src/example_service_rclcpp -DCMAKE_INSTALL_PREFIX=/home/luna/2025-vision-training-master (1)/2025-vision-training-master/homework4/ros_ws/install/example_service_rclcpp
+[0.924s] Invoking command in '/home/luna/2025-vision-training-master (1)/2025-vision-training-master/homework4/ros_ws/build/example_service_rclcpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/luna/2025-vision-training-master (1)/2025-vision-training-master/homework4/ros_ws/build/example_service_rclcpp -- -j32 -l32
+[0.950s] [ 25%] [32mBuilding CXX object CMakeFiles/client.dir/src/client.cpp.o[0m
+[0.950s] [ 50%] [32mBuilding CXX object CMakeFiles/server.dir/src/server.cpp.o[0m
+[1.069s] [01m[K/home/luna/2025-vision-training-master (1)/2025-vision-training-master/homework4/ros_ws/src/example_service_rclcpp/src/server.cpp:3:10:[m[K [01;31m[Kfatal error: [m[KserviceLearn/srv/divide.hpp: No such file or directory
+[1.069s]     3 | #include [01;31m[K"serviceLearn/srv/divide.hpp"[m[K  // Adjust according to your package name
+[1.069s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.070s] compilation terminated.
+[1.072s] gmake[2]: *** [CMakeFiles/server.dir/build.make:76: CMakeFiles/server.dir/src/server.cpp.o] Error 1
+[1.073s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/server.dir/all] Error 2
+[1.073s] gmake[1]: *** Waiting for unfinished jobs....
+[2.563s] [ 75%] [32m[1mLinking CXX executable client[0m
+[2.634s] [ 75%] Built target client
+[2.635s] gmake: *** [Makefile:146: all] Error 2
+[2.636s] Invoked command in '/home/luna/2025-vision-training-master (1)/2025-vision-training-master/homework4/ros_ws/build/example_service_rclcpp' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/luna/2025-vision-training-master (1)/2025-vision-training-master/homework4/ros_ws/build/example_service_rclcpp -- -j32 -l32

@@ -1,0 +1,9 @@
+[0.008s] Invoking command in '/home/luna/2025-vision-training-master (1)/2025-vision-training-master/homework4/ros_ws/build/divide_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/luna/2025-vision-training-master (1)/2025-vision-training-master/homework4/ros_ws/build/divide_interface -- -j32 -l32
+[0.029s] /bin/sh: 1: Syntax error: "(" unexpected
+[0.030s] gmake[2]: *** [CMakeFiles/ament_cmake_python_copy_divide_interface.dir/build.make:70: CMakeFiles/ament_cmake_python_copy_divide_interface] Error 2
+[0.030s] gmake[1]: *** [CMakeFiles/Makefile2:421: CMakeFiles/ament_cmake_python_copy_divide_interface.dir/all] Error 2
+[0.030s] gmake[1]: *** Waiting for unfinished jobs....
+[0.030s] [  3%] Built target divide_interface__cpp
+[0.033s] [ 12%] Built target divide_interface__rosidl_generator_c
+[0.034s] gmake: *** [Makefile:146: all] Error 2
+[0.036s] Invoked command in '/home/luna/2025-vision-training-master (1)/2025-vision-training-master/homework4/ros_ws/build/divide_interface' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/luna/2025-vision-training-master (1)/2025-vision-training-master/homework4/ros_ws/build/divide_interface -- -j32 -l32

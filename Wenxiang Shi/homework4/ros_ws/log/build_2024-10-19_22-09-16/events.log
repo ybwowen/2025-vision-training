@@ -1,0 +1,63 @@
+[0.000000] (-) TimerEvent: {}
+[0.000220] (-) JobUnselected: {'identifier': 'divide_interfaces'}
+[0.000238] (divide_package) JobQueued: {'identifier': 'divide_package', 'dependencies': OrderedDict()}
+[0.000542] (divide_package) JobStarted: {'identifier': 'divide_package'}
+[0.006031] (divide_package) JobProgress: {'identifier': 'divide_package', 'progress': 'cmake'}
+[0.006175] (divide_package) Command: {'cmd': ['/usr/bin/cmake', '/home/luna/2025-vision-training-master (1)/2025-vision-training-master/homework4/ros_ws/src/divide_package', '-DCMAKE_INSTALL_PREFIX=/home/luna/2025-vision-training-master (1)/2025-vision-training-master/homework4/ros_ws/install/divide_package'], 'cwd': '/home/luna/2025-vision-training-master (1)/2025-vision-training-master/homework4/ros_ws/build/divide_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7897/'), ('no_proxy', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,::1'), ('USER', 'luna'), ('LC_TIME', 'zh_CN.UTF-8'), ('all_proxy', 'socks://127.0.0.1:7897/'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/src/tensorrt/lib:/usr/local/cuda-12.2/lib64:'), ('HOME', '/home/luna'), ('OLDPWD', '/home/luna/2025-vision-training-master (1)/2025-vision-training-master/homework4/ros_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1775'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=4742b8ff4c82193b83d0f6ca6713a9a6'), ('COLORTERM', 'truecolor'), ('https_proxy', 'http://127.0.0.1:7897/'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'luna'), ('ALL_PROXY', 'socks://127.0.0.1:7897/'), ('http_proxy', 'http://127.0.0.1:7897/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'luna'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/cuda-12.2/bin:/home/luna/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/luna-OMEN-by-HP-16-1-inch-Gaming-Laptop-PC-16-wf0032TX:@/tmp/.ICE-unix/1775,unix/luna-OMEN-by-HP-16-1-inch-Gaming-Laptop-PC-16-wf0032TX:/tmp/.ICE-unix/1775'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/fdf236b6_8eca_47d0_b5d8_25bb3b35b71a'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.121'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/luna/2025-vision-training-master (1)/2025-vision-training-master/homework4/ros_ws/build/divide_package'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=4742b8ff4c82193b83d0f6ca6713a9a6'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7897/'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.060372] (divide_package) StdoutLine: {'line': b'-- The C compiler identification is GNU 12.3.0\n'}
+[0.099952] (-) TimerEvent: {}
+[0.119524] (divide_package) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.143454] (divide_package) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.200149] (-) TimerEvent: {}
+[0.218138] (divide_package) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.230628] (divide_package) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.230960] (divide_package) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.231406] (divide_package) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.239951] (divide_package) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.300335] (-) TimerEvent: {}
+[0.317994] (divide_package) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.325724] (divide_package) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.325988] (divide_package) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.326198] (divide_package) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.327530] (divide_package) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.400502] (-) TimerEvent: {}
+[0.444927] (divide_package) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.500335] (divide_package) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.500558] (-) TimerEvent: {}
+[0.529881] (divide_package) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.533172] (divide_package) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.539248] (divide_package) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.548886] (divide_package) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.561799] (divide_package) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.596695] (divide_package) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.598289] (divide_package) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.600742] (-) TimerEvent: {}
+[0.668885] (divide_package) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.689494] (divide_package) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.700910] (-) TimerEvent: {}
+[0.719436] (divide_package) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.724358] (divide_package) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.788799] (divide_package) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.789650] (divide_package) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.801080] (-) TimerEvent: {}
+[0.844873] (divide_package) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.845259] (divide_package) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:15 (find_package):\n'}
+[0.845440] (divide_package) StderrLine: {'line': b'  By not providing "Finddivide_interfaces.cmake" in CMAKE_MODULE_PATH this\n'}
+[0.845517] (divide_package) StderrLine: {'line': b'  project has asked CMake to find a package configuration file provided by\n'}
+[0.845585] (divide_package) StderrLine: {'line': b'  "divide_interfaces", but CMake did not find one.\n'}
+[0.845651] (divide_package) StderrLine: {'line': b'\n'}
+[0.845714] (divide_package) StderrLine: {'line': b'  Could not find a package configuration file provided by "divide_interfaces"\n'}
+[0.845788] (divide_package) StderrLine: {'line': b'  with any of the following names:\n'}
+[0.845854] (divide_package) StderrLine: {'line': b'\n'}
+[0.845916] (divide_package) StderrLine: {'line': b'    divide_interfacesConfig.cmake\n'}
+[0.845979] (divide_package) StderrLine: {'line': b'    divide_interfaces-config.cmake\n'}
+[0.846041] (divide_package) StderrLine: {'line': b'\n'}
+[0.846103] (divide_package) StderrLine: {'line': b'  Add the installation prefix of "divide_interfaces" to CMAKE_PREFIX_PATH or\n'}
+[0.846168] (divide_package) StderrLine: {'line': b'  set "divide_interfaces_DIR" to a directory containing one of the above\n'}
+[0.846231] (divide_package) StderrLine: {'line': b'  files.  If "divide_interfaces" provides a separate development package or\n'}
+[0.846293] (divide_package) StderrLine: {'line': b'  SDK, be sure it has been installed.\n'}
+[0.846355] (divide_package) StderrLine: {'line': b'\n'}
+[0.846415] (divide_package) StderrLine: {'line': b'\x1b[0m\n'}
+[0.849681] (divide_package) CommandEnded: {'returncode': 1}
+[0.858949] (divide_package) JobEnded: {'identifier': 'divide_package', 'rc': 1}
+[0.869236] (-) EventReactorShutdown: {}

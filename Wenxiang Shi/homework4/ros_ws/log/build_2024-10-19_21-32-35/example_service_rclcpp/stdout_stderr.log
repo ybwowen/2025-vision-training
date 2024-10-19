@@ -1,0 +1,14 @@
+/bin/sh: 1: Syntax error: "(" unexpected
+gmake[2]: *** [CMakeFiles/ament_cmake_python_copy_example_service_rclcpp.dir/build.make:70: CMakeFiles/ament_cmake_python_copy_example_service_rclcpp] Error 2
+gmake[1]: *** [CMakeFiles/Makefile2:423: CMakeFiles/ament_cmake_python_copy_example_service_rclcpp.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[  3%] Built target example_service_rclcpp__cpp
+[  6%] [32mBuilding CXX object CMakeFiles/divide_service.dir/src/divide_service.cpp.o[0m
+[ 15%] Built target example_service_rclcpp__rosidl_generator_c
+[01m[K/home/luna/2025-vision-training-master (1)/2025-vision-training-master/homework4/ros_ws/src/example_service_rclcpp/src/divide_service.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Kexample_service_rclcpp/srv/divide.hpp: No such file or directory
+    3 | #include [01;31m[K"example_service_rclcpp/srv/divide.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/divide_service.dir/build.make:76: CMakeFiles/divide_service.dir/src/divide_service.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:592: CMakeFiles/divide_service.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

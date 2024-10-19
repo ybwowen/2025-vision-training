@@ -1,0 +1,5 @@
+/bin/sh: 1: Syntax error: "(" unexpected
+gmake[2]: *** [CMakeFiles/ament_cmake_python_copy_divide_interface.dir/build.make:70: CMakeFiles/ament_cmake_python_copy_divide_interface] Error 2
+gmake[1]: *** [CMakeFiles/Makefile2:421: CMakeFiles/ament_cmake_python_copy_divide_interface.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

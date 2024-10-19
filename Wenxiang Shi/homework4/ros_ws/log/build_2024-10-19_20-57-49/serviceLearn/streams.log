@@ -1,0 +1,72 @@
+[0.008s] Invoking command in '/home/luna/2025-vision-training-master (1)/2025-vision-training-master/homework4/ros_ws/build/serviceLearn': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/luna/2025-vision-training-master (1)/2025-vision-training-master/homework4/ros_ws/src/serviceLearn -DCMAKE_INSTALL_PREFIX=/home/luna/2025-vision-training-master (1)/2025-vision-training-master/homework4/ros_ws/install/serviceLearn
+[0.061s] -- The C compiler identification is GNU 12.3.0
+[0.122s] -- The CXX compiler identification is GNU 11.4.0
+[0.135s] -- Detecting C compiler ABI info
+[0.205s] -- Detecting C compiler ABI info - done
+[0.218s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.218s] -- Detecting C compile features
+[0.219s] -- Detecting C compile features - done
+[0.229s] -- Detecting CXX compiler ABI info
+[0.312s] -- Detecting CXX compiler ABI info - done
+[0.324s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.324s] -- Detecting CXX compile features
+[0.325s] -- Detecting CXX compile features - done
+[0.327s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.436s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.491s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.519s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.523s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.529s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.539s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.553s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.589s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.590s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.677s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.703s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.732s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.737s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.797s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.799s] -- Found Threads: TRUE  
+[0.848s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.883s] WARNING: Package name "serviceLearn" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+[0.897s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.897s] -- Configured cppcheck include dirs: 
+[0.897s] -- Configured cppcheck exclude dirs and/or files: 
+[0.897s] -- Added test 'lint_cmake' to check CMake code style
+[0.898s] -- Added test 'uncrustify' to check C / C++ code style
+[0.898s] -- Configured uncrustify additional arguments: 
+[0.898s] -- Added test 'xmllint' to check XML markup files
+[0.899s] -- Configuring done (0.9s)
+[0.906s] -- Generating done (0.0s)
+[0.907s] -- Build files have been written to: /home/luna/2025-vision-training-master (1)/2025-vision-training-master/homework4/ros_ws/build/serviceLearn
+[0.914s] Invoked command in '/home/luna/2025-vision-training-master (1)/2025-vision-training-master/homework4/ros_ws/build/serviceLearn' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/luna/2025-vision-training-master (1)/2025-vision-training-master/homework4/ros_ws/src/serviceLearn -DCMAKE_INSTALL_PREFIX=/home/luna/2025-vision-training-master (1)/2025-vision-training-master/homework4/ros_ws/install/serviceLearn
+[0.916s] Invoking command in '/home/luna/2025-vision-training-master (1)/2025-vision-training-master/homework4/ros_ws/build/serviceLearn': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/luna/2025-vision-training-master (1)/2025-vision-training-master/homework4/ros_ws/build/serviceLearn -- -j32 -l32
+[0.943s] [ 25%] [32mBuilding CXX object CMakeFiles/client.dir/src/client.cpp.o[0m
+[0.943s] [ 50%] [32mBuilding CXX object CMakeFiles/server.dir/src/server.cpp.o[0m
+[2.950s] [ 75%] [32m[1mLinking CXX executable server[0m
+[2.954s] [100%] [32m[1mLinking CXX executable client[0m
+[3.026s] [100%] Built target server
+[3.026s] [100%] Built target client
+[3.030s] Invoked command in '/home/luna/2025-vision-training-master (1)/2025-vision-training-master/homework4/ros_ws/build/serviceLearn' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/luna/2025-vision-training-master (1)/2025-vision-training-master/homework4/ros_ws/build/serviceLearn -- -j32 -l32
+[3.061s] Invoking command in '/home/luna/2025-vision-training-master (1)/2025-vision-training-master/homework4/ros_ws/build/serviceLearn': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/luna/2025-vision-training-master (1)/2025-vision-training-master/homework4/ros_ws/build/serviceLearn
+[3.064s] -- Install configuration: ""
+[3.064s] -- Installing: /home/luna/2025-vision-training-master (1)/2025-vision-training-master/homework4/ros_ws/install/serviceLearn/lib/serviceLearn/server
+[3.064s] -- Set non-toolchain portion of runtime path of "/home/luna/2025-vision-training-master (1)/2025-vision-training-master/homework4/ros_ws/install/serviceLearn/lib/serviceLearn/server" to ""
+[3.065s] -- Installing: /home/luna/2025-vision-training-master (1)/2025-vision-training-master/homework4/ros_ws/install/serviceLearn/lib/serviceLearn/client
+[3.065s] -- Set non-toolchain portion of runtime path of "/home/luna/2025-vision-training-master (1)/2025-vision-training-master/homework4/ros_ws/install/serviceLearn/lib/serviceLearn/client" to ""
+[3.065s] -- Installing: /home/luna/2025-vision-training-master (1)/2025-vision-training-master/homework4/ros_ws/install/serviceLearn/share/ament_index/resource_index/package_run_dependencies/serviceLearn
+[3.065s] -- Installing: /home/luna/2025-vision-training-master (1)/2025-vision-training-master/homework4/ros_ws/install/serviceLearn/share/ament_index/resource_index/parent_prefix_path/serviceLearn
+[3.065s] -- Installing: /home/luna/2025-vision-training-master (1)/2025-vision-training-master/homework4/ros_ws/install/serviceLearn/share/serviceLearn/environment/ament_prefix_path.sh
+[3.066s] -- Installing: /home/luna/2025-vision-training-master (1)/2025-vision-training-master/homework4/ros_ws/install/serviceLearn/share/serviceLearn/environment/ament_prefix_path.dsv
+[3.066s] -- Installing: /home/luna/2025-vision-training-master (1)/2025-vision-training-master/homework4/ros_ws/install/serviceLearn/share/serviceLearn/environment/path.sh
+[3.066s] -- Installing: /home/luna/2025-vision-training-master (1)/2025-vision-training-master/homework4/ros_ws/install/serviceLearn/share/serviceLearn/environment/path.dsv
+[3.066s] -- Installing: /home/luna/2025-vision-training-master (1)/2025-vision-training-master/homework4/ros_ws/install/serviceLearn/share/serviceLearn/local_setup.bash
+[3.066s] -- Installing: /home/luna/2025-vision-training-master (1)/2025-vision-training-master/homework4/ros_ws/install/serviceLearn/share/serviceLearn/local_setup.sh
+[3.066s] -- Installing: /home/luna/2025-vision-training-master (1)/2025-vision-training-master/homework4/ros_ws/install/serviceLearn/share/serviceLearn/local_setup.zsh
+[3.066s] -- Installing: /home/luna/2025-vision-training-master (1)/2025-vision-training-master/homework4/ros_ws/install/serviceLearn/share/serviceLearn/local_setup.dsv
+[3.066s] -- Installing: /home/luna/2025-vision-training-master (1)/2025-vision-training-master/homework4/ros_ws/install/serviceLearn/share/serviceLearn/package.dsv
+[3.067s] -- Installing: /home/luna/2025-vision-training-master (1)/2025-vision-training-master/homework4/ros_ws/install/serviceLearn/share/ament_index/resource_index/packages/serviceLearn
+[3.067s] -- Installing: /home/luna/2025-vision-training-master (1)/2025-vision-training-master/homework4/ros_ws/install/serviceLearn/share/serviceLearn/cmake/serviceLearnConfig.cmake
+[3.067s] -- Installing: /home/luna/2025-vision-training-master (1)/2025-vision-training-master/homework4/ros_ws/install/serviceLearn/share/serviceLearn/cmake/serviceLearnConfig-version.cmake
+[3.067s] -- Installing: /home/luna/2025-vision-training-master (1)/2025-vision-training-master/homework4/ros_ws/install/serviceLearn/share/serviceLearn/package.xml
+[3.069s] Invoked command in '/home/luna/2025-vision-training-master (1)/2025-vision-training-master/homework4/ros_ws/build/serviceLearn' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/luna/2025-vision-training-master (1)/2025-vision-training-master/homework4/ros_ws/build/serviceLearn

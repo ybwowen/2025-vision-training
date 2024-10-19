@@ -1,0 +1,40 @@
+[01m[K/home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/src/divide_package/src/server.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kdivide_interface/srv/division_service.hpp: No such file or directory
+    2 | #include [01;31m[K"divide_interface/srv/division_service.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/server.dir/build.make:76: CMakeFiles/server.dir/src/server.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/server.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[01m[K/home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/src/divide_package/src/client.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/src/divide_package/src/client.cpp:20:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kdivision_interfaces[m[K’ was not declared in this scope; did you mean ‘[01m[Kdivide_interface[m[K’?
+   20 |   rclcpp::Client<[01;31m[Kdivision_interfaces[m[K::srv::DivisionService>::SharedPtr client =
+      |                  [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+      |                  [32m[Kdivide_interface[m[K
+[01m[K/home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/src/divide_package/src/client.cpp:20:59:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   20 |   rclcpp::Client<division_interfaces::srv::DivisionService[01;31m[K>[m[K::SharedPtr client =
+      |                                                           [01;31m[K^[m[K
+[01m[K/home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/src/divide_package/src/client.cpp:20:72:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[Kclient[m[K’
+   20 |   rclcpp::Client<division_interfaces::srv::DivisionService>::SharedPtr [01;31m[Kclient[m[K =
+      |                                                                        [01;31m[K^~~~~~[m[K
+[01m[K/home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/src/divide_package/src/client.cpp:23:23:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   23 |   auto request = std::[01;31m[Kmake_shared<division_interfaces::srv::DivisionService::Request>[m[K();
+      |                       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/src/divide_package/src/client.cpp:23:86:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<division_interfaces>()[m[K’
+   23 |   auto request = [01;31m[Kstd::make_shared<division_interfaces::srv::DivisionService::Request>()[m[K;
+      |                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+                 from [01m[K/home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/src/divide_package/src/client.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)[m[K’
+  875 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+      |     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/src/divide_package/src/client.cpp:33:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kclient[m[K’ was not declared in this scope
+   33 |   while (![01;31m[Kclient[m[K->wait_for_service(1s)) {
+      |           [01;31m[K^~~~~~[m[K
+[01m[K/home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/src/divide_package/src/client.cpp:41:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kclient[m[K’ was not declared in this scope
+   41 |   auto result_future = [01;31m[Kclient[m[K->async_send_request(request);
+      |                        [01;31m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/client.dir/build.make:76: CMakeFiles/client.dir/src/client.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/client.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

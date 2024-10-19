@@ -1,0 +1,5 @@
+int32 dividend
+int32 divisor
+---
+int32 quotient
+int32 remainder

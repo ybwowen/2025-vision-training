@@ -1,0 +1,16 @@
+[ 50%] Built target server
+[ 75%] [32mBuilding CXX object CMakeFiles/client.dir/src/client.cpp.o[0m
+[01m[K/home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/src/divide_package/src/client.cpp:[m[K In constructor ‘[01m[KDivideClientNode::DivideClientNode(int, int)[m[K’:
+[01m[K/home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/src/divide_package/src/client.cpp:32:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kclient[m[K’ was not declared in this scope; did you mean ‘[01m[Kclient_[m[K’?
+   32 |         while (![01;31m[Kclient[m[K->wait_for_service(1s)) {
+      |                 [01;31m[K^~~~~~[m[K
+      |                 [32m[Kclient_[m[K
+[01m[K/home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/src/divide_package/src/client.cpp:35:20:[m[K [01;31m[Kerror: [m[Kreturning a value from a constructor
+   35 |             return [01;31m[K0[m[K;
+      |                    [01;31m[K^[m[K
+[01m[K/home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/src/divide_package/src/client.cpp:42:21:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp::executor[m[K’ has not been declared
+   42 |             rclcpp::[01;31m[Kexecutor[m[K::FutureReturnCode::SUCCESS) {
+      |                     [01;31m[K^~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/client.dir/build.make:76: CMakeFiles/client.dir/src/client.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/client.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

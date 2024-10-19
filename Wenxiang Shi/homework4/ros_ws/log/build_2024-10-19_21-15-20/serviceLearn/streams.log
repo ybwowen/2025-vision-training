@@ -1,0 +1,57 @@
+[0.008s] Invoking command in '/home/luna/2025-vision-training-master (1)/2025-vision-training-master/homework4/ros_ws/build/serviceLearn': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/luna/2025-vision-training-master (1)/2025-vision-training-master/homework4/ros_ws/build/serviceLearn -- -j32 -l32
+[0.024s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.199s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.222s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.224s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.229s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.237s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.247s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.275s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.276s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.350s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.395s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.614s] [31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):
+[0.614s]   execute_process(/usr/bin/python3 -m rosidl_adapter --package-name
+[0.614s]   serviceLearn --arguments-file /home/luna/2025-vision-training-master
+[0.614s]   (1)/2025-vision-training-master/homework4/ros_ws/build/serviceLearn/rosidl_adapter__arguments__serviceLearn.json
+[0.614s]   --output-dir /home/luna/2025-vision-training-master
+[0.614s]   (1)/2025-vision-training-master/homework4/ros_ws/build/serviceLearn/rosidl_adapter/serviceLearn
+[0.614s]   --output-file /home/luna/2025-vision-training-master
+[0.614s]   (1)/2025-vision-training-master/homework4/ros_ws/build/serviceLearn/rosidl_adapter/serviceLearn.idls)
+[0.614s]   returned error code 1:
+[0.614s] 
+[0.615s]   Traceback (most recent call last):
+[0.615s] 
+[0.615s]     File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+[0.615s]       return _run_code(code, main_globals, None,
+[0.615s]     File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+[0.615s]       exec(code, run_globals)
+[0.615s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[0.615s]       sys.exit(main())
+[0.615s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main
+[0.615s]       abs_idl_file = convert_to_idl(
+[0.615s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 24, in convert_to_idl
+[0.615s]       return convert_srv_to_idl(
+[0.615s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/srv/__init__.py", line 28, in convert_srv_to_idl
+[0.615s]       srv = parse_service_string(package_name, input_file.stem, content)
+[0.615s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 859, in parse_service_string
+[0.615s]       request_message = parse_message_string(
+[0.615s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 544, in parse_message_string
+[0.616s]       msg = MessageSpecification(pkg_name, msg_name, fields, constants)
+[0.616s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 388, in __init__
+[0.616s]       self.base_type = BaseType(
+[0.616s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 201, in __init__
+[0.616s]       raise InvalidResourceName(
+[0.616s] 
+[0.616s]   rosidl_adapter.parser.InvalidResourceName: 'serviceLearn' is an invalid
+[0.616s]   package name.  It should have the pattern
+[0.616s]   '^(?!.*__)(?!.*_$)[a-z][a-z0-9_]*$'
+[0.616s] 
+[0.616s] Call Stack (most recent call first):
+[0.616s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[0.616s]   CMakeLists.txt:15 (rosidl_generate_interfaces)
+[0.616s] 
+[0.616s] [0m
+[0.616s] -- Configuring incomplete, errors occurred!
+[0.620s] gmake: *** [Makefile:308: cmake_check_build_system] Error 1
+[0.622s] Invoked command in '/home/luna/2025-vision-training-master (1)/2025-vision-training-master/homework4/ros_ws/build/serviceLearn' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/luna/2025-vision-training-master (1)/2025-vision-training-master/homework4/ros_ws/build/serviceLearn -- -j32 -l32

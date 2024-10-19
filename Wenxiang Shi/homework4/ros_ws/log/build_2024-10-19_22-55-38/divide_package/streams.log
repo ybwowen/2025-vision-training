@@ -1,0 +1,23 @@
+[0.012s] Invoking command in '/home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/build/divide_package': CMAKE_PREFIX_PATH=/home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface:/home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_package:/opt/ros/humble LD_LIBRARY_PATH=/home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/src/tensorrt/lib:/usr/local/cuda-12.2/lib64 /usr/bin/cmake --build /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/build/divide_package -- -j32 -l32
+[0.053s] [ 50%] Built target server
+[0.053s] [ 75%] [32mBuilding CXX object CMakeFiles/client.dir/src/client.cpp.o[0m
+[1.350s] [01m[K/home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/src/divide_package/src/client.cpp:[m[K In constructor ‘[01m[KDivideClientNode::DivideClientNode(int, int)[m[K’:
+[1.350s] [01m[K/home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/src/divide_package/src/client.cpp:32:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kclient[m[K’ was not declared in this scope; did you mean ‘[01m[Kclient_[m[K’?
+[1.350s]    32 |         while (![01;31m[Kclient[m[K->wait_for_service(1s)) {
+[1.350s]       |                 [01;31m[K^~~~~~[m[K
+[1.350s]       |                 [32m[Kclient_[m[K
+[1.351s] [01m[K/home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/src/divide_package/src/client.cpp:35:20:[m[K [01;31m[Kerror: [m[Kreturning a value from a constructor
+[1.351s]    35 |             return [01;31m[K0[m[K;
+[1.351s]       |                    [01;31m[K^[m[K
+[1.353s] [01m[K/home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/src/divide_package/src/client.cpp:40:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kclient[m[K’ was not declared in this scope; did you mean ‘[01m[Kclient_[m[K’?
+[1.354s]    40 |         auto result_future = [01;31m[Kclient[m[K->async_send_request(request);
+[1.354s]       |                              [01;31m[K^~~~~~[m[K
+[1.354s]       |                              [32m[Kclient_[m[K
+[1.356s] [01m[K/home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/src/divide_package/src/client.cpp:42:48:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ was not declared in this scope; did you mean ‘[01m[KNode[m[K’?
+[1.356s]    42 |         if (rclcpp::spin_until_future_complete([01;31m[Knode[m[K, result_future) ==
+[1.356s]       |                                                [01;31m[K^~~~[m[K
+[1.356s]       |                                                [32m[KNode[m[K
+[1.676s] gmake[2]: *** [CMakeFiles/client.dir/build.make:76: CMakeFiles/client.dir/src/client.cpp.o] Error 1
+[1.676s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/client.dir/all] Error 2
+[1.676s] gmake: *** [Makefile:146: all] Error 2
+[1.678s] Invoked command in '/home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/build/divide_package' returned '2': CMAKE_PREFIX_PATH=/home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface:/home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_package:/opt/ros/humble LD_LIBRARY_PATH=/home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/src/tensorrt/lib:/usr/local/cuda-12.2/lib64 /usr/bin/cmake --build /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/build/divide_package -- -j32 -l32

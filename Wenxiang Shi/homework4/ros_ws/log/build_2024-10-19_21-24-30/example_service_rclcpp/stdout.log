@@ -1,0 +1,4 @@
+[  2%] Built target example_service_rclcpp__cpp
+[  5%] [32mBuilding CXX object CMakeFiles/server.dir/src/server.cpp.o[0m
+[ 14%] Built target example_service_rclcpp__rosidl_generator_c
+[ 20%] Built target client

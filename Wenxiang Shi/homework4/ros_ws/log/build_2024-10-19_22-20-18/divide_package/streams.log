@@ -1,0 +1,86 @@
+[0.009s] Invoking command in '/home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/build/divide_package': AMENT_PREFIX_PATH=/home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/src/tensorrt/lib:/usr/local/cuda-12.2/lib64 PYTHONPATH=/home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/src/divide_package -DCMAKE_INSTALL_PREFIX=/home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_package
+[0.071s] -- The C compiler identification is GNU 12.3.0
+[0.133s] -- The CXX compiler identification is GNU 11.4.0
+[0.149s] -- Detecting C compiler ABI info
+[0.223s] -- Detecting C compiler ABI info - done
+[0.231s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.231s] -- Detecting C compile features
+[0.231s] -- Detecting C compile features - done
+[0.241s] -- Detecting CXX compiler ABI info
+[0.321s] -- Detecting CXX compiler ABI info - done
+[0.331s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.331s] -- Detecting CXX compile features
+[0.332s] -- Detecting CXX compile features - done
+[0.334s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.448s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.502s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.530s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.533s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.539s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.548s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.561s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.594s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.595s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.660s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.684s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.713s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.718s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.781s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.782s] -- Found Threads: TRUE  
+[0.828s] -- Found divide_interface: 0.0.0 (/home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/share/divide_interface/cmake)
+[0.837s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.901s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.901s] -- Configured cppcheck include dirs: 
+[0.901s] -- Configured cppcheck exclude dirs and/or files: 
+[0.902s] -- Added test 'lint_cmake' to check CMake code style
+[0.902s] -- Added test 'uncrustify' to check C / C++ code style
+[0.902s] -- Configured uncrustify additional arguments: 
+[0.903s] -- Added test 'xmllint' to check XML markup files
+[0.903s] -- Configuring done (0.9s)
+[0.911s] -- Generating done (0.0s)
+[0.912s] -- Build files have been written to: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/build/divide_package
+[0.918s] Invoked command in '/home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/build/divide_package' returned '0': AMENT_PREFIX_PATH=/home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/src/tensorrt/lib:/usr/local/cuda-12.2/lib64 PYTHONPATH=/home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/src/divide_package -DCMAKE_INSTALL_PREFIX=/home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_package
+[0.918s] Invoking command in '/home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/build/divide_package': AMENT_PREFIX_PATH=/home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/src/tensorrt/lib:/usr/local/cuda-12.2/lib64 PYTHONPATH=/home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/build/divide_package -- -j32 -l32
+[0.941s] [ 25%] [32mBuilding CXX object CMakeFiles/server.dir/src/server.cpp.o[0m
+[0.941s] [ 50%] [32mBuilding CXX object CMakeFiles/client.dir/src/client.cpp.o[0m
+[1.062s] [01m[K/home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/src/divide_package/src/server.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kdivide_interface/srv/division_service.hpp: No such file or directory
+[1.062s]     2 | #include [01;31m[K"divide_interface/srv/division_service.hpp"[m[K
+[1.062s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.062s] compilation terminated.
+[1.065s] gmake[2]: *** [CMakeFiles/server.dir/build.make:76: CMakeFiles/server.dir/src/server.cpp.o] Error 1
+[1.066s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/server.dir/all] Error 2
+[1.066s] gmake[1]: *** Waiting for unfinished jobs....
+[2.221s] [01m[K/home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/src/divide_package/src/client.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[2.221s] [01m[K/home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/src/divide_package/src/client.cpp:20:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kdivision_interfaces[m[K’ was not declared in this scope; did you mean ‘[01m[Kdivide_interface[m[K’?
+[2.221s]    20 |   rclcpp::Client<[01;31m[Kdivision_interfaces[m[K::srv::DivisionService>::SharedPtr client =
+[2.221s]       |                  [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[2.221s]       |                  [32m[Kdivide_interface[m[K
+[2.221s] [01m[K/home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/src/divide_package/src/client.cpp:20:59:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.221s]    20 |   rclcpp::Client<division_interfaces::srv::DivisionService[01;31m[K>[m[K::SharedPtr client =
+[2.221s]       |                                                           [01;31m[K^[m[K
+[2.221s] [01m[K/home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/src/divide_package/src/client.cpp:20:72:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[Kclient[m[K’
+[2.221s]    20 |   rclcpp::Client<division_interfaces::srv::DivisionService>::SharedPtr [01;31m[Kclient[m[K =
+[2.221s]       |                                                                        [01;31m[K^~~~~~[m[K
+[2.221s] [01m[K/home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/src/divide_package/src/client.cpp:23:23:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[2.221s]    23 |   auto request = std::[01;31m[Kmake_shared<division_interfaces::srv::DivisionService::Request>[m[K();
+[2.221s]       |                       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.221s] [01m[K/home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/src/divide_package/src/client.cpp:23:86:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<division_interfaces>()[m[K’
+[2.221s]    23 |   auto request = [01;31m[Kstd::make_shared<division_interfaces::srv::DivisionService::Request>()[m[K;
+[2.222s]       |                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[2.226s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[2.226s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[2.226s]                  from [01m[K/home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/src/divide_package/src/client.cpp:1[m[K:
+[2.226s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)[m[K’
+[2.227s]   875 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+[2.227s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[2.227s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.230s] [01m[K/home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/src/divide_package/src/client.cpp:33:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kclient[m[K’ was not declared in this scope
+[2.230s]    33 |   while (![01;31m[Kclient[m[K->wait_for_service(1s)) {
+[2.230s]       |           [01;31m[K^~~~~~[m[K
+[2.233s] [01m[K/home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/src/divide_package/src/client.cpp:41:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kclient[m[K’ was not declared in this scope
+[2.233s]    41 |   auto result_future = [01;31m[Kclient[m[K->async_send_request(request);
+[2.233s]       |                        [01;31m[K^~~~~~[m[K
+[2.532s] gmake[2]: *** [CMakeFiles/client.dir/build.make:76: CMakeFiles/client.dir/src/client.cpp.o] Error 1
+[2.532s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/client.dir/all] Error 2
+[2.532s] gmake: *** [Makefile:146: all] Error 2
+[2.535s] Invoked command in '/home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/build/divide_package' returned '2': AMENT_PREFIX_PATH=/home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/src/tensorrt/lib:/usr/local/cuda-12.2/lib64 PYTHONPATH=/home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/build/divide_package -- -j32 -l32

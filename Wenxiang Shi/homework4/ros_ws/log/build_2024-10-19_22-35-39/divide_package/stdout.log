@@ -1,0 +1,26 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/server.dir/src/server.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/client.dir/src/client.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable server[0m
+[100%] [32m[1mLinking CXX executable client[0m
+[100%] Built target server
+[100%] Built target client
+-- Install configuration: ""
+-- Installing: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_package/lib/divide_package/server
+-- Set non-toolchain portion of runtime path of "/home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_package/lib/divide_package/server" to ""
+-- Installing: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_package/lib/divide_package/client
+-- Set non-toolchain portion of runtime path of "/home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_package/lib/divide_package/client" to ""
+-- Installing: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_package/share/ament_index/resource_index/package_run_dependencies/divide_package
+-- Installing: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_package/share/ament_index/resource_index/parent_prefix_path/divide_package
+-- Installing: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_package/share/divide_package/environment/ament_prefix_path.sh
+-- Installing: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_package/share/divide_package/environment/ament_prefix_path.dsv
+-- Installing: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_package/share/divide_package/environment/path.sh
+-- Installing: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_package/share/divide_package/environment/path.dsv
+-- Installing: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_package/share/divide_package/local_setup.bash
+-- Installing: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_package/share/divide_package/local_setup.sh
+-- Installing: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_package/share/divide_package/local_setup.zsh
+-- Installing: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_package/share/divide_package/local_setup.dsv
+-- Installing: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_package/share/divide_package/package.dsv
+-- Installing: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_package/share/ament_index/resource_index/packages/divide_package
+-- Installing: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_package/share/divide_package/cmake/divide_packageConfig.cmake
+-- Installing: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_package/share/divide_package/cmake/divide_packageConfig-version.cmake
+-- Installing: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_package/share/divide_package/package.xml
