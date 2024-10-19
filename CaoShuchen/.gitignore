@@ -3,3 +3,6 @@
 calibration/chess.zip
 cmake-build-debug/
 chess/
+install/
+build/
+log/
