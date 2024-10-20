@@ -1,0 +1,69 @@
+[0.022s] Invoking command in '/home/rm-jiaolong/Workspace/homework4/task1/build/service_demo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/rm-jiaolong/Workspace/homework4/task1/src/service_demo -DCMAKE_INSTALL_PREFIX=/home/rm-jiaolong/Workspace/homework4/task1/install/service_demo
+[0.152s] -- The C compiler identification is GNU 11.4.0
+[0.218s] -- The CXX compiler identification is GNU 11.4.0
+[0.231s] -- Detecting C compiler ABI info
+[0.351s] -- Detecting C compiler ABI info - done
+[0.365s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.366s] -- Detecting C compile features
+[0.368s] -- Detecting C compile features - done
+[0.373s] -- Detecting CXX compiler ABI info
+[0.495s] -- Detecting CXX compiler ABI info - done
+[0.510s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.510s] -- Detecting CXX compile features
+[0.511s] -- Detecting CXX compile features - done
+[0.520s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.824s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.974s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[1.044s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.057s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.077s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.101s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.125s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.202s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.210s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.336s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.390s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.470s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.491s] -- Looking for pthread.h
+[1.640s] -- Looking for pthread.h - found
+[1.641s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.788s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.790s] -- Found Threads: TRUE  
+[1.876s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[1.943s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.111s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.111s] -- Configured cppcheck include dirs: 
+[2.111s] -- Configured cppcheck exclude dirs and/or files: 
+[2.112s] -- Added test 'lint_cmake' to check CMake code style
+[2.114s] -- Added test 'uncrustify' to check C / C++ code style
+[2.114s] -- Configured uncrustify additional arguments: 
+[2.115s] -- Added test 'xmllint' to check XML markup files
+[2.118s] -- Configuring done
+[2.120s] [31mCMake Error at CMakeLists.txt:27 (add_executable):
+[2.120s]   Cannot find source file:
+[2.120s] 
+[2.120s]     service_server.cpp
+[2.120s] 
+[2.120s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+[2.121s]   .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+[2.121s] 
+[2.121s] [0m
+[2.121s] [31mCMake Error at CMakeLists.txt:30 (add_executable):
+[2.122s]   Cannot find source file:
+[2.122s] 
+[2.122s]     service_client.cpp
+[2.122s] 
+[2.122s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+[2.122s]   .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+[2.122s] 
+[2.122s] [0m
+[2.122s] [31mCMake Error at CMakeLists.txt:27 (add_executable):
+[2.123s]   No SOURCES given to target: service_server
+[2.123s] 
+[2.123s] [0m
+[2.123s] [31mCMake Error at CMakeLists.txt:30 (add_executable):
+[2.123s]   No SOURCES given to target: service_client
+[2.123s] 
+[2.123s] [0m
+[2.123s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[2.131s] Invoked command in '/home/rm-jiaolong/Workspace/homework4/task1/build/service_demo' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/rm-jiaolong/Workspace/homework4/task1/src/service_demo -DCMAKE_INSTALL_PREFIX=/home/rm-jiaolong/Workspace/homework4/task1/install/service_demo

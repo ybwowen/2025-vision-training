@@ -1,0 +1,223 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+-- Found PythonExtra: .so  
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/rm-jiaolong/Workspace/homework4/task2/src/build/action_interfaces
+[  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[  6%] Built target ament_cmake_python_copy_action_interfaces
+running egg_info
+creating action_interfaces.egg-info
+writing action_interfaces.egg-info/PKG-INFO
+writing dependency_links to action_interfaces.egg-info/dependency_links.txt
+writing top-level names to action_interfaces.egg-info/top_level.txt
+writing manifest file 'action_interfaces.egg-info/SOURCES.txt'
+reading manifest file 'action_interfaces.egg-info/SOURCES.txt'
+writing manifest file 'action_interfaces.egg-info/SOURCES.txt'
+[  6%] Built target ament_cmake_python_build_action_interfaces_egg
+[  6%] Built target action_interfaces__cpp
+[  9%] [32mBuilding C object CMakeFiles/action_interfaces__rosidl_generator_c.dir/rosidl_generator_c/action_interfaces/action/detail/move_robot__functions.c.o[0m
+[ 16%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 16%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[ 19%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[ 22%] [32m[1mLinking C shared library libaction_interfaces__rosidl_generator_c.so[0m
+[ 22%] Built target action_interfaces__rosidl_generator_c
+[ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/action_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/action_interfaces/action/move_robot__type_support.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/action_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/action_interfaces/action/detail/move_robot__type_support.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/action_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/action_interfaces/action/detail/dds_fastrtps/move_robot__type_support.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/action_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/action_interfaces/action/detail/move_robot__type_support_c.cpp.o[0m
+[ 41%] [32m[1mLinking CXX shared library libaction_interfaces__rosidl_typesupport_cpp.so[0m
+[ 41%] Built target action_interfaces__rosidl_typesupport_cpp
+[ 45%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 48%] [32m[1mLinking CXX shared library libaction_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 51%] [32m[1mLinking CXX shared library libaction_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[ 54%] [32m[1mLinking CXX shared library libaction_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[ 54%] Built target action_interfaces__rosidl_typesupport_fastrtps_cpp
+[ 58%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 58%] Built target action_interfaces__rosidl_typesupport_introspection_cpp
+[ 58%] Built target action_interfaces__rosidl_typesupport_fastrtps_c
+[ 61%] [32mBuilding C object CMakeFiles/action_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/action_interfaces/action/detail/move_robot__type_support.c.o[0m
+[ 64%] [32m[1mLinking C shared library libaction_interfaces__rosidl_typesupport_introspection_c.so[0m
+[ 64%] Built target action_interfaces__rosidl_typesupport_introspection_c
+[ 67%] [32mBuilding CXX object CMakeFiles/action_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/action_interfaces/action/move_robot__type_support.cpp.o[0m
+[ 70%] [32m[1mLinking CXX shared library libaction_interfaces__rosidl_typesupport_c.so[0m
+[ 70%] Built target action_interfaces__rosidl_typesupport_c
+[ 70%] Built target action_interfaces
+[ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 74%] Built target action_interfaces__py
+[ 77%] [32mBuilding C object CMakeFiles/action_interfaces__rosidl_generator_py.dir/rosidl_generator_py/action_interfaces/action/_move_robot_s.c.o[0m
+[ 80%] [32m[1mLinking C shared library rosidl_generator_py/action_interfaces/libaction_interfaces__rosidl_generator_py.so[0m
+[ 80%] Built target action_interfaces__rosidl_generator_py
+[ 83%] [32mBuilding C object CMakeFiles/action_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/action_interfaces/_action_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 90%] [32mBuilding C object CMakeFiles/action_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/action_interfaces/_action_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 90%] [32mBuilding C object CMakeFiles/action_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/action_interfaces/_action_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[ 93%] [32m[1mLinking C shared library rosidl_generator_py/action_interfaces/action_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[ 96%] [32m[1mLinking C shared library rosidl_generator_py/action_interfaces/action_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[100%] [32m[1mLinking C shared library rosidl_generator_py/action_interfaces/action_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[100%] Built target action_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[100%] Built target action_interfaces__rosidl_typesupport_c__pyext
+[100%] Built target action_interfaces__rosidl_typesupport_introspection_c__pyext
+-- Install configuration: ""
+-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/share/ament_index/resource_index/rosidl_interfaces/action_interfaces
+-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/include/action_interfaces/action_interfaces
+-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/include/action_interfaces/action_interfaces/action
+-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/include/action_interfaces/action_interfaces/action/move_robot.h
+-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/include/action_interfaces/action_interfaces/action/detail
+-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/include/action_interfaces/action_interfaces/action/detail/move_robot__functions.c
+-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/include/action_interfaces/action_interfaces/action/detail/move_robot__struct.h
+-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/include/action_interfaces/action_interfaces/action/detail/move_robot__type_support.h
+-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/include/action_interfaces/action_interfaces/action/detail/move_robot__functions.h
+-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/include/action_interfaces/action_interfaces/msg
+-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/include/action_interfaces/action_interfaces/msg/rosidl_generator_c__visibility_control.h
+-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/share/action_interfaces/environment/library_path.sh
+-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/share/action_interfaces/environment/library_path.dsv
+-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/lib/libaction_interfaces__rosidl_generator_c.so
+-- Set runtime path of "/home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/lib/libaction_interfaces__rosidl_generator_c.so" to ""
+-- Up-to-date: /home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/include/action_interfaces/action_interfaces
+-- Up-to-date: /home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/include/action_interfaces/action_interfaces/action
+-- Up-to-date: /home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/include/action_interfaces/action_interfaces/action/detail
+-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/include/action_interfaces/action_interfaces/action/detail/move_robot__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/include/action_interfaces/action_interfaces/msg
+-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/include/action_interfaces/action_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/lib/libaction_interfaces__rosidl_typesupport_fastrtps_c.so
+-- Set runtime path of "/home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/lib/libaction_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+-- Up-to-date: /home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/include/action_interfaces/action_interfaces
+-- Up-to-date: /home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/include/action_interfaces/action_interfaces/action
+-- Up-to-date: /home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/include/action_interfaces/action_interfaces/action/detail
+-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/include/action_interfaces/action_interfaces/action/detail/move_robot__type_support.c
+-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/include/action_interfaces/action_interfaces/action/detail/move_robot__rosidl_typesupport_introspection_c.h
+-- Up-to-date: /home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/include/action_interfaces/action_interfaces/msg
+-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/include/action_interfaces/action_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/lib/libaction_interfaces__rosidl_typesupport_introspection_c.so
+-- Set runtime path of "/home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/lib/libaction_interfaces__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/lib/libaction_interfaces__rosidl_typesupport_c.so
+-- Set runtime path of "/home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/lib/libaction_interfaces__rosidl_typesupport_c.so" to ""
+-- Up-to-date: /home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/include/action_interfaces/action_interfaces
+-- Up-to-date: /home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/include/action_interfaces/action_interfaces/action
+-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/include/action_interfaces/action_interfaces/action/move_robot.hpp
+-- Up-to-date: /home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/include/action_interfaces/action_interfaces/action/detail
+-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/include/action_interfaces/action_interfaces/action/detail/move_robot__traits.hpp
+-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/include/action_interfaces/action_interfaces/action/detail/move_robot__struct.hpp
+-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/include/action_interfaces/action_interfaces/action/detail/move_robot__builder.hpp
+-- Up-to-date: /home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/include/action_interfaces/action_interfaces
+-- Up-to-date: /home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/include/action_interfaces/action_interfaces/action
+-- Up-to-date: /home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/include/action_interfaces/action_interfaces/action/detail
+-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/include/action_interfaces/action_interfaces/action/detail/move_robot__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/include/action_interfaces/action_interfaces/action/detail/dds_fastrtps
+-- Up-to-date: /home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/include/action_interfaces/action_interfaces/msg
+-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/include/action_interfaces/action_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/lib/libaction_interfaces__rosidl_typesupport_fastrtps_cpp.so
+-- Set runtime path of "/home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/lib/libaction_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Up-to-date: /home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/include/action_interfaces/action_interfaces
+-- Up-to-date: /home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/include/action_interfaces/action_interfaces/action
+-- Up-to-date: /home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/include/action_interfaces/action_interfaces/action/detail
+-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/include/action_interfaces/action_interfaces/action/detail/move_robot__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/include/action_interfaces/action_interfaces/action/detail/move_robot__type_support.cpp
+-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/lib/libaction_interfaces__rosidl_typesupport_introspection_cpp.so
+-- Set runtime path of "/home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/lib/libaction_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/lib/libaction_interfaces__rosidl_typesupport_cpp.so
+-- Set runtime path of "/home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/lib/libaction_interfaces__rosidl_typesupport_cpp.so" to ""
+-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/share/action_interfaces/environment/pythonpath.sh
+-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/share/action_interfaces/environment/pythonpath.dsv
+-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/local/lib/python3.10/dist-packages/action_interfaces-0.0.0-py3.10.egg-info
+-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/local/lib/python3.10/dist-packages/action_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/local/lib/python3.10/dist-packages/action_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/local/lib/python3.10/dist-packages/action_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/local/lib/python3.10/dist-packages/action_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/local/lib/python3.10/dist-packages/action_interfaces
+-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/local/lib/python3.10/dist-packages/action_interfaces/action_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/local/lib/python3.10/dist-packages/action_interfaces/action_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/local/lib/python3.10/dist-packages/action_interfaces/action
+-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/local/lib/python3.10/dist-packages/action_interfaces/action/_move_robot.py
+-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/local/lib/python3.10/dist-packages/action_interfaces/action/_move_robot_s.c
+-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/local/lib/python3.10/dist-packages/action_interfaces/action/__init__.py
+-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/local/lib/python3.10/dist-packages/action_interfaces/_action_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/local/lib/python3.10/dist-packages/action_interfaces/libaction_interfaces__rosidl_generator_py.so
+-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/local/lib/python3.10/dist-packages/action_interfaces/_action_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/local/lib/python3.10/dist-packages/action_interfaces/_action_interfaces_s.ep.rosidl_typesupport_c.c
+-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/local/lib/python3.10/dist-packages/action_interfaces/__init__.py
+-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/local/lib/python3.10/dist-packages/action_interfaces/action_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+Listing '/home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/local/lib/python3.10/dist-packages/action_interfaces'...
+Compiling '/home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/local/lib/python3.10/dist-packages/action_interfaces/__init__.py'...
+Listing '/home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/local/lib/python3.10/dist-packages/action_interfaces/action'...
+Compiling '/home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/local/lib/python3.10/dist-packages/action_interfaces/action/__init__.py'...
+Compiling '/home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/local/lib/python3.10/dist-packages/action_interfaces/action/_move_robot.py'...
+-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/local/lib/python3.10/dist-packages/action_interfaces/action_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Set runtime path of "/home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/local/lib/python3.10/dist-packages/action_interfaces/action_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/local/lib/python3.10/dist-packages/action_interfaces/action_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Set runtime path of "/home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/local/lib/python3.10/dist-packages/action_interfaces/action_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/local/lib/python3.10/dist-packages/action_interfaces/action_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Set runtime path of "/home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/local/lib/python3.10/dist-packages/action_interfaces/action_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/lib/libaction_interfaces__rosidl_generator_py.so
+-- Set runtime path of "/home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/lib/libaction_interfaces__rosidl_generator_py.so" to ""
+-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/share/action_interfaces/action/MoveRobot.idl
+-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/share/action_interfaces/action/MoveRobot.action
+-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/share/ament_index/resource_index/package_run_dependencies/action_interfaces
+-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/share/ament_index/resource_index/parent_prefix_path/action_interfaces
+-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/share/action_interfaces/environment/ament_prefix_path.sh
+-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/share/action_interfaces/environment/ament_prefix_path.dsv
+-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/share/action_interfaces/environment/path.sh
+-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/share/action_interfaces/environment/path.dsv
+-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/share/action_interfaces/local_setup.bash
+-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/share/action_interfaces/local_setup.sh
+-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/share/action_interfaces/local_setup.zsh
+-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/share/action_interfaces/local_setup.dsv
+-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/share/action_interfaces/package.dsv
+-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/share/ament_index/resource_index/packages/action_interfaces
+-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/share/action_interfaces/cmake/export_action_interfaces__rosidl_generator_cExport.cmake
+-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/share/action_interfaces/cmake/export_action_interfaces__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/share/action_interfaces/cmake/export_action_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/share/action_interfaces/cmake/export_action_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/share/action_interfaces/cmake/action_interfaces__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/share/action_interfaces/cmake/action_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/share/action_interfaces/cmake/action_interfaces__rosidl_typesupport_cExport.cmake
+-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/share/action_interfaces/cmake/action_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/share/action_interfaces/cmake/export_action_interfaces__rosidl_generator_cppExport.cmake
+-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/share/action_interfaces/cmake/export_action_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/share/action_interfaces/cmake/export_action_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/share/action_interfaces/cmake/action_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/share/action_interfaces/cmake/action_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/share/action_interfaces/cmake/action_interfaces__rosidl_typesupport_cppExport.cmake
+-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/share/action_interfaces/cmake/action_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/share/action_interfaces/cmake/export_action_interfaces__rosidl_generator_pyExport.cmake
+-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/share/action_interfaces/cmake/export_action_interfaces__rosidl_generator_pyExport-noconfig.cmake
+-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/share/action_interfaces/cmake/rosidl_cmake-extras.cmake
+-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/share/action_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/share/action_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/share/action_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/share/action_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/share/action_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/share/action_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/share/action_interfaces/cmake/action_interfacesConfig.cmake
+-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/share/action_interfaces/cmake/action_interfacesConfig-version.cmake
+-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/src/install/action_interfaces/share/action_interfaces/package.xml

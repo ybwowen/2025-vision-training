@@ -1,0 +1,26 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from action_interfaces/action/MoveRobot.action
+// generated code does not contain a copyright notice
+
+
+module action_interfaces {
+  module action {
+    struct MoveRobot_Goal {
+      float distance;
+    };
+    struct MoveRobot_Result {
+      boolean makeit;
+    };
+    module MoveRobot_Feedback_Constants {
+      const uint32 STATUS_MOVEING = 3;
+      const uint32 STATUS_STOP = 4;
+    };
+    struct MoveRobot_Feedback {
+      float yet;
+
+      float time;
+
+      uint32 status;
+    };
+  };
+};

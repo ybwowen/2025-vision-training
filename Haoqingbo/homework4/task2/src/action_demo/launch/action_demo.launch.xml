@@ -1,0 +1,15 @@
+<launch>
+    <node
+    name="action_robot"
+    pkg="action_demo"
+    type="action_robot">
+    </node>
+
+    <node
+    name="action_control"
+    pkg="action_demo"
+    type="action_control">
+    </node>
+
+    <rosparam command="load" file="$(find action_demo)/config/action_demo.yaml" ns="local_costmap"/> 
+</launch>

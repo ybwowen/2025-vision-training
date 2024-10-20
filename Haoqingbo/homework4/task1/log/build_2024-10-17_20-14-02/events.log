@@ -1,0 +1,159 @@
+[0.000000] (-) TimerEvent: {}
+[0.002848] (service_demo) JobQueued: {'identifier': 'service_demo', 'dependencies': OrderedDict()}
+[0.002989] (service_demo) JobStarted: {'identifier': 'service_demo'}
+[0.016989] (service_demo) JobProgress: {'identifier': 'service_demo', 'progress': 'cmake'}
+[0.018684] (service_demo) Command: {'cmd': ['/usr/bin/cmake', '/home/rm-jiaolong/Workspace/homework4/task1/src/service_demo', '-DCMAKE_INSTALL_PREFIX=/home/rm-jiaolong/Workspace/homework4/task1/install/service_demo'], 'cwd': '/home/rm-jiaolong/Workspace/homework4/task1/build/service_demo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'rm-jiaolong'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('ALLUSERSPROFILE', '/opt/MVS/MVFG'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:'), ('HOME', '/home/rm-jiaolong'), ('OLDPWD', '/home/rm-jiaolong/Workspace/homework4/task1/src'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('SYSTEMD_EXEC_PID', '3296'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'rm-jiaolong'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rm-jiaolong'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('MVCAM_SDK_PATH', '/opt/MVS'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rm-jiaolong:@/tmp/.ICE-unix/3042,unix/rm-jiaolong:/tmp/.ICE-unix/3042'), ('MVCAM_GENICAM_CLPROTOCOL', '/opt/MVS/lib/CLProtocol'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5cc9b8f7_db12_4414_995e_5bbd9628d898'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.171'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rm-jiaolong/Workspace/homework4/task1/build/service_demo'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('MVCAM_COMMON_RUNENV', '/opt/MVS/lib'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.047512] (service_demo) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.101473] (-) TimerEvent: {}
+[0.203000] (-) TimerEvent: {}
+[0.304719] (-) TimerEvent: {}
+[0.330351] (service_demo) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.389137] (service_demo) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.394874] (service_demo) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.405153] (-) TimerEvent: {}
+[0.406885] (service_demo) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.426532] (service_demo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.450373] (service_demo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.494853] (service_demo) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.496490] (service_demo) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.505554] (-) TimerEvent: {}
+[0.606101] (-) TimerEvent: {}
+[0.679685] (service_demo) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.707377] (-) TimerEvent: {}
+[0.790052] (service_demo) StdoutLine: {'line': b'-- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)\n'}
+[0.808000] (-) TimerEvent: {}
+[0.875612] (service_demo) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.908218] (-) TimerEvent: {}
+[1.009659] (-) TimerEvent: {}
+[1.065767] (service_demo) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.066195] (service_demo) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.066341] (service_demo) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.066700] (service_demo) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.067927] (service_demo) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.068174] (service_demo) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.068663] (service_demo) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.072910] (service_demo) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.098578] (service_demo) StdoutLine: {'line': b'-- Generating done\n'}
+[1.101627] (service_demo) StdoutLine: {'line': b'-- Build files have been written to: /home/rm-jiaolong/Workspace/homework4/task1/build/service_demo\n'}
+[1.109971] (-) TimerEvent: {}
+[1.118587] (service_demo) CommandEnded: {'returncode': 0}
+[1.119804] (service_demo) JobProgress: {'identifier': 'service_demo', 'progress': 'build'}
+[1.121682] (service_demo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rm-jiaolong/Workspace/homework4/task1/build/service_demo', '--', '-j4', '-l4'], 'cwd': '/home/rm-jiaolong/Workspace/homework4/task1/build/service_demo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'rm-jiaolong'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('ALLUSERSPROFILE', '/opt/MVS/MVFG'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:'), ('HOME', '/home/rm-jiaolong'), ('OLDPWD', '/home/rm-jiaolong/Workspace/homework4/task1/src'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('SYSTEMD_EXEC_PID', '3296'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'rm-jiaolong'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rm-jiaolong'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('MVCAM_SDK_PATH', '/opt/MVS'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rm-jiaolong:@/tmp/.ICE-unix/3042,unix/rm-jiaolong:/tmp/.ICE-unix/3042'), ('MVCAM_GENICAM_CLPROTOCOL', '/opt/MVS/lib/CLProtocol'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5cc9b8f7_db12_4414_995e_5bbd9628d898'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.171'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rm-jiaolong/Workspace/homework4/task1/build/service_demo'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('MVCAM_COMMON_RUNENV', '/opt/MVS/lib'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.209951] (service_demo) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/service_client.dir/src/service_client.cpp.o\x1b[0m\n'}
+[1.210282] (-) TimerEvent: {}
+[1.210652] (service_demo) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/service_server.dir/src/service_server.cpp.o\x1b[0m\n'}
+[1.311486] (-) TimerEvent: {}
+[1.411786] (-) TimerEvent: {}
+[1.512134] (-) TimerEvent: {}
+[1.612809] (-) TimerEvent: {}
+[1.715338] (-) TimerEvent: {}
+[1.819681] (-) TimerEvent: {}
+[1.920599] (-) TimerEvent: {}
+[2.022335] (-) TimerEvent: {}
+[2.123030] (-) TimerEvent: {}
+[2.223977] (-) TimerEvent: {}
+[2.325288] (-) TimerEvent: {}
+[2.425848] (-) TimerEvent: {}
+[2.526886] (-) TimerEvent: {}
+[2.628061] (-) TimerEvent: {}
+[2.731405] (-) TimerEvent: {}
+[2.832844] (-) TimerEvent: {}
+[2.936371] (-) TimerEvent: {}
+[3.037284] (-) TimerEvent: {}
+[3.138465] (-) TimerEvent: {}
+[3.239752] (-) TimerEvent: {}
+[3.342607] (-) TimerEvent: {}
+[3.448153] (-) TimerEvent: {}
+[3.549080] (-) TimerEvent: {}
+[3.650162] (-) TimerEvent: {}
+[3.751025] (-) TimerEvent: {}
+[3.851671] (-) TimerEvent: {}
+[3.952496] (-) TimerEvent: {}
+[4.053115] (-) TimerEvent: {}
+[4.156446] (-) TimerEvent: {}
+[4.257406] (-) TimerEvent: {}
+[4.359799] (-) TimerEvent: {}
+[4.460463] (-) TimerEvent: {}
+[4.561095] (-) TimerEvent: {}
+[4.661872] (-) TimerEvent: {}
+[4.763187] (-) TimerEvent: {}
+[4.865797] (-) TimerEvent: {}
+[4.968744] (-) TimerEvent: {}
+[5.069469] (-) TimerEvent: {}
+[5.170338] (-) TimerEvent: {}
+[5.271632] (-) TimerEvent: {}
+[5.372603] (-) TimerEvent: {}
+[5.473455] (-) TimerEvent: {}
+[5.575201] (-) TimerEvent: {}
+[5.676316] (-) TimerEvent: {}
+[5.777106] (-) TimerEvent: {}
+[5.877825] (-) TimerEvent: {}
+[5.978657] (-) TimerEvent: {}
+[6.079837] (-) TimerEvent: {}
+[6.180838] (-) TimerEvent: {}
+[6.282048] (-) TimerEvent: {}
+[6.383402] (-) TimerEvent: {}
+[6.484886] (-) TimerEvent: {}
+[6.586295] (-) TimerEvent: {}
+[6.686752] (-) TimerEvent: {}
+[6.789872] (-) TimerEvent: {}
+[6.891025] (-) TimerEvent: {}
+[6.991641] (-) TimerEvent: {}
+[7.032991] (service_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rm-jiaolong/Workspace/homework4/task1/src/service_demo/src/service_server.cpp:19:84:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[7.033452] (service_demo) StderrLine: {'line': b'   19 | td::shared_ptr<example_interfaces::srv::AddTwoInts::Response> response\x1b[01;31m\x1b[K;\x1b[m\x1b[K\n'}
+[7.033619] (service_demo) StderrLine: {'line': b'      |                                                                       \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[7.033739] (service_demo) StderrLine: {'line': b'      |                                                                       \x1b[32m\x1b[K)\x1b[m\x1b[K\n'}
+[7.033852] (service_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rm-jiaolong/Workspace/homework4/task1/src/service_demo/src/service_server.cpp:17:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kto match this \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.033975] (service_demo) StderrLine: {'line': b'   17 |         void getsum\x1b[01;36m\x1b[K(\x1b[m\x1b[K\n'}
+[7.034088] (service_demo) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[7.034198] (service_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rm-jiaolong/Workspace/homework4/task1/src/service_demo/src/service_server.cpp:21:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[7.034520] (service_demo) StderrLine: {'line': b'   21 |         \x1b[01;31m\x1b[K)\x1b[m\x1b[K {\n'}
+[7.034639] (service_demo) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[7.063738] (service_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rm-jiaolong/Workspace/homework4/task1/src/service_demo/src/service_server.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.064431] (service_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rm-jiaolong/Workspace/homework4/task1/src/service_demo/src/service_server.cpp:31:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kstatement is a reference, not call, to function \xe2\x80\x98\x1b[01m\x1b[Krclcpp::shutdown\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Waddress\x07-Waddress\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[7.064703] (service_demo) StderrLine: {'line': b'   31 |     \x1b[01;35m\x1b[Krclcpp::shutdown\x1b[m\x1b[K;\n'}
+[7.064830] (service_demo) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[7.064937] (service_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rm-jiaolong/Workspace/homework4/task1/src/service_demo/src/service_server.cpp:31:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kstatement has no effect [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value\x07-Wunused-value\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[7.092028] (-) TimerEvent: {}
+[7.193788] (-) TimerEvent: {}
+[7.294618] (-) TimerEvent: {}
+[7.395249] (-) TimerEvent: {}
+[7.495696] (-) TimerEvent: {}
+[7.596253] (-) TimerEvent: {}
+[7.697000] (-) TimerEvent: {}
+[7.797659] (-) TimerEvent: {}
+[7.898513] (-) TimerEvent: {}
+[8.000745] (-) TimerEvent: {}
+[8.101360] (-) TimerEvent: {}
+[8.202387] (-) TimerEvent: {}
+[8.302985] (-) TimerEvent: {}
+[8.404511] (-) TimerEvent: {}
+[8.505302] (-) TimerEvent: {}
+[8.613287] (-) TimerEvent: {}
+[8.631800] (service_demo) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/service_server.dir/build.make:76: CMakeFiles/service_server.dir/src/service_server.cpp.o] Error 1\n'}
+[8.632164] (service_demo) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/service_server.dir/all] Error 2\n'}
+[8.632288] (service_demo) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[8.713887] (-) TimerEvent: {}
+[8.814594] (-) TimerEvent: {}
+[8.915125] (-) TimerEvent: {}
+[9.015993] (-) TimerEvent: {}
+[9.116864] (-) TimerEvent: {}
+[9.217706] (-) TimerEvent: {}
+[9.318287] (-) TimerEvent: {}
+[9.419112] (-) TimerEvent: {}
+[9.519747] (-) TimerEvent: {}
+[9.620489] (-) TimerEvent: {}
+[9.721347] (-) TimerEvent: {}
+[9.821985] (-) TimerEvent: {}
+[9.924392] (-) TimerEvent: {}
+[9.936640] (service_demo) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable service_client\x1b[0m\n'}
+[10.025713] (-) TimerEvent: {}
+[10.126260] (-) TimerEvent: {}
+[10.226975] (-) TimerEvent: {}
+[10.327731] (-) TimerEvent: {}
+[10.366711] (service_demo) StdoutLine: {'line': b'[ 75%] Built target service_client\n'}
+[10.370752] (service_demo) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[10.375692] (service_demo) CommandEnded: {'returncode': 2}
+[10.428795] (-) TimerEvent: {}
+[10.464734] (service_demo) JobEnded: {'identifier': 'service_demo', 'rc': 2}
+[10.476590] (-) EventReactorShutdown: {}

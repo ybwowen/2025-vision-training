@@ -1,0 +1,9 @@
+float32 distance
+---
+bool makeit
+---
+float32 yet
+float32 time
+uint32 status
+uint32 STATUS_MOVEING = 3
+uint32 STATUS_STOP = 4

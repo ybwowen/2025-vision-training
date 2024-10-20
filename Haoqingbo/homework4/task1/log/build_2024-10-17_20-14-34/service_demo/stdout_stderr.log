@@ -1,0 +1,17 @@
+[35m[1mConsolidate compiler generated dependencies of target service_server[0m
+[35m[1mConsolidate compiler generated dependencies of target service_client[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/service_server.dir/src/service_server.cpp.o[0m
+[ 75%] Built target service_client
+[01m[K/home/rm-jiaolong/Workspace/homework4/task1/src/service_demo/src/service_server.cpp:19:84:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K;[m[K’ token
+   19 | td::shared_ptr<example_interfaces::srv::AddTwoInts::Response> response[01;31m[K;[m[K
+      |                                                                       [01;31m[K^[m[K
+      |                                                                       [32m[K)[m[K
+[01m[K/home/rm-jiaolong/Workspace/homework4/task1/src/service_demo/src/service_server.cpp:17:20:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+   17 |         void getsum[01;36m[K([m[K
+      |                    [01;36m[K^[m[K
+[01m[K/home/rm-jiaolong/Workspace/homework4/task1/src/service_demo/src/service_server.cpp:21:9:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K)[m[K’ token
+   21 |         [01;31m[K)[m[K {
+      |         [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/service_server.dir/build.make:76: CMakeFiles/service_server.dir/src/service_server.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/service_server.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

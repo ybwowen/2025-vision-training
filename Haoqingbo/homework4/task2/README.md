@@ -1,0 +1,1 @@
+实现了通过一个yaml文件调整s，v，time_limit等参数，但是在实现launch文件的时候出了问题，决定有时间再用python实现的launch文件尝试以下。

@@ -1,0 +1,4 @@
+[35m[1mConsolidate compiler generated dependencies of target service_server[0m
+[35m[1mConsolidate compiler generated dependencies of target service_client[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/service_server.dir/src/service_server.cpp.o[0m
+[ 75%] Built target service_client
