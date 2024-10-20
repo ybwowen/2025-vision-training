@@ -1,0 +1,5 @@
+int32 dividend  # 被除数
+int32 divisor   # 除数
+---
+int32 quotient  # 商
+int32 remainder # 余数
