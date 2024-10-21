@@ -1,0 +1,2 @@
+Invoking command in '/home/rm-jiaolong/Workspace/homework4/task1/build/service_demo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rm-jiaolong/Workspace/homework4/task1/build/service_demo -- -j4 -l4
+Invoked command in '/home/rm-jiaolong/Workspace/homework4/task1/build/service_demo' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rm-jiaolong/Workspace/homework4/task1/build/service_demo -- -j4 -l4

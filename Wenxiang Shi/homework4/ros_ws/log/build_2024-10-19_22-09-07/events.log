@@ -1,0 +1,4 @@
+[0.000000] (-) TimerEvent: {}
+[0.000192] (-) JobUnselected: {'identifier': 'divide_interfaces'}
+[0.000221] (-) JobUnselected: {'identifier': 'divide_package'}
+[0.000489] (-) EventReactorShutdown: {}

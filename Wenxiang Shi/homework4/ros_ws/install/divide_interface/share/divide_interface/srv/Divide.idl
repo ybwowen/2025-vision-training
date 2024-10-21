@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from divide_interface/srv/Divide.srv
+// generated code does not contain a copyright notice
+
+
+module divide_interface {
+  module srv {
+    struct Divide_Request {
+      int32 dividend;
+
+      int32 divisor;
+    };
+    struct Divide_Response {
+      int32 quotient;
+
+      int32 remainder;
+    };
+  };
+};

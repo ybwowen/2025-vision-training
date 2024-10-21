@@ -1,0 +1,2 @@
+Invoking command in '/home/zmyyy/ZhuMinyi/homework4/division/build/division': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --build /home/zmyyy/ZhuMinyi/homework4/division/build/division -- -j20 -l20
+Invoked command in '/home/zmyyy/ZhuMinyi/homework4/division/build/division' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --build /home/zmyyy/ZhuMinyi/homework4/division/build/division -- -j20 -l20

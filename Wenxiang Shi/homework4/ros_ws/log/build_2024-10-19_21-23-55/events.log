@@ -1,0 +1,131 @@
+[0.000000] (-) TimerEvent: {}
+[0.000147] (example_service_rclcpp) JobQueued: {'identifier': 'example_service_rclcpp', 'dependencies': OrderedDict()}
+[0.000179] (example_service_rclcpp) JobStarted: {'identifier': 'example_service_rclcpp'}
+[0.005439] (example_service_rclcpp) JobProgress: {'identifier': 'example_service_rclcpp', 'progress': 'cmake'}
+[0.005784] (example_service_rclcpp) JobProgress: {'identifier': 'example_service_rclcpp', 'progress': 'build'}
+[0.006254] (example_service_rclcpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/luna/2025-vision-training-master (1)/2025-vision-training-master/homework4/ros_ws/build/example_service_rclcpp', '--', '-j32', '-l32'], 'cwd': '/home/luna/2025-vision-training-master (1)/2025-vision-training-master/homework4/ros_ws/build/example_service_rclcpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7897/'), ('no_proxy', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,::1'), ('USER', 'luna'), ('LC_TIME', 'zh_CN.UTF-8'), ('all_proxy', 'socks://127.0.0.1:7897/'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/src/tensorrt/lib:/usr/local/cuda-12.2/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/src/tensorrt/lib:/usr/local/cuda-12.2/lib64:'), ('HOME', '/home/luna'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/luna/2025-vision-training-master (1)/2025-vision-training-master/homework4/ros_ws/src'), ('TERM_PROGRAM_VERSION', '1.86.2'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1775'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=4742b8ff4c82193b83d0f6ca6713a9a6'), ('COLORTERM', 'truecolor'), ('https_proxy', 'http://127.0.0.1:7897/'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'luna'), ('ALL_PROXY', 'socks://127.0.0.1:7897/'), ('http_proxy', 'http://127.0.0.1:7897/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'luna'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/cuda-12.2/bin:/opt/ros/humble/bin:/usr/local/cuda-12.2/bin:/home/luna/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/luna-OMEN-by-HP-16-1-inch-Gaming-Laptop-PC-16-wf0032TX:@/tmp/.ICE-unix/1775,unix/luna-OMEN-by-HP-16-1-inch-Gaming-Laptop-PC-16-wf0032TX:/tmp/.ICE-unix/1775'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/fdf236b6_8eca_47d0_b5d8_25bb3b35b71a'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-5fa730b0a1.sock'), ('GNOME_TERMINAL_SERVICE', ':1.121'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/luna/2025-vision-training-master (1)/2025-vision-training-master/homework4/ros_ws/build/example_service_rclcpp'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=4742b8ff4c82193b83d0f6ca6713a9a6'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7897/'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.021576] (example_service_rclcpp) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099625] (-) TimerEvent: {}
+[0.189158] (example_service_rclcpp) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.190190] (example_service_rclcpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.192398] (example_service_rclcpp) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.199694] (-) TimerEvent: {}
+[0.216700] (example_service_rclcpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.238125] (example_service_rclcpp) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.269969] (example_service_rclcpp) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.270948] (example_service_rclcpp) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.299873] (-) TimerEvent: {}
+[0.346836] (example_service_rclcpp) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.400062] (-) TimerEvent: {}
+[0.500379] (-) TimerEvent: {}
+[0.600759] (-) TimerEvent: {}
+[0.701140] (-) TimerEvent: {}
+[0.749873] (example_service_rclcpp) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.801346] (-) TimerEvent: {}
+[0.901741] (-) TimerEvent: {}
+[1.002148] (-) TimerEvent: {}
+[1.102561] (-) TimerEvent: {}
+[1.149489] (example_service_rclcpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.202773] (-) TimerEvent: {}
+[1.303164] (-) TimerEvent: {}
+[1.403577] (-) TimerEvent: {}
+[1.503981] (-) TimerEvent: {}
+[1.604369] (-) TimerEvent: {}
+[1.687019] (example_service_rclcpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.693663] (example_service_rclcpp) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:20 (find_package):\n'}
+[1.693931] (example_service_rclcpp) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[1.694049] (example_service_rclcpp) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[1.694153] (example_service_rclcpp) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[1.694253] (example_service_rclcpp) StderrLine: {'line': b'\n'}
+[1.694351] (example_service_rclcpp) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.694449] (example_service_rclcpp) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[1.694563] (example_service_rclcpp) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[1.694674] (example_service_rclcpp) StderrLine: {'line': b'  CMakeLists.txt:19 (rosidl_generate_interfaces)\n'}
+[1.694770] (example_service_rclcpp) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[1.694863] (example_service_rclcpp) StderrLine: {'line': b'\x1b[0m\n'}
+[1.704583] (-) TimerEvent: {}
+[1.713034] (example_service_rclcpp) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[1.714307] (example_service_rclcpp) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.714716] (example_service_rclcpp) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:52 (find_package):\n'}
+[1.714860] (example_service_rclcpp) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[1.714939] (example_service_rclcpp) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[1.715012] (example_service_rclcpp) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[1.715079] (example_service_rclcpp) StderrLine: {'line': b'\n'}
+[1.715144] (example_service_rclcpp) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.715225] (example_service_rclcpp) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)\n'}
+[1.715287] (example_service_rclcpp) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[1.715348] (example_service_rclcpp) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[1.715412] (example_service_rclcpp) StderrLine: {'line': b'  CMakeLists.txt:19 (rosidl_generate_interfaces)\n'}
+[1.715474] (example_service_rclcpp) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[1.715550] (example_service_rclcpp) StderrLine: {'line': b'\x1b[0m\n'}
+[1.733626] (example_service_rclcpp) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:140 (find_package):\n'}
+[1.733843] (example_service_rclcpp) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[1.733955] (example_service_rclcpp) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[1.734046] (example_service_rclcpp) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[1.734134] (example_service_rclcpp) StderrLine: {'line': b'\n'}
+[1.734217] (example_service_rclcpp) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.734303] (example_service_rclcpp) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)\n'}
+[1.734390] (example_service_rclcpp) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[1.734482] (example_service_rclcpp) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[1.734579] (example_service_rclcpp) StderrLine: {'line': b'  CMakeLists.txt:19 (rosidl_generate_interfaces)\n'}
+[1.734670] (example_service_rclcpp) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[1.734758] (example_service_rclcpp) StderrLine: {'line': b'\x1b[0m\n'}
+[1.740923] (example_service_rclcpp) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[1.741264] (example_service_rclcpp) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.741423] (example_service_rclcpp) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.741587] (example_service_rclcpp) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.764171] (example_service_rclcpp) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.795944] (example_service_rclcpp) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.804150] (example_service_rclcpp) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.804525] (example_service_rclcpp) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.804613] (-) TimerEvent: {}
+[1.804707] (example_service_rclcpp) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.804915] (example_service_rclcpp) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.805374] (example_service_rclcpp) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.805481] (example_service_rclcpp) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.805553] (example_service_rclcpp) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.806965] (example_service_rclcpp) StdoutLine: {'line': b'-- Configuring done (1.8s)\n'}
+[1.831843] (example_service_rclcpp) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.834256] (example_service_rclcpp) StdoutLine: {'line': b'-- Build files have been written to: /home/luna/2025-vision-training-master (1)/2025-vision-training-master/homework4/ros_ws/build/example_service_rclcpp\n'}
+[1.849774] (example_service_rclcpp) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.852524] (example_service_rclcpp) StderrLine: {'line': b'/bin/sh: 1: Syntax error: "(" unexpected\n'}
+[1.852801] (example_service_rclcpp) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/ament_cmake_python_copy_example_service_rclcpp.dir/build.make:70: CMakeFiles/ament_cmake_python_copy_example_service_rclcpp] Error 2\n'}
+[1.853027] (example_service_rclcpp) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:425: CMakeFiles/ament_cmake_python_copy_example_service_rclcpp.dir/all] Error 2\n'}
+[1.853159] (example_service_rclcpp) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[1.854326] (example_service_rclcpp) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.855923] (example_service_rclcpp) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding CXX object CMakeFiles/server.dir/src/server.cpp.o\x1b[0m\n'}
+[1.864549] (example_service_rclcpp) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding CXX object CMakeFiles/client.dir/src/client.cpp.o\x1b[0m\n'}
+[1.904812] (-) TimerEvent: {}
+[1.992126] (example_service_rclcpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/luna/2025-vision-training-master (1)/2025-vision-training-master/homework4/ros_ws/src/example_service_rclcpp/src/server.cpp:3:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kexample_service_rclcpp/srv/Divide.hpp: No such file or directory\n'}
+[1.992308] (example_service_rclcpp) StderrLine: {'line': b'    3 | #include \x1b[01;31m\x1b[K"example_service_rclcpp/srv/Divide.hpp"\x1b[m\x1b[K  // Adjust according to your package name\n'}
+[1.992389] (example_service_rclcpp) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.992463] (example_service_rclcpp) StderrLine: {'line': b'compilation terminated.\n'}
+[1.993986] (example_service_rclcpp) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/server.dir/build.make:76: CMakeFiles/server.dir/src/server.cpp.o] Error 1\n'}
+[1.994252] (example_service_rclcpp) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:620: CMakeFiles/server.dir/all] Error 2\n'}
+[2.004894] (-) TimerEvent: {}
+[2.035309] (example_service_rclcpp) StdoutLine: {'line': b'[ 11%] Built target example_service_rclcpp__cpp\n'}
+[2.039955] (example_service_rclcpp) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/example_service_rclcpp__rosidl_generator_c.dir/rosidl_generator_c/example_service_rclcpp/srv/detail/divide__functions.c.o\x1b[0m\n'}
+[2.086568] (example_service_rclcpp) StdoutLine: {'line': b'[ 17%] \x1b[32m\x1b[1mLinking C shared library libexample_service_rclcpp__rosidl_generator_c.so\x1b[0m\n'}
+[2.105102] (-) TimerEvent: {}
+[2.105540] (example_service_rclcpp) StdoutLine: {'line': b'[ 17%] Built target example_service_rclcpp__rosidl_generator_c\n'}
+[2.205312] (-) TimerEvent: {}
+[2.305696] (-) TimerEvent: {}
+[2.405993] (-) TimerEvent: {}
+[2.506384] (-) TimerEvent: {}
+[2.606778] (-) TimerEvent: {}
+[2.707166] (-) TimerEvent: {}
+[2.807560] (-) TimerEvent: {}
+[2.907980] (-) TimerEvent: {}
+[3.008410] (-) TimerEvent: {}
+[3.108742] (-) TimerEvent: {}
+[3.209137] (-) TimerEvent: {}
+[3.309495] (-) TimerEvent: {}
+[3.409975] (-) TimerEvent: {}
+[3.486668] (example_service_rclcpp) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking CXX executable client\x1b[0m\n'}
+[3.510146] (-) TimerEvent: {}
+[3.557353] (example_service_rclcpp) StdoutLine: {'line': b'[ 20%] Built target client\n'}
+[3.558159] (example_service_rclcpp) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[3.560271] (example_service_rclcpp) CommandEnded: {'returncode': 2}
+[3.610317] (-) TimerEvent: {}
+[3.658758] (example_service_rclcpp) JobEnded: {'identifier': 'example_service_rclcpp', 'rc': 2}
+[3.669401] (-) EventReactorShutdown: {}

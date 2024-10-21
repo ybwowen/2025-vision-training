@@ -1,0 +1,5 @@
+[31mCMake Error at CMakeLists.txt:41:
+  Parse error.  Expected "(", got identifier with text "link".
+
+[0m
+gmake: *** [Makefile:829: cmake_check_build_system] Error 1

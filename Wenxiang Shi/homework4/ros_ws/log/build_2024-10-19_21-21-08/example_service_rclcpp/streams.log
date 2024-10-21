@@ -1,0 +1,22 @@
+[0.008s] Invoking command in '/home/luna/2025-vision-training-master (1)/2025-vision-training-master/homework4/ros_ws/build/example_service_rclcpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/luna/2025-vision-training-master (1)/2025-vision-training-master/homework4/ros_ws/build/example_service_rclcpp -- -j32 -l32
+[0.021s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.197s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.198s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.200s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.224s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.245s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.277s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.278s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.352s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.397s] [31mCMake Error at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):
+[0.397s]   rosidl_generate_interfaces() the passed file 'srv/Divide.srv' doesn't exist
+[0.397s]   relative to the CMAKE_CURRENT_SOURCE_DIR
+[0.397s]   '/home/luna/2025-vision-training-master
+[0.397s]   (1)/2025-vision-training-master/homework4/ros_ws/src/example_service_rclcpp'
+[0.397s] Call Stack (most recent call first):
+[0.398s]   CMakeLists.txt:19 (rosidl_generate_interfaces)
+[0.398s] 
+[0.398s] [0m
+[0.398s] -- Configuring incomplete, errors occurred!
+[0.401s] gmake: *** [Makefile:308: cmake_check_build_system] Error 1
+[0.403s] Invoked command in '/home/luna/2025-vision-training-master (1)/2025-vision-training-master/homework4/ros_ws/build/example_service_rclcpp' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/luna/2025-vision-training-master (1)/2025-vision-training-master/homework4/ros_ws/build/example_service_rclcpp -- -j32 -l32

@@ -1,0 +1,17 @@
+[31mCMake Error at CMakeLists.txt:15 (find_package):
+  By not providing "Finddivide_interfaces.cmake" in CMAKE_MODULE_PATH this
+  project has asked CMake to find a package configuration file provided by
+  "divide_interfaces", but CMake did not find one.
+
+  Could not find a package configuration file provided by "divide_interfaces"
+  with any of the following names:
+
+    divide_interfacesConfig.cmake
+    divide_interfaces-config.cmake
+
+  Add the installation prefix of "divide_interfaces" to CMAKE_PREFIX_PATH or
+  set "divide_interfaces_DIR" to a directory containing one of the above
+  files.  If "divide_interfaces" provides a separate development package or
+  SDK, be sure it has been installed.
+
+[0m

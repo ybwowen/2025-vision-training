@@ -1,0 +1,545 @@
+[0.000000] (-) TimerEvent: {}
+[0.000411] (action_interfaces) JobQueued: {'identifier': 'action_interfaces', 'dependencies': OrderedDict()}
+[0.000445] (action_demo) JobQueued: {'identifier': 'action_demo', 'dependencies': OrderedDict([('action_interfaces', '/home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces')])}
+[0.000502] (action_interfaces) JobStarted: {'identifier': 'action_interfaces'}
+[0.009105] (action_interfaces) JobProgress: {'identifier': 'action_interfaces', 'progress': 'cmake'}
+[0.009472] (action_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/rm-jiaolong/Workspace/homework4/task2/src/action_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces'], 'cwd': '/home/rm-jiaolong/Workspace/homework4/task2/build/action_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'rm-jiaolong'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('ALLUSERSPROFILE', '/opt/MVS/MVFG'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:'), ('HOME', '/home/rm-jiaolong'), ('OLDPWD', '/home/rm-jiaolong/Workspace/homework4'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('SYSTEMD_EXEC_PID', '3277'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/rm-jiaolong/Workspace/homework4/task2/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'rm-jiaolong'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rm-jiaolong'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('MVCAM_SDK_PATH', '/opt/MVS'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rm-jiaolong:@/tmp/.ICE-unix/3048,unix/rm-jiaolong:/tmp/.ICE-unix/3048'), ('MVCAM_GENICAM_CLPROTOCOL', '/opt/MVS/lib/CLProtocol'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/922f342f_eb84_498e_87fe_09300f2f1a14'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.878'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/rm-jiaolong/Workspace/homework4/task2/install/action_demo:/home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rm-jiaolong/Workspace/homework4/task2/build/action_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/rm-jiaolong/Workspace/homework4/task2/install/action_demo:/home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces:/opt/ros/humble'), ('MVCAM_COMMON_RUNENV', '/opt/MVS/lib')]), 'shell': False}
+[0.098859] (-) TimerEvent: {}
+[0.144822] (action_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.199721] (-) TimerEvent: {}
+[0.245833] (action_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.265109] (action_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.300435] (-) TimerEvent: {}
+[0.382699] (action_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.395981] (action_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.396896] (action_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.397918] (action_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.400786] (-) TimerEvent: {}
+[0.405144] (action_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.501399] (-) TimerEvent: {}
+[0.565767] (action_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.573472] (action_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.573814] (action_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.574296] (action_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.594620] (action_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.601858] (-) TimerEvent: {}
+[0.702397] (-) TimerEvent: {}
+[0.803553] (-) TimerEvent: {}
+[0.850748] (action_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.903747] (-) TimerEvent: {}
+[1.004406] (-) TimerEvent: {}
+[1.042639] (action_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.047704] (action_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.056782] (action_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.104854] (-) TimerEvent: {}
+[1.120927] (action_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.205426] (-) TimerEvent: {}
+[1.305999] (-) TimerEvent: {}
+[1.407031] (-) TimerEvent: {}
+[1.507767] (-) TimerEvent: {}
+[1.609612] (-) TimerEvent: {}
+[1.710597] (-) TimerEvent: {}
+[1.778254] (action_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.812146] (-) TimerEvent: {}
+[1.912668] (-) TimerEvent: {}
+[2.013190] (-) TimerEvent: {}
+[2.114166] (-) TimerEvent: {}
+[2.140090] (action_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.214819] (-) TimerEvent: {}
+[2.316087] (-) TimerEvent: {}
+[2.416509] (-) TimerEvent: {}
+[2.516966] (-) TimerEvent: {}
+[2.617464] (-) TimerEvent: {}
+[2.678417] (action_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.707227] (action_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[2.712582] (action_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[2.717607] (-) TimerEvent: {}
+[2.756529] (action_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[2.756826] (action_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.756945] (action_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[2.757053] (action_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[2.802480] (action_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[2.821026] (-) TimerEvent: {}
+[2.881165] (action_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.921178] (action_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.921442] (-) TimerEvent: {}
+[2.925098] (action_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.929539] (action_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.978664] (action_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[2.985546] (action_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/rm-jiaolong/Workspace/homework4/task2/build/action_interfaces\n'}
+[3.006602] (action_interfaces) CommandEnded: {'returncode': 0}
+[3.006848] (action_interfaces) JobProgress: {'identifier': 'action_interfaces', 'progress': 'build'}
+[3.006977] (action_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rm-jiaolong/Workspace/homework4/task2/build/action_interfaces', '--', '-j4', '-l4'], 'cwd': '/home/rm-jiaolong/Workspace/homework4/task2/build/action_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'rm-jiaolong'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('ALLUSERSPROFILE', '/opt/MVS/MVFG'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:'), ('HOME', '/home/rm-jiaolong'), ('OLDPWD', '/home/rm-jiaolong/Workspace/homework4'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('SYSTEMD_EXEC_PID', '3277'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/rm-jiaolong/Workspace/homework4/task2/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'rm-jiaolong'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rm-jiaolong'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('MVCAM_SDK_PATH', '/opt/MVS'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rm-jiaolong:@/tmp/.ICE-unix/3048,unix/rm-jiaolong:/tmp/.ICE-unix/3048'), ('MVCAM_GENICAM_CLPROTOCOL', '/opt/MVS/lib/CLProtocol'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/922f342f_eb84_498e_87fe_09300f2f1a14'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.878'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/rm-jiaolong/Workspace/homework4/task2/install/action_demo:/home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rm-jiaolong/Workspace/homework4/task2/build/action_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/rm-jiaolong/Workspace/homework4/task2/install/action_demo:/home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces:/opt/ros/humble'), ('MVCAM_COMMON_RUNENV', '/opt/MVS/lib')]), 'shell': False}
+[3.022831] (-) TimerEvent: {}
+[3.086264] (action_interfaces) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[3.107378] (action_interfaces) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[3.130561] (-) TimerEvent: {}
+[3.132614] (action_interfaces) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_copy_action_interfaces\n'}
+[3.233355] (-) TimerEvent: {}
+[3.333951] (-) TimerEvent: {}
+[3.435029] (-) TimerEvent: {}
+[3.538771] (-) TimerEvent: {}
+[3.616217] (action_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[3.618115] (action_interfaces) StdoutLine: {'line': b'creating action_interfaces.egg-info\n'}
+[3.618260] (action_interfaces) StdoutLine: {'line': b'writing action_interfaces.egg-info/PKG-INFO\n'}
+[3.618345] (action_interfaces) StdoutLine: {'line': b'writing dependency_links to action_interfaces.egg-info/dependency_links.txt\n'}
+[3.618447] (action_interfaces) StdoutLine: {'line': b'writing top-level names to action_interfaces.egg-info/top_level.txt\n'}
+[3.618591] (action_interfaces) StdoutLine: {'line': b"writing manifest file 'action_interfaces.egg-info/SOURCES.txt'\n"}
+[3.626658] (action_interfaces) StdoutLine: {'line': b"reading manifest file 'action_interfaces.egg-info/SOURCES.txt'\n"}
+[3.627068] (action_interfaces) StdoutLine: {'line': b"writing manifest file 'action_interfaces.egg-info/SOURCES.txt'\n"}
+[3.639171] (-) TimerEvent: {}
+[3.680712] (action_interfaces) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_build_action_interfaces_egg\n'}
+[3.739585] (-) TimerEvent: {}
+[3.840072] (-) TimerEvent: {}
+[3.941754] (-) TimerEvent: {}
+[3.962134] (action_interfaces) StdoutLine: {'line': b'[  6%] Built target action_interfaces__cpp\n'}
+[3.968644] (action_interfaces) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/action_interfaces__rosidl_generator_c.dir/rosidl_generator_c/action_interfaces/action/detail/move_robot__functions.c.o\x1b[0m\n'}
+[3.987700] (action_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.988615] (action_interfaces) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[3.992694] (action_interfaces) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.043653] (-) TimerEvent: {}
+[4.144891] (-) TimerEvent: {}
+[4.245840] (-) TimerEvent: {}
+[4.298503] (action_interfaces) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libaction_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[4.346790] (-) TimerEvent: {}
+[4.407753] (action_interfaces) StdoutLine: {'line': b'[ 22%] Built target action_interfaces__rosidl_generator_c\n'}
+[4.441634] (action_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.447524] (-) TimerEvent: {}
+[4.548473] (-) TimerEvent: {}
+[4.605714] (action_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/action_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/action_interfaces/action/move_robot__type_support.cpp.o\x1b[0m\n'}
+[4.648760] (-) TimerEvent: {}
+[4.672990] (action_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/action_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/action_interfaces/action/detail/move_robot__type_support.cpp.o\x1b[0m\n'}
+[4.750602] (-) TimerEvent: {}
+[4.801930] (action_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/action_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/action_interfaces/action/detail/dds_fastrtps/move_robot__type_support.cpp.o\x1b[0m\n'}
+[4.851341] (-) TimerEvent: {}
+[4.952130] (-) TimerEvent: {}
+[5.052966] (-) TimerEvent: {}
+[5.153827] (-) TimerEvent: {}
+[5.189600] (action_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/action_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/action_interfaces/action/detail/move_robot__type_support_c.cpp.o\x1b[0m\n'}
+[5.254333] (-) TimerEvent: {}
+[5.355526] (-) TimerEvent: {}
+[5.456500] (-) TimerEvent: {}
+[5.560791] (-) TimerEvent: {}
+[5.661635] (-) TimerEvent: {}
+[5.723983] (action_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32m\x1b[1mLinking CXX shared library libaction_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[5.761937] (-) TimerEvent: {}
+[5.828272] (action_interfaces) StdoutLine: {'line': b'[ 41%] Built target action_interfaces__rosidl_typesupport_cpp\n'}
+[5.852300] (action_interfaces) StdoutLine: {'line': b'[ 45%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[5.862194] (-) TimerEvent: {}
+[5.964925] (-) TimerEvent: {}
+[6.065884] (-) TimerEvent: {}
+[6.100104] (action_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library libaction_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[6.138965] (action_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libaction_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[6.168186] (-) TimerEvent: {}
+[6.249396] (action_interfaces) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library libaction_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[6.264078] (action_interfaces) StdoutLine: {'line': b'[ 54%] Built target action_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[6.268545] (-) TimerEvent: {}
+[6.287243] (action_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[6.315802] (action_interfaces) StdoutLine: {'line': b'[ 58%] Built target action_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[6.368884] (-) TimerEvent: {}
+[6.421634] (action_interfaces) StdoutLine: {'line': b'[ 58%] Built target action_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[6.469320] (-) TimerEvent: {}
+[6.570320] (-) TimerEvent: {}
+[6.595031] (action_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding C object CMakeFiles/action_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/action_interfaces/action/detail/move_robot__type_support.c.o\x1b[0m\n'}
+[6.670728] (-) TimerEvent: {}
+[6.686300] (action_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking C shared library libaction_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[6.762100] (action_interfaces) StdoutLine: {'line': b'[ 64%] Built target action_interfaces__rosidl_typesupport_introspection_c\n'}
+[6.770876] (-) TimerEvent: {}
+[6.858254] (action_interfaces) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/action_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/action_interfaces/action/move_robot__type_support.cpp.o\x1b[0m\n'}
+[6.871149] (-) TimerEvent: {}
+[6.947943] (action_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libaction_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[6.971441] (-) TimerEvent: {}
+[6.992613] (action_interfaces) StdoutLine: {'line': b'[ 70%] Built target action_interfaces__rosidl_typesupport_c\n'}
+[7.027970] (action_interfaces) StdoutLine: {'line': b'[ 70%] Built target action_interfaces\n'}
+[7.062711] (action_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[7.072492] (-) TimerEvent: {}
+[7.172891] (-) TimerEvent: {}
+[7.274230] (-) TimerEvent: {}
+[7.375339] (-) TimerEvent: {}
+[7.476675] (-) TimerEvent: {}
+[7.577312] (-) TimerEvent: {}
+[7.678086] (-) TimerEvent: {}
+[7.779443] (-) TimerEvent: {}
+[7.880067] (-) TimerEvent: {}
+[7.980588] (-) TimerEvent: {}
+[8.081363] (-) TimerEvent: {}
+[8.182363] (-) TimerEvent: {}
+[8.284851] (-) TimerEvent: {}
+[8.385845] (-) TimerEvent: {}
+[8.486766] (-) TimerEvent: {}
+[8.556014] (action_interfaces) StdoutLine: {'line': b'[ 74%] Built target action_interfaces__py\n'}
+[8.587023] (-) TimerEvent: {}
+[8.589174] (action_interfaces) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/action_interfaces__rosidl_generator_py.dir/rosidl_generator_py/action_interfaces/action/_move_robot_s.c.o\x1b[0m\n'}
+[8.687903] (-) TimerEvent: {}
+[8.788796] (-) TimerEvent: {}
+[8.889783] (-) TimerEvent: {}
+[8.906606] (action_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/action_interfaces/libaction_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[8.974966] (action_interfaces) StdoutLine: {'line': b'[ 80%] Built target action_interfaces__rosidl_generator_py\n'}
+[8.993077] (-) TimerEvent: {}
+[9.015838] (action_interfaces) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/action_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/action_interfaces/_action_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[9.023370] (action_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/action_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/action_interfaces/_action_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[9.023619] (action_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/action_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/action_interfaces/_action_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[9.093362] (-) TimerEvent: {}
+[9.199812] (-) TimerEvent: {}
+[9.257022] (action_interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/action_interfaces/action_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[9.269708] (action_interfaces) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/action_interfaces/action_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[9.275630] (action_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/action_interfaces/action_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[9.300910] (-) TimerEvent: {}
+[9.340542] (action_interfaces) StdoutLine: {'line': b'[100%] Built target action_interfaces__rosidl_typesupport_c__pyext\n'}
+[9.358979] (action_interfaces) StdoutLine: {'line': b'[100%] Built target action_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[9.365531] (action_interfaces) StdoutLine: {'line': b'[100%] Built target action_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[9.385796] (action_interfaces) CommandEnded: {'returncode': 0}
+[9.401197] (-) TimerEvent: {}
+[9.501699] (action_interfaces) JobProgress: {'identifier': 'action_interfaces', 'progress': 'install'}
+[9.501806] (-) TimerEvent: {}
+[9.518787] (action_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/rm-jiaolong/Workspace/homework4/task2/build/action_interfaces'], 'cwd': '/home/rm-jiaolong/Workspace/homework4/task2/build/action_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'rm-jiaolong'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('ALLUSERSPROFILE', '/opt/MVS/MVFG'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:'), ('HOME', '/home/rm-jiaolong'), ('OLDPWD', '/home/rm-jiaolong/Workspace/homework4'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('SYSTEMD_EXEC_PID', '3277'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/rm-jiaolong/Workspace/homework4/task2/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'rm-jiaolong'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rm-jiaolong'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('MVCAM_SDK_PATH', '/opt/MVS'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rm-jiaolong:@/tmp/.ICE-unix/3048,unix/rm-jiaolong:/tmp/.ICE-unix/3048'), ('MVCAM_GENICAM_CLPROTOCOL', '/opt/MVS/lib/CLProtocol'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/922f342f_eb84_498e_87fe_09300f2f1a14'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.878'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/rm-jiaolong/Workspace/homework4/task2/install/action_demo:/home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rm-jiaolong/Workspace/homework4/task2/build/action_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/rm-jiaolong/Workspace/homework4/task2/install/action_demo:/home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces:/opt/ros/humble'), ('MVCAM_COMMON_RUNENV', '/opt/MVS/lib')]), 'shell': False}
+[9.534369] (action_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.535256] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/share/ament_index/resource_index/rosidl_interfaces/action_interfaces\n'}
+[9.535747] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/include/action_interfaces/action_interfaces\n'}
+[9.535962] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/include/action_interfaces/action_interfaces/action\n'}
+[9.536121] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/include/action_interfaces/action_interfaces/action/move_robot.h\n'}
+[9.536727] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/include/action_interfaces/action_interfaces/action/detail\n'}
+[9.536918] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/include/action_interfaces/action_interfaces/action/detail/move_robot__functions.c\n'}
+[9.537157] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/include/action_interfaces/action_interfaces/action/detail/move_robot__struct.h\n'}
+[9.537312] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/include/action_interfaces/action_interfaces/action/detail/move_robot__type_support.h\n'}
+[9.537492] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/include/action_interfaces/action_interfaces/action/detail/move_robot__functions.h\n'}
+[9.537775] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/include/action_interfaces/action_interfaces/msg\n'}
+[9.537935] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/include/action_interfaces/action_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[9.538055] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/share/action_interfaces/environment/library_path.sh\n'}
+[9.538260] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/share/action_interfaces/environment/library_path.dsv\n'}
+[9.538773] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/lib/libaction_interfaces__rosidl_generator_c.so\n'}
+[9.539031] (action_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/lib/libaction_interfaces__rosidl_generator_c.so" to ""\n'}
+[9.539198] (action_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/include/action_interfaces/action_interfaces\n'}
+[9.539352] (action_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/include/action_interfaces/action_interfaces/action\n'}
+[9.539729] (action_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/include/action_interfaces/action_interfaces/action/detail\n'}
+[9.539963] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/include/action_interfaces/action_interfaces/action/detail/move_robot__rosidl_typesupport_fastrtps_c.h\n'}
+[9.540115] (action_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/include/action_interfaces/action_interfaces/msg\n'}
+[9.540247] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/include/action_interfaces/action_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[9.540669] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/lib/libaction_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[9.540819] (action_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/lib/libaction_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[9.540925] (action_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/include/action_interfaces/action_interfaces\n'}
+[9.541024] (action_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/include/action_interfaces/action_interfaces/action\n'}
+[9.541121] (action_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/include/action_interfaces/action_interfaces/action/detail\n'}
+[9.541250] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/include/action_interfaces/action_interfaces/action/detail/move_robot__type_support.c\n'}
+[9.541724] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/include/action_interfaces/action_interfaces/action/detail/move_robot__rosidl_typesupport_introspection_c.h\n'}
+[9.541876] (action_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/include/action_interfaces/action_interfaces/msg\n'}
+[9.541980] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/include/action_interfaces/action_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[9.542258] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/lib/libaction_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[9.542627] (action_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/lib/libaction_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[9.542949] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/lib/libaction_interfaces__rosidl_typesupport_c.so\n'}
+[9.543117] (action_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/lib/libaction_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[9.543358] (action_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/include/action_interfaces/action_interfaces\n'}
+[9.543688] (action_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/include/action_interfaces/action_interfaces/action\n'}
+[9.543866] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/include/action_interfaces/action_interfaces/action/move_robot.hpp\n'}
+[9.543982] (action_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/include/action_interfaces/action_interfaces/action/detail\n'}
+[9.544085] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/include/action_interfaces/action_interfaces/action/detail/move_robot__traits.hpp\n'}
+[9.544233] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/include/action_interfaces/action_interfaces/action/detail/move_robot__struct.hpp\n'}
+[9.544648] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/include/action_interfaces/action_interfaces/action/detail/move_robot__builder.hpp\n'}
+[9.544844] (action_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/include/action_interfaces/action_interfaces\n'}
+[9.544958] (action_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/include/action_interfaces/action_interfaces/action\n'}
+[9.545061] (action_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/include/action_interfaces/action_interfaces/action/detail\n'}
+[9.545166] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/include/action_interfaces/action_interfaces/action/detail/move_robot__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.545240] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/include/action_interfaces/action_interfaces/action/detail/dds_fastrtps\n'}
+[9.545437] (action_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/include/action_interfaces/action_interfaces/msg\n'}
+[9.545637] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/include/action_interfaces/action_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[9.545966] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/lib/libaction_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[9.546077] (action_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/lib/libaction_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[9.546397] (action_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/include/action_interfaces/action_interfaces\n'}
+[9.546550] (action_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/include/action_interfaces/action_interfaces/action\n'}
+[9.546741] (action_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/include/action_interfaces/action_interfaces/action/detail\n'}
+[9.546894] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/include/action_interfaces/action_interfaces/action/detail/move_robot__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.547084] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/include/action_interfaces/action_interfaces/action/detail/move_robot__type_support.cpp\n'}
+[9.547537] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/lib/libaction_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[9.547691] (action_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/lib/libaction_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[9.547848] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/lib/libaction_interfaces__rosidl_typesupport_cpp.so\n'}
+[9.548185] (action_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/lib/libaction_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[9.548402] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/share/action_interfaces/environment/pythonpath.sh\n'}
+[9.548595] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/share/action_interfaces/environment/pythonpath.dsv\n'}
+[9.548986] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/local/lib/python3.10/dist-packages/action_interfaces-0.0.0-py3.10.egg-info\n'}
+[9.549317] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/local/lib/python3.10/dist-packages/action_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[9.549455] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/local/lib/python3.10/dist-packages/action_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[9.549801] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/local/lib/python3.10/dist-packages/action_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[9.549914] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/local/lib/python3.10/dist-packages/action_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[9.550033] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/local/lib/python3.10/dist-packages/action_interfaces\n'}
+[9.550136] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/local/lib/python3.10/dist-packages/action_interfaces/action_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.550328] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/local/lib/python3.10/dist-packages/action_interfaces/action_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.550646] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/local/lib/python3.10/dist-packages/action_interfaces/action\n'}
+[9.550784] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/local/lib/python3.10/dist-packages/action_interfaces/action/_move_robot.py\n'}
+[9.550885] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/local/lib/python3.10/dist-packages/action_interfaces/action/_move_robot_s.c\n'}
+[9.550983] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/local/lib/python3.10/dist-packages/action_interfaces/action/__init__.py\n'}
+[9.551352] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/local/lib/python3.10/dist-packages/action_interfaces/_action_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[9.551672] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/local/lib/python3.10/dist-packages/action_interfaces/libaction_interfaces__rosidl_generator_py.so\n'}
+[9.552068] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/local/lib/python3.10/dist-packages/action_interfaces/_action_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[9.552308] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/local/lib/python3.10/dist-packages/action_interfaces/_action_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[9.552426] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/local/lib/python3.10/dist-packages/action_interfaces/__init__.py\n'}
+[9.552773] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/local/lib/python3.10/dist-packages/action_interfaces/action_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.602392] (-) TimerEvent: {}
+[9.644160] (action_interfaces) StdoutLine: {'line': b"Listing '/home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/local/lib/python3.10/dist-packages/action_interfaces'...\n"}
+[9.644434] (action_interfaces) StdoutLine: {'line': b"Compiling '/home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/local/lib/python3.10/dist-packages/action_interfaces/__init__.py'...\n"}
+[9.644559] (action_interfaces) StdoutLine: {'line': b"Listing '/home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/local/lib/python3.10/dist-packages/action_interfaces/action'...\n"}
+[9.644760] (action_interfaces) StdoutLine: {'line': b"Compiling '/home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/local/lib/python3.10/dist-packages/action_interfaces/action/__init__.py'...\n"}
+[9.644881] (action_interfaces) StdoutLine: {'line': b"Compiling '/home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/local/lib/python3.10/dist-packages/action_interfaces/action/_move_robot.py'...\n"}
+[9.651315] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/local/lib/python3.10/dist-packages/action_interfaces/action_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.651848] (action_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/local/lib/python3.10/dist-packages/action_interfaces/action_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[9.652121] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/local/lib/python3.10/dist-packages/action_interfaces/action_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.652439] (action_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/local/lib/python3.10/dist-packages/action_interfaces/action_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[9.652734] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/local/lib/python3.10/dist-packages/action_interfaces/action_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.652925] (action_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/local/lib/python3.10/dist-packages/action_interfaces/action_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[9.653089] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/lib/libaction_interfaces__rosidl_generator_py.so\n'}
+[9.653509] (action_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/lib/libaction_interfaces__rosidl_generator_py.so" to ""\n'}
+[9.654261] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/share/action_interfaces/action/MoveRobot.idl\n'}
+[9.654591] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/share/action_interfaces/action/MoveRobot.action\n'}
+[9.654736] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/share/ament_index/resource_index/package_run_dependencies/action_interfaces\n'}
+[9.654859] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/share/ament_index/resource_index/parent_prefix_path/action_interfaces\n'}
+[9.655047] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/share/action_interfaces/environment/ament_prefix_path.sh\n'}
+[9.655335] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/share/action_interfaces/environment/ament_prefix_path.dsv\n'}
+[9.655442] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/share/action_interfaces/environment/path.sh\n'}
+[9.655551] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/share/action_interfaces/environment/path.dsv\n'}
+[9.655770] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/share/action_interfaces/local_setup.bash\n'}
+[9.655936] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/share/action_interfaces/local_setup.sh\n'}
+[9.656085] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/share/action_interfaces/local_setup.zsh\n'}
+[9.656554] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/share/action_interfaces/local_setup.dsv\n'}
+[9.656812] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/share/action_interfaces/package.dsv\n'}
+[9.657027] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/share/ament_index/resource_index/packages/action_interfaces\n'}
+[9.657482] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/share/action_interfaces/cmake/export_action_interfaces__rosidl_generator_cExport.cmake\n'}
+[9.657625] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/share/action_interfaces/cmake/export_action_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[9.657758] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/share/action_interfaces/cmake/export_action_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[9.657866] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/share/action_interfaces/cmake/export_action_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[9.657985] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/share/action_interfaces/cmake/action_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[9.658236] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/share/action_interfaces/cmake/action_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[9.658451] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/share/action_interfaces/cmake/action_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[9.658650] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/share/action_interfaces/cmake/action_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[9.658988] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/share/action_interfaces/cmake/export_action_interfaces__rosidl_generator_cppExport.cmake\n'}
+[9.659119] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/share/action_interfaces/cmake/export_action_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[9.659220] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/share/action_interfaces/cmake/export_action_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[9.659428] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/share/action_interfaces/cmake/action_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[9.659540] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/share/action_interfaces/cmake/action_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[9.659640] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/share/action_interfaces/cmake/action_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[9.659742] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/share/action_interfaces/cmake/action_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[9.659859] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/share/action_interfaces/cmake/export_action_interfaces__rosidl_generator_pyExport.cmake\n'}
+[9.660065] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/share/action_interfaces/cmake/export_action_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[9.660354] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/share/action_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[9.660655] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/share/action_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[9.660789] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/share/action_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[9.661345] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/share/action_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[9.661543] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/share/action_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[9.661750] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/share/action_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[9.661961] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/share/action_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[9.662092] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/share/action_interfaces/cmake/action_interfacesConfig.cmake\n'}
+[9.662217] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/share/action_interfaces/cmake/action_interfacesConfig-version.cmake\n'}
+[9.662323] (action_interfaces) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/share/action_interfaces/package.xml\n'}
+[9.666680] (action_interfaces) CommandEnded: {'returncode': 0}
+[9.702915] (-) TimerEvent: {}
+[9.803356] (-) TimerEvent: {}
+[9.852615] (action_interfaces) JobEnded: {'identifier': 'action_interfaces', 'rc': 0}
+[9.853355] (action_demo) JobStarted: {'identifier': 'action_demo'}
+[9.870997] (action_demo) JobProgress: {'identifier': 'action_demo', 'progress': 'cmake'}
+[9.872699] (action_demo) Command: {'cmd': ['/usr/bin/cmake', '/home/rm-jiaolong/Workspace/homework4/task2/src/action_demo', '-DCMAKE_INSTALL_PREFIX=/home/rm-jiaolong/Workspace/homework4/task2/install/action_demo'], 'cwd': '/home/rm-jiaolong/Workspace/homework4/task2/build/action_demo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'rm-jiaolong'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('ALLUSERSPROFILE', '/opt/MVS/MVFG'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32'), ('HOME', '/home/rm-jiaolong'), ('OLDPWD', '/home/rm-jiaolong/Workspace/homework4'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('SYSTEMD_EXEC_PID', '3277'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/rm-jiaolong/Workspace/homework4/task2/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'rm-jiaolong'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rm-jiaolong'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('MVCAM_SDK_PATH', '/opt/MVS'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rm-jiaolong:@/tmp/.ICE-unix/3048,unix/rm-jiaolong:/tmp/.ICE-unix/3048'), ('MVCAM_GENICAM_CLPROTOCOL', '/opt/MVS/lib/CLProtocol'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/922f342f_eb84_498e_87fe_09300f2f1a14'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.878'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/rm-jiaolong/Workspace/homework4/task2/install/action_demo:/home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rm-jiaolong/Workspace/homework4/task2/build/action_demo'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces:/home/rm-jiaolong/Workspace/homework4/task2/install/action_demo:/opt/ros/humble'), ('MVCAM_COMMON_RUNENV', '/opt/MVS/lib')]), 'shell': False}
+[9.903711] (-) TimerEvent: {}
+[9.968235] (action_demo) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[10.004366] (-) TimerEvent: {}
+[10.090490] (action_demo) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[10.097913] (action_demo) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[10.104514] (-) TimerEvent: {}
+[10.204963] (-) TimerEvent: {}
+[10.212047] (action_demo) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[10.224660] (action_demo) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[10.225251] (action_demo) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[10.226141] (action_demo) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[10.231234] (action_demo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[10.305520] (-) TimerEvent: {}
+[10.376106] (action_demo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[10.391114] (action_demo) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[10.391997] (action_demo) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[10.394565] (action_demo) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[10.401160] (action_demo) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[10.408836] (-) TimerEvent: {}
+[10.511369] (-) TimerEvent: {}
+[10.612071] (-) TimerEvent: {}
+[10.713060] (-) TimerEvent: {}
+[10.757206] (action_demo) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[10.813674] (-) TimerEvent: {}
+[10.914676] (-) TimerEvent: {}
+[10.949062] (action_demo) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[11.009056] (action_demo) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[11.014832] (-) TimerEvent: {}
+[11.021104] (action_demo) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[11.043764] (action_demo) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[11.070882] (action_demo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[11.103892] (action_demo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[11.115098] (-) TimerEvent: {}
+[11.213981] (action_demo) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[11.215441] (-) TimerEvent: {}
+[11.222419] (action_demo) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[11.315678] (-) TimerEvent: {}
+[11.398050] (action_demo) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[11.416044] (-) TimerEvent: {}
+[11.429336] (action_demo) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[11.505556] (action_demo) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[11.516288] (-) TimerEvent: {}
+[11.521373] (action_demo) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[11.616420] (-) TimerEvent: {}
+[11.636236] (action_demo) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[11.637653] (action_demo) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[11.716978] (-) TimerEvent: {}
+[11.740450] (action_demo) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[11.741806] (action_demo) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[11.817828] (-) TimerEvent: {}
+[11.865035] (action_demo) StdoutLine: {'line': b'-- Found rclcpp_action: 16.0.10 (/opt/ros/humble/share/rclcpp_action/cmake)\n'}
+[11.918128] (-) TimerEvent: {}
+[11.938115] (action_demo) StdoutLine: {'line': b'-- Found action_interfaces: 0.0.0 (/home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/share/action_interfaces/cmake)\n'}
+[11.962842] (action_demo) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[12.018621] (-) TimerEvent: {}
+[12.119275] (-) TimerEvent: {}
+[12.125422] (action_demo) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[12.125651] (action_demo) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/rm-jiaolong/Workspace/homework4/task2/src/action_demo/include>\n'}
+[12.125877] (action_demo) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[12.126066] (action_demo) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[12.127874] (action_demo) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[12.128078] (action_demo) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[12.129380] (action_demo) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[12.134439] (action_demo) StdoutLine: {'line': b'-- Configuring done\n'}
+[12.164522] (action_demo) StdoutLine: {'line': b'-- Generating done\n'}
+[12.169891] (action_demo) StdoutLine: {'line': b'-- Build files have been written to: /home/rm-jiaolong/Workspace/homework4/task2/build/action_demo\n'}
+[12.187092] (action_demo) CommandEnded: {'returncode': 0}
+[12.187920] (action_demo) JobProgress: {'identifier': 'action_demo', 'progress': 'build'}
+[12.190039] (action_demo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rm-jiaolong/Workspace/homework4/task2/build/action_demo', '--', '-j4', '-l4'], 'cwd': '/home/rm-jiaolong/Workspace/homework4/task2/build/action_demo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'rm-jiaolong'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('ALLUSERSPROFILE', '/opt/MVS/MVFG'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32'), ('HOME', '/home/rm-jiaolong'), ('OLDPWD', '/home/rm-jiaolong/Workspace/homework4'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('SYSTEMD_EXEC_PID', '3277'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/rm-jiaolong/Workspace/homework4/task2/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'rm-jiaolong'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rm-jiaolong'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('MVCAM_SDK_PATH', '/opt/MVS'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rm-jiaolong:@/tmp/.ICE-unix/3048,unix/rm-jiaolong:/tmp/.ICE-unix/3048'), ('MVCAM_GENICAM_CLPROTOCOL', '/opt/MVS/lib/CLProtocol'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/922f342f_eb84_498e_87fe_09300f2f1a14'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.878'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/rm-jiaolong/Workspace/homework4/task2/install/action_demo:/home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rm-jiaolong/Workspace/homework4/task2/build/action_demo'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces:/home/rm-jiaolong/Workspace/homework4/task2/install/action_demo:/opt/ros/humble'), ('MVCAM_COMMON_RUNENV', '/opt/MVS/lib')]), 'shell': False}
+[12.219750] (-) TimerEvent: {}
+[12.253780] (action_demo) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/action_robot.dir/src/action_robot.cpp.o\x1b[0m\n'}
+[12.254785] (action_demo) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/action_control.dir/src/action_control.cpp.o\x1b[0m\n'}
+[12.260154] (action_demo) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/action_robot.dir/src/robot.cpp.o\x1b[0m\n'}
+[12.322245] (-) TimerEvent: {}
+[12.423036] (-) TimerEvent: {}
+[12.524654] (-) TimerEvent: {}
+[12.627035] (-) TimerEvent: {}
+[12.734684] (-) TimerEvent: {}
+[12.835079] (-) TimerEvent: {}
+[12.936083] (-) TimerEvent: {}
+[13.036791] (-) TimerEvent: {}
+[13.137864] (-) TimerEvent: {}
+[13.242935] (-) TimerEvent: {}
+[13.343688] (-) TimerEvent: {}
+[13.451242] (-) TimerEvent: {}
+[13.551786] (-) TimerEvent: {}
+[13.652947] (-) TimerEvent: {}
+[13.754418] (-) TimerEvent: {}
+[13.857831] (-) TimerEvent: {}
+[13.966006] (-) TimerEvent: {}
+[14.066794] (-) TimerEvent: {}
+[14.167507] (-) TimerEvent: {}
+[14.270250] (-) TimerEvent: {}
+[14.370819] (-) TimerEvent: {}
+[14.471418] (-) TimerEvent: {}
+[14.579429] (-) TimerEvent: {}
+[14.681607] (-) TimerEvent: {}
+[14.782333] (-) TimerEvent: {}
+[14.889860] (-) TimerEvent: {}
+[14.990666] (-) TimerEvent: {}
+[15.091490] (-) TimerEvent: {}
+[15.194970] (-) TimerEvent: {}
+[15.295769] (-) TimerEvent: {}
+[15.396394] (-) TimerEvent: {}
+[15.497275] (-) TimerEvent: {}
+[15.598316] (-) TimerEvent: {}
+[15.699367] (-) TimerEvent: {}
+[15.799860] (-) TimerEvent: {}
+[15.900762] (-) TimerEvent: {}
+[16.002256] (-) TimerEvent: {}
+[16.103292] (-) TimerEvent: {}
+[16.204720] (-) TimerEvent: {}
+[16.306567] (-) TimerEvent: {}
+[16.407329] (-) TimerEvent: {}
+[16.508233] (-) TimerEvent: {}
+[16.609220] (-) TimerEvent: {}
+[16.710021] (-) TimerEvent: {}
+[16.810756] (-) TimerEvent: {}
+[16.911922] (-) TimerEvent: {}
+[17.012468] (-) TimerEvent: {}
+[17.114111] (-) TimerEvent: {}
+[17.214923] (-) TimerEvent: {}
+[17.315777] (-) TimerEvent: {}
+[17.419168] (-) TimerEvent: {}
+[17.524160] (-) TimerEvent: {}
+[17.625038] (-) TimerEvent: {}
+[17.726537] (-) TimerEvent: {}
+[17.827060] (-) TimerEvent: {}
+[17.927556] (-) TimerEvent: {}
+[18.031289] (-) TimerEvent: {}
+[18.131749] (-) TimerEvent: {}
+[18.233036] (-) TimerEvent: {}
+[18.333622] (-) TimerEvent: {}
+[18.434744] (-) TimerEvent: {}
+[18.535482] (-) TimerEvent: {}
+[18.643004] (-) TimerEvent: {}
+[18.745592] (-) TimerEvent: {}
+[18.846081] (-) TimerEvent: {}
+[18.946720] (-) TimerEvent: {}
+[19.047420] (-) TimerEvent: {}
+[19.148164] (-) TimerEvent: {}
+[19.248676] (-) TimerEvent: {}
+[19.352104] (-) TimerEvent: {}
+[19.452974] (-) TimerEvent: {}
+[19.553650] (-) TimerEvent: {}
+[19.654817] (-) TimerEvent: {}
+[19.755733] (-) TimerEvent: {}
+[19.857575] (-) TimerEvent: {}
+[19.958637] (-) TimerEvent: {}
+[20.059845] (-) TimerEvent: {}
+[20.160795] (-) TimerEvent: {}
+[20.261451] (-) TimerEvent: {}
+[20.362166] (-) TimerEvent: {}
+[20.463095] (-) TimerEvent: {}
+[20.563880] (-) TimerEvent: {}
+[20.664527] (-) TimerEvent: {}
+[20.765502] (-) TimerEvent: {}
+[20.865991] (-) TimerEvent: {}
+[20.966604] (-) TimerEvent: {}
+[21.067159] (-) TimerEvent: {}
+[21.167818] (-) TimerEvent: {}
+[21.268738] (-) TimerEvent: {}
+[21.369318] (-) TimerEvent: {}
+[21.469922] (-) TimerEvent: {}
+[21.571197] (-) TimerEvent: {}
+[21.672646] (action_demo) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX executable action_robot\x1b[0m\n'}
+[21.673152] (-) TimerEvent: {}
+[21.773745] (-) TimerEvent: {}
+[21.874391] (-) TimerEvent: {}
+[21.975144] (-) TimerEvent: {}
+[22.062096] (action_demo) StdoutLine: {'line': b'[ 80%] Built target action_robot\n'}
+[22.075360] (-) TimerEvent: {}
+[22.175991] (-) TimerEvent: {}
+[22.276814] (-) TimerEvent: {}
+[22.377937] (-) TimerEvent: {}
+[22.384103] (action_demo) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable action_control\x1b[0m\n'}
+[22.478498] (-) TimerEvent: {}
+[22.579348] (-) TimerEvent: {}
+[22.680006] (-) TimerEvent: {}
+[22.770905] (action_demo) StdoutLine: {'line': b'[100%] Built target action_control\n'}
+[22.780212] (-) TimerEvent: {}
+[22.791279] (action_demo) CommandEnded: {'returncode': 0}
+[22.841588] (action_demo) JobProgress: {'identifier': 'action_demo', 'progress': 'install'}
+[22.841664] (action_demo) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/rm-jiaolong/Workspace/homework4/task2/build/action_demo'], 'cwd': '/home/rm-jiaolong/Workspace/homework4/task2/build/action_demo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'rm-jiaolong'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('ALLUSERSPROFILE', '/opt/MVS/MVFG'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32'), ('HOME', '/home/rm-jiaolong'), ('OLDPWD', '/home/rm-jiaolong/Workspace/homework4'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('SYSTEMD_EXEC_PID', '3277'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/rm-jiaolong/Workspace/homework4/task2/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'rm-jiaolong'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rm-jiaolong'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('MVCAM_SDK_PATH', '/opt/MVS'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rm-jiaolong:@/tmp/.ICE-unix/3048,unix/rm-jiaolong:/tmp/.ICE-unix/3048'), ('MVCAM_GENICAM_CLPROTOCOL', '/opt/MVS/lib/CLProtocol'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/922f342f_eb84_498e_87fe_09300f2f1a14'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.878'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/rm-jiaolong/Workspace/homework4/task2/install/action_demo:/home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rm-jiaolong/Workspace/homework4/task2/build/action_demo'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces:/home/rm-jiaolong/Workspace/homework4/task2/install/action_demo:/opt/ros/humble'), ('MVCAM_COMMON_RUNENV', '/opt/MVS/lib')]), 'shell': False}
+[22.849466] (action_demo) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[22.849653] (action_demo) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_demo/lib/action_demo/action_robot\n'}
+[22.850992] (action_demo) StdoutLine: {'line': b'-- Set runtime path of "/home/rm-jiaolong/Workspace/homework4/task2/install/action_demo/lib/action_demo/action_robot" to ""\n'}
+[22.851152] (action_demo) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_demo/lib/action_demo/action_control\n'}
+[22.852521] (action_demo) StdoutLine: {'line': b'-- Set runtime path of "/home/rm-jiaolong/Workspace/homework4/task2/install/action_demo/lib/action_demo/action_control" to ""\n'}
+[22.852690] (action_demo) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_demo/share/ament_index/resource_index/package_run_dependencies/action_demo\n'}
+[22.852748] (action_demo) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_demo/share/ament_index/resource_index/parent_prefix_path/action_demo\n'}
+[22.852886] (action_demo) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_demo/share/action_demo/environment/ament_prefix_path.sh\n'}
+[22.853131] (action_demo) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_demo/share/action_demo/environment/ament_prefix_path.dsv\n'}
+[22.853266] (action_demo) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_demo/share/action_demo/environment/path.sh\n'}
+[22.853381] (action_demo) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_demo/share/action_demo/environment/path.dsv\n'}
+[22.853610] (action_demo) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_demo/share/action_demo/local_setup.bash\n'}
+[22.853772] (action_demo) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_demo/share/action_demo/local_setup.sh\n'}
+[22.853832] (action_demo) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_demo/share/action_demo/local_setup.zsh\n'}
+[22.853920] (action_demo) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_demo/share/action_demo/local_setup.dsv\n'}
+[22.854023] (action_demo) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_demo/share/action_demo/package.dsv\n'}
+[22.854228] (action_demo) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_demo/share/ament_index/resource_index/packages/action_demo\n'}
+[22.854288] (action_demo) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_demo/share/action_demo/cmake/action_demoConfig.cmake\n'}
+[22.854332] (action_demo) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_demo/share/action_demo/cmake/action_demoConfig-version.cmake\n'}
+[22.854416] (action_demo) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_demo/share/action_demo/package.xml\n'}
+[22.856811] (action_demo) CommandEnded: {'returncode': 0}
+[22.880622] (-) TimerEvent: {}
+[22.920136] (action_demo) JobEnded: {'identifier': 'action_demo', 'rc': 0}
+[22.921620] (-) EventReactorShutdown: {}

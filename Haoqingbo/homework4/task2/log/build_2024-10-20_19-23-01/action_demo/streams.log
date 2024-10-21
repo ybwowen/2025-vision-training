@@ -1,0 +1,76 @@
+[0.020s] Invoking command in '/home/rm-jiaolong/Workspace/homework4/task2/build/action_demo': CMAKE_PREFIX_PATH=/home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces:/home/rm-jiaolong/Workspace/homework4/task2/install/action_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 /usr/bin/cmake /home/rm-jiaolong/Workspace/homework4/task2/src/action_demo -DCMAKE_INSTALL_PREFIX=/home/rm-jiaolong/Workspace/homework4/task2/install/action_demo
+[0.115s] -- The C compiler identification is GNU 11.4.0
+[0.237s] -- The CXX compiler identification is GNU 11.4.0
+[0.245s] -- Detecting C compiler ABI info
+[0.359s] -- Detecting C compiler ABI info - done
+[0.371s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.372s] -- Detecting C compile features
+[0.373s] -- Detecting C compile features - done
+[0.378s] -- Detecting CXX compiler ABI info
+[0.523s] -- Detecting CXX compiler ABI info - done
+[0.538s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.539s] -- Detecting CXX compile features
+[0.541s] -- Detecting CXX compile features - done
+[0.548s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.904s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.096s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[1.156s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.168s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.191s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.218s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.251s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.361s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.369s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.545s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.576s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.652s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.668s] -- Looking for pthread.h
+[1.783s] -- Looking for pthread.h - found
+[1.784s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.887s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.889s] -- Found Threads: TRUE  
+[2.012s] -- Found rclcpp_action: 16.0.10 (/opt/ros/humble/share/rclcpp_action/cmake)
+[2.085s] -- Found action_interfaces: 0.0.0 (/home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/share/action_interfaces/cmake)
+[2.110s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.272s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.272s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/rm-jiaolong/Workspace/homework4/task2/src/action_demo/include>
+[2.273s] -- Configured cppcheck exclude dirs and/or files: 
+[2.273s] -- Added test 'lint_cmake' to check CMake code style
+[2.275s] -- Added test 'uncrustify' to check C / C++ code style
+[2.275s] -- Configured uncrustify additional arguments: 
+[2.276s] -- Added test 'xmllint' to check XML markup files
+[2.281s] -- Configuring done
+[2.311s] -- Generating done
+[2.317s] -- Build files have been written to: /home/rm-jiaolong/Workspace/homework4/task2/build/action_demo
+[2.334s] Invoked command in '/home/rm-jiaolong/Workspace/homework4/task2/build/action_demo' returned '0': CMAKE_PREFIX_PATH=/home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces:/home/rm-jiaolong/Workspace/homework4/task2/install/action_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 /usr/bin/cmake /home/rm-jiaolong/Workspace/homework4/task2/src/action_demo -DCMAKE_INSTALL_PREFIX=/home/rm-jiaolong/Workspace/homework4/task2/install/action_demo
+[2.337s] Invoking command in '/home/rm-jiaolong/Workspace/homework4/task2/build/action_demo': CMAKE_PREFIX_PATH=/home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces:/home/rm-jiaolong/Workspace/homework4/task2/install/action_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 /usr/bin/cmake --build /home/rm-jiaolong/Workspace/homework4/task2/build/action_demo -- -j4 -l4
+[2.401s] [ 20%] [32mBuilding CXX object CMakeFiles/action_robot.dir/src/action_robot.cpp.o[0m
+[2.402s] [ 40%] [32mBuilding CXX object CMakeFiles/action_control.dir/src/action_control.cpp.o[0m
+[2.407s] [ 60%] [32mBuilding CXX object CMakeFiles/action_robot.dir/src/robot.cpp.o[0m
+[11.820s] [ 80%] [32m[1mLinking CXX executable action_robot[0m
+[12.209s] [ 80%] Built target action_robot
+[12.531s] [100%] [32m[1mLinking CXX executable action_control[0m
+[12.918s] [100%] Built target action_control
+[12.938s] Invoked command in '/home/rm-jiaolong/Workspace/homework4/task2/build/action_demo' returned '0': CMAKE_PREFIX_PATH=/home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces:/home/rm-jiaolong/Workspace/homework4/task2/install/action_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 /usr/bin/cmake --build /home/rm-jiaolong/Workspace/homework4/task2/build/action_demo -- -j4 -l4
+[12.989s] Invoking command in '/home/rm-jiaolong/Workspace/homework4/task2/build/action_demo': CMAKE_PREFIX_PATH=/home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces:/home/rm-jiaolong/Workspace/homework4/task2/install/action_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 /usr/bin/cmake --install /home/rm-jiaolong/Workspace/homework4/task2/build/action_demo
+[12.996s] -- Install configuration: ""
+[12.996s] -- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_demo/lib/action_demo/action_robot
+[12.998s] -- Set runtime path of "/home/rm-jiaolong/Workspace/homework4/task2/install/action_demo/lib/action_demo/action_robot" to ""
+[12.998s] -- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_demo/lib/action_demo/action_control
+[12.999s] -- Set runtime path of "/home/rm-jiaolong/Workspace/homework4/task2/install/action_demo/lib/action_demo/action_control" to ""
+[12.999s] -- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_demo/share/ament_index/resource_index/package_run_dependencies/action_demo
+[12.999s] -- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_demo/share/ament_index/resource_index/parent_prefix_path/action_demo
+[13.000s] -- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_demo/share/action_demo/environment/ament_prefix_path.sh
+[13.000s] -- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_demo/share/action_demo/environment/ament_prefix_path.dsv
+[13.000s] -- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_demo/share/action_demo/environment/path.sh
+[13.000s] -- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_demo/share/action_demo/environment/path.dsv
+[13.000s] -- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_demo/share/action_demo/local_setup.bash
+[13.000s] -- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_demo/share/action_demo/local_setup.sh
+[13.001s] -- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_demo/share/action_demo/local_setup.zsh
+[13.001s] -- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_demo/share/action_demo/local_setup.dsv
+[13.001s] -- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_demo/share/action_demo/package.dsv
+[13.001s] -- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_demo/share/ament_index/resource_index/packages/action_demo
+[13.001s] -- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_demo/share/action_demo/cmake/action_demoConfig.cmake
+[13.001s] -- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_demo/share/action_demo/cmake/action_demoConfig-version.cmake
+[13.001s] -- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_demo/share/action_demo/package.xml
+[13.004s] Invoked command in '/home/rm-jiaolong/Workspace/homework4/task2/build/action_demo' returned '0': CMAKE_PREFIX_PATH=/home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces:/home/rm-jiaolong/Workspace/homework4/task2/install/action_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 /usr/bin/cmake --install /home/rm-jiaolong/Workspace/homework4/task2/build/action_demo

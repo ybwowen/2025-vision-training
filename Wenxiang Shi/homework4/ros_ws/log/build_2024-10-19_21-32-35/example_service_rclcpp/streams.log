@@ -1,0 +1,16 @@
+[0.008s] Invoking command in '/home/luna/2025-vision-training-master (1)/2025-vision-training-master/homework4/ros_ws/build/example_service_rclcpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/luna/2025-vision-training-master (1)/2025-vision-training-master/homework4/ros_ws/build/example_service_rclcpp -- -j32 -l32
+[0.035s] /bin/sh: 1: Syntax error: "(" unexpected
+[0.036s] gmake[2]: *** [CMakeFiles/ament_cmake_python_copy_example_service_rclcpp.dir/build.make:70: CMakeFiles/ament_cmake_python_copy_example_service_rclcpp] Error 2
+[0.036s] gmake[1]: *** [CMakeFiles/Makefile2:423: CMakeFiles/ament_cmake_python_copy_example_service_rclcpp.dir/all] Error 2
+[0.036s] gmake[1]: *** Waiting for unfinished jobs....
+[0.038s] [  3%] Built target example_service_rclcpp__cpp
+[0.039s] [  6%] [32mBuilding CXX object CMakeFiles/divide_service.dir/src/divide_service.cpp.o[0m
+[0.041s] [ 15%] Built target example_service_rclcpp__rosidl_generator_c
+[0.180s] [01m[K/home/luna/2025-vision-training-master (1)/2025-vision-training-master/homework4/ros_ws/src/example_service_rclcpp/src/divide_service.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Kexample_service_rclcpp/srv/divide.hpp: No such file or directory
+[0.180s]     3 | #include [01;31m[K"example_service_rclcpp/srv/divide.hpp"[m[K
+[0.180s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.180s] compilation terminated.
+[0.184s] gmake[2]: *** [CMakeFiles/divide_service.dir/build.make:76: CMakeFiles/divide_service.dir/src/divide_service.cpp.o] Error 1
+[0.184s] gmake[1]: *** [CMakeFiles/Makefile2:592: CMakeFiles/divide_service.dir/all] Error 2
+[0.184s] gmake: *** [Makefile:146: all] Error 2
+[0.187s] Invoked command in '/home/luna/2025-vision-training-master (1)/2025-vision-training-master/homework4/ros_ws/build/example_service_rclcpp' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/luna/2025-vision-training-master (1)/2025-vision-training-master/homework4/ros_ws/build/example_service_rclcpp -- -j32 -l32

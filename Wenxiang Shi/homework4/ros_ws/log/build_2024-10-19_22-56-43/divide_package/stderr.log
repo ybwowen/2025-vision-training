@@ -1,0 +1,114 @@
+[01m[K/home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/src/divide_package/src/client.cpp:[m[K In constructor ‘[01m[KDivideClientNode::DivideClientNode(int, int)[m[K’:
+[01m[K/home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/src/divide_package/src/client.cpp:32:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kclient[m[K’ was not declared in this scope; did you mean ‘[01m[Kclient_[m[K’?
+   32 |         while (![01;31m[Kclient[m[K->wait_for_service(1s)) {
+      |                 [01;31m[K^~~~~~[m[K
+      |                 [32m[Kclient_[m[K
+[01m[K/home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/src/divide_package/src/client.cpp:35:20:[m[K [01;31m[Kerror: [m[Kreturning a value from a constructor
+   35 |             return [01;31m[K0[m[K;
+      |                    [01;31m[K^[m[K
+[01m[K/home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/src/divide_package/src/client.cpp:42:21:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp::executor[m[K’ has not been declared
+   42 |             rclcpp::[01;31m[Kexecutor[m[K::FutureReturnCode::SUCCESS) {
+      |                     [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/src/divide_package/src/client.cpp:1[m[K:
+[01m[K/home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/src/divide_package/src/client.cpp:44:53:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%ld[m[K’ expects argument of type ‘[01m[Klong int[m[K’, but argument 5 has type ‘[01m[Kdivide_interface::srv::Divide_Request_<std::allocator<void> >::_dividend_type[m[K’ {aka ‘[01m[Kint[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   44 |           RCLCPP_INFO(rclcpp::get_logger("rclcpp"), [01;35m[K"Result of %ld / %ld: Quotient = %ld, Remainder = %ld"[m[K,
+      |                                                     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   45 |                       [32m[Krequest->dividend[m[K, request->divisor, result->quotient, result->remainder);
+      |                       [32m[K~~~~~~~~~~~~~~~~~[m[K              
+      |                                [32m[K|[m[K
+      |                                [32m[Kdivide_interface::srv::Divide_Request_<std::allocator<void> >::_dividend_type {aka int}[m[K
+[01m[K/home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/src/divide_package/src/client.cpp:44:66:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   44 |           RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Result of [01;36m[K%ld[m[K / %ld: Quotient = %ld, Remainder = %ld",
+      |                                                                [01;36m[K~~^[m[K
+      |                                                                  [01;36m[K|[m[K
+      |                                                                  [01;36m[Klong int[m[K
+      |                                                                [32m[K%d[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/src/divide_package/src/client.cpp:1[m[K:
+[01m[K/home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/src/divide_package/src/client.cpp:44:53:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%ld[m[K’ expects argument of type ‘[01m[Klong int[m[K’, but argument 6 has type ‘[01m[Kdivide_interface::srv::Divide_Request_<std::allocator<void> >::_divisor_type[m[K’ {aka ‘[01m[Kint[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   44 |           RCLCPP_INFO(rclcpp::get_logger("rclcpp"), [01;35m[K"Result of %ld / %ld: Quotient = %ld, Remainder = %ld"[m[K,
+      |                                                     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   45 |                       request->dividend, [32m[Krequest->divisor[m[K, result->quotient, result->remainder);
+      |                                          [32m[K~~~~~~~~~~~~~~~~[m[K
+      |                                                   [32m[K|[m[K
+      |                                                   [32m[Kdivide_interface::srv::Divide_Request_<std::allocator<void> >::_divisor_type {aka int}[m[K
+[01m[K/home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/src/divide_package/src/client.cpp:44:72:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   44 |           RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Result of %ld / [01;36m[K%ld[m[K: Quotient = %ld, Remainder = %ld",
+      |                                                                      [01;36m[K~~^[m[K
+      |                                                                        [01;36m[K|[m[K
+      |                                                                        [01;36m[Klong int[m[K
+      |                                                                      [32m[K%d[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/src/divide_package/src/client.cpp:1[m[K:
+[01m[K/home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/src/divide_package/src/client.cpp:44:53:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%ld[m[K’ expects argument of type ‘[01m[Klong int[m[K’, but argument 7 has type ‘[01m[Kdivide_interface::srv::Divide_Response_<std::allocator<void> >::_quotient_type[m[K’ {aka ‘[01m[Kint[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   44 |           RCLCPP_INFO(rclcpp::get_logger("rclcpp"), [01;35m[K"Result of %ld / %ld: Quotient = %ld, Remainder = %ld"[m[K,
+      |                                                     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   45 |                       request->dividend, request->divisor, [32m[Kresult->quotient[m[K, result->remainder);
+      |                                                            [32m[K~~~~~~~~~~~~~~~~[m[K
+      |                                                                    [32m[K|[m[K
+      |                                                                    [32m[Kdivide_interface::srv::Divide_Response_<std::allocator<void> >::_quotient_type {aka int}[m[K
+[01m[K/home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/src/divide_package/src/client.cpp:44:88:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   44 |           RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Result of %ld / %ld: Quotient = [01;36m[K%ld[m[K, Remainder = %ld",
+      |                                                                                      [01;36m[K~~^[m[K
+      |                                                                                        [01;36m[K|[m[K
+      |                                                                                        [01;36m[Klong int[m[K
+      |                                                                                      [32m[K%d[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/src/divide_package/src/client.cpp:1[m[K:
+[01m[K/home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/src/divide_package/src/client.cpp:44:53:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%ld[m[K’ expects argument of type ‘[01m[Klong int[m[K’, but argument 8 has type ‘[01m[Kdivide_interface::srv::Divide_Response_<std::allocator<void> >::_remainder_type[m[K’ {aka ‘[01m[Kint[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   44 |           RCLCPP_INFO(rclcpp::get_logger("rclcpp"), [01;35m[K"Result of %ld / %ld: Quotient = %ld, Remainder = %ld"[m[K,
+      |                                                     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   45 |                       request->dividend, request->divisor, result->quotient, [32m[Kresult->remainder[m[K);
+      |                                                                              [32m[K~~~~~~~~~~~~~~~~~[m[K
+      |                                                                                      [32m[K|[m[K
+      |                                                                                      [32m[Kdivide_interface::srv::Divide_Response_<std::allocator<void> >::_remainder_type {aka int}[m[K
+[01m[K/home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/src/divide_package/src/client.cpp:44:105:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   44 |           RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Result of %ld / %ld: Quotient = %ld, Remainder = [01;36m[K%ld[m[K",
+      |                                                                                                       [01;36m[K~~^[m[K
+      |                                                                                                         [01;36m[K|[m[K
+      |                                                                                                         [01;36m[Klong int[m[K
+      |                                                                                                       [32m[K%d[m[K
+gmake[2]: *** [CMakeFiles/client.dir/build.make:76: CMakeFiles/client.dir/src/client.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/client.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

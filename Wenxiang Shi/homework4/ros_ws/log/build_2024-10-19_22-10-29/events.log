@@ -1,0 +1,6 @@
+[0.000000] (-) TimerEvent: {}
+[0.000202] (-) JobUnselected: {'identifier': 'divide_interface'}
+[0.000234] (divide_package) JobQueued: {'identifier': 'divide_package', 'dependencies': OrderedDict([('divide_interface', '/home/luna/2025-vision-training-master (1)/2025-vision-training-master/homework4/ros_ws/install/divide_interface')])}
+[0.000262] (divide_package) JobStarted: {'identifier': 'divide_package'}
+[0.011991] (divide_package) JobEnded: {'identifier': 'divide_package', 'rc': 1}
+[0.022381] (-) EventReactorShutdown: {}

@@ -1,0 +1,129 @@
+[0.000000] (-) TimerEvent: {}
+[0.000354] (service_demo) JobQueued: {'identifier': 'service_demo', 'dependencies': OrderedDict()}
+[0.001544] (service_demo) JobStarted: {'identifier': 'service_demo'}
+[0.025512] (service_demo) JobProgress: {'identifier': 'service_demo', 'progress': 'cmake'}
+[0.025670] (service_demo) JobProgress: {'identifier': 'service_demo', 'progress': 'build'}
+[0.025712] (service_demo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rm-jiaolong/Workspace/homework4/task1/build/service_demo', '--', '-j4', '-l4'], 'cwd': '/home/rm-jiaolong/Workspace/homework4/task1/build/service_demo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'rm-jiaolong'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('ALLUSERSPROFILE', '/opt/MVS/MVFG'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:'), ('HOME', '/home/rm-jiaolong'), ('OLDPWD', '/home/rm-jiaolong/Workspace/homework4/task1/src'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('SYSTEMD_EXEC_PID', '3296'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'rm-jiaolong'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rm-jiaolong'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('MVCAM_SDK_PATH', '/opt/MVS'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rm-jiaolong:@/tmp/.ICE-unix/3042,unix/rm-jiaolong:/tmp/.ICE-unix/3042'), ('MVCAM_GENICAM_CLPROTOCOL', '/opt/MVS/lib/CLProtocol'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5cc9b8f7_db12_4414_995e_5bbd9628d898'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.171'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rm-jiaolong/Workspace/homework4/task1/build/service_demo'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('MVCAM_COMMON_RUNENV', '/opt/MVS/lib'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099402] (-) TimerEvent: {}
+[0.117991] (service_demo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target service_server\x1b[0m\n'}
+[0.144414] (service_demo) StdoutLine: {'line': b'[ 50%] Built target service_client\n'}
+[0.148225] (service_demo) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/service_server.dir/src/service_server.cpp.o\x1b[0m\n'}
+[0.201620] (-) TimerEvent: {}
+[0.302145] (-) TimerEvent: {}
+[0.402820] (-) TimerEvent: {}
+[0.506360] (-) TimerEvent: {}
+[0.607113] (-) TimerEvent: {}
+[0.710313] (-) TimerEvent: {}
+[0.810792] (-) TimerEvent: {}
+[0.911581] (-) TimerEvent: {}
+[1.012263] (-) TimerEvent: {}
+[1.112752] (-) TimerEvent: {}
+[1.213747] (-) TimerEvent: {}
+[1.314631] (-) TimerEvent: {}
+[1.415196] (-) TimerEvent: {}
+[1.516046] (-) TimerEvent: {}
+[1.616803] (-) TimerEvent: {}
+[1.718945] (-) TimerEvent: {}
+[1.820121] (-) TimerEvent: {}
+[1.920783] (-) TimerEvent: {}
+[2.023200] (-) TimerEvent: {}
+[2.124569] (-) TimerEvent: {}
+[2.226728] (-) TimerEvent: {}
+[2.328107] (-) TimerEvent: {}
+[2.428513] (-) TimerEvent: {}
+[2.532222] (-) TimerEvent: {}
+[2.633270] (-) TimerEvent: {}
+[2.734077] (-) TimerEvent: {}
+[2.834729] (-) TimerEvent: {}
+[2.935675] (-) TimerEvent: {}
+[3.036557] (-) TimerEvent: {}
+[3.137828] (-) TimerEvent: {}
+[3.238586] (-) TimerEvent: {}
+[3.339342] (-) TimerEvent: {}
+[3.439986] (-) TimerEvent: {}
+[3.541357] (-) TimerEvent: {}
+[3.642036] (-) TimerEvent: {}
+[3.742820] (-) TimerEvent: {}
+[3.843453] (-) TimerEvent: {}
+[3.944182] (-) TimerEvent: {}
+[4.044742] (-) TimerEvent: {}
+[4.145897] (-) TimerEvent: {}
+[4.247164] (-) TimerEvent: {}
+[4.348248] (-) TimerEvent: {}
+[4.450136] (-) TimerEvent: {}
+[4.550553] (-) TimerEvent: {}
+[4.651359] (-) TimerEvent: {}
+[4.751969] (-) TimerEvent: {}
+[4.852881] (-) TimerEvent: {}
+[4.954025] (-) TimerEvent: {}
+[5.055156] (-) TimerEvent: {}
+[5.158130] (-) TimerEvent: {}
+[5.258797] (-) TimerEvent: {}
+[5.360220] (-) TimerEvent: {}
+[5.460901] (-) TimerEvent: {}
+[5.562204] (-) TimerEvent: {}
+[5.662970] (-) TimerEvent: {}
+[5.763515] (-) TimerEvent: {}
+[5.864370] (-) TimerEvent: {}
+[5.965258] (-) TimerEvent: {}
+[6.066045] (-) TimerEvent: {}
+[6.166996] (-) TimerEvent: {}
+[6.267980] (-) TimerEvent: {}
+[6.368743] (-) TimerEvent: {}
+[6.469834] (-) TimerEvent: {}
+[6.570413] (-) TimerEvent: {}
+[6.671658] (-) TimerEvent: {}
+[6.772456] (-) TimerEvent: {}
+[6.873250] (-) TimerEvent: {}
+[6.974142] (-) TimerEvent: {}
+[7.074943] (-) TimerEvent: {}
+[7.175962] (-) TimerEvent: {}
+[7.276812] (-) TimerEvent: {}
+[7.377679] (-) TimerEvent: {}
+[7.478351] (-) TimerEvent: {}
+[7.579790] (-) TimerEvent: {}
+[7.680872] (-) TimerEvent: {}
+[7.781550] (-) TimerEvent: {}
+[7.882277] (-) TimerEvent: {}
+[7.982862] (-) TimerEvent: {}
+[8.083868] (-) TimerEvent: {}
+[8.184617] (-) TimerEvent: {}
+[8.285249] (-) TimerEvent: {}
+[8.386020] (-) TimerEvent: {}
+[8.486935] (-) TimerEvent: {}
+[8.587492] (-) TimerEvent: {}
+[8.688001] (-) TimerEvent: {}
+[8.788599] (-) TimerEvent: {}
+[8.836766] (service_demo) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable service_server\x1b[0m\n'}
+[8.890500] (-) TimerEvent: {}
+[8.991458] (-) TimerEvent: {}
+[9.092261] (-) TimerEvent: {}
+[9.169515] (service_demo) StdoutLine: {'line': b'[100%] Built target service_server\n'}
+[9.185932] (service_demo) CommandEnded: {'returncode': 0}
+[9.193050] (-) TimerEvent: {}
+[9.232812] (service_demo) JobProgress: {'identifier': 'service_demo', 'progress': 'install'}
+[9.257593] (service_demo) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/rm-jiaolong/Workspace/homework4/task1/build/service_demo'], 'cwd': '/home/rm-jiaolong/Workspace/homework4/task1/build/service_demo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'rm-jiaolong'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('ALLUSERSPROFILE', '/opt/MVS/MVFG'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:'), ('HOME', '/home/rm-jiaolong'), ('OLDPWD', '/home/rm-jiaolong/Workspace/homework4/task1/src'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('SYSTEMD_EXEC_PID', '3296'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'rm-jiaolong'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rm-jiaolong'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('MVCAM_SDK_PATH', '/opt/MVS'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rm-jiaolong:@/tmp/.ICE-unix/3042,unix/rm-jiaolong:/tmp/.ICE-unix/3042'), ('MVCAM_GENICAM_CLPROTOCOL', '/opt/MVS/lib/CLProtocol'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5cc9b8f7_db12_4414_995e_5bbd9628d898'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.171'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rm-jiaolong/Workspace/homework4/task1/build/service_demo'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('MVCAM_COMMON_RUNENV', '/opt/MVS/lib'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[9.266142] (service_demo) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.267111] (service_demo) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task1/install/service_demo/share/ament_index/resource_index/package_run_dependencies/service_demo\n'}
+[9.268544] (service_demo) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task1/install/service_demo/share/ament_index/resource_index/parent_prefix_path/service_demo\n'}
+[9.268779] (service_demo) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task1/install/service_demo/share/service_demo/environment/ament_prefix_path.sh\n'}
+[9.268990] (service_demo) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task1/install/service_demo/share/service_demo/environment/ament_prefix_path.dsv\n'}
+[9.269113] (service_demo) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task1/install/service_demo/share/service_demo/environment/path.sh\n'}
+[9.269716] (service_demo) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task1/install/service_demo/share/service_demo/environment/path.dsv\n'}
+[9.269919] (service_demo) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task1/install/service_demo/share/service_demo/local_setup.bash\n'}
+[9.270048] (service_demo) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task1/install/service_demo/share/service_demo/local_setup.sh\n'}
+[9.270666] (service_demo) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task1/install/service_demo/share/service_demo/local_setup.zsh\n'}
+[9.271181] (service_demo) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task1/install/service_demo/share/service_demo/local_setup.dsv\n'}
+[9.271348] (service_demo) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task1/install/service_demo/share/service_demo/package.dsv\n'}
+[9.271532] (service_demo) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task1/install/service_demo/share/ament_index/resource_index/packages/service_demo\n'}
+[9.271804] (service_demo) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task1/install/service_demo/share/service_demo/cmake/service_demoConfig.cmake\n'}
+[9.271998] (service_demo) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task1/install/service_demo/share/service_demo/cmake/service_demoConfig-version.cmake\n'}
+[9.272159] (service_demo) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task1/install/service_demo/share/service_demo/package.xml\n'}
+[9.272648] (service_demo) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task1/install/service_demo/lib/service_demo/service_server\n'}
+[9.272820] (service_demo) StdoutLine: {'line': b'-- Set runtime path of "/home/rm-jiaolong/Workspace/homework4/task1/install/service_demo/lib/service_demo/service_server" to ""\n'}
+[9.273388] (service_demo) StdoutLine: {'line': b'-- Installing: /home/rm-jiaolong/Workspace/homework4/task1/install/service_demo/lib/service_demo/service_client\n'}
+[9.274704] (service_demo) StdoutLine: {'line': b'-- Set runtime path of "/home/rm-jiaolong/Workspace/homework4/task1/install/service_demo/lib/service_demo/service_client" to ""\n'}
+[9.278728] (service_demo) CommandEnded: {'returncode': 0}
+[9.293991] (-) TimerEvent: {}
+[9.350336] (service_demo) JobEnded: {'identifier': 'service_demo', 'rc': 0}
+[9.351948] (-) EventReactorShutdown: {}

@@ -1,0 +1,9 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/server.dir/src/server.cpp.o[0m
+[ 75%] Built target client
+[01m[K/home/luna/2025-vision-training-master (1)/2025-vision-training-master/homework4/ros_ws/src/example_service_rclcpp/src/server.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Kexample_service_rclcpp/srv/divide.hpp: No such file or directory
+    3 | #include [01;31m[K"example_service_rclcpp/srv/divide.hpp"[m[K  // Adjust according to your package name
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/server.dir/build.make:76: CMakeFiles/server.dir/src/server.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/server.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

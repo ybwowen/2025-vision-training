@@ -1,0 +1,45 @@
+-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/rm-jiaolong/Workspace/homework4/task1/build/service_demo
+[ 25%] [32mBuilding CXX object CMakeFiles/service_client.dir/src/service_client.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/service_server.dir/src/service_server.cpp.o[0m
+[01m[K/home/rm-jiaolong/Workspace/homework4/task1/src/service_demo/src/service_server.cpp:19:84:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K;[m[K’ token
+   19 | td::shared_ptr<example_interfaces::srv::AddTwoInts::Response> response[01;31m[K;[m[K
+      |                                                                       [01;31m[K^[m[K
+      |                                                                       [32m[K)[m[K
+[01m[K/home/rm-jiaolong/Workspace/homework4/task1/src/service_demo/src/service_server.cpp:17:20:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+   17 |         void getsum[01;36m[K([m[K
+      |                    [01;36m[K^[m[K
+[01m[K/home/rm-jiaolong/Workspace/homework4/task1/src/service_demo/src/service_server.cpp:21:9:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K)[m[K’ token
+   21 |         [01;31m[K)[m[K {
+      |         [01;31m[K^[m[K
+[01m[K/home/rm-jiaolong/Workspace/homework4/task1/src/service_demo/src/service_server.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/rm-jiaolong/Workspace/homework4/task1/src/service_demo/src/service_server.cpp:31:13:[m[K [01;35m[Kwarning: [m[Kstatement is a reference, not call, to function ‘[01m[Krclcpp::shutdown[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Waddress-Waddress]8;;[m[K]
+   31 |     [01;35m[Krclcpp::shutdown[m[K;
+      |     [01;35m[K~~~~~~~~^~~~~~~~[m[K
+[01m[K/home/rm-jiaolong/Workspace/homework4/task1/src/service_demo/src/service_server.cpp:31:13:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+gmake[2]: *** [CMakeFiles/service_server.dir/build.make:76: CMakeFiles/service_server.dir/src/service_server.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/service_server.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[ 75%] [32m[1mLinking CXX executable service_client[0m
+[ 75%] Built target service_client
+gmake: *** [Makefile:146: all] Error 2

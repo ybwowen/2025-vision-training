@@ -1,0 +1,100 @@
+[0.000000] (-) TimerEvent: {}
+[0.000976] (service_demo) JobQueued: {'identifier': 'service_demo', 'dependencies': OrderedDict()}
+[0.002368] (service_demo) JobStarted: {'identifier': 'service_demo'}
+[0.020285] (service_demo) JobProgress: {'identifier': 'service_demo', 'progress': 'cmake'}
+[0.022397] (service_demo) JobProgress: {'identifier': 'service_demo', 'progress': 'build'}
+[0.024174] (service_demo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rm-jiaolong/Workspace/homework4/task1/build/service_demo', '--', '-j4', '-l4'], 'cwd': '/home/rm-jiaolong/Workspace/homework4/task1/build/service_demo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'rm-jiaolong'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('ALLUSERSPROFILE', '/opt/MVS/MVFG'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:'), ('HOME', '/home/rm-jiaolong'), ('OLDPWD', '/home/rm-jiaolong/Workspace/homework4/task1/src'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('SYSTEMD_EXEC_PID', '3296'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'rm-jiaolong'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rm-jiaolong'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('MVCAM_SDK_PATH', '/opt/MVS'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rm-jiaolong:@/tmp/.ICE-unix/3042,unix/rm-jiaolong:/tmp/.ICE-unix/3042'), ('MVCAM_GENICAM_CLPROTOCOL', '/opt/MVS/lib/CLProtocol'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5cc9b8f7_db12_4414_995e_5bbd9628d898'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.171'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rm-jiaolong/Workspace/homework4/task1/build/service_demo'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('MVCAM_COMMON_RUNENV', '/opt/MVS/lib'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.100277] (-) TimerEvent: {}
+[0.121576] (service_demo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target service_server\x1b[0m\n'}
+[0.123491] (service_demo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target service_client\x1b[0m\n'}
+[0.153184] (service_demo) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/service_server.dir/src/service_server.cpp.o\x1b[0m\n'}
+[0.153651] (service_demo) StdoutLine: {'line': b'[ 75%] Built target service_client\n'}
+[0.201903] (-) TimerEvent: {}
+[0.302379] (-) TimerEvent: {}
+[0.403227] (-) TimerEvent: {}
+[0.504024] (-) TimerEvent: {}
+[0.605100] (-) TimerEvent: {}
+[0.705991] (-) TimerEvent: {}
+[0.806939] (-) TimerEvent: {}
+[0.907758] (-) TimerEvent: {}
+[1.008747] (-) TimerEvent: {}
+[1.111466] (-) TimerEvent: {}
+[1.212376] (-) TimerEvent: {}
+[1.312834] (-) TimerEvent: {}
+[1.413672] (-) TimerEvent: {}
+[1.517645] (-) TimerEvent: {}
+[1.618327] (-) TimerEvent: {}
+[1.719445] (-) TimerEvent: {}
+[1.820451] (-) TimerEvent: {}
+[1.921371] (-) TimerEvent: {}
+[2.021878] (-) TimerEvent: {}
+[2.122902] (-) TimerEvent: {}
+[2.223340] (-) TimerEvent: {}
+[2.324161] (-) TimerEvent: {}
+[2.424825] (-) TimerEvent: {}
+[2.525295] (-) TimerEvent: {}
+[2.626321] (-) TimerEvent: {}
+[2.726813] (-) TimerEvent: {}
+[2.827377] (-) TimerEvent: {}
+[2.928065] (-) TimerEvent: {}
+[3.029189] (-) TimerEvent: {}
+[3.129854] (-) TimerEvent: {}
+[3.230432] (-) TimerEvent: {}
+[3.331327] (-) TimerEvent: {}
+[3.431793] (-) TimerEvent: {}
+[3.532616] (-) TimerEvent: {}
+[3.633501] (-) TimerEvent: {}
+[3.734542] (-) TimerEvent: {}
+[3.835411] (-) TimerEvent: {}
+[3.936544] (-) TimerEvent: {}
+[4.037406] (-) TimerEvent: {}
+[4.138193] (-) TimerEvent: {}
+[4.238839] (-) TimerEvent: {}
+[4.339397] (-) TimerEvent: {}
+[4.440314] (-) TimerEvent: {}
+[4.541326] (-) TimerEvent: {}
+[4.642256] (-) TimerEvent: {}
+[4.743056] (-) TimerEvent: {}
+[4.843586] (-) TimerEvent: {}
+[4.944055] (-) TimerEvent: {}
+[5.045097] (-) TimerEvent: {}
+[5.146051] (-) TimerEvent: {}
+[5.246651] (-) TimerEvent: {}
+[5.347223] (-) TimerEvent: {}
+[5.447808] (-) TimerEvent: {}
+[5.548403] (-) TimerEvent: {}
+[5.650285] (-) TimerEvent: {}
+[5.752623] (-) TimerEvent: {}
+[5.819673] (service_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rm-jiaolong/Workspace/homework4/task1/src/service_demo/src/service_server.cpp:19:84:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[5.820118] (service_demo) StderrLine: {'line': b'   19 | td::shared_ptr<example_interfaces::srv::AddTwoInts::Response> response\x1b[01;31m\x1b[K;\x1b[m\x1b[K\n'}
+[5.820282] (service_demo) StderrLine: {'line': b'      |                                                                       \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.820407] (service_demo) StderrLine: {'line': b'      |                                                                       \x1b[32m\x1b[K)\x1b[m\x1b[K\n'}
+[5.820528] (service_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rm-jiaolong/Workspace/homework4/task1/src/service_demo/src/service_server.cpp:17:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kto match this \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.820660] (service_demo) StderrLine: {'line': b'   17 |         void getsum\x1b[01;36m\x1b[K(\x1b[m\x1b[K\n'}
+[5.820965] (service_demo) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[5.821154] (service_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rm-jiaolong/Workspace/homework4/task1/src/service_demo/src/service_server.cpp:21:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[5.821268] (service_demo) StderrLine: {'line': b'   21 |         \x1b[01;31m\x1b[K)\x1b[m\x1b[K {\n'}
+[5.821439] (service_demo) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.852792] (-) TimerEvent: {}
+[5.953638] (-) TimerEvent: {}
+[6.054673] (-) TimerEvent: {}
+[6.156659] (-) TimerEvent: {}
+[6.258591] (-) TimerEvent: {}
+[6.359330] (-) TimerEvent: {}
+[6.459956] (-) TimerEvent: {}
+[6.560860] (-) TimerEvent: {}
+[6.662012] (-) TimerEvent: {}
+[6.762682] (-) TimerEvent: {}
+[6.863748] (-) TimerEvent: {}
+[6.964690] (-) TimerEvent: {}
+[7.065338] (-) TimerEvent: {}
+[7.165903] (-) TimerEvent: {}
+[7.266543] (-) TimerEvent: {}
+[7.367381] (-) TimerEvent: {}
+[7.435855] (service_demo) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/service_server.dir/build.make:76: CMakeFiles/service_server.dir/src/service_server.cpp.o] Error 1\n'}
+[7.436348] (service_demo) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/service_server.dir/all] Error 2\n'}
+[7.436468] (service_demo) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[7.439026] (service_demo) CommandEnded: {'returncode': 2}
+[7.467963] (-) TimerEvent: {}
+[7.488399] (service_demo) JobEnded: {'identifier': 'service_demo', 'rc': 2}
+[7.499165] (-) EventReactorShutdown: {}

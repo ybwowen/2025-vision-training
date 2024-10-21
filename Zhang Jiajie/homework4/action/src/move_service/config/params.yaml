@@ -1,0 +1,9 @@
+move_server:
+  ros__parameters:
+    v: 1.0
+    time_limit: 1.0
+    refresh_rate: 100
+
+move_client:
+  ros__parameters:
+    s: 257.0

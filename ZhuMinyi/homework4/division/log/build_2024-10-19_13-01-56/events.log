@@ -1,0 +1,183 @@
+[0.000000] (-) TimerEvent: {}
+[0.000455] (division) JobQueued: {'identifier': 'division', 'dependencies': OrderedDict()}
+[0.000917] (division) JobStarted: {'identifier': 'division'}
+[0.025252] (division) JobProgress: {'identifier': 'division', 'progress': 'cmake'}
+[0.028162] (division) JobProgress: {'identifier': 'division', 'progress': 'build'}
+[0.029315] (division) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/zmyyy/ZhuMinyi/homework4/division/build/division', '--', '-j20', '-l20'], 'cwd': '/home/zmyyy/ZhuMinyi/homework4/division/build/division', 'env': OrderedDict([('USER', 'zmyyy'), ('GIT_ASKPASS', '/home/zmyyy/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/zmyyy'), ('OLDPWD', '/home/zmyyy/ZhuMinyi/homework4/division'), ('LESS', '-R'), ('TERM_PROGRAM_VERSION', '1.94.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-d403c486-d942-46b5-897b-772014920412.sock'), ('ZSH', '/home/zmyyy/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/zmyyy/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/zmyyy/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('P9K_TTY', 'old'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('COLORTERM', 'truecolor'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'zmyyy'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('WSL_INTEROP', '/run/WSL/1629_interop'), ('NAME', 'Code'), ('_', '/usr/bin/colcon'), ('_P9K_SSH_TTY', '/dev/pts/7'), ('ROS_VERSION', '2'), ('USER_ZDOTDIR', '/home/zmyyy'), ('TERM', 'xterm-256color'), ('AUTOJUMP_ERROR_PATH', '/home/zmyyy/.local/share/autojump/errors.log'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/zmyyy/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/d/VMware/bin/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/d/bin:/mnt/d/Git/cmd:/mnt/d/texlive/2023/bin/windows:/mnt/d/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/dotnet/:/mnt/c/Users/zmyyy/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/zmyyy/AppData/Local/Microsoft/WindowsApps:/mnt/d/Microsoft VS Code/bin:/mnt/d/mingw64/bin:/mnt/d/Anaconda/Scripts:/mnt/c/Users/zmyyy/AppData/Roaming/npm:/mnt/d/node_modules/npm:/mnt/c/Users/zmyyy/AppData/Local/JetBrains/Toolbox/scripts'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('VSCODE_INJECTION', '1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'vscode'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-3b3bfd9ff5.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/zsh'), ('P9K_SSH', '0'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('VSCODE_NONCE', 'a7363747-5624-4193-8de0-d4eb1cccc3d7'), ('PWD', '/home/zmyyy/ZhuMinyi/homework4/division/build/division'), ('_P9K_TTY', '/dev/pts/7'), ('ZDOTDIR', '/home/zmyyy'), ('AUTOJUMP_SOURCED', '1'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('WSL2_GUI_APPS_ENABLED', '1'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099722] (-) TimerEvent: {}
+[0.160436] (division) StdoutLine: {'line': b'[  2%] Built target division__cpp\n'}
+[0.162845] (division) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_symlink_division\n'}
+[0.177473] (division) StdoutLine: {'line': b'[ 11%] Built target division__rosidl_generator_c\n'}
+[0.200023] (-) TimerEvent: {}
+[0.205875] (division) StdoutLine: {'line': b'[ 20%] Built target division__rosidl_typesupport_fastrtps_cpp\n'}
+[0.217491] (division) StdoutLine: {'line': b'[ 28%] Built target division__rosidl_typesupport_introspection_cpp\n'}
+[0.219141] (division) StdoutLine: {'line': b'[ 37%] Built target division__rosidl_typesupport_cpp\n'}
+[0.219419] (division) StdoutLine: {'line': b'[ 45%] Built target division__rosidl_typesupport_introspection_c\n'}
+[0.226119] (division) StdoutLine: {'line': b'[ 54%] Built target division__rosidl_typesupport_c\n'}
+[0.228835] (division) StdoutLine: {'line': b'[ 62%] Built target division__rosidl_typesupport_fastrtps_c\n'}
+[0.250322] (division) StdoutLine: {'line': b'[ 65%] Built target division\n'}
+[0.250556] (division) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/client.dir/src/client.cpp.o\x1b[0m\n'}
+[0.251061] (division) StdoutLine: {'line': b'[ 71%] Built target server\n'}
+[0.272382] (division) StdoutLine: {'line': b'[ 74%] Built target division__py\n'}
+[0.298374] (division) StdoutLine: {'line': b'[ 80%] Built target division__rosidl_generator_py\n'}
+[0.300168] (-) TimerEvent: {}
+[0.325677] (division) StdoutLine: {'line': b'[ 85%] Built target division__rosidl_typesupport_introspection_c__pyext\n'}
+[0.326196] (division) StdoutLine: {'line': b'[ 91%] Built target division__rosidl_typesupport_c__pyext\n'}
+[0.326736] (division) StdoutLine: {'line': b'[ 97%] Built target division__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.400317] (-) TimerEvent: {}
+[0.442941] (division) StdoutLine: {'line': b'running egg_info\n'}
+[0.443718] (division) StdoutLine: {'line': b'writing division.egg-info/PKG-INFO\n'}
+[0.444101] (division) StdoutLine: {'line': b'writing dependency_links to division.egg-info/dependency_links.txt\n'}
+[0.444725] (division) StdoutLine: {'line': b'writing top-level names to division.egg-info/top_level.txt\n'}
+[0.448708] (division) StdoutLine: {'line': b"reading manifest file 'division.egg-info/SOURCES.txt'\n"}
+[0.449658] (division) StdoutLine: {'line': b"writing manifest file 'division.egg-info/SOURCES.txt'\n"}
+[0.480075] (division) StdoutLine: {'line': b'[ 97%] Built target ament_cmake_python_build_division_egg\n'}
+[0.500441] (-) TimerEvent: {}
+[0.600937] (-) TimerEvent: {}
+[0.701352] (-) TimerEvent: {}
+[0.801805] (-) TimerEvent: {}
+[0.902335] (-) TimerEvent: {}
+[1.002846] (-) TimerEvent: {}
+[1.103856] (-) TimerEvent: {}
+[1.204381] (-) TimerEvent: {}
+[1.304848] (-) TimerEvent: {}
+[1.405348] (-) TimerEvent: {}
+[1.505849] (-) TimerEvent: {}
+[1.606189] (-) TimerEvent: {}
+[1.706979] (-) TimerEvent: {}
+[1.807327] (-) TimerEvent: {}
+[1.907717] (-) TimerEvent: {}
+[2.008043] (-) TimerEvent: {}
+[2.108359] (-) TimerEvent: {}
+[2.208658] (-) TimerEvent: {}
+[2.309086] (-) TimerEvent: {}
+[2.409394] (-) TimerEvent: {}
+[2.509742] (-) TimerEvent: {}
+[2.610138] (-) TimerEvent: {}
+[2.710647] (-) TimerEvent: {}
+[2.811120] (-) TimerEvent: {}
+[2.911502] (-) TimerEvent: {}
+[3.011999] (-) TimerEvent: {}
+[3.112445] (-) TimerEvent: {}
+[3.212900] (-) TimerEvent: {}
+[3.313352] (-) TimerEvent: {}
+[3.413732] (-) TimerEvent: {}
+[3.514159] (-) TimerEvent: {}
+[3.614624] (-) TimerEvent: {}
+[3.715125] (-) TimerEvent: {}
+[3.815466] (-) TimerEvent: {}
+[3.915812] (-) TimerEvent: {}
+[4.016177] (-) TimerEvent: {}
+[4.116526] (-) TimerEvent: {}
+[4.216493] (division) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable client\x1b[0m\n'}
+[4.216797] (-) TimerEvent: {}
+[4.317244] (-) TimerEvent: {}
+[4.417762] (-) TimerEvent: {}
+[4.518171] (-) TimerEvent: {}
+[4.618939] (-) TimerEvent: {}
+[4.657294] (division) StdoutLine: {'line': b'[100%] Built target client\n'}
+[4.667214] (division) CommandEnded: {'returncode': 0}
+[4.719224] (-) TimerEvent: {}
+[4.721601] (division) JobProgress: {'identifier': 'division', 'progress': 'install'}
+[4.728770] (division) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/zmyyy/ZhuMinyi/homework4/division/build/division'], 'cwd': '/home/zmyyy/ZhuMinyi/homework4/division/build/division', 'env': OrderedDict([('USER', 'zmyyy'), ('GIT_ASKPASS', '/home/zmyyy/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/zmyyy'), ('OLDPWD', '/home/zmyyy/ZhuMinyi/homework4/division'), ('LESS', '-R'), ('TERM_PROGRAM_VERSION', '1.94.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-d403c486-d942-46b5-897b-772014920412.sock'), ('ZSH', '/home/zmyyy/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/zmyyy/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/zmyyy/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('P9K_TTY', 'old'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('COLORTERM', 'truecolor'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'zmyyy'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('WSL_INTEROP', '/run/WSL/1629_interop'), ('NAME', 'Code'), ('_', '/usr/bin/colcon'), ('_P9K_SSH_TTY', '/dev/pts/7'), ('ROS_VERSION', '2'), ('USER_ZDOTDIR', '/home/zmyyy'), ('TERM', 'xterm-256color'), ('AUTOJUMP_ERROR_PATH', '/home/zmyyy/.local/share/autojump/errors.log'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/zmyyy/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/d/VMware/bin/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/d/bin:/mnt/d/Git/cmd:/mnt/d/texlive/2023/bin/windows:/mnt/d/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/dotnet/:/mnt/c/Users/zmyyy/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/zmyyy/AppData/Local/Microsoft/WindowsApps:/mnt/d/Microsoft VS Code/bin:/mnt/d/mingw64/bin:/mnt/d/Anaconda/Scripts:/mnt/c/Users/zmyyy/AppData/Roaming/npm:/mnt/d/node_modules/npm:/mnt/c/Users/zmyyy/AppData/Local/JetBrains/Toolbox/scripts'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('VSCODE_INJECTION', '1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'vscode'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-3b3bfd9ff5.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/zsh'), ('P9K_SSH', '0'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('VSCODE_NONCE', 'a7363747-5624-4193-8de0-d4eb1cccc3d7'), ('PWD', '/home/zmyyy/ZhuMinyi/homework4/division/build/division'), ('_P9K_TTY', '/dev/pts/7'), ('ZDOTDIR', '/home/zmyyy'), ('AUTOJUMP_SOURCED', '1'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('WSL2_GUI_APPS_ENABLED', '1'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[4.738753] (division) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.740317] (division) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[4.740869] (division) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/share/ament_index/resource_index/rosidl_interfaces/division\n'}
+[4.742336] (division) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/include/division/division/msg/rosidl_generator_c__visibility_control.h\n'}
+[4.742682] (division) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/include/division/division/srv/detail/division__functions.h\n'}
+[4.743116] (division) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/include/division/division/srv/detail/division__struct.h\n'}
+[4.743525] (division) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/include/division/division/srv/detail/division__type_support.h\n'}
+[4.743962] (division) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/include/division/division/srv/division.h\n'}
+[4.744225] (division) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/share/division/environment/library_path.sh\n'}
+[4.744428] (division) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/share/division/environment/library_path.dsv\n'}
+[4.744901] (division) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/include/division/division/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[4.745301] (division) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/include/division/division/srv/detail/division__rosidl_typesupport_fastrtps_c.h\n'}
+[4.745984] (division) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/include/division/division/srv/detail/division__builder.hpp\n'}
+[4.746370] (division) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/include/division/division/srv/detail/division__struct.hpp\n'}
+[4.746770] (division) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/include/division/division/srv/detail/division__traits.hpp\n'}
+[4.747157] (division) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/include/division/division/srv/division.hpp\n'}
+[4.747959] (division) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/include/division/division/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[4.748359] (division) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/include/division/division/srv/detail/division__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.749112] (division) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/include/division/division/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[4.749513] (division) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/include/division/division/srv/detail/division__rosidl_typesupport_introspection_c.h\n'}
+[4.750133] (division) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/include/division/division/srv/detail/division__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.750440] (division) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/share/division/environment/pythonpath.sh\n'}
+[4.750624] (division) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/share/division/environment/pythonpath.dsv\n'}
+[4.751011] (division) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/local/lib/python3.10/dist-packages/division-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[4.751418] (division) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/local/lib/python3.10/dist-packages/division-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[4.751799] (division) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/local/lib/python3.10/dist-packages/division-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[4.752656] (division) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/local/lib/python3.10/dist-packages/division-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[4.753568] (division) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/local/lib/python3.10/dist-packages/division/__init__.py\n'}
+[4.753745] (division) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/local/lib/python3.10/dist-packages/division/_division_s.ep.rosidl_typesupport_c.c\n'}
+[4.754028] (division) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/local/lib/python3.10/dist-packages/division/_division_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[4.754194] (division) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/local/lib/python3.10/dist-packages/division/_division_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[4.755667] (division) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/local/lib/python3.10/dist-packages/division/division_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.755800] (division) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/local/lib/python3.10/dist-packages/division/division_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.755889] (division) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/local/lib/python3.10/dist-packages/division/division_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.755962] (division) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/local/lib/python3.10/dist-packages/division/libdivision__rosidl_generator_py.so\n'}
+[4.756481] (division) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/local/lib/python3.10/dist-packages/division/srv/__init__.py\n'}
+[4.757100] (division) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/local/lib/python3.10/dist-packages/division/srv/_division.py\n'}
+[4.757879] (division) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/local/lib/python3.10/dist-packages/division/srv/_division_s.c\n'}
+[4.758777] (division) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/local/lib/python3.10/dist-packages/division/division_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.759585] (division) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/local/lib/python3.10/dist-packages/division/division_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.760517] (division) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/local/lib/python3.10/dist-packages/division/division_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.761405] (division) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/share/division/srv/Division.idl\n'}
+[4.761787] (division) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/share/division/srv/Division.srv\n'}
+[4.762455] (division) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/share/division/srv/Division_Request.msg\n'}
+[4.763006] (division) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/share/division/srv/Division_Response.msg\n'}
+[4.764019] (division) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/lib/division/server\n'}
+[4.764587] (division) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/lib/division/client\n'}
+[4.765249] (division) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/share/ament_index/resource_index/package_run_dependencies/division\n'}
+[4.765553] (division) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/share/ament_index/resource_index/parent_prefix_path/division\n'}
+[4.765829] (division) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/share/division/environment/ament_prefix_path.sh\n'}
+[4.765934] (division) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/share/division/environment/ament_prefix_path.dsv\n'}
+[4.766165] (division) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/share/division/environment/path.sh\n'}
+[4.766265] (division) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/share/division/environment/path.dsv\n'}
+[4.766505] (division) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/share/division/local_setup.bash\n'}
+[4.766599] (division) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/share/division/local_setup.sh\n'}
+[4.766670] (division) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/share/division/local_setup.zsh\n'}
+[4.766939] (division) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/share/division/local_setup.dsv\n'}
+[4.767056] (division) StdoutLine: {'line': b'-- Symlinking: /home/zmyyy/ZhuMinyi/homework4/division/install/division/share/division/package.dsv\n'}
+[4.773899] (division) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/share/ament_index/resource_index/packages/division\n'}
+[4.774133] (division) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/share/division/cmake/rosidl_cmake-extras.cmake\n'}
+[4.774401] (division) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/share/division/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[4.774554] (division) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/share/division/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[4.774646] (division) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/share/division/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[4.774951] (division) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/share/division/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[4.775049] (division) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/share/division/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[4.775199] (division) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/share/division/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[4.775499] (division) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/share/division/cmake/divisionConfig.cmake\n'}
+[4.775617] (division) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/share/division/cmake/divisionConfig-version.cmake\n'}
+[4.775680] (division) StdoutLine: {'line': b'-- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/share/division/package.xml\n'}
+[4.776248] (division) StdoutLine: {'line': b'-- Up-to-date: /home/zmyyy/ZhuMinyi/homework4/division/install/division/lib/libdivision__rosidl_generator_c.so\n'}
+[4.777171] (division) StdoutLine: {'line': b'-- Up-to-date: /home/zmyyy/ZhuMinyi/homework4/division/install/division/lib/libdivision__rosidl_typesupport_fastrtps_c.so\n'}
+[4.778129] (division) StdoutLine: {'line': b'-- Up-to-date: /home/zmyyy/ZhuMinyi/homework4/division/install/division/lib/libdivision__rosidl_typesupport_fastrtps_cpp.so\n'}
+[4.778986] (division) StdoutLine: {'line': b'-- Up-to-date: /home/zmyyy/ZhuMinyi/homework4/division/install/division/lib/libdivision__rosidl_typesupport_introspection_c.so\n'}
+[4.779818] (division) StdoutLine: {'line': b'-- Up-to-date: /home/zmyyy/ZhuMinyi/homework4/division/install/division/lib/libdivision__rosidl_typesupport_c.so\n'}
+[4.780771] (division) StdoutLine: {'line': b'-- Up-to-date: /home/zmyyy/ZhuMinyi/homework4/division/install/division/lib/libdivision__rosidl_typesupport_introspection_cpp.so\n'}
+[4.781429] (division) StdoutLine: {'line': b'-- Up-to-date: /home/zmyyy/ZhuMinyi/homework4/division/install/division/lib/libdivision__rosidl_typesupport_cpp.so\n'}
+[4.819002] (division) StdoutLine: {'line': b"Listing '/home/zmyyy/ZhuMinyi/homework4/division/install/division/local/lib/python3.10/dist-packages/division'...\n"}
+[4.819249] (-) TimerEvent: {}
+[4.819428] (division) StdoutLine: {'line': b"Listing '/home/zmyyy/ZhuMinyi/homework4/division/install/division/local/lib/python3.10/dist-packages/division/srv'...\n"}
+[4.823733] (division) StdoutLine: {'line': b'-- Up-to-date: /home/zmyyy/ZhuMinyi/homework4/division/install/division/lib/libdivision__rosidl_generator_py.so\n'}
+[4.824966] (division) StdoutLine: {'line': b'-- Up-to-date: /home/zmyyy/ZhuMinyi/homework4/division/install/division/share/division/cmake/export_division__rosidl_generator_cExport.cmake\n'}
+[4.825193] (division) StdoutLine: {'line': b'-- Up-to-date: /home/zmyyy/ZhuMinyi/homework4/division/install/division/share/division/cmake/export_division__rosidl_generator_cExport-noconfig.cmake\n'}
+[4.826154] (division) StdoutLine: {'line': b'-- Up-to-date: /home/zmyyy/ZhuMinyi/homework4/division/install/division/share/division/cmake/export_division__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[4.826380] (division) StdoutLine: {'line': b'-- Up-to-date: /home/zmyyy/ZhuMinyi/homework4/division/install/division/share/division/cmake/export_division__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[4.827892] (division) StdoutLine: {'line': b'-- Up-to-date: /home/zmyyy/ZhuMinyi/homework4/division/install/division/share/division/cmake/export_division__rosidl_generator_cppExport.cmake\n'}
+[4.829762] (division) StdoutLine: {'line': b'-- Up-to-date: /home/zmyyy/ZhuMinyi/homework4/division/install/division/share/division/cmake/export_division__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[4.830043] (division) StdoutLine: {'line': b'-- Up-to-date: /home/zmyyy/ZhuMinyi/homework4/division/install/division/share/division/cmake/export_division__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[4.831581] (division) StdoutLine: {'line': b'-- Up-to-date: /home/zmyyy/ZhuMinyi/homework4/division/install/division/share/division/cmake/division__rosidl_typesupport_introspection_cExport.cmake\n'}
+[4.831773] (division) StdoutLine: {'line': b'-- Up-to-date: /home/zmyyy/ZhuMinyi/homework4/division/install/division/share/division/cmake/division__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[4.832828] (division) StdoutLine: {'line': b'-- Up-to-date: /home/zmyyy/ZhuMinyi/homework4/division/install/division/share/division/cmake/division__rosidl_typesupport_cExport.cmake\n'}
+[4.833059] (division) StdoutLine: {'line': b'-- Up-to-date: /home/zmyyy/ZhuMinyi/homework4/division/install/division/share/division/cmake/division__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[4.834741] (division) StdoutLine: {'line': b'-- Up-to-date: /home/zmyyy/ZhuMinyi/homework4/division/install/division/share/division/cmake/division__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[4.834968] (division) StdoutLine: {'line': b'-- Up-to-date: /home/zmyyy/ZhuMinyi/homework4/division/install/division/share/division/cmake/division__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[4.837453] (division) StdoutLine: {'line': b'-- Up-to-date: /home/zmyyy/ZhuMinyi/homework4/division/install/division/share/division/cmake/division__rosidl_typesupport_cppExport.cmake\n'}
+[4.837752] (division) StdoutLine: {'line': b'-- Up-to-date: /home/zmyyy/ZhuMinyi/homework4/division/install/division/share/division/cmake/division__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[4.839078] (division) StdoutLine: {'line': b'-- Up-to-date: /home/zmyyy/ZhuMinyi/homework4/division/install/division/share/division/cmake/export_division__rosidl_generator_pyExport.cmake\n'}
+[4.839322] (division) StdoutLine: {'line': b'-- Up-to-date: /home/zmyyy/ZhuMinyi/homework4/division/install/division/share/division/cmake/export_division__rosidl_generator_pyExport-noconfig.cmake\n'}
+[4.842150] (division) CommandEnded: {'returncode': 0}
+[4.920596] (-) TimerEvent: {}
+[4.934913] (division) JobEnded: {'identifier': 'division', 'rc': 0}
+[4.937907] (-) EventReactorShutdown: {}

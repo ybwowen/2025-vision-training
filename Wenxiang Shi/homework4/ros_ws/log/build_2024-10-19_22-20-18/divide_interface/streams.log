@@ -1,0 +1,263 @@
+[0.007s] Invoking command in '/home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/build/divide_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/src/divide_interface -DCMAKE_INSTALL_PREFIX=/home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface
+[0.063s] -- The C compiler identification is GNU 12.3.0
+[0.117s] -- The CXX compiler identification is GNU 11.4.0
+[0.130s] -- Detecting C compiler ABI info
+[0.196s] -- Detecting C compiler ABI info - done
+[0.208s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.208s] -- Detecting C compile features
+[0.208s] -- Detecting C compile features - done
+[0.219s] -- Detecting CXX compiler ABI info
+[0.298s] -- Detecting CXX compiler ABI info - done
+[0.306s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.306s] -- Detecting CXX compile features
+[0.306s] -- Detecting CXX compile features - done
+[0.308s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.430s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.497s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.499s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.503s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.531s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.873s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.199s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.630s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.631s] [33mCMake Warning (dev) at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:20 (find_package):
+[1.631s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[1.631s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[1.631s]   the cmake_policy command to set the policy and suppress this warning.
+[1.631s] 
+[1.631s] Call Stack (most recent call first):
+[1.632s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[1.632s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[1.632s]   CMakeLists.txt:13 (rosidl_generate_interfaces)
+[1.632s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.632s] [0m
+[1.650s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.651s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.651s] [33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:52 (find_package):
+[1.652s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[1.652s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[1.652s]   the cmake_policy command to set the policy and suppress this warning.
+[1.652s] 
+[1.652s] Call Stack (most recent call first):
+[1.652s]   /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[1.652s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[1.652s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[1.652s]   CMakeLists.txt:13 (rosidl_generate_interfaces)
+[1.652s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.652s] [0m
+[1.674s] [33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:140 (find_package):
+[1.674s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[1.674s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[1.674s]   the cmake_policy command to set the policy and suppress this warning.
+[1.674s] 
+[1.674s] Call Stack (most recent call first):
+[1.674s]   /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[1.675s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[1.675s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[1.675s]   CMakeLists.txt:13 (rosidl_generate_interfaces)
+[1.675s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.675s] [0m
+[1.680s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.681s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.681s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.681s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.697s] -- Found PythonExtra: .so  
+[1.727s] -- Configuring done (1.7s)
+[1.743s] -- Generating done (0.0s)
+[1.745s] -- Build files have been written to: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/build/divide_interface
+[1.749s] Invoked command in '/home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/build/divide_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/src/divide_interface -DCMAKE_INSTALL_PREFIX=/home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface
+[1.750s] Invoking command in '/home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/build/divide_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/build/divide_interface -- -j32 -l32
+[1.767s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.772s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.775s] [  6%] Built target ament_cmake_python_copy_divide_interface
+[1.915s] running egg_info
+[1.916s] creating divide_interface.egg-info
+[1.916s] writing divide_interface.egg-info/PKG-INFO
+[1.916s] writing dependency_links to divide_interface.egg-info/dependency_links.txt
+[1.916s] writing top-level names to divide_interface.egg-info/top_level.txt
+[1.916s] writing manifest file 'divide_interface.egg-info/SOURCES.txt'
+[1.918s] reading manifest file 'divide_interface.egg-info/SOURCES.txt'
+[1.918s] writing manifest file 'divide_interface.egg-info/SOURCES.txt'
+[1.930s] [  6%] Built target divide_interface__cpp
+[1.931s] [  9%] [32mBuilding C object CMakeFiles/divide_interface__rosidl_generator_c.dir/rosidl_generator_c/divide_interface/srv/detail/divide__functions.c.o[0m
+[1.932s] [  9%] Built target ament_cmake_python_build_divide_interface_egg
+[1.935s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.935s] [ 16%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.935s] [ 19%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.971s] [ 22%] [32m[1mLinking C shared library libdivide_interface__rosidl_generator_c.so[0m
+[1.993s] [ 22%] Built target divide_interface__rosidl_generator_c
+[1.997s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.997s] [ 29%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.998s] [ 32%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.075s] [ 35%] [32mBuilding CXX object CMakeFiles/divide_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/divide_interface/srv/divide__type_support.cpp.o[0m
+[2.084s] [ 38%] [32mBuilding CXX object CMakeFiles/divide_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/divide_interface/srv/detail/divide__type_support.cpp.o[0m
+[2.095s] [ 41%] [32mBuilding CXX object CMakeFiles/divide_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/divide_interface/srv/detail/dds_fastrtps/divide__type_support.cpp.o[0m
+[2.146s] [ 45%] [32mBuilding CXX object CMakeFiles/divide_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/divide_interface/srv/divide__type_support.cpp.o[0m
+[2.155s] [ 48%] [32mBuilding C object CMakeFiles/divide_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/divide_interface/srv/detail/divide__type_support.c.o[0m
+[2.159s] [ 51%] [32mBuilding CXX object CMakeFiles/divide_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/divide_interface/srv/detail/divide__type_support_c.cpp.o[0m
+[2.171s] [ 54%] [32m[1mLinking CXX shared library libdivide_interface__rosidl_typesupport_c.so[0m
+[2.184s] [ 58%] [32m[1mLinking C shared library libdivide_interface__rosidl_typesupport_introspection_c.so[0m
+[2.194s] [ 58%] Built target divide_interface__rosidl_typesupport_c
+[2.202s] [ 58%] Built target divide_interface__rosidl_typesupport_introspection_c
+[2.231s] [ 61%] [32m[1mLinking CXX shared library libdivide_interface__rosidl_typesupport_cpp.so[0m
+[2.252s] [ 61%] Built target divide_interface__rosidl_typesupport_cpp
+[2.294s] [ 64%] [32m[1mLinking CXX shared library libdivide_interface__rosidl_typesupport_introspection_cpp.so[0m
+[2.318s] [ 64%] Built target divide_interface__rosidl_typesupport_introspection_cpp
+[2.321s] [ 67%] [32m[1mLinking CXX shared library libdivide_interface__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.348s] [ 70%] [32m[1mLinking CXX shared library libdivide_interface__rosidl_typesupport_fastrtps_c.so[0m
+[2.367s] [ 70%] Built target divide_interface__rosidl_typesupport_fastrtps_cpp
+[2.395s] [ 70%] Built target divide_interface__rosidl_typesupport_fastrtps_c
+[2.402s] [ 70%] Built target divide_interface
+[2.411s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[2.628s] [ 74%] Built target divide_interface__py
+[2.636s] [ 77%] [32mBuilding C object CMakeFiles/divide_interface__rosidl_generator_py.dir/rosidl_generator_py/divide_interface/srv/_divide_s.c.o[0m
+[2.733s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/divide_interface/libdivide_interface__rosidl_generator_py.so[0m
+[2.762s] [ 80%] Built target divide_interface__rosidl_generator_py
+[2.771s] [ 83%] [32mBuilding C object CMakeFiles/divide_interface__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/divide_interface/_divide_interface_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[2.772s] [ 87%] [32mBuilding C object CMakeFiles/divide_interface__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/divide_interface/_divide_interface_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[2.772s] [ 90%] [32mBuilding C object CMakeFiles/divide_interface__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/divide_interface/_divide_interface_s.ep.rosidl_typesupport_c.c.o[0m
+[2.833s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/divide_interface/divide_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.833s] [100%] [32m[1mLinking C shared library rosidl_generator_py/divide_interface/divide_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.833s] [100%] [32m[1mLinking C shared library rosidl_generator_py/divide_interface/divide_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.852s] [100%] Built target divide_interface__rosidl_typesupport_introspection_c__pyext
+[2.852s] [100%] Built target divide_interface__rosidl_typesupport_fastrtps_c__pyext
+[2.853s] [100%] Built target divide_interface__rosidl_typesupport_c__pyext
+[2.858s] Invoked command in '/home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/build/divide_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/build/divide_interface -- -j32 -l32
+[2.936s] Invoking command in '/home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/build/divide_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/build/divide_interface
+[2.939s] -- Install configuration: ""
+[2.939s] -- Installing: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/share/ament_index/resource_index/rosidl_interfaces/divide_interface
+[2.940s] -- Installing: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/include/divide_interface/divide_interface
+[2.940s] -- Installing: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/include/divide_interface/divide_interface/msg
+[2.940s] -- Installing: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/include/divide_interface/divide_interface/msg/rosidl_generator_c__visibility_control.h
+[2.940s] -- Installing: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/include/divide_interface/divide_interface/srv
+[2.940s] -- Installing: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/include/divide_interface/divide_interface/srv/detail
+[2.940s] -- Installing: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/include/divide_interface/divide_interface/srv/detail/divide__functions.c
+[2.940s] -- Installing: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/include/divide_interface/divide_interface/srv/detail/divide__type_support.h
+[2.940s] -- Installing: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/include/divide_interface/divide_interface/srv/detail/divide__functions.h
+[2.940s] -- Installing: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/include/divide_interface/divide_interface/srv/detail/divide__struct.h
+[2.940s] -- Installing: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/include/divide_interface/divide_interface/srv/divide.h
+[2.941s] -- Installing: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/share/divide_interface/environment/library_path.sh
+[2.941s] -- Installing: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/share/divide_interface/environment/library_path.dsv
+[2.941s] -- Installing: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/lib/libdivide_interface__rosidl_generator_c.so
+[2.941s] -- Set non-toolchain portion of runtime path of "/home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/lib/libdivide_interface__rosidl_generator_c.so" to ""
+[2.941s] -- Up-to-date: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/include/divide_interface/divide_interface
+[2.941s] -- Up-to-date: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/include/divide_interface/divide_interface/msg
+[2.941s] -- Installing: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/include/divide_interface/divide_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.941s] -- Up-to-date: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/include/divide_interface/divide_interface/srv
+[2.941s] -- Up-to-date: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/include/divide_interface/divide_interface/srv/detail
+[2.941s] -- Installing: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/include/divide_interface/divide_interface/srv/detail/divide__rosidl_typesupport_fastrtps_c.h
+[2.941s] -- Installing: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/lib/libdivide_interface__rosidl_typesupport_fastrtps_c.so
+[2.942s] -- Set non-toolchain portion of runtime path of "/home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/lib/libdivide_interface__rosidl_typesupport_fastrtps_c.so" to ""
+[2.942s] -- Up-to-date: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/include/divide_interface/divide_interface
+[2.942s] -- Up-to-date: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/include/divide_interface/divide_interface/msg
+[2.942s] -- Installing: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/include/divide_interface/divide_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.942s] -- Up-to-date: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/include/divide_interface/divide_interface/srv
+[2.942s] -- Up-to-date: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/include/divide_interface/divide_interface/srv/detail
+[2.942s] -- Installing: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/include/divide_interface/divide_interface/srv/detail/divide__type_support.c
+[2.942s] -- Installing: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/include/divide_interface/divide_interface/srv/detail/divide__rosidl_typesupport_introspection_c.h
+[2.942s] -- Installing: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/lib/libdivide_interface__rosidl_typesupport_introspection_c.so
+[2.943s] -- Set non-toolchain portion of runtime path of "/home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/lib/libdivide_interface__rosidl_typesupport_introspection_c.so" to ""
+[2.943s] -- Installing: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/lib/libdivide_interface__rosidl_typesupport_c.so
+[2.943s] -- Set non-toolchain portion of runtime path of "/home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/lib/libdivide_interface__rosidl_typesupport_c.so" to ""
+[2.943s] -- Up-to-date: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/include/divide_interface/divide_interface
+[2.943s] -- Up-to-date: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/include/divide_interface/divide_interface/srv
+[2.943s] -- Installing: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/include/divide_interface/divide_interface/srv/divide.hpp
+[2.943s] -- Up-to-date: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/include/divide_interface/divide_interface/srv/detail
+[2.943s] -- Installing: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/include/divide_interface/divide_interface/srv/detail/divide__struct.hpp
+[2.944s] -- Installing: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/include/divide_interface/divide_interface/srv/detail/divide__traits.hpp
+[2.944s] -- Installing: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/include/divide_interface/divide_interface/srv/detail/divide__builder.hpp
+[2.944s] -- Up-to-date: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/include/divide_interface/divide_interface
+[2.944s] -- Up-to-date: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/include/divide_interface/divide_interface/msg
+[2.944s] -- Installing: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/include/divide_interface/divide_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.944s] -- Up-to-date: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/include/divide_interface/divide_interface/srv
+[2.944s] -- Up-to-date: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/include/divide_interface/divide_interface/srv/detail
+[2.944s] -- Installing: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/include/divide_interface/divide_interface/srv/detail/divide__rosidl_typesupport_fastrtps_cpp.hpp
+[2.944s] -- Installing: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/include/divide_interface/divide_interface/srv/detail/dds_fastrtps
+[2.944s] -- Installing: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/lib/libdivide_interface__rosidl_typesupport_fastrtps_cpp.so
+[2.944s] -- Set non-toolchain portion of runtime path of "/home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/lib/libdivide_interface__rosidl_typesupport_fastrtps_cpp.so" to ""
+[2.944s] -- Up-to-date: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/include/divide_interface/divide_interface
+[2.945s] -- Up-to-date: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/include/divide_interface/divide_interface/srv
+[2.945s] -- Up-to-date: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/include/divide_interface/divide_interface/srv/detail
+[2.945s] -- Installing: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/include/divide_interface/divide_interface/srv/detail/divide__rosidl_typesupport_introspection_cpp.hpp
+[2.945s] -- Installing: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/include/divide_interface/divide_interface/srv/detail/divide__type_support.cpp
+[2.945s] -- Installing: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/lib/libdivide_interface__rosidl_typesupport_introspection_cpp.so
+[2.945s] -- Set non-toolchain portion of runtime path of "/home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/lib/libdivide_interface__rosidl_typesupport_introspection_cpp.so" to ""
+[2.945s] -- Installing: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/lib/libdivide_interface__rosidl_typesupport_cpp.so
+[2.945s] -- Set non-toolchain portion of runtime path of "/home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/lib/libdivide_interface__rosidl_typesupport_cpp.so" to ""
+[2.945s] -- Installing: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/share/divide_interface/environment/pythonpath.sh
+[2.945s] -- Installing: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/share/divide_interface/environment/pythonpath.dsv
+[2.945s] -- Installing: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/local/lib/python3.10/dist-packages/divide_interface-0.0.0-py3.10.egg-info
+[2.946s] -- Installing: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/local/lib/python3.10/dist-packages/divide_interface-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.946s] -- Installing: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/local/lib/python3.10/dist-packages/divide_interface-0.0.0-py3.10.egg-info/PKG-INFO
+[2.946s] -- Installing: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/local/lib/python3.10/dist-packages/divide_interface-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.946s] -- Installing: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/local/lib/python3.10/dist-packages/divide_interface-0.0.0-py3.10.egg-info/top_level.txt
+[2.946s] -- Installing: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/local/lib/python3.10/dist-packages/divide_interface
+[2.946s] -- Installing: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/local/lib/python3.10/dist-packages/divide_interface/_divide_interface_s.ep.rosidl_typesupport_c.c
+[2.946s] -- Installing: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/local/lib/python3.10/dist-packages/divide_interface/divide_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.946s] -- Installing: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/local/lib/python3.10/dist-packages/divide_interface/srv
+[2.946s] -- Installing: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/local/lib/python3.10/dist-packages/divide_interface/srv/_divide.py
+[2.946s] -- Installing: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/local/lib/python3.10/dist-packages/divide_interface/srv/_divide_s.c
+[2.947s] -- Installing: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/local/lib/python3.10/dist-packages/divide_interface/srv/__init__.py
+[2.947s] -- Installing: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/local/lib/python3.10/dist-packages/divide_interface/divide_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.947s] -- Installing: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/local/lib/python3.10/dist-packages/divide_interface/divide_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.947s] -- Installing: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/local/lib/python3.10/dist-packages/divide_interface/libdivide_interface__rosidl_generator_py.so
+[2.947s] -- Installing: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/local/lib/python3.10/dist-packages/divide_interface/__init__.py
+[2.947s] -- Installing: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/local/lib/python3.10/dist-packages/divide_interface/_divide_interface_s.ep.rosidl_typesupport_introspection_c.c
+[2.947s] -- Installing: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/local/lib/python3.10/dist-packages/divide_interface/_divide_interface_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.979s] Listing '/home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/local/lib/python3.10/dist-packages/divide_interface'...
+[2.979s] Compiling '/home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/local/lib/python3.10/dist-packages/divide_interface/__init__.py'...
+[2.979s] Listing '/home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/local/lib/python3.10/dist-packages/divide_interface/srv'...
+[2.979s] Compiling '/home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/local/lib/python3.10/dist-packages/divide_interface/srv/__init__.py'...
+[2.979s] Compiling '/home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/local/lib/python3.10/dist-packages/divide_interface/srv/_divide.py'...
+[2.982s] -- Installing: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/local/lib/python3.10/dist-packages/divide_interface/divide_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.982s] -- Set non-toolchain portion of runtime path of "/home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/local/lib/python3.10/dist-packages/divide_interface/divide_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.982s] -- Installing: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/local/lib/python3.10/dist-packages/divide_interface/divide_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.982s] -- Set non-toolchain portion of runtime path of "/home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/local/lib/python3.10/dist-packages/divide_interface/divide_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.982s] -- Installing: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/local/lib/python3.10/dist-packages/divide_interface/divide_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.982s] -- Set non-toolchain portion of runtime path of "/home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/local/lib/python3.10/dist-packages/divide_interface/divide_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.982s] -- Installing: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/lib/libdivide_interface__rosidl_generator_py.so
+[2.982s] -- Set non-toolchain portion of runtime path of "/home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/lib/libdivide_interface__rosidl_generator_py.so" to ""
+[2.982s] -- Installing: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/share/divide_interface/srv/Divide.idl
+[2.982s] -- Installing: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/share/divide_interface/srv/Divide.srv
+[2.982s] -- Installing: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/share/divide_interface/srv/Divide_Request.msg
+[2.982s] -- Installing: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/share/divide_interface/srv/Divide_Response.msg
+[2.982s] -- Installing: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/share/ament_index/resource_index/package_run_dependencies/divide_interface
+[2.983s] -- Installing: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/share/ament_index/resource_index/parent_prefix_path/divide_interface
+[2.983s] -- Installing: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/share/divide_interface/environment/ament_prefix_path.sh
+[2.983s] -- Installing: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/share/divide_interface/environment/ament_prefix_path.dsv
+[2.983s] -- Installing: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/share/divide_interface/environment/path.sh
+[2.983s] -- Installing: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/share/divide_interface/environment/path.dsv
+[2.983s] -- Installing: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/share/divide_interface/local_setup.bash
+[2.983s] -- Installing: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/share/divide_interface/local_setup.sh
+[2.983s] -- Installing: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/share/divide_interface/local_setup.zsh
+[2.983s] -- Installing: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/share/divide_interface/local_setup.dsv
+[2.983s] -- Installing: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/share/divide_interface/package.dsv
+[2.983s] -- Installing: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/share/ament_index/resource_index/packages/divide_interface
+[2.983s] -- Installing: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/share/divide_interface/cmake/export_divide_interface__rosidl_generator_cExport.cmake
+[2.983s] -- Installing: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/share/divide_interface/cmake/export_divide_interface__rosidl_generator_cExport-noconfig.cmake
+[2.983s] -- Installing: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/share/divide_interface/cmake/export_divide_interface__rosidl_typesupport_fastrtps_cExport.cmake
+[2.983s] -- Installing: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/share/divide_interface/cmake/export_divide_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.983s] -- Installing: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/share/divide_interface/cmake/divide_interface__rosidl_typesupport_introspection_cExport.cmake
+[2.983s] -- Installing: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/share/divide_interface/cmake/divide_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.983s] -- Installing: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/share/divide_interface/cmake/divide_interface__rosidl_typesupport_cExport.cmake
+[2.984s] -- Installing: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/share/divide_interface/cmake/divide_interface__rosidl_typesupport_cExport-noconfig.cmake
+[2.984s] -- Installing: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/share/divide_interface/cmake/export_divide_interface__rosidl_generator_cppExport.cmake
+[2.984s] -- Installing: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/share/divide_interface/cmake/export_divide_interface__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.984s] -- Installing: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/share/divide_interface/cmake/export_divide_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.984s] -- Installing: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/share/divide_interface/cmake/divide_interface__rosidl_typesupport_introspection_cppExport.cmake
+[2.984s] -- Installing: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/share/divide_interface/cmake/divide_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.984s] -- Installing: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/share/divide_interface/cmake/divide_interface__rosidl_typesupport_cppExport.cmake
+[2.984s] -- Installing: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/share/divide_interface/cmake/divide_interface__rosidl_typesupport_cppExport-noconfig.cmake
+[2.984s] -- Installing: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/share/divide_interface/cmake/export_divide_interface__rosidl_generator_pyExport.cmake
+[2.984s] -- Installing: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/share/divide_interface/cmake/export_divide_interface__rosidl_generator_pyExport-noconfig.cmake
+[2.984s] -- Installing: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/share/divide_interface/cmake/rosidl_cmake-extras.cmake
+[2.984s] -- Installing: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/share/divide_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.984s] -- Installing: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/share/divide_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[2.984s] -- Installing: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/share/divide_interface/cmake/ament_cmake_export_targets-extras.cmake
+[2.984s] -- Installing: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/share/divide_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.984s] -- Installing: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/share/divide_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.984s] -- Installing: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/share/divide_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.984s] -- Installing: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/share/divide_interface/cmake/divide_interfaceConfig.cmake
+[2.984s] -- Installing: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/share/divide_interface/cmake/divide_interfaceConfig-version.cmake
+[2.985s] -- Installing: /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/install/divide_interface/share/divide_interface/package.xml
+[2.986s] Invoked command in '/home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/build/divide_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/luna/2025-vision-training-master/2025-vision-training-master/homework4/ros_ws/build/divide_interface

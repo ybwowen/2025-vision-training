@@ -1,0 +1,25 @@
+[35m[1mConsolidate compiler generated dependencies of target service_server[0m
+[ 50%] Built target service_client
+[ 75%] [32mBuilding CXX object CMakeFiles/service_server.dir/src/service_server.cpp.o[0m
+[100%] [32m[1mLinking CXX executable service_server[0m
+[100%] Built target service_server
+-- Install configuration: ""
+-- Installing: /home/rm-jiaolong/Workspace/homework4/task1/install/service_demo/share/ament_index/resource_index/package_run_dependencies/service_demo
+-- Installing: /home/rm-jiaolong/Workspace/homework4/task1/install/service_demo/share/ament_index/resource_index/parent_prefix_path/service_demo
+-- Installing: /home/rm-jiaolong/Workspace/homework4/task1/install/service_demo/share/service_demo/environment/ament_prefix_path.sh
+-- Installing: /home/rm-jiaolong/Workspace/homework4/task1/install/service_demo/share/service_demo/environment/ament_prefix_path.dsv
+-- Installing: /home/rm-jiaolong/Workspace/homework4/task1/install/service_demo/share/service_demo/environment/path.sh
+-- Installing: /home/rm-jiaolong/Workspace/homework4/task1/install/service_demo/share/service_demo/environment/path.dsv
+-- Installing: /home/rm-jiaolong/Workspace/homework4/task1/install/service_demo/share/service_demo/local_setup.bash
+-- Installing: /home/rm-jiaolong/Workspace/homework4/task1/install/service_demo/share/service_demo/local_setup.sh
+-- Installing: /home/rm-jiaolong/Workspace/homework4/task1/install/service_demo/share/service_demo/local_setup.zsh
+-- Installing: /home/rm-jiaolong/Workspace/homework4/task1/install/service_demo/share/service_demo/local_setup.dsv
+-- Installing: /home/rm-jiaolong/Workspace/homework4/task1/install/service_demo/share/service_demo/package.dsv
+-- Installing: /home/rm-jiaolong/Workspace/homework4/task1/install/service_demo/share/ament_index/resource_index/packages/service_demo
+-- Installing: /home/rm-jiaolong/Workspace/homework4/task1/install/service_demo/share/service_demo/cmake/service_demoConfig.cmake
+-- Installing: /home/rm-jiaolong/Workspace/homework4/task1/install/service_demo/share/service_demo/cmake/service_demoConfig-version.cmake
+-- Installing: /home/rm-jiaolong/Workspace/homework4/task1/install/service_demo/share/service_demo/package.xml
+-- Installing: /home/rm-jiaolong/Workspace/homework4/task1/install/service_demo/lib/service_demo/service_server
+-- Set runtime path of "/home/rm-jiaolong/Workspace/homework4/task1/install/service_demo/lib/service_demo/service_server" to ""
+-- Installing: /home/rm-jiaolong/Workspace/homework4/task1/install/service_demo/lib/service_demo/service_client
+-- Set runtime path of "/home/rm-jiaolong/Workspace/homework4/task1/install/service_demo/lib/service_demo/service_client" to ""

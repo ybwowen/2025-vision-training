@@ -1,0 +1,78 @@
+[0.011s] Invoking command in '/home/zmyyy/ZhuMinyi/homework4/division/build/division': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --build /home/zmyyy/ZhuMinyi/homework4/division/build/division -- -j20 -l20
+[0.033s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.115s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.130s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.406s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.409s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.415s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.425s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.438s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.471s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.473s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[11.414s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[11.480s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[11.632s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[11.817s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[11.885s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[11.898s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[11.912s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[11.912s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[11.912s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[11.922s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[11.938s] -- Added test 'copyright' to check source files copyright and LICENSE
+[11.977s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[11.977s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/zmyyy/ZhuMinyi/homework4/division/build/division/rosidl_generator_c>;$<BUILD_INTERFACE:/home/zmyyy/ZhuMinyi/homework4/division/build/division/rosidl_typesupport_fastrtps_c>;$<BUILD_INTERFACE:/home/zmyyy/ZhuMinyi/homework4/division/build/division/rosidl_generator_cpp>;$<BUILD_INTERFACE:/home/zmyyy/ZhuMinyi/homework4/division/build/division/rosidl_typesupport_fastrtps_cpp>;$<BUILD_INTERFACE:/home/zmyyy/ZhuMinyi/homework4/division/build/division/rosidl_typesupport_introspection_c>;$<BUILD_INTERFACE:/home/zmyyy/ZhuMinyi/homework4/division/build/division/rosidl_typesupport_introspection_cpp>;/home/zmyyy/ZhuMinyi/homework4/division/build/division/rosidl_generator_c;/home/zmyyy/ZhuMinyi/homework4/division/build/division/rosidl_generator_py
+[11.977s] -- Configured cppcheck exclude dirs and/or files: 
+[11.979s] -- Added test 'flake8' to check Python code syntax and style conventions
+[11.982s] -- Added test 'lint_cmake' to check CMake code style
+[11.983s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[11.995s] -- Added test 'uncrustify' to check C / C++ code style
+[11.995s] -- Configured uncrustify additional arguments: 
+[11.997s] -- Added test 'xmllint' to check XML markup files
+[12.000s] -- Configuring done
+[12.034s] -- Generating done
+[12.036s] -- Build files have been written to: /home/zmyyy/ZhuMinyi/homework4/division/build/division
+[12.051s] [35m[1mConsolidate compiler generated dependencies of target server[0m
+[12.051s] [35m[1mConsolidate compiler generated dependencies of target client[0m
+[12.051s] [35m[1mConsolidate compiler generated dependencies of target division__rosidl_generator_c[0m
+[12.055s] [  2%] Built target division__cpp
+[12.058s] [ 11%] Built target division__rosidl_generator_c
+[12.061s] [ 14%] [32mBuilding CXX object CMakeFiles/server.dir/src/server.cpp.o[0m
+[12.062s] [35m[1mConsolidate compiler generated dependencies of target division__rosidl_typesupport_introspection_cpp[0m
+[12.063s] [35m[1mConsolidate compiler generated dependencies of target division__rosidl_typesupport_cpp[0m
+[12.063s] [ 14%] Built target ament_cmake_python_symlink_division
+[12.063s] [ 17%] [32mBuilding CXX object CMakeFiles/client.dir/src/client.cpp.o[0m
+[12.063s] [35m[1mConsolidate compiler generated dependencies of target division__rosidl_typesupport_fastrtps_c[0m
+[12.063s] [35m[1mConsolidate compiler generated dependencies of target division__rosidl_typesupport_fastrtps_cpp[0m
+[12.064s] [35m[1mConsolidate compiler generated dependencies of target division__rosidl_typesupport_c[0m
+[12.065s] [35m[1mConsolidate compiler generated dependencies of target division__rosidl_typesupport_introspection_c[0m
+[12.071s] [ 25%] Built target division__rosidl_typesupport_cpp
+[12.071s] [ 34%] Built target division__rosidl_typesupport_introspection_cpp
+[12.071s] [ 42%] Built target division__rosidl_typesupport_c
+[12.073s] [ 51%] Built target division__rosidl_typesupport_fastrtps_c
+[12.073s] [ 60%] Built target division__rosidl_typesupport_introspection_c
+[12.074s] [ 68%] Built target division__rosidl_typesupport_fastrtps_cpp
+[12.084s] [ 68%] Built target division
+[12.086s] [01m[K/home/zmyyy/ZhuMinyi/homework4/division/src/client.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kdivision/srv/division.hpp: No such file or directory
+[12.086s]     1 | #include [01;31m[K"division/srv/division.hpp"[m[K
+[12.086s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[12.086s] [01m[K/home/zmyyy/ZhuMinyi/homework4/division/src/server.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kdivision/srv/division.hpp: No such file or directory
+[12.086s]     1 | #include [01;31m[K"division/srv/division.hpp"[m[K
+[12.086s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[12.086s] compilation terminated.
+[12.086s] compilation terminated.
+[12.087s] gmake[2]: *** [CMakeFiles/server.dir/build.make:76: CMakeFiles/server.dir/src/server.cpp.o] Error 1
+[12.087s] gmake[2]: *** [CMakeFiles/client.dir/build.make:76: CMakeFiles/client.dir/src/client.cpp.o] Error 1
+[12.088s] gmake[1]: *** [CMakeFiles/Makefile2:594: CMakeFiles/server.dir/all] Error 2
+[12.088s] gmake[1]: *** Waiting for unfinished jobs....
+[12.088s] gmake[1]: *** [CMakeFiles/Makefile2:620: CMakeFiles/client.dir/all] Error 2
+[12.094s] [ 71%] Built target division__py
+[12.185s] running egg_info
+[12.185s] writing division.egg-info/PKG-INFO
+[12.185s] writing dependency_links to division.egg-info/dependency_links.txt
+[12.186s] writing top-level names to division.egg-info/top_level.txt
+[12.188s] reading manifest file 'division.egg-info/SOURCES.txt'
+[12.188s] writing manifest file 'division.egg-info/SOURCES.txt'
+[12.203s] [ 71%] Built target ament_cmake_python_build_division_egg
+[12.203s] gmake: *** [Makefile:146: all] Error 2
+[12.204s] Invoked command in '/home/zmyyy/ZhuMinyi/homework4/division/build/division' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --build /home/zmyyy/ZhuMinyi/homework4/division/build/division -- -j20 -l20
