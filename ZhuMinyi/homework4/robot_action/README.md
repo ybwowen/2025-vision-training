@@ -3,5 +3,5 @@
 ```shell
 colcon build --symlink-install --packages-select robot_action 
 source install/setup.zsh  # or source install/setup.sh
- ros2 launch robot_action launch.py param_file:=config/param.yaml   
+ ros2 launch robot_action launch.py
 ```
