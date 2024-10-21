@@ -1,0 +1,7 @@
+[31mCMake Error at CMakeLists.txt:41:
+  Parse error.  Expected "(", got identifier with text "link".
+
+[0m
+-- Configuring incomplete, errors occurred!
+See also "/home/zmyyy/ZhuMinyi/homework4/division/build/division/CMakeFiles/CMakeOutput.log".
+gmake: *** [Makefile:829: cmake_check_build_system] Error 1

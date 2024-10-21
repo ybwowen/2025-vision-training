@@ -1,0 +1,171 @@
+[0.007s] Invoking command in '/home/zmyyy/ZhuMinyi/homework4/division/build/division': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --build /home/zmyyy/ZhuMinyi/homework4/division/build/division -- -j20 -l20
+[0.019s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.084s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.087s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.284s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.285s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.288s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.293s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.300s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.319s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.320s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[10.427s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[10.454s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[10.599s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[10.776s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[10.844s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[10.858s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[10.871s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[10.871s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[10.871s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[10.881s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[10.898s] -- Added test 'copyright' to check source files copyright and LICENSE
+[10.929s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[10.929s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/zmyyy/ZhuMinyi/homework4/division/build/division/rosidl_generator_c>;$<BUILD_INTERFACE:/home/zmyyy/ZhuMinyi/homework4/division/build/division/rosidl_typesupport_fastrtps_c>;$<BUILD_INTERFACE:/home/zmyyy/ZhuMinyi/homework4/division/build/division/rosidl_generator_cpp>;$<BUILD_INTERFACE:/home/zmyyy/ZhuMinyi/homework4/division/build/division/rosidl_typesupport_fastrtps_cpp>;$<BUILD_INTERFACE:/home/zmyyy/ZhuMinyi/homework4/division/build/division/rosidl_typesupport_introspection_c>;$<BUILD_INTERFACE:/home/zmyyy/ZhuMinyi/homework4/division/build/division/rosidl_typesupport_introspection_cpp>;/home/zmyyy/ZhuMinyi/homework4/division/build/division/rosidl_generator_c;/home/zmyyy/ZhuMinyi/homework4/division/build/division/rosidl_generator_py
+[10.929s] -- Configured cppcheck exclude dirs and/or files: 
+[10.931s] -- Added test 'flake8' to check Python code syntax and style conventions
+[10.934s] -- Added test 'lint_cmake' to check CMake code style
+[10.936s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[10.946s] -- Added test 'uncrustify' to check C / C++ code style
+[10.946s] -- Configured uncrustify additional arguments: 
+[10.948s] -- Added test 'xmllint' to check XML markup files
+[10.952s] -- Configuring done
+[10.992s] -- Generating done
+[10.994s] -- Build files have been written to: /home/zmyyy/ZhuMinyi/homework4/division/build/division
+[11.009s] [35m[1mConsolidate compiler generated dependencies of target division__rosidl_generator_c[0m
+[11.013s] [  2%] Built target division__cpp
+[11.014s] [ 11%] Built target division__rosidl_generator_c
+[11.018s] [ 11%] Built target ament_cmake_python_symlink_division
+[11.019s] [35m[1mConsolidate compiler generated dependencies of target division__rosidl_typesupport_cpp[0m
+[11.019s] [35m[1mConsolidate compiler generated dependencies of target division__rosidl_typesupport_fastrtps_cpp[0m
+[11.020s] [35m[1mConsolidate compiler generated dependencies of target division__rosidl_typesupport_introspection_c[0m
+[11.020s] [35m[1mConsolidate compiler generated dependencies of target division__rosidl_typesupport_fastrtps_c[0m
+[11.021s] [35m[1mConsolidate compiler generated dependencies of target division__rosidl_typesupport_c[0m
+[11.021s] [35m[1mConsolidate compiler generated dependencies of target division__rosidl_typesupport_introspection_cpp[0m
+[11.025s] [ 20%] Built target division__rosidl_typesupport_cpp
+[11.027s] [ 28%] Built target division__rosidl_typesupport_introspection_c
+[11.027s] [ 37%] Built target division__rosidl_typesupport_introspection_cpp
+[11.027s] [ 45%] Built target division__rosidl_typesupport_c
+[11.028s] [ 54%] Built target division__rosidl_typesupport_fastrtps_c
+[11.028s] [ 62%] Built target division__rosidl_typesupport_fastrtps_cpp
+[11.031s] [35m[1mConsolidate compiler generated dependencies of target client[0m
+[11.033s] [35m[1mConsolidate compiler generated dependencies of target server[0m
+[11.040s] [ 62%] Built target division
+[11.040s] [ 68%] Built target client
+[11.043s] [ 74%] Built target server
+[11.049s] [ 77%] Built target division__py
+[11.055s] [35m[1mConsolidate compiler generated dependencies of target division__rosidl_generator_py[0m
+[11.061s] [ 82%] Built target division__rosidl_generator_py
+[11.066s] [35m[1mConsolidate compiler generated dependencies of target division__rosidl_typesupport_fastrtps_c__pyext[0m
+[11.066s] [35m[1mConsolidate compiler generated dependencies of target division__rosidl_typesupport_introspection_c__pyext[0m
+[11.066s] [35m[1mConsolidate compiler generated dependencies of target division__rosidl_typesupport_c__pyext[0m
+[11.073s] [ 88%] Built target division__rosidl_typesupport_fastrtps_c__pyext
+[11.073s] [ 94%] Built target division__rosidl_typesupport_c__pyext
+[11.074s] [100%] Built target division__rosidl_typesupport_introspection_c__pyext
+[11.138s] running egg_info
+[11.139s] writing division.egg-info/PKG-INFO
+[11.139s] writing dependency_links to division.egg-info/dependency_links.txt
+[11.139s] writing top-level names to division.egg-info/top_level.txt
+[11.141s] reading manifest file 'division.egg-info/SOURCES.txt'
+[11.142s] writing manifest file 'division.egg-info/SOURCES.txt'
+[11.157s] [100%] Built target ament_cmake_python_build_division_egg
+[11.163s] Invoked command in '/home/zmyyy/ZhuMinyi/homework4/division/build/division' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --build /home/zmyyy/ZhuMinyi/homework4/division/build/division -- -j20 -l20
+[11.198s] Invoking command in '/home/zmyyy/ZhuMinyi/homework4/division/build/division': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --install /home/zmyyy/ZhuMinyi/homework4/division/build/division
+[11.202s] -- Install configuration: ""
+[11.202s] -- Execute custom install script
+[11.202s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/share/ament_index/resource_index/rosidl_interfaces/division
+[11.203s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/include/division/division/msg/rosidl_generator_c__visibility_control.h
+[11.203s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/include/division/division/srv/detail/division__functions.h
+[11.203s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/include/division/division/srv/detail/division__struct.h
+[11.203s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/include/division/division/srv/detail/division__type_support.h
+[11.203s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/include/division/division/srv/division.h
+[11.203s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/share/division/environment/library_path.sh
+[11.203s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/share/division/environment/library_path.dsv
+[11.203s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/include/division/division/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[11.203s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/include/division/division/srv/detail/division__rosidl_typesupport_fastrtps_c.h
+[11.203s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/include/division/division/srv/detail/division__builder.hpp
+[11.203s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/include/division/division/srv/detail/division__struct.hpp
+[11.204s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/include/division/division/srv/detail/division__traits.hpp
+[11.204s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/include/division/division/srv/division.hpp
+[11.204s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/include/division/division/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[11.204s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/include/division/division/srv/detail/division__rosidl_typesupport_fastrtps_cpp.hpp
+[11.204s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/include/division/division/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[11.204s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/include/division/division/srv/detail/division__rosidl_typesupport_introspection_c.h
+[11.204s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/include/division/division/srv/detail/division__rosidl_typesupport_introspection_cpp.hpp
+[11.204s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/share/division/environment/pythonpath.sh
+[11.204s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/share/division/environment/pythonpath.dsv
+[11.205s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/local/lib/python3.10/dist-packages/division-0.0.0-py3.10.egg-info/PKG-INFO
+[11.205s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/local/lib/python3.10/dist-packages/division-0.0.0-py3.10.egg-info/SOURCES.txt
+[11.205s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/local/lib/python3.10/dist-packages/division-0.0.0-py3.10.egg-info/dependency_links.txt
+[11.205s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/local/lib/python3.10/dist-packages/division-0.0.0-py3.10.egg-info/top_level.txt
+[11.205s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/local/lib/python3.10/dist-packages/division/__init__.py
+[11.205s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/local/lib/python3.10/dist-packages/division/_division_s.ep.rosidl_typesupport_c.c
+[11.205s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/local/lib/python3.10/dist-packages/division/_division_s.ep.rosidl_typesupport_fastrtps_c.c
+[11.205s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/local/lib/python3.10/dist-packages/division/_division_s.ep.rosidl_typesupport_introspection_c.c
+[11.205s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/local/lib/python3.10/dist-packages/division/division_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[11.206s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/local/lib/python3.10/dist-packages/division/division_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[11.206s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/local/lib/python3.10/dist-packages/division/division_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[11.206s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/local/lib/python3.10/dist-packages/division/libdivision__rosidl_generator_py.so
+[11.206s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/local/lib/python3.10/dist-packages/division/srv/__init__.py
+[11.206s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/local/lib/python3.10/dist-packages/division/srv/_division.py
+[11.206s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/local/lib/python3.10/dist-packages/division/srv/_division_s.c
+[11.206s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/local/lib/python3.10/dist-packages/division/division_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[11.206s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/local/lib/python3.10/dist-packages/division/division_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[11.206s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/local/lib/python3.10/dist-packages/division/division_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[11.206s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/share/division/srv/Division.idl
+[11.206s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/share/division/srv/Division.srv
+[11.206s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/share/division/srv/Division_Request.msg
+[11.206s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/share/division/srv/Division_Response.msg
+[11.206s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/lib/division/server
+[11.207s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/lib/division/client
+[11.207s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/share/ament_index/resource_index/package_run_dependencies/division
+[11.207s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/share/ament_index/resource_index/parent_prefix_path/division
+[11.207s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/share/division/environment/ament_prefix_path.sh
+[11.207s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/share/division/environment/ament_prefix_path.dsv
+[11.207s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/share/division/environment/path.sh
+[11.207s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/share/division/environment/path.dsv
+[11.207s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/share/division/local_setup.bash
+[11.207s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/share/division/local_setup.sh
+[11.207s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/share/division/local_setup.zsh
+[11.207s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/share/division/local_setup.dsv
+[11.208s] -- Symlinking: /home/zmyyy/ZhuMinyi/homework4/division/install/division/share/division/package.dsv
+[11.212s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/share/ament_index/resource_index/packages/division
+[11.212s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/share/division/cmake/rosidl_cmake-extras.cmake
+[11.212s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/share/division/cmake/ament_cmake_export_dependencies-extras.cmake
+[11.212s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/share/division/cmake/ament_cmake_export_include_directories-extras.cmake
+[11.212s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/share/division/cmake/ament_cmake_export_libraries-extras.cmake
+[11.212s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/share/division/cmake/ament_cmake_export_targets-extras.cmake
+[11.212s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/share/division/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[11.212s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/share/division/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[11.212s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/share/division/cmake/divisionConfig.cmake
+[11.212s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/share/division/cmake/divisionConfig-version.cmake
+[11.213s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/division/install/division/share/division/package.xml
+[11.214s] -- Up-to-date: /home/zmyyy/ZhuMinyi/homework4/division/install/division/lib/libdivision__rosidl_generator_c.so
+[11.215s] -- Up-to-date: /home/zmyyy/ZhuMinyi/homework4/division/install/division/lib/libdivision__rosidl_typesupport_fastrtps_c.so
+[11.215s] -- Up-to-date: /home/zmyyy/ZhuMinyi/homework4/division/install/division/lib/libdivision__rosidl_typesupport_fastrtps_cpp.so
+[11.216s] -- Up-to-date: /home/zmyyy/ZhuMinyi/homework4/division/install/division/lib/libdivision__rosidl_typesupport_introspection_c.so
+[11.216s] -- Up-to-date: /home/zmyyy/ZhuMinyi/homework4/division/install/division/lib/libdivision__rosidl_typesupport_c.so
+[11.217s] -- Up-to-date: /home/zmyyy/ZhuMinyi/homework4/division/install/division/lib/libdivision__rosidl_typesupport_introspection_cpp.so
+[11.217s] -- Up-to-date: /home/zmyyy/ZhuMinyi/homework4/division/install/division/lib/libdivision__rosidl_typesupport_cpp.so
+[11.236s] Listing '/home/zmyyy/ZhuMinyi/homework4/division/install/division/local/lib/python3.10/dist-packages/division'...
+[11.236s] Compiling '/home/zmyyy/ZhuMinyi/homework4/division/install/division/local/lib/python3.10/dist-packages/division/__init__.py'...
+[11.236s] Listing '/home/zmyyy/ZhuMinyi/homework4/division/install/division/local/lib/python3.10/dist-packages/division/srv'...
+[11.239s] -- Up-to-date: /home/zmyyy/ZhuMinyi/homework4/division/install/division/lib/libdivision__rosidl_generator_py.so
+[11.240s] -- Up-to-date: /home/zmyyy/ZhuMinyi/homework4/division/install/division/share/division/cmake/export_division__rosidl_generator_cExport.cmake
+[11.240s] -- Up-to-date: /home/zmyyy/ZhuMinyi/homework4/division/install/division/share/division/cmake/export_division__rosidl_generator_cExport-noconfig.cmake
+[11.240s] -- Up-to-date: /home/zmyyy/ZhuMinyi/homework4/division/install/division/share/division/cmake/export_division__rosidl_typesupport_fastrtps_cExport.cmake
+[11.240s] -- Up-to-date: /home/zmyyy/ZhuMinyi/homework4/division/install/division/share/division/cmake/export_division__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[11.240s] -- Up-to-date: /home/zmyyy/ZhuMinyi/homework4/division/install/division/share/division/cmake/export_division__rosidl_generator_cppExport.cmake
+[11.241s] -- Up-to-date: /home/zmyyy/ZhuMinyi/homework4/division/install/division/share/division/cmake/export_division__rosidl_typesupport_fastrtps_cppExport.cmake
+[11.241s] -- Up-to-date: /home/zmyyy/ZhuMinyi/homework4/division/install/division/share/division/cmake/export_division__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[11.241s] -- Up-to-date: /home/zmyyy/ZhuMinyi/homework4/division/install/division/share/division/cmake/division__rosidl_typesupport_introspection_cExport.cmake
+[11.241s] -- Up-to-date: /home/zmyyy/ZhuMinyi/homework4/division/install/division/share/division/cmake/division__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[11.241s] -- Up-to-date: /home/zmyyy/ZhuMinyi/homework4/division/install/division/share/division/cmake/division__rosidl_typesupport_cExport.cmake
+[11.241s] -- Up-to-date: /home/zmyyy/ZhuMinyi/homework4/division/install/division/share/division/cmake/division__rosidl_typesupport_cExport-noconfig.cmake
+[11.241s] -- Up-to-date: /home/zmyyy/ZhuMinyi/homework4/division/install/division/share/division/cmake/division__rosidl_typesupport_introspection_cppExport.cmake
+[11.241s] -- Up-to-date: /home/zmyyy/ZhuMinyi/homework4/division/install/division/share/division/cmake/division__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[11.242s] -- Up-to-date: /home/zmyyy/ZhuMinyi/homework4/division/install/division/share/division/cmake/division__rosidl_typesupport_cppExport.cmake
+[11.242s] -- Up-to-date: /home/zmyyy/ZhuMinyi/homework4/division/install/division/share/division/cmake/division__rosidl_typesupport_cppExport-noconfig.cmake
+[11.242s] -- Up-to-date: /home/zmyyy/ZhuMinyi/homework4/division/install/division/share/division/cmake/export_division__rosidl_generator_pyExport.cmake
+[11.242s] -- Up-to-date: /home/zmyyy/ZhuMinyi/homework4/division/install/division/share/division/cmake/export_division__rosidl_generator_pyExport-noconfig.cmake
+[11.244s] Invoked command in '/home/zmyyy/ZhuMinyi/homework4/division/build/division' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --install /home/zmyyy/ZhuMinyi/homework4/division/build/division

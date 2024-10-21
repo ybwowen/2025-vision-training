@@ -1,0 +1,36 @@
+[0.008s] Invoking command in '/home/zmyyy/ZhuMinyi/homework4/division/build/division': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --build /home/zmyyy/ZhuMinyi/homework4/division/build/division -- -j20 -l20
+[0.025s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.109s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.125s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.361s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.364s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.371s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.382s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.395s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.432s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.434s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[8.142s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[8.204s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[8.358s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[8.538s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.608s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.621s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[8.635s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[8.635s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[8.635s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[8.645s] [31mCMake Error at CMakeLists.txt:40 (rosidl_get_typesupport_target):
+[8.645s]   Syntax error in cmake code at
+[8.645s] 
+[8.645s]     /home/zmyyy/ZhuMinyi/homework4/division/CMakeLists.txt:40
+[8.645s] 
+[8.645s]   when parsing string
+[8.645s] 
+[8.645s]     ${PROJECT
+[8.645s] 
+[8.645s]   There is an unterminated variable reference.
+[8.645s] 
+[8.645s] [0m
+[8.645s] -- Configuring incomplete, errors occurred!
+[8.645s] See also "/home/zmyyy/ZhuMinyi/homework4/division/build/division/CMakeFiles/CMakeOutput.log".
+[8.650s] gmake: *** [Makefile:829: cmake_check_build_system] Error 1
+[8.652s] Invoked command in '/home/zmyyy/ZhuMinyi/homework4/division/build/division' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --build /home/zmyyy/ZhuMinyi/homework4/division/build/division -- -j20 -l20

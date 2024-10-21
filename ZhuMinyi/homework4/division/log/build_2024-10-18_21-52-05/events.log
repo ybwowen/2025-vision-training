@@ -1,0 +1,207 @@
+[0.000000] (-) TimerEvent: {}
+[0.000354] (division) JobQueued: {'identifier': 'division', 'dependencies': OrderedDict()}
+[0.000394] (division) JobStarted: {'identifier': 'division'}
+[0.009068] (division) JobProgress: {'identifier': 'division', 'progress': 'cmake'}
+[0.010700] (division) JobProgress: {'identifier': 'division', 'progress': 'build'}
+[0.010756] (division) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/zmyyy/ZhuMinyi/homework4/division/build/division', '--', '-j20', '-l20'], 'cwd': '/home/zmyyy/ZhuMinyi/homework4/division/build/division', 'env': OrderedDict([('USER', 'zmyyy'), ('GIT_ASKPASS', '/home/zmyyy/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/zmyyy/ZhuMinyi/homework4/division/install/division/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/zmyyy'), ('OLDPWD', '/home/zmyyy/ZhuMinyi/homework4'), ('LESS', '-R'), ('TERM_PROGRAM_VERSION', '1.94.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-0a1ddeb8-6f48-415b-9da6-645f1c1dd818.sock'), ('ZSH', '/home/zmyyy/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/zmyyy/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/zmyyy/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('P9K_TTY', 'old'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('COLORTERM', 'truecolor'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/home/zmyyy/ZhuMinyi/homework4/division/install'), ('LOGNAME', 'zmyyy'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('WSL_INTEROP', '/run/WSL/1285_interop'), ('NAME', 'Code'), ('_', '/usr/bin/colcon'), ('_P9K_SSH_TTY', '/dev/pts/9'), ('ROS_VERSION', '2'), ('USER_ZDOTDIR', '/home/zmyyy'), ('TERM', 'xterm-256color'), ('AUTOJUMP_ERROR_PATH', '/home/zmyyy/.local/share/autojump/errors.log'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/zmyyy/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/d/VMware/bin/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/d/bin:/mnt/d/Git/cmd:/mnt/d/texlive/2023/bin/windows:/mnt/d/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/dotnet/:/mnt/c/Users/zmyyy/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/zmyyy/AppData/Local/Microsoft/WindowsApps:/mnt/d/Microsoft VS Code/bin:/mnt/d/mingw64/bin:/mnt/d/Anaconda/Scripts:/mnt/c/Users/zmyyy/AppData/Roaming/npm:/mnt/d/node_modules/npm:/mnt/c/Users/zmyyy/AppData/Local/JetBrains/Toolbox/scripts'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('VSCODE_INJECTION', '1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'vscode'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-88cc974e07.sock'), ('AMENT_PREFIX_PATH', '/home/zmyyy/ZhuMinyi/homework4/division/install/division:/opt/ros/humble'), ('SHELL', '/bin/zsh'), ('P9K_SSH', '0'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('VSCODE_NONCE', '4da0ce5d-1a7f-4e9b-b3e6-e8ccd728f199'), ('PWD', '/home/zmyyy/ZhuMinyi/homework4/division/build/division'), ('_P9K_TTY', '/dev/pts/9'), ('ZDOTDIR', '/home/zmyyy'), ('AUTOJUMP_SOURCED', '1'), ('PYTHONPATH', '/home/zmyyy/ZhuMinyi/homework4/division/install/division/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('WSL2_GUI_APPS_ENABLED', '1'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:'), ('CMAKE_PREFIX_PATH', '/home/zmyyy/ZhuMinyi/homework4/division/install/division:/opt/ros/humble')]), 'shell': False}
+[0.033268] (division) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099448] (-) TimerEvent: {}
+[0.115308] (division) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.130063] (division) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.199618] (-) TimerEvent: {}
+[0.300032] (-) TimerEvent: {}
+[0.400331] (-) TimerEvent: {}
+[0.405828] (division) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.408901] (division) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.415626] (division) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.425732] (division) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.437863] (division) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.470963] (division) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.472887] (division) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.500445] (-) TimerEvent: {}
+[0.600725] (-) TimerEvent: {}
+[0.701067] (-) TimerEvent: {}
+[0.801461] (-) TimerEvent: {}
+[0.901849] (-) TimerEvent: {}
+[1.002179] (-) TimerEvent: {}
+[1.102539] (-) TimerEvent: {}
+[1.203048] (-) TimerEvent: {}
+[1.303525] (-) TimerEvent: {}
+[1.403880] (-) TimerEvent: {}
+[1.504338] (-) TimerEvent: {}
+[1.604699] (-) TimerEvent: {}
+[1.705019] (-) TimerEvent: {}
+[1.805295] (-) TimerEvent: {}
+[1.905679] (-) TimerEvent: {}
+[2.006025] (-) TimerEvent: {}
+[2.106356] (-) TimerEvent: {}
+[2.206827] (-) TimerEvent: {}
+[2.307359] (-) TimerEvent: {}
+[2.407942] (-) TimerEvent: {}
+[2.508374] (-) TimerEvent: {}
+[2.608676] (-) TimerEvent: {}
+[2.709059] (-) TimerEvent: {}
+[2.809450] (-) TimerEvent: {}
+[2.909760] (-) TimerEvent: {}
+[3.010054] (-) TimerEvent: {}
+[3.110370] (-) TimerEvent: {}
+[3.210807] (-) TimerEvent: {}
+[3.311294] (-) TimerEvent: {}
+[3.411791] (-) TimerEvent: {}
+[3.512142] (-) TimerEvent: {}
+[3.612598] (-) TimerEvent: {}
+[3.713093] (-) TimerEvent: {}
+[3.813593] (-) TimerEvent: {}
+[3.914065] (-) TimerEvent: {}
+[4.014361] (-) TimerEvent: {}
+[4.114630] (-) TimerEvent: {}
+[4.215000] (-) TimerEvent: {}
+[4.315459] (-) TimerEvent: {}
+[4.415857] (-) TimerEvent: {}
+[4.516245] (-) TimerEvent: {}
+[4.616632] (-) TimerEvent: {}
+[4.716968] (-) TimerEvent: {}
+[4.817593] (-) TimerEvent: {}
+[4.918020] (-) TimerEvent: {}
+[5.018336] (-) TimerEvent: {}
+[5.118752] (-) TimerEvent: {}
+[5.219150] (-) TimerEvent: {}
+[5.319566] (-) TimerEvent: {}
+[5.419933] (-) TimerEvent: {}
+[5.520294] (-) TimerEvent: {}
+[5.620707] (-) TimerEvent: {}
+[5.721099] (-) TimerEvent: {}
+[5.821595] (-) TimerEvent: {}
+[5.922048] (-) TimerEvent: {}
+[6.022354] (-) TimerEvent: {}
+[6.122847] (-) TimerEvent: {}
+[6.223239] (-) TimerEvent: {}
+[6.323715] (-) TimerEvent: {}
+[6.424106] (-) TimerEvent: {}
+[6.524425] (-) TimerEvent: {}
+[6.624858] (-) TimerEvent: {}
+[6.728135] (-) TimerEvent: {}
+[6.828591] (-) TimerEvent: {}
+[6.928892] (-) TimerEvent: {}
+[7.029375] (-) TimerEvent: {}
+[7.129771] (-) TimerEvent: {}
+[7.230118] (-) TimerEvent: {}
+[7.330513] (-) TimerEvent: {}
+[7.430896] (-) TimerEvent: {}
+[7.531294] (-) TimerEvent: {}
+[7.631870] (-) TimerEvent: {}
+[7.732288] (-) TimerEvent: {}
+[7.832653] (-) TimerEvent: {}
+[7.933103] (-) TimerEvent: {}
+[8.033686] (-) TimerEvent: {}
+[8.134076] (-) TimerEvent: {}
+[8.234424] (-) TimerEvent: {}
+[8.334771] (-) TimerEvent: {}
+[8.435251] (-) TimerEvent: {}
+[8.535875] (-) TimerEvent: {}
+[8.636378] (-) TimerEvent: {}
+[8.736784] (-) TimerEvent: {}
+[8.837144] (-) TimerEvent: {}
+[8.937556] (-) TimerEvent: {}
+[9.037904] (-) TimerEvent: {}
+[9.138394] (-) TimerEvent: {}
+[9.238699] (-) TimerEvent: {}
+[9.339025] (-) TimerEvent: {}
+[9.439626] (-) TimerEvent: {}
+[9.540104] (-) TimerEvent: {}
+[9.640481] (-) TimerEvent: {}
+[9.740953] (-) TimerEvent: {}
+[9.841530] (-) TimerEvent: {}
+[9.942004] (-) TimerEvent: {}
+[10.042366] (-) TimerEvent: {}
+[10.142800] (-) TimerEvent: {}
+[10.243133] (-) TimerEvent: {}
+[10.343613] (-) TimerEvent: {}
+[10.444155] (-) TimerEvent: {}
+[10.544427] (-) TimerEvent: {}
+[10.644689] (-) TimerEvent: {}
+[10.744948] (-) TimerEvent: {}
+[10.845219] (-) TimerEvent: {}
+[10.945492] (-) TimerEvent: {}
+[11.045846] (-) TimerEvent: {}
+[11.146325] (-) TimerEvent: {}
+[11.246770] (-) TimerEvent: {}
+[11.347194] (-) TimerEvent: {}
+[11.413854] (division) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[11.447289] (-) TimerEvent: {}
+[11.480287] (division) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[11.547393] (-) TimerEvent: {}
+[11.632776] (division) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[11.647478] (-) TimerEvent: {}
+[11.747741] (-) TimerEvent: {}
+[11.816957] (division) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[11.847923] (-) TimerEvent: {}
+[11.884872] (division) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[11.898701] (division) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[11.912510] (division) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[11.912634] (division) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[11.912670] (division) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[11.922221] (division) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[11.938466] (division) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[11.948024] (-) TimerEvent: {}
+[11.976832] (division) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[11.977218] (division) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/zmyyy/ZhuMinyi/homework4/division/build/division/rosidl_generator_c>;$<BUILD_INTERFACE:/home/zmyyy/ZhuMinyi/homework4/division/build/division/rosidl_typesupport_fastrtps_c>;$<BUILD_INTERFACE:/home/zmyyy/ZhuMinyi/homework4/division/build/division/rosidl_generator_cpp>;$<BUILD_INTERFACE:/home/zmyyy/ZhuMinyi/homework4/division/build/division/rosidl_typesupport_fastrtps_cpp>;$<BUILD_INTERFACE:/home/zmyyy/ZhuMinyi/homework4/division/build/division/rosidl_typesupport_introspection_c>;$<BUILD_INTERFACE:/home/zmyyy/ZhuMinyi/homework4/division/build/division/rosidl_typesupport_introspection_cpp>;/home/zmyyy/ZhuMinyi/homework4/division/build/division/rosidl_generator_c;/home/zmyyy/ZhuMinyi/homework4/division/build/division/rosidl_generator_py\n'}
+[11.977309] (division) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[11.978985] (division) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[11.981855] (division) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[11.983503] (division) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[11.994945] (division) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[11.995083] (division) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[11.996859] (division) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[12.000279] (division) StdoutLine: {'line': b'-- Configuring done\n'}
+[12.034020] (division) StdoutLine: {'line': b'-- Generating done\n'}
+[12.035960] (division) StdoutLine: {'line': b'-- Build files have been written to: /home/zmyyy/ZhuMinyi/homework4/division/build/division\n'}
+[12.048132] (-) TimerEvent: {}
+[12.051253] (division) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target server\x1b[0m\n'}
+[12.051399] (division) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target client\x1b[0m\n'}
+[12.051552] (division) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target division__rosidl_generator_c\x1b[0m\n'}
+[12.055139] (division) StdoutLine: {'line': b'[  2%] Built target division__cpp\n'}
+[12.058144] (division) StdoutLine: {'line': b'[ 11%] Built target division__rosidl_generator_c\n'}
+[12.061527] (division) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/server.dir/src/server.cpp.o\x1b[0m\n'}
+[12.062170] (division) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target division__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[12.062924] (division) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target division__rosidl_typesupport_cpp\x1b[0m\n'}
+[12.063231] (division) StdoutLine: {'line': b'[ 14%] Built target ament_cmake_python_symlink_division\n'}
+[12.063287] (division) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding CXX object CMakeFiles/client.dir/src/client.cpp.o\x1b[0m\n'}
+[12.063389] (division) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target division__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[12.063646] (division) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target division__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[12.063900] (division) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target division__rosidl_typesupport_c\x1b[0m\n'}
+[12.065091] (division) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target division__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[12.071106] (division) StdoutLine: {'line': b'[ 25%] Built target division__rosidl_typesupport_cpp\n'}
+[12.071378] (division) StdoutLine: {'line': b'[ 34%] Built target division__rosidl_typesupport_introspection_cpp\n'}
+[12.071583] (division) StdoutLine: {'line': b'[ 42%] Built target division__rosidl_typesupport_c\n'}
+[12.072879] (division) StdoutLine: {'line': b'[ 51%] Built target division__rosidl_typesupport_fastrtps_c\n'}
+[12.073290] (division) StdoutLine: {'line': b'[ 60%] Built target division__rosidl_typesupport_introspection_c\n'}
+[12.074060] (division) StdoutLine: {'line': b'[ 68%] Built target division__rosidl_typesupport_fastrtps_cpp\n'}
+[12.084034] (division) StdoutLine: {'line': b'[ 68%] Built target division\n'}
+[12.086407] (division) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zmyyy/ZhuMinyi/homework4/division/src/client.cpp:1:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kdivision/srv/division.hpp: No such file or directory\n'}
+[12.086546] (division) StderrLine: {'line': b'    1 | #include \x1b[01;31m\x1b[K"division/srv/division.hpp"\x1b[m\x1b[K\n'}
+[12.086583] (division) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.086613] (division) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zmyyy/ZhuMinyi/homework4/division/src/server.cpp:1:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kdivision/srv/division.hpp: No such file or directory\n'}
+[12.086638] (division) StderrLine: {'line': b'    1 | #include \x1b[01;31m\x1b[K"division/srv/division.hpp"\x1b[m\x1b[K\n'}
+[12.086663] (division) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.086686] (division) StderrLine: {'line': b'compilation terminated.\n'}
+[12.086709] (division) StderrLine: {'line': b'compilation terminated.\n'}
+[12.087648] (division) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/server.dir/build.make:76: CMakeFiles/server.dir/src/server.cpp.o] Error 1\n'}
+[12.087738] (division) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/client.dir/build.make:76: CMakeFiles/client.dir/src/client.cpp.o] Error 1\n'}
+[12.087871] (division) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:594: CMakeFiles/server.dir/all] Error 2\n'}
+[12.088124] (division) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[12.088245] (division) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:620: CMakeFiles/client.dir/all] Error 2\n'}
+[12.093979] (division) StdoutLine: {'line': b'[ 71%] Built target division__py\n'}
+[12.148291] (-) TimerEvent: {}
+[12.185248] (division) StdoutLine: {'line': b'running egg_info\n'}
+[12.185608] (division) StdoutLine: {'line': b'writing division.egg-info/PKG-INFO\n'}
+[12.185789] (division) StdoutLine: {'line': b'writing dependency_links to division.egg-info/dependency_links.txt\n'}
+[12.185922] (division) StdoutLine: {'line': b'writing top-level names to division.egg-info/top_level.txt\n'}
+[12.187884] (division) StdoutLine: {'line': b"reading manifest file 'division.egg-info/SOURCES.txt'\n"}
+[12.188380] (division) StdoutLine: {'line': b"writing manifest file 'division.egg-info/SOURCES.txt'\n"}
+[12.202829] (division) StdoutLine: {'line': b'[ 71%] Built target ament_cmake_python_build_division_egg\n'}
+[12.203341] (division) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[12.204650] (division) CommandEnded: {'returncode': 2}
+[12.246248] (division) JobEnded: {'identifier': 'division', 'rc': 2}
+[12.248428] (-) TimerEvent: {}
+[12.256755] (-) EventReactorShutdown: {}

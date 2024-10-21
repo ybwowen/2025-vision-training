@@ -1,0 +1,10 @@
+# Move.action
+# Goal:
+float64 distance
+---
+# Result:
+float64 position
+bool success
+---
+# Feedback:
+float64 remaining

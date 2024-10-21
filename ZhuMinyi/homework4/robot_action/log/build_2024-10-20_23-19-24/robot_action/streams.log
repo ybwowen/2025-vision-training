@@ -1,0 +1,137 @@
+[0.032s] Invoking command in '/home/zmyyy/ZhuMinyi/homework4/robot_action/build/robot_action': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --build /home/zmyyy/ZhuMinyi/homework4/robot_action/build/robot_action -- -j20 -l20
+[0.088s] [35m[1mConsolidate compiler generated dependencies of target robot_action__rosidl_generator_c[0m
+[0.089s] [  0%] Built target ament_cmake_python_symlink_robot_action
+[0.096s] [  8%] Built target robot_action__rosidl_generator_c
+[0.107s] [ 11%] Built target robot_action__cpp
+[0.116s] [35m[1mConsolidate compiler generated dependencies of target robot_action__rosidl_typesupport_fastrtps_c[0m
+[0.119s] [35m[1mConsolidate compiler generated dependencies of target robot_action__rosidl_typesupport_c[0m
+[0.121s] [35m[1mConsolidate compiler generated dependencies of target robot_action__rosidl_typesupport_introspection_c[0m
+[0.130s] [35m[1mConsolidate compiler generated dependencies of target robot_action__rosidl_typesupport_fastrtps_cpp[0m
+[0.142s] [35m[1mConsolidate compiler generated dependencies of target robot_action__rosidl_typesupport_introspection_cpp[0m
+[0.143s] [35m[1mConsolidate compiler generated dependencies of target robot_action__rosidl_typesupport_cpp[0m
+[0.154s] [ 20%] Built target robot_action__rosidl_typesupport_introspection_c
+[0.154s] [ 28%] Built target robot_action__rosidl_typesupport_c
+[0.164s] [ 37%] Built target robot_action__rosidl_typesupport_fastrtps_cpp
+[0.167s] [ 45%] Built target robot_action__rosidl_typesupport_fastrtps_c
+[0.170s] [ 54%] Built target robot_action__rosidl_typesupport_cpp
+[0.171s] [ 62%] Built target robot_action__rosidl_typesupport_introspection_cpp
+[0.181s] [35m[1mConsolidate compiler generated dependencies of target server[0m
+[0.182s] [35m[1mConsolidate compiler generated dependencies of target client[0m
+[0.190s] [ 62%] Built target robot_action
+[0.200s] [ 68%] Built target server
+[0.201s] [ 74%] Built target client
+[0.208s] [ 77%] Built target robot_action__py
+[0.219s] [35m[1mConsolidate compiler generated dependencies of target robot_action__rosidl_generator_py[0m
+[0.232s] [ 82%] Built target robot_action__rosidl_generator_py
+[0.242s] [35m[1mConsolidate compiler generated dependencies of target robot_action__rosidl_typesupport_c__pyext[0m
+[0.242s] [35m[1mConsolidate compiler generated dependencies of target robot_action__rosidl_typesupport_introspection_c__pyext[0m
+[0.243s] [35m[1mConsolidate compiler generated dependencies of target robot_action__rosidl_typesupport_fastrtps_c__pyext[0m
+[0.256s] [ 88%] Built target robot_action__rosidl_typesupport_c__pyext
+[0.257s] [ 94%] Built target robot_action__rosidl_typesupport_fastrtps_c__pyext
+[0.257s] [100%] Built target robot_action__rosidl_typesupport_introspection_c__pyext
+[0.382s] running egg_info
+[0.383s] writing robot_action.egg-info/PKG-INFO
+[0.383s] writing dependency_links to robot_action.egg-info/dependency_links.txt
+[0.384s] writing top-level names to robot_action.egg-info/top_level.txt
+[0.386s] reading manifest file 'robot_action.egg-info/SOURCES.txt'
+[0.386s] writing manifest file 'robot_action.egg-info/SOURCES.txt'
+[0.415s] [100%] Built target ament_cmake_python_build_robot_action_egg
+[0.428s] Invoked command in '/home/zmyyy/ZhuMinyi/homework4/robot_action/build/robot_action' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --build /home/zmyyy/ZhuMinyi/homework4/robot_action/build/robot_action -- -j20 -l20
+[0.494s] Invoking command in '/home/zmyyy/ZhuMinyi/homework4/robot_action/build/robot_action': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --install /home/zmyyy/ZhuMinyi/homework4/robot_action/build/robot_action
+[0.500s] -- Install configuration: ""
+[0.501s] -- Execute custom install script
+[0.501s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/robot_action/install/robot_action/share/ament_index/resource_index/rosidl_interfaces/robot_action
+[0.502s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/robot_action/install/robot_action/include/robot_action/robot_action/action/detail/move__functions.h
+[0.502s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/robot_action/install/robot_action/include/robot_action/robot_action/action/detail/move__struct.h
+[0.502s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/robot_action/install/robot_action/include/robot_action/robot_action/action/detail/move__type_support.h
+[0.502s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/robot_action/install/robot_action/include/robot_action/robot_action/action/move.h
+[0.503s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/robot_action/install/robot_action/include/robot_action/robot_action/msg/rosidl_generator_c__visibility_control.h
+[0.503s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/robot_action/install/robot_action/share/robot_action/environment/library_path.sh
+[0.503s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/robot_action/install/robot_action/share/robot_action/environment/library_path.dsv
+[0.504s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/robot_action/install/robot_action/include/robot_action/robot_action/action/detail/move__rosidl_typesupport_fastrtps_c.h
+[0.504s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/robot_action/install/robot_action/include/robot_action/robot_action/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.517s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/robot_action/install/robot_action/include/robot_action/robot_action/action/detail/move__builder.hpp
+[0.517s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/robot_action/install/robot_action/include/robot_action/robot_action/action/detail/move__struct.hpp
+[0.518s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/robot_action/install/robot_action/include/robot_action/robot_action/action/detail/move__traits.hpp
+[0.518s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/robot_action/install/robot_action/include/robot_action/robot_action/action/move.hpp
+[0.518s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/robot_action/install/robot_action/include/robot_action/robot_action/action/detail/move__rosidl_typesupport_fastrtps_cpp.hpp
+[0.518s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/robot_action/install/robot_action/include/robot_action/robot_action/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.518s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/robot_action/install/robot_action/include/robot_action/robot_action/action/detail/move__rosidl_typesupport_introspection_c.h
+[0.518s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/robot_action/install/robot_action/include/robot_action/robot_action/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.518s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/robot_action/install/robot_action/include/robot_action/robot_action/action/detail/move__rosidl_typesupport_introspection_cpp.hpp
+[0.518s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/robot_action/install/robot_action/share/robot_action/environment/pythonpath.sh
+[0.518s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/robot_action/install/robot_action/share/robot_action/environment/pythonpath.dsv
+[0.519s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/robot_action/install/robot_action/local/lib/python3.10/dist-packages/robot_action-0.0.0-py3.10.egg-info/PKG-INFO
+[0.520s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/robot_action/install/robot_action/local/lib/python3.10/dist-packages/robot_action-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.520s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/robot_action/install/robot_action/local/lib/python3.10/dist-packages/robot_action-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.521s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/robot_action/install/robot_action/local/lib/python3.10/dist-packages/robot_action-0.0.0-py3.10.egg-info/top_level.txt
+[0.521s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/robot_action/install/robot_action/local/lib/python3.10/dist-packages/robot_action/__init__.py
+[0.521s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/robot_action/install/robot_action/local/lib/python3.10/dist-packages/robot_action/_robot_action_s.ep.rosidl_typesupport_c.c
+[0.521s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/robot_action/install/robot_action/local/lib/python3.10/dist-packages/robot_action/_robot_action_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.521s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/robot_action/install/robot_action/local/lib/python3.10/dist-packages/robot_action/_robot_action_s.ep.rosidl_typesupport_introspection_c.c
+[0.521s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/robot_action/install/robot_action/local/lib/python3.10/dist-packages/robot_action/action/__init__.py
+[0.521s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/robot_action/install/robot_action/local/lib/python3.10/dist-packages/robot_action/action/_move.py
+[0.521s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/robot_action/install/robot_action/local/lib/python3.10/dist-packages/robot_action/action/_move_s.c
+[0.521s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/robot_action/install/robot_action/local/lib/python3.10/dist-packages/robot_action/librobot_action__rosidl_generator_py.so
+[0.522s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/robot_action/install/robot_action/local/lib/python3.10/dist-packages/robot_action/robot_action_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.522s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/robot_action/install/robot_action/local/lib/python3.10/dist-packages/robot_action/robot_action_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.523s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/robot_action/install/robot_action/local/lib/python3.10/dist-packages/robot_action/robot_action_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.523s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/robot_action/install/robot_action/local/lib/python3.10/dist-packages/robot_action/robot_action_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.523s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/robot_action/install/robot_action/local/lib/python3.10/dist-packages/robot_action/robot_action_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.523s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/robot_action/install/robot_action/local/lib/python3.10/dist-packages/robot_action/robot_action_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.523s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/robot_action/install/robot_action/share/robot_action/action/Move.idl
+[0.523s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/robot_action/install/robot_action/share/robot_action/action/Move.action
+[0.523s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/robot_action/install/robot_action/share/robot_action/launch/launch.py
+[0.523s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/robot_action/install/robot_action/share/robot_action/config/param.yaml
+[0.524s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/robot_action/install/robot_action/lib/robot_action/server
+[0.524s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/robot_action/install/robot_action/lib/robot_action/client
+[0.524s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/robot_action/install/robot_action/share/ament_index/resource_index/package_run_dependencies/robot_action
+[0.524s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/robot_action/install/robot_action/share/ament_index/resource_index/parent_prefix_path/robot_action
+[0.524s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/robot_action/install/robot_action/share/robot_action/environment/ament_prefix_path.sh
+[0.524s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/robot_action/install/robot_action/share/robot_action/environment/ament_prefix_path.dsv
+[0.524s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/robot_action/install/robot_action/share/robot_action/environment/path.sh
+[0.524s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/robot_action/install/robot_action/share/robot_action/environment/path.dsv
+[0.524s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/robot_action/install/robot_action/share/robot_action/local_setup.bash
+[0.524s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/robot_action/install/robot_action/share/robot_action/local_setup.sh
+[0.524s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/robot_action/install/robot_action/share/robot_action/local_setup.zsh
+[0.525s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/robot_action/install/robot_action/share/robot_action/local_setup.dsv
+[0.525s] -- Symlinking: /home/zmyyy/ZhuMinyi/homework4/robot_action/install/robot_action/share/robot_action/package.dsv
+[0.527s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/robot_action/install/robot_action/share/ament_index/resource_index/packages/robot_action
+[0.527s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/robot_action/install/robot_action/share/robot_action/cmake/rosidl_cmake-extras.cmake
+[0.528s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/robot_action/install/robot_action/share/robot_action/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.528s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/robot_action/install/robot_action/share/robot_action/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.528s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/robot_action/install/robot_action/share/robot_action/cmake/ament_cmake_export_libraries-extras.cmake
+[0.528s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/robot_action/install/robot_action/share/robot_action/cmake/ament_cmake_export_targets-extras.cmake
+[0.529s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/robot_action/install/robot_action/share/robot_action/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.529s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/robot_action/install/robot_action/share/robot_action/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.529s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/robot_action/install/robot_action/share/robot_action/cmake/robot_actionConfig.cmake
+[0.529s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/robot_action/install/robot_action/share/robot_action/cmake/robot_actionConfig-version.cmake
+[0.529s] -- Up-to-date symlink: /home/zmyyy/ZhuMinyi/homework4/robot_action/install/robot_action/share/robot_action/package.xml
+[0.530s] -- Up-to-date: /home/zmyyy/ZhuMinyi/homework4/robot_action/install/robot_action/lib/librobot_action__rosidl_generator_c.so
+[0.530s] -- Up-to-date: /home/zmyyy/ZhuMinyi/homework4/robot_action/install/robot_action/lib/librobot_action__rosidl_typesupport_fastrtps_c.so
+[0.530s] -- Up-to-date: /home/zmyyy/ZhuMinyi/homework4/robot_action/install/robot_action/lib/librobot_action__rosidl_typesupport_fastrtps_cpp.so
+[0.531s] -- Up-to-date: /home/zmyyy/ZhuMinyi/homework4/robot_action/install/robot_action/lib/librobot_action__rosidl_typesupport_introspection_c.so
+[0.531s] -- Up-to-date: /home/zmyyy/ZhuMinyi/homework4/robot_action/install/robot_action/lib/librobot_action__rosidl_typesupport_c.so
+[0.531s] -- Up-to-date: /home/zmyyy/ZhuMinyi/homework4/robot_action/install/robot_action/lib/librobot_action__rosidl_typesupport_introspection_cpp.so
+[0.531s] -- Up-to-date: /home/zmyyy/ZhuMinyi/homework4/robot_action/install/robot_action/lib/librobot_action__rosidl_typesupport_cpp.so
+[0.568s] Listing '/home/zmyyy/ZhuMinyi/homework4/robot_action/install/robot_action/local/lib/python3.10/dist-packages/robot_action'...
+[0.568s] Listing '/home/zmyyy/ZhuMinyi/homework4/robot_action/install/robot_action/local/lib/python3.10/dist-packages/robot_action/action'...
+[0.573s] -- Up-to-date: /home/zmyyy/ZhuMinyi/homework4/robot_action/install/robot_action/lib/librobot_action__rosidl_generator_py.so
+[0.573s] -- Up-to-date: /home/zmyyy/ZhuMinyi/homework4/robot_action/install/robot_action/share/robot_action/cmake/export_robot_action__rosidl_generator_cExport.cmake
+[0.573s] -- Up-to-date: /home/zmyyy/ZhuMinyi/homework4/robot_action/install/robot_action/share/robot_action/cmake/export_robot_action__rosidl_generator_cExport-noconfig.cmake
+[0.574s] -- Up-to-date: /home/zmyyy/ZhuMinyi/homework4/robot_action/install/robot_action/share/robot_action/cmake/export_robot_action__rosidl_typesupport_fastrtps_cExport.cmake
+[0.574s] -- Up-to-date: /home/zmyyy/ZhuMinyi/homework4/robot_action/install/robot_action/share/robot_action/cmake/export_robot_action__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[0.574s] -- Up-to-date: /home/zmyyy/ZhuMinyi/homework4/robot_action/install/robot_action/share/robot_action/cmake/export_robot_action__rosidl_generator_cppExport.cmake
+[0.575s] -- Up-to-date: /home/zmyyy/ZhuMinyi/homework4/robot_action/install/robot_action/share/robot_action/cmake/export_robot_action__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.575s] -- Up-to-date: /home/zmyyy/ZhuMinyi/homework4/robot_action/install/robot_action/share/robot_action/cmake/export_robot_action__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[0.575s] -- Up-to-date: /home/zmyyy/ZhuMinyi/homework4/robot_action/install/robot_action/share/robot_action/cmake/robot_action__rosidl_typesupport_introspection_cExport.cmake
+[0.575s] -- Up-to-date: /home/zmyyy/ZhuMinyi/homework4/robot_action/install/robot_action/share/robot_action/cmake/robot_action__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.575s] -- Up-to-date: /home/zmyyy/ZhuMinyi/homework4/robot_action/install/robot_action/share/robot_action/cmake/robot_action__rosidl_typesupport_cExport.cmake
+[0.575s] -- Up-to-date: /home/zmyyy/ZhuMinyi/homework4/robot_action/install/robot_action/share/robot_action/cmake/robot_action__rosidl_typesupport_cExport-noconfig.cmake
+[0.575s] -- Up-to-date: /home/zmyyy/ZhuMinyi/homework4/robot_action/install/robot_action/share/robot_action/cmake/robot_action__rosidl_typesupport_introspection_cppExport.cmake
+[0.575s] -- Up-to-date: /home/zmyyy/ZhuMinyi/homework4/robot_action/install/robot_action/share/robot_action/cmake/robot_action__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.576s] -- Up-to-date: /home/zmyyy/ZhuMinyi/homework4/robot_action/install/robot_action/share/robot_action/cmake/robot_action__rosidl_typesupport_cppExport.cmake
+[0.576s] -- Up-to-date: /home/zmyyy/ZhuMinyi/homework4/robot_action/install/robot_action/share/robot_action/cmake/robot_action__rosidl_typesupport_cppExport-noconfig.cmake
+[0.576s] -- Up-to-date: /home/zmyyy/ZhuMinyi/homework4/robot_action/install/robot_action/share/robot_action/cmake/export_robot_action__rosidl_generator_pyExport.cmake
+[0.576s] -- Up-to-date: /home/zmyyy/ZhuMinyi/homework4/robot_action/install/robot_action/share/robot_action/cmake/export_robot_action__rosidl_generator_pyExport-noconfig.cmake
+[0.579s] Invoked command in '/home/zmyyy/ZhuMinyi/homework4/robot_action/build/robot_action' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --install /home/zmyyy/ZhuMinyi/homework4/robot_action/build/robot_action

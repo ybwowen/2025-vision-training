@@ -1,0 +1,13 @@
+[31mCMake Error at CMakeLists.txt:40 (rosidl_get_typesupport_target):
+  Syntax error in cmake code at
+
+    /home/zmyyy/ZhuMinyi/homework4/division/CMakeLists.txt:40
+
+  when parsing string
+
+    ${PROJECT
+
+  There is an unterminated variable reference.
+
+[0m
+gmake: *** [Makefile:829: cmake_check_build_system] Error 1
