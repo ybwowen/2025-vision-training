@@ -1,0 +1,222 @@
+[0.239s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-above']
+[0.239s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=[], packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7eab278200d0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7eab277efaf0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7eab277efaf0>>)
+[0.586s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.586s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.586s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.586s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.586s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.587s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.587s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/rm-jiaolong/Workspace/homework4/task2'
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_demo) by extensions ['ignore', 'ignore_ament_install']
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_demo) by extension 'ignore'
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_demo) by extension 'ignore_ament_install'
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_demo) by extensions ['colcon_pkg']
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_demo) by extension 'colcon_pkg'
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_demo) by extensions ['colcon_meta']
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_demo) by extension 'colcon_meta'
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_demo) by extensions ['ros']
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_demo) by extension 'ros'
+[0.625s] DEBUG:colcon.colcon_core.package_identification:Package 'src/action_demo' with type 'ros.ament_cmake' and name 'action_demo'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_interfaces) by extension 'ignore'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_interfaces) by extension 'ignore_ament_install'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_interfaces) by extensions ['colcon_pkg']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_interfaces) by extension 'colcon_pkg'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_interfaces) by extensions ['colcon_meta']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_interfaces) by extension 'colcon_meta'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_interfaces) by extensions ['ros']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_interfaces) by extension 'ros'
+[0.628s] DEBUG:colcon.colcon_core.package_identification:Package 'src/action_interfaces' with type 'ros.ament_cmake' and name 'action_interfaces'
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[0.630s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.630s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.630s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.630s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.630s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.675s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.675s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.679s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/rm-jiaolong/Workspace/homework4/task2/install
+[0.681s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 270 installed packages in /opt/ros/humble
+[0.685s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.783s] Level 5:colcon.colcon_core.verb:set package 'action_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.783s] Level 5:colcon.colcon_core.verb:set package 'action_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.783s] Level 5:colcon.colcon_core.verb:set package 'action_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.783s] Level 5:colcon.colcon_core.verb:set package 'action_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.783s] Level 5:colcon.colcon_core.verb:set package 'action_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.783s] Level 5:colcon.colcon_core.verb:set package 'action_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.783s] Level 5:colcon.colcon_core.verb:set package 'action_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.783s] Level 5:colcon.colcon_core.verb:set package 'action_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.783s] Level 5:colcon.colcon_core.verb:set package 'action_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.783s] DEBUG:colcon.colcon_core.verb:Building package 'action_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rm-jiaolong/Workspace/homework4/task2/build/action_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces', 'merge_install': False, 'path': '/home/rm-jiaolong/Workspace/homework4/task2/src/action_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.784s] Level 5:colcon.colcon_core.verb:set package 'action_demo' build argument 'cmake_args' from command line to 'None'
+[0.784s] Level 5:colcon.colcon_core.verb:set package 'action_demo' build argument 'cmake_target' from command line to 'None'
+[0.784s] Level 5:colcon.colcon_core.verb:set package 'action_demo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.784s] Level 5:colcon.colcon_core.verb:set package 'action_demo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.784s] Level 5:colcon.colcon_core.verb:set package 'action_demo' build argument 'cmake_clean_first' from command line to 'False'
+[0.785s] Level 5:colcon.colcon_core.verb:set package 'action_demo' build argument 'cmake_force_configure' from command line to 'False'
+[0.785s] Level 5:colcon.colcon_core.verb:set package 'action_demo' build argument 'ament_cmake_args' from command line to 'None'
+[0.785s] Level 5:colcon.colcon_core.verb:set package 'action_demo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.785s] Level 5:colcon.colcon_core.verb:set package 'action_demo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.785s] DEBUG:colcon.colcon_core.verb:Building package 'action_demo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rm-jiaolong/Workspace/homework4/task2/build/action_demo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rm-jiaolong/Workspace/homework4/task2/install/action_demo', 'merge_install': False, 'path': '/home/rm-jiaolong/Workspace/homework4/task2/src/action_demo', 'symlink_install': False, 'test_result_base': None}
+[0.785s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.790s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.791s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rm-jiaolong/Workspace/homework4/task2/src/action_interfaces' with build type 'ament_cmake'
+[0.791s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rm-jiaolong/Workspace/homework4/task2/src/action_interfaces'
+[0.795s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.796s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.796s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.813s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rm-jiaolong/Workspace/homework4/task2/build/action_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rm-jiaolong/Workspace/homework4/task2/build/action_interfaces -- -j4 -l4
+[1.592s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rm-jiaolong/Workspace/homework4/task2/build/action_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rm-jiaolong/Workspace/homework4/task2/build/action_interfaces -- -j4 -l4
+[1.702s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rm-jiaolong/Workspace/homework4/task2/build/action_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rm-jiaolong/Workspace/homework4/task2/build/action_interfaces
+[1.825s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(action_interfaces)
+[1.829s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rm-jiaolong/Workspace/homework4/task2/build/action_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rm-jiaolong/Workspace/homework4/task2/build/action_interfaces
+[1.832s] Level 1:colcon.colcon_core.environment:checking '/home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces' for CMake module files
+[1.833s] Level 1:colcon.colcon_core.environment:checking '/home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces' for CMake config files
+[1.834s] Level 1:colcon.colcon_core.shell:create_environment_hook('action_interfaces', 'cmake_prefix_path')
+[1.834s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/share/action_interfaces/hook/cmake_prefix_path.ps1'
+[1.836s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/share/action_interfaces/hook/cmake_prefix_path.dsv'
+[1.837s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/share/action_interfaces/hook/cmake_prefix_path.sh'
+[1.839s] Level 1:colcon.colcon_core.environment:checking '/home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/lib'
+[1.839s] Level 1:colcon.colcon_core.shell:create_environment_hook('action_interfaces', 'ld_library_path_lib')
+[1.840s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/share/action_interfaces/hook/ld_library_path_lib.ps1'
+[1.841s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/share/action_interfaces/hook/ld_library_path_lib.dsv'
+[1.842s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/share/action_interfaces/hook/ld_library_path_lib.sh'
+[1.843s] Level 1:colcon.colcon_core.environment:checking '/home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/bin'
+[1.843s] Level 1:colcon.colcon_core.environment:checking '/home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/lib/pkgconfig/action_interfaces.pc'
+[1.843s] Level 1:colcon.colcon_core.environment:checking '/home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/lib/python3.10/site-packages'
+[1.844s] Level 1:colcon.colcon_core.environment:checking '/home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/bin'
+[1.844s] INFO:colcon.colcon_core.shell:Creating package script '/home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/share/action_interfaces/package.ps1'
+[1.846s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/share/action_interfaces/package.dsv'
+[1.847s] INFO:colcon.colcon_core.shell:Creating package script '/home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/share/action_interfaces/package.sh'
+[1.849s] INFO:colcon.colcon_core.shell:Creating package script '/home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/share/action_interfaces/package.bash'
+[1.853s] INFO:colcon.colcon_core.shell:Creating package script '/home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/share/action_interfaces/package.zsh'
+[1.854s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/share/colcon-core/packages/action_interfaces)
+[1.957s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(action_interfaces)
+[1.958s] Level 1:colcon.colcon_core.environment:checking '/home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces' for CMake module files
+[1.959s] Level 1:colcon.colcon_core.environment:checking '/home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces' for CMake config files
+[1.960s] Level 1:colcon.colcon_core.shell:create_environment_hook('action_interfaces', 'cmake_prefix_path')
+[1.960s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/share/action_interfaces/hook/cmake_prefix_path.ps1'
+[1.961s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/share/action_interfaces/hook/cmake_prefix_path.dsv'
+[1.962s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/share/action_interfaces/hook/cmake_prefix_path.sh'
+[1.964s] Level 1:colcon.colcon_core.environment:checking '/home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/lib'
+[1.964s] Level 1:colcon.colcon_core.shell:create_environment_hook('action_interfaces', 'ld_library_path_lib')
+[1.964s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/share/action_interfaces/hook/ld_library_path_lib.ps1'
+[1.965s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/share/action_interfaces/hook/ld_library_path_lib.dsv'
+[1.966s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/share/action_interfaces/hook/ld_library_path_lib.sh'
+[1.967s] Level 1:colcon.colcon_core.environment:checking '/home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/bin'
+[1.967s] Level 1:colcon.colcon_core.environment:checking '/home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/lib/pkgconfig/action_interfaces.pc'
+[1.967s] Level 1:colcon.colcon_core.environment:checking '/home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/lib/python3.10/site-packages'
+[1.968s] Level 1:colcon.colcon_core.environment:checking '/home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/bin'
+[1.968s] INFO:colcon.colcon_core.shell:Creating package script '/home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/share/action_interfaces/package.ps1'
+[1.970s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/share/action_interfaces/package.dsv'
+[1.971s] INFO:colcon.colcon_core.shell:Creating package script '/home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/share/action_interfaces/package.sh'
+[1.972s] INFO:colcon.colcon_core.shell:Creating package script '/home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/share/action_interfaces/package.bash'
+[1.973s] INFO:colcon.colcon_core.shell:Creating package script '/home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/share/action_interfaces/package.zsh'
+[1.974s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/share/colcon-core/packages/action_interfaces)
+[1.976s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rm-jiaolong/Workspace/homework4/task2/src/action_demo' with build type 'ament_cmake'
+[1.977s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rm-jiaolong/Workspace/homework4/task2/src/action_demo'
+[1.977s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.977s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.999s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rm-jiaolong/Workspace/homework4/task2/build/action_demo': CMAKE_PREFIX_PATH=/home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces:/home/rm-jiaolong/Workspace/homework4/task2/install/action_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 /usr/bin/cmake --build /home/rm-jiaolong/Workspace/homework4/task2/build/action_demo -- -j4 -l4
+[2.135s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rm-jiaolong/Workspace/homework4/task2/build/action_demo' returned '0': CMAKE_PREFIX_PATH=/home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces:/home/rm-jiaolong/Workspace/homework4/task2/install/action_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 /usr/bin/cmake --build /home/rm-jiaolong/Workspace/homework4/task2/build/action_demo -- -j4 -l4
+[2.188s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rm-jiaolong/Workspace/homework4/task2/build/action_demo': CMAKE_PREFIX_PATH=/home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces:/home/rm-jiaolong/Workspace/homework4/task2/install/action_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 /usr/bin/cmake --install /home/rm-jiaolong/Workspace/homework4/task2/build/action_demo
+[2.199s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(action_demo)
+[2.200s] Level 1:colcon.colcon_core.environment:checking '/home/rm-jiaolong/Workspace/homework4/task2/install/action_demo' for CMake module files
+[2.201s] Level 1:colcon.colcon_core.environment:checking '/home/rm-jiaolong/Workspace/homework4/task2/install/action_demo' for CMake config files
+[2.202s] Level 1:colcon.colcon_core.shell:create_environment_hook('action_demo', 'cmake_prefix_path')
+[2.202s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rm-jiaolong/Workspace/homework4/task2/install/action_demo/share/action_demo/hook/cmake_prefix_path.ps1'
+[2.204s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rm-jiaolong/Workspace/homework4/task2/install/action_demo/share/action_demo/hook/cmake_prefix_path.dsv'
+[2.205s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rm-jiaolong/Workspace/homework4/task2/install/action_demo/share/action_demo/hook/cmake_prefix_path.sh'
+[2.206s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rm-jiaolong/Workspace/homework4/task2/build/action_demo' returned '0': CMAKE_PREFIX_PATH=/home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces:/home/rm-jiaolong/Workspace/homework4/task2/install/action_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 /usr/bin/cmake --install /home/rm-jiaolong/Workspace/homework4/task2/build/action_demo
+[2.207s] Level 1:colcon.colcon_core.environment:checking '/home/rm-jiaolong/Workspace/homework4/task2/install/action_demo/lib'
+[2.208s] Level 1:colcon.colcon_core.environment:checking '/home/rm-jiaolong/Workspace/homework4/task2/install/action_demo/bin'
+[2.208s] Level 1:colcon.colcon_core.environment:checking '/home/rm-jiaolong/Workspace/homework4/task2/install/action_demo/lib/pkgconfig/action_demo.pc'
+[2.208s] Level 1:colcon.colcon_core.environment:checking '/home/rm-jiaolong/Workspace/homework4/task2/install/action_demo/lib/python3.10/site-packages'
+[2.209s] Level 1:colcon.colcon_core.environment:checking '/home/rm-jiaolong/Workspace/homework4/task2/install/action_demo/bin'
+[2.209s] INFO:colcon.colcon_core.shell:Creating package script '/home/rm-jiaolong/Workspace/homework4/task2/install/action_demo/share/action_demo/package.ps1'
+[2.210s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rm-jiaolong/Workspace/homework4/task2/install/action_demo/share/action_demo/package.dsv'
+[2.211s] INFO:colcon.colcon_core.shell:Creating package script '/home/rm-jiaolong/Workspace/homework4/task2/install/action_demo/share/action_demo/package.sh'
+[2.212s] INFO:colcon.colcon_core.shell:Creating package script '/home/rm-jiaolong/Workspace/homework4/task2/install/action_demo/share/action_demo/package.bash'
+[2.213s] INFO:colcon.colcon_core.shell:Creating package script '/home/rm-jiaolong/Workspace/homework4/task2/install/action_demo/share/action_demo/package.zsh'
+[2.214s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rm-jiaolong/Workspace/homework4/task2/install/action_demo/share/colcon-core/packages/action_demo)
+[2.272s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(action_demo)
+[2.272s] Level 1:colcon.colcon_core.environment:checking '/home/rm-jiaolong/Workspace/homework4/task2/install/action_demo' for CMake module files
+[2.273s] Level 1:colcon.colcon_core.environment:checking '/home/rm-jiaolong/Workspace/homework4/task2/install/action_demo' for CMake config files
+[2.273s] Level 1:colcon.colcon_core.shell:create_environment_hook('action_demo', 'cmake_prefix_path')
+[2.273s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rm-jiaolong/Workspace/homework4/task2/install/action_demo/share/action_demo/hook/cmake_prefix_path.ps1'
+[2.274s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rm-jiaolong/Workspace/homework4/task2/install/action_demo/share/action_demo/hook/cmake_prefix_path.dsv'
+[2.274s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rm-jiaolong/Workspace/homework4/task2/install/action_demo/share/action_demo/hook/cmake_prefix_path.sh'
+[2.275s] Level 1:colcon.colcon_core.environment:checking '/home/rm-jiaolong/Workspace/homework4/task2/install/action_demo/lib'
+[2.275s] Level 1:colcon.colcon_core.environment:checking '/home/rm-jiaolong/Workspace/homework4/task2/install/action_demo/bin'
+[2.275s] Level 1:colcon.colcon_core.environment:checking '/home/rm-jiaolong/Workspace/homework4/task2/install/action_demo/lib/pkgconfig/action_demo.pc'
+[2.276s] Level 1:colcon.colcon_core.environment:checking '/home/rm-jiaolong/Workspace/homework4/task2/install/action_demo/lib/python3.10/site-packages'
+[2.276s] Level 1:colcon.colcon_core.environment:checking '/home/rm-jiaolong/Workspace/homework4/task2/install/action_demo/bin'
+[2.276s] INFO:colcon.colcon_core.shell:Creating package script '/home/rm-jiaolong/Workspace/homework4/task2/install/action_demo/share/action_demo/package.ps1'
+[2.277s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rm-jiaolong/Workspace/homework4/task2/install/action_demo/share/action_demo/package.dsv'
+[2.277s] INFO:colcon.colcon_core.shell:Creating package script '/home/rm-jiaolong/Workspace/homework4/task2/install/action_demo/share/action_demo/package.sh'
+[2.278s] INFO:colcon.colcon_core.shell:Creating package script '/home/rm-jiaolong/Workspace/homework4/task2/install/action_demo/share/action_demo/package.bash'
+[2.278s] INFO:colcon.colcon_core.shell:Creating package script '/home/rm-jiaolong/Workspace/homework4/task2/install/action_demo/share/action_demo/package.zsh'
+[2.279s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rm-jiaolong/Workspace/homework4/task2/install/action_demo/share/colcon-core/packages/action_demo)
+[2.279s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.280s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.280s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.280s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.286s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.286s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.286s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.304s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.305s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rm-jiaolong/Workspace/homework4/task2/install/local_setup.ps1'
+[2.307s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rm-jiaolong/Workspace/homework4/task2/install/_local_setup_util_ps1.py'
+[2.310s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rm-jiaolong/Workspace/homework4/task2/install/setup.ps1'
+[2.312s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rm-jiaolong/Workspace/homework4/task2/install/local_setup.sh'
+[2.313s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rm-jiaolong/Workspace/homework4/task2/install/_local_setup_util_sh.py'
+[2.315s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rm-jiaolong/Workspace/homework4/task2/install/setup.sh'
+[2.317s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rm-jiaolong/Workspace/homework4/task2/install/local_setup.bash'
+[2.319s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rm-jiaolong/Workspace/homework4/task2/install/setup.bash'
+[2.321s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rm-jiaolong/Workspace/homework4/task2/install/local_setup.zsh'
+[2.322s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rm-jiaolong/Workspace/homework4/task2/install/setup.zsh'
