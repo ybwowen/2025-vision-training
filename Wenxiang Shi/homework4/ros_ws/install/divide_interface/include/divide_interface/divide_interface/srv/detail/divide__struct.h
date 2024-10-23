@@ -20,8 +20,8 @@ extern "C"
 /// Struct defined in srv/Divide in the package divide_interface.
 typedef struct divide_interface__srv__Divide_Request
 {
-  int32_t dividend;
-  int32_t divisor;
+  int64_t dividend;
+  int64_t divisor;
 } divide_interface__srv__Divide_Request;
 
 // Struct for a sequence of divide_interface__srv__Divide_Request.
@@ -40,8 +40,8 @@ typedef struct divide_interface__srv__Divide_Request__Sequence
 /// Struct defined in srv/Divide in the package divide_interface.
 typedef struct divide_interface__srv__Divide_Response
 {
-  int32_t quotient;
-  int32_t remainder;
+  int64_t quotient;
+  int64_t remainder;
 } divide_interface__srv__Divide_Response;
 
 // Struct for a sequence of divide_interface__srv__Divide_Response.

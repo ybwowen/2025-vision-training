@@ -1,0 +1,4 @@
+[31mCMake Error at CMakeLists.txt:11 (add_service_files):
+  Unknown CMake command "add_service_files".
+
+[0m

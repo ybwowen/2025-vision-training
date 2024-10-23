@@ -1,0 +1,27 @@
+[35m[1mConsolidate compiler generated dependencies of target client[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/client.dir/src/client.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/server.dir/src/server.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable server[0m
+[100%] [32m[1mLinking CXX executable client[0m
+[100%] Built target server
+[100%] Built target client
+-- Install configuration: ""
+-- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_package/lib/divide_package/server
+-- Set runtime path of "/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_package/lib/divide_package/server" to ""
+-- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_package/lib/divide_package/client
+-- Set runtime path of "/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_package/lib/divide_package/client" to ""
+-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_package/share/ament_index/resource_index/package_run_dependencies/divide_package
+-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_package/share/ament_index/resource_index/parent_prefix_path/divide_package
+-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_package/share/divide_package/environment/ament_prefix_path.sh
+-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_package/share/divide_package/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_package/share/divide_package/environment/path.sh
+-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_package/share/divide_package/environment/path.dsv
+-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_package/share/divide_package/local_setup.bash
+-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_package/share/divide_package/local_setup.sh
+-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_package/share/divide_package/local_setup.zsh
+-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_package/share/divide_package/local_setup.dsv
+-- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_package/share/divide_package/package.dsv
+-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_package/share/ament_index/resource_index/packages/divide_package
+-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_package/share/divide_package/cmake/divide_packageConfig.cmake
+-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_package/share/divide_package/cmake/divide_packageConfig-version.cmake
+-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_package/share/divide_package/package.xml

@@ -13,11 +13,17 @@ using DivideWithRemainder = divide_interface::srv::Divide;
 class DivideClientNode : public rclcpp::Node {
 public:
     DivideClientNode(int dividend, int divisor) : Node("divide_client") {
+
+        RCLCPP_INFO(this->get_logger(), "节点已启动:client");
         client_ = this->create_client<DivideWithRemainder>("divide");
 
         // Wait for the service to be available
-        while (!client_->wait_for_service(1s)) {
-            RCLCPP_INFO(this->get_logger(), "Waiting for the service to be available...");
+        while (!client_->wait_for_service(std::chrono::seconds(1))) {
+            if (!rclcpp::ok()) {
+                RCLCPP_ERROR(this->get_logger(), "等待服务的过程中被打断...");
+                return;
+            }
+            RCLCPP_INFO(this->get_logger(), "等待服务端上线中");
         }
 
         // Create a request and send it
@@ -25,28 +31,27 @@ public:
         request->dividend = dividend;
         request->divisor = divisor;
 
-        RCLCPP_INFO(this->get_logger(), "Sending request: %d / %d", request->dividend, request->divisor);
+        RCLCPP_INFO(this->get_logger(), "Sending request: %ld / %ld", request->dividend, request->divisor);
 
         // Send the request and process the response asynchronously
 
-        while (!client_->wait_for_service(1s)) {
-          if (!rclcpp::ok()) {
-            RCLCPP_ERROR(rclcpp::get_logger("rclcpp"), "Interrupted while waiting for the service. Exiting.");
-          }
-          RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "service not available, waiting again...");
-        }
-
-        auto result_future = client_->async_send_request(request);
-
-		auto result = result_future.get();
-		RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Result of %d / %d: Quotient = %d, Remainder = %d",
-					request->dividend, request->divisor, result->quotient, result->remainder);
+    client_->async_send_request(
+      request, std::bind(&DivideClientNode::result_callback_, this,
+                         std::placeholders::_1));
 
     }
 
 private:
     rclcpp::Client<DivideWithRemainder>::SharedPtr client_;
+
+    void result_callback_(
+        rclcpp::Client<DivideWithRemainder>::SharedFuture
+        result_future) {
+        auto response = result_future.get();
+        RCLCPP_INFO(this->get_logger(), "计算结果:%ld,%ld", response->quotient,response->remainder);
+  }
 };
+
 
 int main(int argc, char **argv) {
     rclcpp::init(argc, argv);

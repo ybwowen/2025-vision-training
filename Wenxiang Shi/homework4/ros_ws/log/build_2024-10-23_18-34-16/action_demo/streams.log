@@ -1,0 +1,25 @@
+[0.021s] Invoking command in '/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/build/action_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/build/action_demo -- -j32 -l32
+[0.051s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.234s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.534s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.537s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.544s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.565s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.576s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.622s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.623s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[6.380s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.446s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[6.455s] [31mCMake Error at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):
+[6.455s]   rosidl_generate_interfaces() the passed file 'action_demo/srv/Action.srv'
+[6.455s]   doesn't exist relative to the CMAKE_CURRENT_SOURCE_DIR
+[6.456s]   '/home/luna/robomaster/2025-vision-training/Wenxiang
+[6.456s]   Shi/homework4/ros_ws/src/action_demo'
+[6.456s] Call Stack (most recent call first):
+[6.456s]   CMakeLists.txt:15 (rosidl_generate_interfaces)
+[6.456s] 
+[6.456s] [0m
+[6.457s] -- Configuring incomplete, errors occurred!
+[6.457s] See also "/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/build/action_demo/CMakeFiles/CMakeOutput.log".
+[6.465s] gmake: *** [Makefile:829: cmake_check_build_system] Error 1
+[6.468s] Invoked command in '/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/build/action_demo' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/build/action_demo -- -j32 -l32

@@ -56,7 +56,7 @@ bool divide_interface__srv__divide__request__convert_from_py(PyObject * _pymsg, 
       return false;
     }
     assert(PyLong_Check(field));
-    ros_message->dividend = (int32_t)PyLong_AsLong(field);
+    ros_message->dividend = PyLong_AsLongLong(field);
     Py_DECREF(field);
   }
   {  // divisor
@@ -65,7 +65,7 @@ bool divide_interface__srv__divide__request__convert_from_py(PyObject * _pymsg, 
       return false;
     }
     assert(PyLong_Check(field));
-    ros_message->divisor = (int32_t)PyLong_AsLong(field);
+    ros_message->divisor = PyLong_AsLongLong(field);
     Py_DECREF(field);
   }
 
@@ -92,7 +92,7 @@ PyObject * divide_interface__srv__divide__request__convert_to_py(void * raw_ros_
   divide_interface__srv__Divide_Request * ros_message = (divide_interface__srv__Divide_Request *)raw_ros_message;
   {  // dividend
     PyObject * field = NULL;
-    field = PyLong_FromLong(ros_message->dividend);
+    field = PyLong_FromLongLong(ros_message->dividend);
     {
       int rc = PyObject_SetAttrString(_pymessage, "dividend", field);
       Py_DECREF(field);
@@ -103,7 +103,7 @@ PyObject * divide_interface__srv__divide__request__convert_to_py(void * raw_ros_
   }
   {  // divisor
     PyObject * field = NULL;
-    field = PyLong_FromLong(ros_message->divisor);
+    field = PyLong_FromLongLong(ros_message->divisor);
     {
       int rc = PyObject_SetAttrString(_pymessage, "divisor", field);
       Py_DECREF(field);
@@ -171,7 +171,7 @@ bool divide_interface__srv__divide__response__convert_from_py(PyObject * _pymsg,
       return false;
     }
     assert(PyLong_Check(field));
-    ros_message->quotient = (int32_t)PyLong_AsLong(field);
+    ros_message->quotient = PyLong_AsLongLong(field);
     Py_DECREF(field);
   }
   {  // remainder
@@ -180,7 +180,7 @@ bool divide_interface__srv__divide__response__convert_from_py(PyObject * _pymsg,
       return false;
     }
     assert(PyLong_Check(field));
-    ros_message->remainder = (int32_t)PyLong_AsLong(field);
+    ros_message->remainder = PyLong_AsLongLong(field);
     Py_DECREF(field);
   }
 
@@ -207,7 +207,7 @@ PyObject * divide_interface__srv__divide__response__convert_to_py(void * raw_ros
   divide_interface__srv__Divide_Response * ros_message = (divide_interface__srv__Divide_Response *)raw_ros_message;
   {  // quotient
     PyObject * field = NULL;
-    field = PyLong_FromLong(ros_message->quotient);
+    field = PyLong_FromLongLong(ros_message->quotient);
     {
       int rc = PyObject_SetAttrString(_pymessage, "quotient", field);
       Py_DECREF(field);
@@ -218,7 +218,7 @@ PyObject * divide_interface__srv__divide__response__convert_to_py(void * raw_ros
   }
   {  // remainder
     PyObject * field = NULL;
-    field = PyLong_FromLong(ros_message->remainder);
+    field = PyLong_FromLongLong(ros_message->remainder);
     {
       int rc = PyObject_SetAttrString(_pymessage, "remainder", field);
       Py_DECREF(field);

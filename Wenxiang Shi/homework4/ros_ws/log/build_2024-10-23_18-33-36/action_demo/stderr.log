@@ -1,0 +1,14 @@
+[01m[K/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/src/action_demo/src/server.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Kaction_demo/srv/action.hpp: No such file or directory
+    3 | #include [01;31m[K"action_demo/srv/action.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/src/action_demo/src/client.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Kaction_demo/srv/action.hpp: No such file or directory
+    3 | #include [01;31m[K"action_demo/srv/action.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+compilation terminated.
+gmake[2]: *** [CMakeFiles/server.dir/build.make:76: CMakeFiles/server.dir/src/server.cpp.o] Error 1
+gmake[2]: *** [CMakeFiles/client.dir/build.make:76: CMakeFiles/client.dir/src/client.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:594: CMakeFiles/server.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:620: CMakeFiles/client.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

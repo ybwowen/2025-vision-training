@@ -1,0 +1,74 @@
+[0.000000] (-) TimerEvent: {}
+[0.000841] (divide_interface) JobQueued: {'identifier': 'divide_interface', 'dependencies': OrderedDict()}
+[0.000908] (divide_package) JobQueued: {'identifier': 'divide_package', 'dependencies': OrderedDict([('divide_interface', '/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface')])}
+[0.000935] (divide_interface) JobStarted: {'identifier': 'divide_interface'}
+[0.014225] (divide_interface) JobProgress: {'identifier': 'divide_interface', 'progress': 'cmake'}
+[0.016743] (divide_interface) JobProgress: {'identifier': 'divide_interface', 'progress': 'build'}
+[0.016943] (divide_interface) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/build/divide_interface', '--', '-j32', '-l32'], 'cwd': '/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/build/divide_interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7897'), ('no_proxy', '172.31.*,172.30.*,172.29.*,172.28.*,172.27.*,172.26.*,172.25.*,172.24.*,172.23.*,172.22.*,172.21.*,172.20.*,172.19.*,172.18.*,172.17.*,172.16.*,10.*,192.168.*,127.*,localhost,<local>'), ('USER', 'luna'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{17bf3de4-5353-5709-bcf9-835bd952a95e}'), ('HOME', '/home/luna'), ('OLDPWD', '/home/luna'), ('NO_PROXY', '172.31.*,172.30.*,172.29.*,172.28.*,172.27.*,172.26.*,172.25.*,172.24.*,172.23.*,172.22.*,172.21.*,172.20.*,172.19.*,172.18.*,172.17.*,172.16.*,10.*,192.168.*,127.*,localhost,<local>'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://127.0.0.1:7897'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'luna'), ('NAME', 'swx-luna'), ('WSL_INTEROP', '/run/WSL/23959_interop'), ('http_proxy', 'http://127.0.0.1:7897'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/swx/AppData/Anaconda/Lib/Graphviz/bin/dot.exe:/mnt/c/Program Files/HP/HP One Agent:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/MATLAB/R2023a/bin:/mnt/c/Qt/6.7.1/mingw_64/bin:/mnt/c/Qt/Tools/mingw1120_64/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/nodejs/:/mnt/c/windows/system32:/mnt/c/Users/swx/AppData/Anaconda/Lib/Graphviz/bin:/mnt/c/Users/swx/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/swx/AppData/Local/gitkraken/bin:/mnt/c/Users/swx/.dotnet/tools:/mnt/c/Users/swx/AppData/Roaming/npm:/snap/bin'), ('WT_SESSION', 'f3eaf33f-e3da-4ce4-bb75-a0afa3987d7f'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/build/divide_interface'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7897'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.105365] (-) TimerEvent: {}
+[0.168467] (divide_interface) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.205552] (-) TimerEvent: {}
+[0.308173] (-) TimerEvent: {}
+[0.346812] (divide_interface) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.350728] (divide_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.356106] (divide_interface) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.412181] (-) TimerEvent: {}
+[0.520174] (-) TimerEvent: {}
+[0.596785] (divide_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.620714] (-) TimerEvent: {}
+[0.728299] (-) TimerEvent: {}
+[0.836060] (-) TimerEvent: {}
+[0.858302] (divide_interface) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):\n'}
+[0.858488] (divide_interface) StderrLine: {'line': b'  execute_process(/usr/bin/python3 -m rosidl_adapter --package-name\n'}
+[0.858549] (divide_interface) StderrLine: {'line': b'  divide_interface --arguments-file\n'}
+[0.858603] (divide_interface) StderrLine: {'line': b'  /home/luna/robomaster/2025-vision-training/Wenxiang\n'}
+[0.858654] (divide_interface) StderrLine: {'line': b'  Shi/homework4/ros_ws/build/divide_interface/rosidl_adapter__arguments__divide_interface.json\n'}
+[0.858705] (divide_interface) StderrLine: {'line': b'  --output-dir /home/luna/robomaster/2025-vision-training/Wenxiang\n'}
+[0.858755] (divide_interface) StderrLine: {'line': b'  Shi/homework4/ros_ws/build/divide_interface/rosidl_adapter/divide_interface\n'}
+[0.858804] (divide_interface) StderrLine: {'line': b'  --output-file /home/luna/robomaster/2025-vision-training/Wenxiang\n'}
+[0.858852] (divide_interface) StderrLine: {'line': b'  Shi/homework4/ros_ws/build/divide_interface/rosidl_adapter/divide_interface.idls)\n'}
+[0.858899] (divide_interface) StderrLine: {'line': b'  returned error code 1:\n'}
+[0.858947] (divide_interface) StderrLine: {'line': b'\n'}
+[0.858994] (divide_interface) StderrLine: {'line': b"  Error processing 'int dividend' of 'divide_interface/Divide_Request':\n"}
+[0.859042] (divide_interface) StderrLine: {'line': b"  ''int' is an invalid message name.  It should have the pattern\n"}
+[0.859089] (divide_interface) StderrLine: {'line': b"  '^[A-Z][A-Za-z0-9]*$''\n"}
+[0.859136] (divide_interface) StderrLine: {'line': b'\n'}
+[0.859184] (divide_interface) StderrLine: {'line': b'  Traceback (most recent call last):\n'}
+[0.859232] (divide_interface) StderrLine: {'line': b'\n'}
+[0.859282] (divide_interface) StderrLine: {'line': b'    File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main\n'}
+[0.859336] (divide_interface) StderrLine: {'line': b'      return _run_code(code, main_globals, None,\n'}
+[0.859385] (divide_interface) StderrLine: {'line': b'    File "/usr/lib/python3.10/runpy.py", line 86, in _run_code\n'}
+[0.859433] (divide_interface) StderrLine: {'line': b'      exec(code, run_globals)\n'}
+[0.859481] (divide_interface) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>\n'}
+[0.859529] (divide_interface) StderrLine: {'line': b'      sys.exit(main())\n'}
+[0.859576] (divide_interface) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main\n'}
+[0.859623] (divide_interface) StderrLine: {'line': b'      abs_idl_file = convert_to_idl(\n'}
+[0.859670] (divide_interface) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 24, in convert_to_idl\n'}
+[0.859717] (divide_interface) StderrLine: {'line': b'      return convert_srv_to_idl(\n'}
+[0.859764] (divide_interface) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/srv/__init__.py", line 28, in convert_srv_to_idl\n'}
+[0.859811] (divide_interface) StderrLine: {'line': b'      srv = parse_service_string(package_name, input_file.stem, content)\n'}
+[0.859858] (divide_interface) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 859, in parse_service_string\n'}
+[0.859905] (divide_interface) StderrLine: {'line': b'      request_message = parse_message_string(\n'}
+[0.859952] (divide_interface) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 520, in parse_message_string\n'}
+[0.859998] (divide_interface) StderrLine: {'line': b'      Type(type_string, context_package_name=pkg_name),\n'}
+[0.860046] (divide_interface) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 277, in __init__\n'}
+[0.860093] (divide_interface) StderrLine: {'line': b'      super(Type, self).__init__(\n'}
+[0.860139] (divide_interface) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 205, in __init__\n'}
+[0.860190] (divide_interface) StderrLine: {'line': b'      raise InvalidResourceName(\n'}
+[0.860240] (divide_interface) StderrLine: {'line': b'\n'}
+[0.860288] (divide_interface) StderrLine: {'line': b"  rosidl_adapter.parser.InvalidResourceName: 'int' is an invalid message\n"}
+[0.860352] (divide_interface) StderrLine: {'line': b"  name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'\n"}
+[0.860419] (divide_interface) StderrLine: {'line': b'\n'}
+[0.860473] (divide_interface) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.860524] (divide_interface) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)\n'}
+[0.860674] (divide_interface) StderrLine: {'line': b'  CMakeLists.txt:13 (rosidl_generate_interfaces)\n'}
+[0.860759] (divide_interface) StderrLine: {'line': b'\n'}
+[0.860815] (divide_interface) StderrLine: {'line': b'\x1b[0m\n'}
+[0.860867] (divide_interface) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.860928] (divide_interface) StdoutLine: {'line': b'See also "/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/build/divide_interface/CMakeFiles/CMakeOutput.log".\n'}
+[0.867411] (divide_interface) StderrLine: {'line': b'gmake: *** [Makefile:747: cmake_check_build_system] Error 1\n'}
+[0.870050] (divide_interface) CommandEnded: {'returncode': 2}
+[0.936123] (divide_interface) JobEnded: {'identifier': 'divide_interface', 'rc': 2}
+[0.936897] (-) TimerEvent: {}
+[0.946812] (divide_package) JobSkipped: {'identifier': 'divide_package'}
+[0.946946] (-) EventReactorShutdown: {}

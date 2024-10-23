@@ -38,8 +38,8 @@ struct Divide_Request_
     if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
       rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
     {
-      this->dividend = 0l;
-      this->divisor = 0l;
+      this->dividend = 0ll;
+      this->divisor = 0ll;
     }
   }
 
@@ -49,28 +49,28 @@ struct Divide_Request_
     if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
       rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
     {
-      this->dividend = 0l;
-      this->divisor = 0l;
+      this->dividend = 0ll;
+      this->divisor = 0ll;
     }
   }
 
   // field types and members
   using _dividend_type =
-    int32_t;
+    int64_t;
   _dividend_type dividend;
   using _divisor_type =
-    int32_t;
+    int64_t;
   _divisor_type divisor;
 
   // setters for named parameter idiom
   Type & set__dividend(
-    const int32_t & _arg)
+    const int64_t & _arg)
   {
     this->dividend = _arg;
     return *this;
   }
   Type & set__divisor(
-    const int32_t & _arg)
+    const int64_t & _arg)
   {
     this->divisor = _arg;
     return *this;
@@ -166,8 +166,8 @@ struct Divide_Response_
     if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
       rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
     {
-      this->quotient = 0l;
-      this->remainder = 0l;
+      this->quotient = 0ll;
+      this->remainder = 0ll;
     }
   }
 
@@ -177,28 +177,28 @@ struct Divide_Response_
     if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
       rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
     {
-      this->quotient = 0l;
-      this->remainder = 0l;
+      this->quotient = 0ll;
+      this->remainder = 0ll;
     }
   }
 
   // field types and members
   using _quotient_type =
-    int32_t;
+    int64_t;
   _quotient_type quotient;
   using _remainder_type =
-    int32_t;
+    int64_t;
   _remainder_type remainder;
 
   // setters for named parameter idiom
   Type & set__quotient(
-    const int32_t & _arg)
+    const int64_t & _arg)
   {
     this->quotient = _arg;
     return *this;
   }
   Type & set__remainder(
-    const int32_t & _arg)
+    const int64_t & _arg)
   {
     this->remainder = _arg;
     return *this;

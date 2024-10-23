@@ -6,14 +6,14 @@
 module divide_interface {
   module srv {
     struct Divide_Request {
-      int32 dividend;
+      int64 dividend;
 
-      int32 divisor;
+      int64 divisor;
     };
     struct Divide_Response {
-      int32 quotient;
+      int64 quotient;
 
-      int32 remainder;
+      int64 remainder;
     };
   };
 };

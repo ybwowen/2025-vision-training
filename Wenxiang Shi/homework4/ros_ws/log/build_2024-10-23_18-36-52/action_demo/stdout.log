@@ -1,0 +1,60 @@
+-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/build/action_demo
+[35m[1mConsolidate compiler generated dependencies of target action_demo__rosidl_generator_c[0m
+[  5%] Built target action_demo__cpp
+[  2%] [32mBuilding CXX object CMakeFiles/server.dir/src/server.cpp.o[0m
+[  8%] [32mBuilding CXX object CMakeFiles/client.dir/src/client.cpp.o[0m
+[ 11%] [32mBuilding C object CMakeFiles/action_demo__rosidl_generator_c.dir/rosidl_generator_c/action_demo/srv/detail/action__functions.c.o[0m
+[ 11%] Built target ament_cmake_python_copy_action_demo
+[35m[1mConsolidate compiler generated dependencies of target action_demo__rosidl_typesupport_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target action_demo__rosidl_typesupport_fastrtps_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target action_demo__rosidl_typesupport_introspection_cpp[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/action_demo__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/action_demo/srv/action__type_support.cpp.o[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/action_demo__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/action_demo/srv/detail/action__type_support.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/action_demo__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/action_demo/srv/detail/dds_fastrtps/action__type_support.cpp.o[0m
+[ 22%] [32m[1mLinking C shared library libaction_demo__rosidl_generator_c.so[0m
+running egg_info
+writing action_demo.egg-info/PKG-INFO
+writing dependency_links to action_demo.egg-info/dependency_links.txt
+writing top-level names to action_demo.egg-info/top_level.txt
+reading manifest file 'action_demo.egg-info/SOURCES.txt'
+writing manifest file 'action_demo.egg-info/SOURCES.txt'
+[ 22%] Built target ament_cmake_python_build_action_demo_egg
+[ 25%] Built target action_demo__rosidl_generator_c
+[ 28%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 31%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 34%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 37%] [32m[1mLinking CXX shared library libaction_demo__rosidl_typesupport_cpp.so[0m
+[ 40%] [32m[1mLinking CXX shared library libaction_demo__rosidl_typesupport_introspection_cpp.so[0m
+[ 42%] [32m[1mLinking CXX shared library libaction_demo__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 45%] Built target action_demo__rosidl_typesupport_cpp
+[ 48%] Built target action_demo__rosidl_typesupport_introspection_cpp
+[ 51%] [32mBuilding CXX object CMakeFiles/action_demo__rosidl_typesupport_c.dir/rosidl_typesupport_c/action_demo/srv/action__type_support.cpp.o[0m
+[ 54%] Built target action_demo__rosidl_typesupport_fastrtps_cpp
+[ 57%] [32m[1mLinking CXX shared library libaction_demo__rosidl_typesupport_c.so[0m
+[ 60%] [32mBuilding C object CMakeFiles/action_demo__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/action_demo/srv/detail/action__type_support.c.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/action_demo__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/action_demo/srv/detail/action__type_support_c.cpp.o[0m
+[ 65%] [32m[1mLinking C shared library libaction_demo__rosidl_typesupport_introspection_c.so[0m
+[ 65%] Built target action_demo__rosidl_typesupport_c
+[ 65%] Built target action_demo__rosidl_typesupport_introspection_c
+[ 68%] [32m[1mLinking CXX shared library libaction_demo__rosidl_typesupport_fastrtps_c.so[0m
+[ 68%] Built target action_demo__rosidl_typesupport_fastrtps_c

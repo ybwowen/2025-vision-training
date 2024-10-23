@@ -34,7 +34,7 @@ void divide_interface__srv__Divide_Request__rosidl_typesupport_introspection_c__
 static rosidl_typesupport_introspection_c__MessageMember divide_interface__srv__Divide_Request__rosidl_typesupport_introspection_c__Divide_Request_message_member_array[2] = {
   {
     "dividend",  // name
-    rosidl_typesupport_introspection_c__ROS_TYPE_INT32,  // type
+    rosidl_typesupport_introspection_c__ROS_TYPE_INT64,  // type
     0,  // upper bound of string
     NULL,  // members of sub message
     false,  // is array
@@ -51,7 +51,7 @@ static rosidl_typesupport_introspection_c__MessageMember divide_interface__srv__
   },
   {
     "divisor",  // name
-    rosidl_typesupport_introspection_c__ROS_TYPE_INT32,  // type
+    rosidl_typesupport_introspection_c__ROS_TYPE_INT64,  // type
     0,  // upper bound of string
     NULL,  // members of sub message
     false,  // is array
@@ -139,7 +139,7 @@ void divide_interface__srv__Divide_Response__rosidl_typesupport_introspection_c_
 static rosidl_typesupport_introspection_c__MessageMember divide_interface__srv__Divide_Response__rosidl_typesupport_introspection_c__Divide_Response_message_member_array[2] = {
   {
     "quotient",  // name
-    rosidl_typesupport_introspection_c__ROS_TYPE_INT32,  // type
+    rosidl_typesupport_introspection_c__ROS_TYPE_INT64,  // type
     0,  // upper bound of string
     NULL,  // members of sub message
     false,  // is array
@@ -156,7 +156,7 @@ static rosidl_typesupport_introspection_c__MessageMember divide_interface__srv__
   },
   {
     "remainder",  // name
-    rosidl_typesupport_introspection_c__ROS_TYPE_INT32,  // type
+    rosidl_typesupport_introspection_c__ROS_TYPE_INT64,  // type
     0,  // upper bound of string
     NULL,  // members of sub message
     false,  // is array

@@ -1,0 +1,148 @@
+[0.026s] Invoking command in '/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/build/divide_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/build/divide_interface -- -j32 -l32
+[0.079s] [  3%] Built target divide_interface__cpp
+[0.081s] [ 12%] Built target divide_interface__rosidl_generator_c
+[0.090s] [ 12%] Built target ament_cmake_python_copy_divide_interface
+[0.108s] [ 25%] Built target divide_interface__rosidl_typesupport_introspection_cpp
+[0.109s] [ 35%] Built target divide_interface__rosidl_typesupport_fastrtps_cpp
+[0.110s] [ 41%] Built target divide_interface__rosidl_typesupport_introspection_c
+[0.110s] [ 51%] Built target divide_interface__rosidl_typesupport_cpp
+[0.110s] [ 61%] Built target divide_interface__rosidl_typesupport_fastrtps_c
+[0.112s] [ 70%] Built target divide_interface__rosidl_typesupport_c
+[0.133s] [ 70%] Built target divide_interface
+[0.155s] [ 74%] Built target divide_interface__py
+[0.178s] [ 80%] Built target divide_interface__rosidl_generator_py
+[0.202s] [ 87%] Built target divide_interface__rosidl_typesupport_fastrtps_c__pyext
+[0.203s] [100%] Built target divide_interface__rosidl_typesupport_introspection_c__pyext
+[0.203s] [100%] Built target divide_interface__rosidl_typesupport_c__pyext
+[0.428s] running egg_info
+[0.430s] writing divide_interface.egg-info/PKG-INFO
+[0.430s] writing dependency_links to divide_interface.egg-info/dependency_links.txt
+[0.430s] writing top-level names to divide_interface.egg-info/top_level.txt
+[0.433s] reading manifest file 'divide_interface.egg-info/SOURCES.txt'
+[0.434s] writing manifest file 'divide_interface.egg-info/SOURCES.txt'
+[0.466s] [100%] Built target ament_cmake_python_build_divide_interface_egg
+[0.480s] Invoked command in '/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/build/divide_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/build/divide_interface -- -j32 -l32
+[0.557s] Invoking command in '/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/build/divide_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/build/divide_interface
+[0.565s] -- Install configuration: ""
+[0.565s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/share/ament_index/resource_index/rosidl_interfaces/divide_interface
+[0.566s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/include/divide_interface/divide_interface
+[0.566s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/include/divide_interface/divide_interface/srv
+[0.566s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/include/divide_interface/divide_interface/srv/divide.h
+[0.566s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/include/divide_interface/divide_interface/srv/detail
+[0.566s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/include/divide_interface/divide_interface/srv/detail/divide__functions.h
+[0.567s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/include/divide_interface/divide_interface/srv/detail/divide__type_support.h
+[0.567s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/include/divide_interface/divide_interface/srv/detail/divide__functions.c
+[0.567s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/include/divide_interface/divide_interface/srv/detail/divide__struct.h
+[0.568s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/include/divide_interface/divide_interface/msg
+[0.568s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/include/divide_interface/divide_interface/msg/rosidl_generator_c__visibility_control.h
+[0.569s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/share/divide_interface/environment/library_path.sh
+[0.569s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/share/divide_interface/environment/library_path.dsv
+[0.569s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/lib/libdivide_interface__rosidl_generator_c.so
+[0.569s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/include/divide_interface/divide_interface
+[0.570s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/include/divide_interface/divide_interface/srv
+[0.570s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/include/divide_interface/divide_interface/srv/detail
+[0.570s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/include/divide_interface/divide_interface/srv/detail/divide__rosidl_typesupport_fastrtps_c.h
+[0.571s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/include/divide_interface/divide_interface/msg
+[0.571s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/include/divide_interface/divide_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.571s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/lib/libdivide_interface__rosidl_typesupport_fastrtps_c.so
+[0.572s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/include/divide_interface/divide_interface
+[0.572s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/include/divide_interface/divide_interface/srv
+[0.572s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/include/divide_interface/divide_interface/srv/detail
+[0.572s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/include/divide_interface/divide_interface/srv/detail/divide__type_support.c
+[0.572s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/include/divide_interface/divide_interface/srv/detail/divide__rosidl_typesupport_introspection_c.h
+[0.572s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/include/divide_interface/divide_interface/msg
+[0.572s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/include/divide_interface/divide_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.572s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/lib/libdivide_interface__rosidl_typesupport_introspection_c.so
+[0.572s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/lib/libdivide_interface__rosidl_typesupport_c.so
+[0.573s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/include/divide_interface/divide_interface
+[0.573s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/include/divide_interface/divide_interface/srv
+[0.573s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/include/divide_interface/divide_interface/srv/divide.hpp
+[0.573s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/include/divide_interface/divide_interface/srv/detail
+[0.573s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/include/divide_interface/divide_interface/srv/detail/divide__struct.hpp
+[0.573s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/include/divide_interface/divide_interface/srv/detail/divide__builder.hpp
+[0.573s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/include/divide_interface/divide_interface/srv/detail/divide__traits.hpp
+[0.573s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/include/divide_interface/divide_interface
+[0.573s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/include/divide_interface/divide_interface/srv
+[0.573s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/include/divide_interface/divide_interface/srv/detail
+[0.573s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/include/divide_interface/divide_interface/srv/detail/divide__rosidl_typesupport_fastrtps_cpp.hpp
+[0.573s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/include/divide_interface/divide_interface/srv/detail/dds_fastrtps
+[0.573s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/include/divide_interface/divide_interface/msg
+[0.573s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/include/divide_interface/divide_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.574s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/lib/libdivide_interface__rosidl_typesupport_fastrtps_cpp.so
+[0.574s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/include/divide_interface/divide_interface
+[0.574s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/include/divide_interface/divide_interface/srv
+[0.574s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/include/divide_interface/divide_interface/srv/detail
+[0.574s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/include/divide_interface/divide_interface/srv/detail/divide__rosidl_typesupport_introspection_cpp.hpp
+[0.574s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/include/divide_interface/divide_interface/srv/detail/divide__type_support.cpp
+[0.574s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/lib/libdivide_interface__rosidl_typesupport_introspection_cpp.so
+[0.574s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/lib/libdivide_interface__rosidl_typesupport_cpp.so
+[0.574s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/share/divide_interface/environment/pythonpath.sh
+[0.574s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/share/divide_interface/environment/pythonpath.dsv
+[0.574s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/local/lib/python3.10/dist-packages/divide_interface-0.0.0-py3.10.egg-info
+[0.575s] -- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/local/lib/python3.10/dist-packages/divide_interface-0.0.0-py3.10.egg-info/top_level.txt
+[0.575s] -- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/local/lib/python3.10/dist-packages/divide_interface-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.575s] -- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/local/lib/python3.10/dist-packages/divide_interface-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.575s] -- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/local/lib/python3.10/dist-packages/divide_interface-0.0.0-py3.10.egg-info/PKG-INFO
+[0.575s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/local/lib/python3.10/dist-packages/divide_interface
+[0.575s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/local/lib/python3.10/dist-packages/divide_interface/srv
+[0.575s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/local/lib/python3.10/dist-packages/divide_interface/srv/_divide.py
+[0.575s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/local/lib/python3.10/dist-packages/divide_interface/srv/__init__.py
+[0.575s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/local/lib/python3.10/dist-packages/divide_interface/srv/_divide_s.c
+[0.575s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/local/lib/python3.10/dist-packages/divide_interface/_divide_interface_s.ep.rosidl_typesupport_c.c
+[0.575s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/local/lib/python3.10/dist-packages/divide_interface/_divide_interface_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.575s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/local/lib/python3.10/dist-packages/divide_interface/__init__.py
+[0.576s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/local/lib/python3.10/dist-packages/divide_interface/divide_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.576s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/local/lib/python3.10/dist-packages/divide_interface/libdivide_interface__rosidl_generator_py.so
+[0.576s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/local/lib/python3.10/dist-packages/divide_interface/_divide_interface_s.ep.rosidl_typesupport_introspection_c.c
+[0.576s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/local/lib/python3.10/dist-packages/divide_interface/divide_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.576s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/local/lib/python3.10/dist-packages/divide_interface/divide_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.615s] Listing '/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/local/lib/python3.10/dist-packages/divide_interface'...
+[0.616s] Listing '/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/local/lib/python3.10/dist-packages/divide_interface/srv'...
+[0.621s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/local/lib/python3.10/dist-packages/divide_interface/divide_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.621s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/local/lib/python3.10/dist-packages/divide_interface/divide_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.622s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/local/lib/python3.10/dist-packages/divide_interface/divide_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.622s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/lib/libdivide_interface__rosidl_generator_py.so
+[0.623s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/share/divide_interface/srv/Divide.idl
+[0.623s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/share/divide_interface/srv/Divide.srv
+[0.623s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/share/divide_interface/srv/Divide_Request.msg
+[0.623s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/share/divide_interface/srv/Divide_Response.msg
+[0.624s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/share/ament_index/resource_index/package_run_dependencies/divide_interface
+[0.624s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/share/ament_index/resource_index/parent_prefix_path/divide_interface
+[0.624s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/share/divide_interface/environment/ament_prefix_path.sh
+[0.624s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/share/divide_interface/environment/ament_prefix_path.dsv
+[0.625s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/share/divide_interface/environment/path.sh
+[0.625s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/share/divide_interface/environment/path.dsv
+[0.625s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/share/divide_interface/local_setup.bash
+[0.625s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/share/divide_interface/local_setup.sh
+[0.626s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/share/divide_interface/local_setup.zsh
+[0.626s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/share/divide_interface/local_setup.dsv
+[0.626s] -- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/share/divide_interface/package.dsv
+[0.626s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/share/ament_index/resource_index/packages/divide_interface
+[0.626s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/share/divide_interface/cmake/export_divide_interface__rosidl_generator_cExport.cmake
+[0.626s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/share/divide_interface/cmake/export_divide_interface__rosidl_generator_cExport-noconfig.cmake
+[0.626s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/share/divide_interface/cmake/export_divide_interface__rosidl_typesupport_fastrtps_cExport.cmake
+[0.627s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/share/divide_interface/cmake/export_divide_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[0.627s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/share/divide_interface/cmake/divide_interface__rosidl_typesupport_introspection_cExport.cmake
+[0.627s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/share/divide_interface/cmake/divide_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.627s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/share/divide_interface/cmake/divide_interface__rosidl_typesupport_cExport.cmake
+[0.627s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/share/divide_interface/cmake/divide_interface__rosidl_typesupport_cExport-noconfig.cmake
+[0.627s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/share/divide_interface/cmake/export_divide_interface__rosidl_generator_cppExport.cmake
+[0.627s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/share/divide_interface/cmake/export_divide_interface__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.627s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/share/divide_interface/cmake/export_divide_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[0.627s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/share/divide_interface/cmake/divide_interface__rosidl_typesupport_introspection_cppExport.cmake
+[0.628s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/share/divide_interface/cmake/divide_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.628s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/share/divide_interface/cmake/divide_interface__rosidl_typesupport_cppExport.cmake
+[0.628s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/share/divide_interface/cmake/divide_interface__rosidl_typesupport_cppExport-noconfig.cmake
+[0.628s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/share/divide_interface/cmake/export_divide_interface__rosidl_generator_pyExport.cmake
+[0.628s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/share/divide_interface/cmake/export_divide_interface__rosidl_generator_pyExport-noconfig.cmake
+[0.629s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/share/divide_interface/cmake/rosidl_cmake-extras.cmake
+[0.629s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/share/divide_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.629s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/share/divide_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[0.629s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/share/divide_interface/cmake/ament_cmake_export_targets-extras.cmake
+[0.629s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/share/divide_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.630s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/share/divide_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.630s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/share/divide_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.630s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/share/divide_interface/cmake/divide_interfaceConfig.cmake
+[0.631s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/share/divide_interface/cmake/divide_interfaceConfig-version.cmake
+[0.631s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/share/divide_interface/package.xml
+[0.634s] Invoked command in '/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/build/divide_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/build/divide_interface

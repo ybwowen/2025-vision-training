@@ -1,0 +1,287 @@
+[0.000000] (-) TimerEvent: {}
+[0.001209] (-) JobUnselected: {'identifier': 'divide_interface'}
+[0.001589] (-) JobUnselected: {'identifier': 'divide_package'}
+[0.001702] (action_demo) JobQueued: {'identifier': 'action_demo', 'dependencies': OrderedDict()}
+[0.001770] (action_demo) JobStarted: {'identifier': 'action_demo'}
+[0.021697] (action_demo) JobProgress: {'identifier': 'action_demo', 'progress': 'cmake'}
+[0.023757] (action_demo) JobProgress: {'identifier': 'action_demo', 'progress': 'build'}
+[0.024972] (action_demo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/build/action_demo', '--', '-j32', '-l32'], 'cwd': '/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/build/action_demo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7897'), ('no_proxy', '172.31.*,172.30.*,172.29.*,172.28.*,172.27.*,172.26.*,172.25.*,172.24.*,172.23.*,172.22.*,172.21.*,172.20.*,172.19.*,172.18.*,172.17.*,172.16.*,10.*,192.168.*,127.*,localhost,<local>'), ('USER', 'luna'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{17bf3de4-5353-5709-bcf9-835bd952a95e}'), ('HOME', '/home/luna'), ('OLDPWD', '/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/src/action_demo/srv'), ('NO_PROXY', '172.31.*,172.30.*,172.29.*,172.28.*,172.27.*,172.26.*,172.25.*,172.24.*,172.23.*,172.22.*,172.21.*,172.20.*,172.19.*,172.18.*,172.17.*,172.16.*,10.*,192.168.*,127.*,localhost,<local>'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://127.0.0.1:7897'), ('COLCON_PREFIX_PATH', '/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'luna'), ('NAME', 'swx-luna'), ('WSL_INTEROP', '/run/WSL/37455_interop'), ('http_proxy', 'http://127.0.0.1:7897'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/swx/AppData/Anaconda/Lib/Graphviz/bin/dot.exe:/mnt/c/Program Files/HP/HP One Agent:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/MATLAB/R2023a/bin:/mnt/c/Qt/6.7.1/mingw_64/bin:/mnt/c/Qt/Tools/mingw1120_64/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/nodejs/:/mnt/c/windows/system32:/mnt/c/Users/swx/AppData/Anaconda/Lib/Graphviz/bin:/mnt/c/Users/swx/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/swx/AppData/Local/gitkraken/bin:/mnt/c/Users/swx/.dotnet/tools:/mnt/c/Users/swx/AppData/Roaming/npm:/snap/bin'), ('WT_SESSION', '4408f558-c577-4143-a368-31d197ef493b'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_package:/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/build/action_demo'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7897'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_package:/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[0.106742] (-) TimerEvent: {}
+[0.136831] (action_demo) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.213859] (-) TimerEvent: {}
+[0.315256] (-) TimerEvent: {}
+[0.372082] (action_demo) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.419732] (-) TimerEvent: {}
+[0.530260] (-) TimerEvent: {}
+[0.554434] (action_demo) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.560239] (action_demo) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.576360] (action_demo) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.600069] (action_demo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.626554] (action_demo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.630811] (-) TimerEvent: {}
+[0.704530] (action_demo) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.709497] (action_demo) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.733076] (-) TimerEvent: {}
+[0.835579] (-) TimerEvent: {}
+[0.946313] (-) TimerEvent: {}
+[1.056833] (-) TimerEvent: {}
+[1.167361] (-) TimerEvent: {}
+[1.277360] (-) TimerEvent: {}
+[1.383095] (-) TimerEvent: {}
+[1.492574] (-) TimerEvent: {}
+[1.601762] (-) TimerEvent: {}
+[1.709871] (-) TimerEvent: {}
+[1.818987] (-) TimerEvent: {}
+[1.928087] (-) TimerEvent: {}
+[2.037104] (-) TimerEvent: {}
+[2.146178] (-) TimerEvent: {}
+[2.255388] (-) TimerEvent: {}
+[2.364505] (-) TimerEvent: {}
+[2.473485] (-) TimerEvent: {}
+[2.574231] (-) TimerEvent: {}
+[2.683225] (-) TimerEvent: {}
+[2.792238] (-) TimerEvent: {}
+[2.901285] (-) TimerEvent: {}
+[3.010404] (-) TimerEvent: {}
+[3.119502] (-) TimerEvent: {}
+[3.228475] (-) TimerEvent: {}
+[3.337442] (-) TimerEvent: {}
+[3.446440] (-) TimerEvent: {}
+[3.548770] (-) TimerEvent: {}
+[3.657842] (-) TimerEvent: {}
+[3.766683] (-) TimerEvent: {}
+[3.875701] (-) TimerEvent: {}
+[3.984745] (-) TimerEvent: {}
+[4.093768] (-) TimerEvent: {}
+[4.202812] (-) TimerEvent: {}
+[4.305234] (-) TimerEvent: {}
+[4.414417] (-) TimerEvent: {}
+[4.523509] (-) TimerEvent: {}
+[4.631978] (-) TimerEvent: {}
+[4.740982] (-) TimerEvent: {}
+[4.849199] (-) TimerEvent: {}
+[4.955888] (-) TimerEvent: {}
+[5.064919] (-) TimerEvent: {}
+[5.174022] (-) TimerEvent: {}
+[5.283159] (-) TimerEvent: {}
+[5.386065] (-) TimerEvent: {}
+[5.495201] (-) TimerEvent: {}
+[5.602900] (-) TimerEvent: {}
+[5.711877] (-) TimerEvent: {}
+[5.812886] (-) TimerEvent: {}
+[5.823568] (action_demo) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[5.920763] (-) TimerEvent: {}
+[5.933505] (action_demo) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[6.028327] (-) TimerEvent: {}
+[6.132003] (-) TimerEvent: {}
+[6.239429] (-) TimerEvent: {}
+[6.330033] (action_demo) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[6.340363] (-) TimerEvent: {}
+[6.449334] (-) TimerEvent: {}
+[6.555910] (-) TimerEvent: {}
+[6.663647] (-) TimerEvent: {}
+[6.772628] (-) TimerEvent: {}
+[6.777160] (action_demo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[6.878226] (-) TimerEvent: {}
+[6.952724] (action_demo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.980553] (-) TimerEvent: {}
+[6.985159] (action_demo) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[7.019182] (action_demo) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[7.019454] (action_demo) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[7.019547] (action_demo) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[7.036789] (action_demo) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):\n'}
+[7.037293] (action_demo) StderrLine: {'line': b'  Use rosidl_get_typesupport_target() and target_link_libraries() instead of\n'}
+[7.037515] (action_demo) StderrLine: {'line': b'  rosidl_target_interfaces()\n'}
+[7.037725] (action_demo) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[7.037893] (action_demo) StderrLine: {'line': b'  CMakeLists.txt:31 (rosidl_target_interfaces)\n'}
+[7.038103] (action_demo) StderrLine: {'line': b'\n'}
+[7.038230] (action_demo) StderrLine: {'line': b'\x1b[0m\n'}
+[7.038637] (action_demo) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):\n'}
+[7.038840] (action_demo) StderrLine: {'line': b'  Use rosidl_get_typesupport_target() and target_link_libraries() instead of\n'}
+[7.038949] (action_demo) StderrLine: {'line': b'  rosidl_target_interfaces()\n'}
+[7.039058] (action_demo) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[7.039144] (action_demo) StderrLine: {'line': b'  CMakeLists.txt:34 (rosidl_target_interfaces)\n'}
+[7.039225] (action_demo) StderrLine: {'line': b'\n'}
+[7.039304] (action_demo) StderrLine: {'line': b'\x1b[0m\n'}
+[7.057748] (action_demo) StdoutLine: {'line': b'-- Configuring done\n'}
+[7.082628] (-) TimerEvent: {}
+[7.174090] (action_demo) StdoutLine: {'line': b'-- Generating done\n'}
+[7.178194] (action_demo) StdoutLine: {'line': b'-- Build files have been written to: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/build/action_demo\n'}
+[7.183165] (-) TimerEvent: {}
+[7.214340] (action_demo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target action_demo__rosidl_generator_c\x1b[0m\n'}
+[7.223947] (action_demo) StdoutLine: {'line': b'[  2%] Built target action_demo__cpp\n'}
+[7.230707] (action_demo) StdoutLine: {'line': b'[ 11%] Built target action_demo__rosidl_generator_c\n'}
+[7.235679] (action_demo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target action_demo__rosidl_typesupport_cpp\x1b[0m\n'}
+[7.236451] (action_demo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target action_demo__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[7.236736] (action_demo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target action_demo__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[7.243183] (action_demo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target action_demo__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[7.243502] (action_demo) StdoutLine: {'line': b'[ 11%] Built target ament_cmake_python_copy_action_demo\n'}
+[7.244101] (action_demo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target action_demo__rosidl_typesupport_c\x1b[0m\n'}
+[7.244568] (action_demo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target action_demo__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[7.258357] (action_demo) StdoutLine: {'line': b'[ 20%] Built target action_demo__rosidl_typesupport_c\n'}
+[7.259042] (action_demo) StdoutLine: {'line': b'[ 28%] Built target action_demo__rosidl_typesupport_introspection_c\n'}
+[7.261579] (action_demo) StdoutLine: {'line': b'[ 37%] Built target action_demo__rosidl_typesupport_cpp\n'}
+[7.263986] (action_demo) StdoutLine: {'line': b'[ 45%] Built target action_demo__rosidl_typesupport_introspection_cpp\n'}
+[7.264408] (action_demo) StdoutLine: {'line': b'[ 54%] Built target action_demo__rosidl_typesupport_fastrtps_c\n'}
+[7.265431] (action_demo) StdoutLine: {'line': b'[ 62%] Built target action_demo__rosidl_typesupport_fastrtps_cpp\n'}
+[7.283501] (-) TimerEvent: {}
+[7.286846] (action_demo) StdoutLine: {'line': b'[ 62%] Built target action_demo\n'}
+[7.300298] (action_demo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target server\x1b[0m\n'}
+[7.300532] (action_demo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target client\x1b[0m\n'}
+[7.309587] (action_demo) StdoutLine: {'line': b'[ 65%] Built target action_demo__py\n'}
+[7.321793] (action_demo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target action_demo__rosidl_generator_py\x1b[0m\n'}
+[7.340082] (action_demo) StdoutLine: {'line': b'[ 71%] Built target client\n'}
+[7.340688] (action_demo) StdoutLine: {'line': b'[ 77%] Built target server\n'}
+[7.341503] (action_demo) StdoutLine: {'line': b'[ 82%] Built target action_demo__rosidl_generator_py\n'}
+[7.354000] (action_demo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target action_demo__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[7.354475] (action_demo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target action_demo__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[7.354786] (action_demo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target action_demo__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[7.368661] (action_demo) StdoutLine: {'line': b'[ 94%] Built target action_demo__rosidl_typesupport_introspection_c__pyext\n'}
+[7.368901] (action_demo) StdoutLine: {'line': b'[ 94%] Built target action_demo__rosidl_typesupport_fastrtps_c__pyext\n'}
+[7.370356] (action_demo) StdoutLine: {'line': b'[100%] Built target action_demo__rosidl_typesupport_c__pyext\n'}
+[7.383882] (-) TimerEvent: {}
+[7.484696] (-) TimerEvent: {}
+[7.580490] (action_demo) StdoutLine: {'line': b'running egg_info\n'}
+[7.581719] (action_demo) StdoutLine: {'line': b'writing action_demo.egg-info/PKG-INFO\n'}
+[7.582020] (action_demo) StdoutLine: {'line': b'writing dependency_links to action_demo.egg-info/dependency_links.txt\n'}
+[7.582182] (action_demo) StdoutLine: {'line': b'writing top-level names to action_demo.egg-info/top_level.txt\n'}
+[7.585099] (-) TimerEvent: {}
+[7.587657] (action_demo) StdoutLine: {'line': b"reading manifest file 'action_demo.egg-info/SOURCES.txt'\n"}
+[7.589113] (action_demo) StdoutLine: {'line': b"writing manifest file 'action_demo.egg-info/SOURCES.txt'\n"}
+[7.621954] (action_demo) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_action_demo_egg\n'}
+[7.635791] (action_demo) CommandEnded: {'returncode': 0}
+[7.689275] (-) TimerEvent: {}
+[7.712183] (action_demo) JobProgress: {'identifier': 'action_demo', 'progress': 'install'}
+[7.722765] (action_demo) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/build/action_demo'], 'cwd': '/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/build/action_demo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7897'), ('no_proxy', '172.31.*,172.30.*,172.29.*,172.28.*,172.27.*,172.26.*,172.25.*,172.24.*,172.23.*,172.22.*,172.21.*,172.20.*,172.19.*,172.18.*,172.17.*,172.16.*,10.*,192.168.*,127.*,localhost,<local>'), ('USER', 'luna'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{17bf3de4-5353-5709-bcf9-835bd952a95e}'), ('HOME', '/home/luna'), ('OLDPWD', '/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/src/action_demo/srv'), ('NO_PROXY', '172.31.*,172.30.*,172.29.*,172.28.*,172.27.*,172.26.*,172.25.*,172.24.*,172.23.*,172.22.*,172.21.*,172.20.*,172.19.*,172.18.*,172.17.*,172.16.*,10.*,192.168.*,127.*,localhost,<local>'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://127.0.0.1:7897'), ('COLCON_PREFIX_PATH', '/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'luna'), ('NAME', 'swx-luna'), ('WSL_INTEROP', '/run/WSL/37455_interop'), ('http_proxy', 'http://127.0.0.1:7897'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/swx/AppData/Anaconda/Lib/Graphviz/bin/dot.exe:/mnt/c/Program Files/HP/HP One Agent:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/MATLAB/R2023a/bin:/mnt/c/Qt/6.7.1/mingw_64/bin:/mnt/c/Qt/Tools/mingw1120_64/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/nodejs/:/mnt/c/windows/system32:/mnt/c/Users/swx/AppData/Anaconda/Lib/Graphviz/bin:/mnt/c/Users/swx/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/swx/AppData/Local/gitkraken/bin:/mnt/c/Users/swx/.dotnet/tools:/mnt/c/Users/swx/AppData/Roaming/npm:/snap/bin'), ('WT_SESSION', '4408f558-c577-4143-a368-31d197ef493b'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_package:/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/build/action_demo'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7897'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_package:/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[7.730455] (action_demo) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.731336] (action_demo) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/share/ament_index/resource_index/rosidl_interfaces/action_demo\n'}
+[7.732586] (action_demo) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/include/action_demo/action_demo\n'}
+[7.733150] (action_demo) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/include/action_demo/action_demo/srv\n'}
+[7.734124] (action_demo) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/include/action_demo/action_demo/srv/action.h\n'}
+[7.734303] (action_demo) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/include/action_demo/action_demo/srv/detail\n'}
+[7.734868] (action_demo) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/include/action_demo/action_demo/srv/detail/action__functions.c\n'}
+[7.735048] (action_demo) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/include/action_demo/action_demo/srv/detail/action__functions.h\n'}
+[7.735136] (action_demo) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/include/action_demo/action_demo/srv/detail/action__struct.h\n'}
+[7.735216] (action_demo) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/include/action_demo/action_demo/srv/detail/action__type_support.h\n'}
+[7.735421] (action_demo) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/include/action_demo/action_demo/msg\n'}
+[7.735835] (action_demo) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/include/action_demo/action_demo/msg/rosidl_generator_c__visibility_control.h\n'}
+[7.736109] (action_demo) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/share/action_demo/environment/library_path.sh\n'}
+[7.736434] (action_demo) StdoutLine: {'line': b'-- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/share/action_demo/environment/library_path.dsv\n'}
+[7.737373] (action_demo) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/lib/libaction_demo__rosidl_generator_c.so\n'}
+[7.737857] (action_demo) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/include/action_demo/action_demo\n'}
+[7.738005] (action_demo) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/include/action_demo/action_demo/srv\n'}
+[7.738093] (action_demo) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/include/action_demo/action_demo/srv/detail\n'}
+[7.738172] (action_demo) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/include/action_demo/action_demo/srv/detail/action__rosidl_typesupport_fastrtps_c.h\n'}
+[7.738250] (action_demo) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/include/action_demo/action_demo/msg\n'}
+[7.738325] (action_demo) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/include/action_demo/action_demo/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[7.739292] (action_demo) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/lib/libaction_demo__rosidl_typesupport_fastrtps_c.so\n'}
+[7.739674] (action_demo) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/include/action_demo/action_demo\n'}
+[7.739882] (action_demo) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/include/action_demo/action_demo/srv\n'}
+[7.740073] (action_demo) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/include/action_demo/action_demo/srv/action.hpp\n'}
+[7.740322] (action_demo) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/include/action_demo/action_demo/srv/detail\n'}
+[7.740416] (action_demo) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/include/action_demo/action_demo/srv/detail/action__struct.hpp\n'}
+[7.740498] (action_demo) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/include/action_demo/action_demo/srv/detail/action__traits.hpp\n'}
+[7.740576] (action_demo) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/include/action_demo/action_demo/srv/detail/action__builder.hpp\n'}
+[7.740652] (action_demo) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/include/action_demo/action_demo\n'}
+[7.740731] (action_demo) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/include/action_demo/action_demo/srv\n'}
+[7.740809] (action_demo) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/include/action_demo/action_demo/srv/detail\n'}
+[7.740885] (action_demo) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/include/action_demo/action_demo/srv/detail/action__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.741004] (action_demo) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/include/action_demo/action_demo/srv/detail/dds_fastrtps\n'}
+[7.741099] (action_demo) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/include/action_demo/action_demo/msg\n'}
+[7.741178] (action_demo) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/include/action_demo/action_demo/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[7.741724] (action_demo) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/lib/libaction_demo__rosidl_typesupport_fastrtps_cpp.so\n'}
+[7.742229] (action_demo) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/include/action_demo/action_demo\n'}
+[7.742343] (action_demo) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/include/action_demo/action_demo/srv\n'}
+[7.742426] (action_demo) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/include/action_demo/action_demo/srv/detail\n'}
+[7.742503] (action_demo) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/include/action_demo/action_demo/srv/detail/action__rosidl_typesupport_introspection_c.h\n'}
+[7.742578] (action_demo) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/include/action_demo/action_demo/srv/detail/action__type_support.c\n'}
+[7.742653] (action_demo) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/include/action_demo/action_demo/msg\n'}
+[7.742726] (action_demo) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/include/action_demo/action_demo/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[7.742900] (action_demo) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/lib/libaction_demo__rosidl_typesupport_introspection_c.so\n'}
+[7.743845] (action_demo) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/lib/libaction_demo__rosidl_typesupport_c.so\n'}
+[7.744093] (action_demo) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/include/action_demo/action_demo\n'}
+[7.744223] (action_demo) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/include/action_demo/action_demo/srv\n'}
+[7.744418] (action_demo) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/include/action_demo/action_demo/srv/detail\n'}
+[7.744510] (action_demo) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/include/action_demo/action_demo/srv/detail/action__type_support.cpp\n'}
+[7.744597] (action_demo) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/include/action_demo/action_demo/srv/detail/action__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.745468] (action_demo) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/lib/libaction_demo__rosidl_typesupport_introspection_cpp.so\n'}
+[7.746731] (action_demo) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/lib/libaction_demo__rosidl_typesupport_cpp.so\n'}
+[7.747149] (action_demo) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/share/action_demo/environment/pythonpath.sh\n'}
+[7.747297] (action_demo) StdoutLine: {'line': b'-- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/share/action_demo/environment/pythonpath.dsv\n'}
+[7.748820] (action_demo) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/local/lib/python3.10/dist-packages/action_demo-0.0.0-py3.10.egg-info\n'}
+[7.749320] (action_demo) StdoutLine: {'line': b'-- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/local/lib/python3.10/dist-packages/action_demo-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[7.749619] (action_demo) StdoutLine: {'line': b'-- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/local/lib/python3.10/dist-packages/action_demo-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[7.749842] (action_demo) StdoutLine: {'line': b'-- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/local/lib/python3.10/dist-packages/action_demo-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[7.750084] (action_demo) StdoutLine: {'line': b'-- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/local/lib/python3.10/dist-packages/action_demo-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[7.750183] (action_demo) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/local/lib/python3.10/dist-packages/action_demo\n'}
+[7.750496] (action_demo) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/local/lib/python3.10/dist-packages/action_demo/srv\n'}
+[7.751148] (action_demo) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/local/lib/python3.10/dist-packages/action_demo/srv/_action_s.c\n'}
+[7.751420] (action_demo) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/local/lib/python3.10/dist-packages/action_demo/srv/__init__.py\n'}
+[7.751641] (action_demo) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/local/lib/python3.10/dist-packages/action_demo/srv/_action.py\n'}
+[7.751852] (action_demo) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/local/lib/python3.10/dist-packages/action_demo/_action_demo_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[7.752063] (action_demo) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/local/lib/python3.10/dist-packages/action_demo/action_demo_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.752275] (action_demo) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/local/lib/python3.10/dist-packages/action_demo/_action_demo_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[7.752494] (action_demo) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/local/lib/python3.10/dist-packages/action_demo/libaction_demo__rosidl_generator_py.so\n'}
+[7.752702] (action_demo) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/local/lib/python3.10/dist-packages/action_demo/action_demo_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.752867] (action_demo) StdoutLine: {'line': b'-- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/local/lib/python3.10/dist-packages/action_demo/__init__.py\n'}
+[7.753204] (action_demo) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/local/lib/python3.10/dist-packages/action_demo/_action_demo_s.ep.rosidl_typesupport_c.c\n'}
+[7.753385] (action_demo) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/local/lib/python3.10/dist-packages/action_demo/action_demo_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.790243] (-) TimerEvent: {}
+[7.800536] (action_demo) StdoutLine: {'line': b"Listing '/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/local/lib/python3.10/dist-packages/action_demo'...\n"}
+[7.800770] (action_demo) StdoutLine: {'line': b"Compiling '/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/local/lib/python3.10/dist-packages/action_demo/__init__.py'...\n"}
+[7.800867] (action_demo) StdoutLine: {'line': b"Listing '/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/local/lib/python3.10/dist-packages/action_demo/srv'...\n"}
+[7.808024] (action_demo) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/local/lib/python3.10/dist-packages/action_demo/action_demo_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.809034] (action_demo) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/local/lib/python3.10/dist-packages/action_demo/action_demo_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.809946] (action_demo) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/local/lib/python3.10/dist-packages/action_demo/action_demo_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.810874] (action_demo) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/lib/libaction_demo__rosidl_generator_py.so\n'}
+[7.811293] (action_demo) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/share/action_demo/srv/Action.idl\n'}
+[7.811685] (action_demo) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/share/action_demo/srv/Action.srv\n'}
+[7.811844] (action_demo) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/share/action_demo/srv/Action_Request.msg\n'}
+[7.811931] (action_demo) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/share/action_demo/srv/Action_Response.msg\n'}
+[7.813050] (action_demo) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/lib/action_demo/server\n'}
+[7.814022] (action_demo) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/lib/action_demo/client\n'}
+[7.814384] (action_demo) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/share/action_demo/launch\n'}
+[7.814670] (action_demo) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/share/action_demo/launch/action_demo_launch.py\n'}
+[7.815091] (action_demo) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/share/ament_index/resource_index/package_run_dependencies/action_demo\n'}
+[7.815523] (action_demo) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/share/ament_index/resource_index/parent_prefix_path/action_demo\n'}
+[7.815647] (action_demo) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/share/action_demo/environment/ament_prefix_path.sh\n'}
+[7.815750] (action_demo) StdoutLine: {'line': b'-- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/share/action_demo/environment/ament_prefix_path.dsv\n'}
+[7.816145] (action_demo) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/share/action_demo/environment/path.sh\n'}
+[7.816253] (action_demo) StdoutLine: {'line': b'-- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/share/action_demo/environment/path.dsv\n'}
+[7.816339] (action_demo) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/share/action_demo/local_setup.bash\n'}
+[7.816428] (action_demo) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/share/action_demo/local_setup.sh\n'}
+[7.816507] (action_demo) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/share/action_demo/local_setup.zsh\n'}
+[7.816583] (action_demo) StdoutLine: {'line': b'-- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/share/action_demo/local_setup.dsv\n'}
+[7.816658] (action_demo) StdoutLine: {'line': b'-- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/share/action_demo/package.dsv\n'}
+[7.816861] (action_demo) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/share/ament_index/resource_index/packages/action_demo\n'}
+[7.817794] (action_demo) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/share/action_demo/cmake/export_action_demo__rosidl_generator_cExport.cmake\n'}
+[7.817971] (action_demo) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/share/action_demo/cmake/export_action_demo__rosidl_generator_cExport-noconfig.cmake\n'}
+[7.818530] (action_demo) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/share/action_demo/cmake/export_action_demo__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[7.818702] (action_demo) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/share/action_demo/cmake/export_action_demo__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[7.819360] (action_demo) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/share/action_demo/cmake/export_action_demo__rosidl_generator_cppExport.cmake\n'}
+[7.820023] (action_demo) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/share/action_demo/cmake/export_action_demo__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[7.820254] (action_demo) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/share/action_demo/cmake/export_action_demo__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[7.821021] (action_demo) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/share/action_demo/cmake/action_demo__rosidl_typesupport_introspection_cExport.cmake\n'}
+[7.821196] (action_demo) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/share/action_demo/cmake/action_demo__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[7.821694] (action_demo) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/share/action_demo/cmake/action_demo__rosidl_typesupport_cExport.cmake\n'}
+[7.822040] (action_demo) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/share/action_demo/cmake/action_demo__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[7.822880] (action_demo) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/share/action_demo/cmake/action_demo__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[7.823063] (action_demo) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/share/action_demo/cmake/action_demo__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[7.824271] (action_demo) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/share/action_demo/cmake/action_demo__rosidl_typesupport_cppExport.cmake\n'}
+[7.824446] (action_demo) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/share/action_demo/cmake/action_demo__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[7.824853] (action_demo) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/share/action_demo/cmake/export_action_demo__rosidl_generator_pyExport.cmake\n'}
+[7.825138] (action_demo) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/share/action_demo/cmake/export_action_demo__rosidl_generator_pyExport-noconfig.cmake\n'}
+[7.825284] (action_demo) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/share/action_demo/cmake/rosidl_cmake-extras.cmake\n'}
+[7.825798] (action_demo) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/share/action_demo/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[7.825973] (action_demo) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/share/action_demo/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[7.826064] (action_demo) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/share/action_demo/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[7.826151] (action_demo) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/share/action_demo/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[7.826261] (action_demo) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/share/action_demo/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[7.826363] (action_demo) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/share/action_demo/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[7.826445] (action_demo) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/share/action_demo/cmake/action_demoConfig.cmake\n'}
+[7.826523] (action_demo) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/share/action_demo/cmake/action_demoConfig-version.cmake\n'}
+[7.826603] (action_demo) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/share/action_demo/package.xml\n'}
+[7.829445] (action_demo) CommandEnded: {'returncode': 0}
+[7.895627] (-) TimerEvent: {}
+[7.940993] (action_demo) JobEnded: {'identifier': 'action_demo', 'rc': 0}
+[7.942635] (-) EventReactorShutdown: {}

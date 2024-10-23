@@ -1,0 +1,479 @@
+[0.000000] (-) TimerEvent: {}
+[0.000836] (divide_interface) JobQueued: {'identifier': 'divide_interface', 'dependencies': OrderedDict()}
+[0.000901] (divide_package) JobQueued: {'identifier': 'divide_package', 'dependencies': OrderedDict([('divide_interface', '/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface')])}
+[0.000951] (divide_interface) JobStarted: {'identifier': 'divide_interface'}
+[0.012439] (divide_interface) JobProgress: {'identifier': 'divide_interface', 'progress': 'cmake'}
+[0.012722] (divide_interface) Command: {'cmd': ['/usr/bin/cmake', '/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/src/divide_interface', '-DCMAKE_INSTALL_PREFIX=/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface'], 'cwd': '/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/build/divide_interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7897'), ('no_proxy', '172.31.*,172.30.*,172.29.*,172.28.*,172.27.*,172.26.*,172.25.*,172.24.*,172.23.*,172.22.*,172.21.*,172.20.*,172.19.*,172.18.*,172.17.*,172.16.*,10.*,192.168.*,127.*,localhost,<local>'), ('USER', 'luna'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{17bf3de4-5353-5709-bcf9-835bd952a95e}'), ('HOME', '/home/luna'), ('OLDPWD', '/home/luna/robomaster/2025-vision-training/Wenxiang Shi'), ('NO_PROXY', '172.31.*,172.30.*,172.29.*,172.28.*,172.27.*,172.26.*,172.25.*,172.24.*,172.23.*,172.22.*,172.21.*,172.20.*,172.19.*,172.18.*,172.17.*,172.16.*,10.*,192.168.*,127.*,localhost,<local>'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://127.0.0.1:7897'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'luna'), ('NAME', 'swx-luna'), ('WSL_INTEROP', '/run/WSL/21838_interop'), ('http_proxy', 'http://127.0.0.1:7897'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/swx/AppData/Anaconda/Lib/Graphviz/bin/dot.exe:/mnt/c/Program Files/HP/HP One Agent:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/MATLAB/R2023a/bin:/mnt/c/Qt/6.7.1/mingw_64/bin:/mnt/c/Qt/Tools/mingw1120_64/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/nodejs/:/mnt/c/windows/system32:/mnt/c/Users/swx/AppData/Anaconda/Lib/Graphviz/bin:/mnt/c/Users/swx/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/swx/AppData/Local/gitkraken/bin:/mnt/c/Users/swx/.dotnet/tools:/mnt/c/Users/swx/AppData/Roaming/npm:/snap/bin'), ('WT_SESSION', '68cdb59e-cc04-473a-be32-8832c4ad7caa'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/build/divide_interface'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7897'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099832] (-) TimerEvent: {}
+[0.201206] (-) TimerEvent: {}
+[0.290679] (divide_interface) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.302045] (-) TimerEvent: {}
+[0.403576] (-) TimerEvent: {}
+[0.504587] (-) TimerEvent: {}
+[0.605663] (-) TimerEvent: {}
+[0.713063] (-) TimerEvent: {}
+[0.791744] (divide_interface) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.814514] (-) TimerEvent: {}
+[0.921910] (-) TimerEvent: {}
+[1.029157] (-) TimerEvent: {}
+[1.070498] (divide_interface) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.129548] (-) TimerEvent: {}
+[1.190433] (divide_interface) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.197634] (divide_interface) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.198414] (divide_interface) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.199348] (divide_interface) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.203598] (divide_interface) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.229944] (-) TimerEvent: {}
+[1.321543] (divide_interface) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.328355] (divide_interface) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.328677] (divide_interface) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.329231] (divide_interface) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.330085] (-) TimerEvent: {}
+[1.332577] (divide_interface) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.431249] (-) TimerEvent: {}
+[1.483433] (divide_interface) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.531824] (-) TimerEvent: {}
+[1.609652] (divide_interface) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.613784] (divide_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.621522] (divide_interface) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.632459] (-) TimerEvent: {}
+[1.733310] (-) TimerEvent: {}
+[1.811511] (divide_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.834017] (-) TimerEvent: {}
+[1.935644] (-) TimerEvent: {}
+[2.039366] (-) TimerEvent: {}
+[2.128148] (divide_interface) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[2.140267] (-) TimerEvent: {}
+[2.241640] (-) TimerEvent: {}
+[2.310606] (divide_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.342930] (-) TimerEvent: {}
+[2.444525] (-) TimerEvent: {}
+[2.538364] (divide_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.544849] (-) TimerEvent: {}
+[2.629407] (divide_interface) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[2.631082] (divide_interface) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[2.645650] (-) TimerEvent: {}
+[2.746677] (-) TimerEvent: {}
+[2.847199] (-) TimerEvent: {}
+[2.908753] (divide_interface) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[2.909083] (divide_interface) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.909155] (divide_interface) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[2.909211] (divide_interface) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[2.928600] (divide_interface) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[2.947439] (-) TimerEvent: {}
+[3.003230] (divide_interface) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.040352] (divide_interface) StdoutLine: {'line': b'-- Generating done\n'}
+[3.042533] (divide_interface) StdoutLine: {'line': b'-- Build files have been written to: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/build/divide_interface\n'}
+[3.047897] (-) TimerEvent: {}
+[3.050336] (divide_interface) CommandEnded: {'returncode': 0}
+[3.052321] (divide_interface) JobProgress: {'identifier': 'divide_interface', 'progress': 'build'}
+[3.052405] (divide_interface) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/build/divide_interface', '--', '-j32', '-l32'], 'cwd': '/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/build/divide_interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7897'), ('no_proxy', '172.31.*,172.30.*,172.29.*,172.28.*,172.27.*,172.26.*,172.25.*,172.24.*,172.23.*,172.22.*,172.21.*,172.20.*,172.19.*,172.18.*,172.17.*,172.16.*,10.*,192.168.*,127.*,localhost,<local>'), ('USER', 'luna'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{17bf3de4-5353-5709-bcf9-835bd952a95e}'), ('HOME', '/home/luna'), ('OLDPWD', '/home/luna/robomaster/2025-vision-training/Wenxiang Shi'), ('NO_PROXY', '172.31.*,172.30.*,172.29.*,172.28.*,172.27.*,172.26.*,172.25.*,172.24.*,172.23.*,172.22.*,172.21.*,172.20.*,172.19.*,172.18.*,172.17.*,172.16.*,10.*,192.168.*,127.*,localhost,<local>'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://127.0.0.1:7897'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'luna'), ('NAME', 'swx-luna'), ('WSL_INTEROP', '/run/WSL/21838_interop'), ('http_proxy', 'http://127.0.0.1:7897'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/swx/AppData/Anaconda/Lib/Graphviz/bin/dot.exe:/mnt/c/Program Files/HP/HP One Agent:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/MATLAB/R2023a/bin:/mnt/c/Qt/6.7.1/mingw_64/bin:/mnt/c/Qt/Tools/mingw1120_64/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/nodejs/:/mnt/c/windows/system32:/mnt/c/Users/swx/AppData/Anaconda/Lib/Graphviz/bin:/mnt/c/Users/swx/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/swx/AppData/Local/gitkraken/bin:/mnt/c/Users/swx/.dotnet/tools:/mnt/c/Users/swx/AppData/Roaming/npm:/snap/bin'), ('WT_SESSION', '68cdb59e-cc04-473a-be32-8832c4ad7caa'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/build/divide_interface'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7897'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.081806] (divide_interface) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[3.089426] (divide_interface) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[3.094869] (divide_interface) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_copy_divide_interface\n'}
+[3.148264] (-) TimerEvent: {}
+[3.249848] (-) TimerEvent: {}
+[3.357206] (-) TimerEvent: {}
+[3.364905] (divide_interface) StdoutLine: {'line': b'running egg_info\n'}
+[3.365471] (divide_interface) StdoutLine: {'line': b'creating divide_interface.egg-info\n'}
+[3.365746] (divide_interface) StdoutLine: {'line': b'writing divide_interface.egg-info/PKG-INFO\n'}
+[3.366027] (divide_interface) StdoutLine: {'line': b'writing dependency_links to divide_interface.egg-info/dependency_links.txt\n'}
+[3.366313] (divide_interface) StdoutLine: {'line': b'writing top-level names to divide_interface.egg-info/top_level.txt\n'}
+[3.366393] (divide_interface) StdoutLine: {'line': b"writing manifest file 'divide_interface.egg-info/SOURCES.txt'\n"}
+[3.369354] (divide_interface) StdoutLine: {'line': b"reading manifest file 'divide_interface.egg-info/SOURCES.txt'\n"}
+[3.369783] (divide_interface) StdoutLine: {'line': b"writing manifest file 'divide_interface.egg-info/SOURCES.txt'\n"}
+[3.392589] (divide_interface) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_build_divide_interface_egg\n'}
+[3.438364] (divide_interface) StdoutLine: {'line': b'[  6%] Built target divide_interface__cpp\n'}
+[3.444728] (divide_interface) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.445307] (divide_interface) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.445650] (divide_interface) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[3.449367] (divide_interface) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding C object CMakeFiles/divide_interface__rosidl_generator_c.dir/rosidl_generator_c/divide_interface/srv/detail/divide__functions.c.o\x1b[0m\n'}
+[3.457481] (-) TimerEvent: {}
+[3.524447] (divide_interface) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libdivide_interface__rosidl_generator_c.so\x1b[0m\n'}
+[3.559922] (-) TimerEvent: {}
+[3.620684] (divide_interface) StdoutLine: {'line': b'[ 22%] Built target divide_interface__rosidl_generator_c\n'}
+[3.627920] (divide_interface) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.628259] (divide_interface) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.628377] (divide_interface) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[3.660408] (-) TimerEvent: {}
+[3.699499] (divide_interface) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/divide_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/divide_interface/srv/divide__type_support.cpp.o\x1b[0m\n'}
+[3.729840] (divide_interface) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/divide_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/divide_interface/srv/detail/divide__type_support.cpp.o\x1b[0m\n'}
+[3.744722] (divide_interface) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/divide_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/divide_interface/srv/detail/dds_fastrtps/divide__type_support.cpp.o\x1b[0m\n'}
+[3.760917] (-) TimerEvent: {}
+[3.861765] (-) TimerEvent: {}
+[3.886913] (divide_interface) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/divide_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/divide_interface/srv/divide__type_support.cpp.o\x1b[0m\n'}
+[3.921852] (divide_interface) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object CMakeFiles/divide_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/divide_interface/srv/detail/divide__type_support.c.o\x1b[0m\n'}
+[3.924345] (divide_interface) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libdivide_interface__rosidl_typesupport_c.so\x1b[0m\n'}
+[3.935141] (divide_interface) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/divide_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/divide_interface/srv/detail/divide__type_support_c.cpp.o\x1b[0m\n'}
+[3.962405] (-) TimerEvent: {}
+[3.973924] (divide_interface) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking C shared library libdivide_interface__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[4.028735] (divide_interface) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libdivide_interface__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[4.035130] (divide_interface) StdoutLine: {'line': b'[ 61%] Built target divide_interface__rosidl_typesupport_c\n'}
+[4.063111] (-) TimerEvent: {}
+[4.070623] (divide_interface) StdoutLine: {'line': b'[ 61%] Built target divide_interface__rosidl_typesupport_introspection_c\n'}
+[4.126883] (divide_interface) StdoutLine: {'line': b'[ 61%] Built target divide_interface__rosidl_typesupport_cpp\n'}
+[4.143009] (divide_interface) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libdivide_interface__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[4.164600] (-) TimerEvent: {}
+[4.174106] (divide_interface) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library libdivide_interface__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[4.230339] (divide_interface) StdoutLine: {'line': b'[ 67%] Built target divide_interface__rosidl_typesupport_introspection_cpp\n'}
+[4.265330] (divide_interface) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libdivide_interface__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[4.265573] (-) TimerEvent: {}
+[4.292374] (divide_interface) StdoutLine: {'line': b'[ 70%] Built target divide_interface__rosidl_typesupport_fastrtps_cpp\n'}
+[4.367345] (-) TimerEvent: {}
+[4.430249] (divide_interface) StdoutLine: {'line': b'[ 70%] Built target divide_interface__rosidl_typesupport_fastrtps_c\n'}
+[4.444891] (divide_interface) StdoutLine: {'line': b'[ 70%] Built target divide_interface\n'}
+[4.459080] (divide_interface) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[4.468039] (-) TimerEvent: {}
+[4.575488] (-) TimerEvent: {}
+[4.682936] (-) TimerEvent: {}
+[4.790295] (-) TimerEvent: {}
+[4.894729] (divide_interface) StdoutLine: {'line': b'[ 74%] Built target divide_interface__py\n'}
+[4.894982] (-) TimerEvent: {}
+[4.908084] (divide_interface) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/divide_interface__rosidl_generator_py.dir/rosidl_generator_py/divide_interface/srv/_divide_s.c.o\x1b[0m\n'}
+[4.995135] (-) TimerEvent: {}
+[5.042753] (divide_interface) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/divide_interface/libdivide_interface__rosidl_generator_py.so\x1b[0m\n'}
+[5.098940] (-) TimerEvent: {}
+[5.115208] (divide_interface) StdoutLine: {'line': b'[ 80%] Built target divide_interface__rosidl_generator_py\n'}
+[5.129191] (divide_interface) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/divide_interface__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/divide_interface/_divide_interface_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[5.129547] (divide_interface) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/divide_interface__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/divide_interface/_divide_interface_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[5.130709] (divide_interface) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/divide_interface__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/divide_interface/_divide_interface_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[5.199354] (-) TimerEvent: {}
+[5.208302] (divide_interface) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/divide_interface/divide_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[5.208608] (divide_interface) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/divide_interface/divide_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[5.213906] (divide_interface) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/divide_interface/divide_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[5.298061] (divide_interface) StdoutLine: {'line': b'[100%] Built target divide_interface__rosidl_typesupport_fastrtps_c__pyext\n'}
+[5.299569] (-) TimerEvent: {}
+[5.299945] (divide_interface) StdoutLine: {'line': b'[100%] Built target divide_interface__rosidl_typesupport_c__pyext\n'}
+[5.333531] (divide_interface) StdoutLine: {'line': b'[100%] Built target divide_interface__rosidl_typesupport_introspection_c__pyext\n'}
+[5.342923] (divide_interface) CommandEnded: {'returncode': 0}
+[5.386427] (divide_interface) JobProgress: {'identifier': 'divide_interface', 'progress': 'install'}
+[5.392475] (divide_interface) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/build/divide_interface'], 'cwd': '/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/build/divide_interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7897'), ('no_proxy', '172.31.*,172.30.*,172.29.*,172.28.*,172.27.*,172.26.*,172.25.*,172.24.*,172.23.*,172.22.*,172.21.*,172.20.*,172.19.*,172.18.*,172.17.*,172.16.*,10.*,192.168.*,127.*,localhost,<local>'), ('USER', 'luna'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{17bf3de4-5353-5709-bcf9-835bd952a95e}'), ('HOME', '/home/luna'), ('OLDPWD', '/home/luna/robomaster/2025-vision-training/Wenxiang Shi'), ('NO_PROXY', '172.31.*,172.30.*,172.29.*,172.28.*,172.27.*,172.26.*,172.25.*,172.24.*,172.23.*,172.22.*,172.21.*,172.20.*,172.19.*,172.18.*,172.17.*,172.16.*,10.*,192.168.*,127.*,localhost,<local>'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://127.0.0.1:7897'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'luna'), ('NAME', 'swx-luna'), ('WSL_INTEROP', '/run/WSL/21838_interop'), ('http_proxy', 'http://127.0.0.1:7897'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/swx/AppData/Anaconda/Lib/Graphviz/bin/dot.exe:/mnt/c/Program Files/HP/HP One Agent:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/MATLAB/R2023a/bin:/mnt/c/Qt/6.7.1/mingw_64/bin:/mnt/c/Qt/Tools/mingw1120_64/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/nodejs/:/mnt/c/windows/system32:/mnt/c/Users/swx/AppData/Anaconda/Lib/Graphviz/bin:/mnt/c/Users/swx/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/swx/AppData/Local/gitkraken/bin:/mnt/c/Users/swx/.dotnet/tools:/mnt/c/Users/swx/AppData/Roaming/npm:/snap/bin'), ('WT_SESSION', '68cdb59e-cc04-473a-be32-8832c4ad7caa'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/build/divide_interface'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7897'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[5.398610] (divide_interface) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.398806] (divide_interface) StdoutLine: {'line': b'-- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/share/ament_index/resource_index/rosidl_interfaces/divide_interface\n'}
+[5.398975] (divide_interface) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/include/divide_interface/divide_interface\n'}
+[5.399165] (divide_interface) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/include/divide_interface/divide_interface/srv\n'}
+[5.399281] (divide_interface) StdoutLine: {'line': b'-- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/include/divide_interface/divide_interface/srv/divide.h\n'}
+[5.399549] (divide_interface) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/include/divide_interface/divide_interface/srv/detail\n'}
+[5.399724] (-) TimerEvent: {}
+[5.399882] (divide_interface) StdoutLine: {'line': b'-- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/include/divide_interface/divide_interface/srv/detail/divide__functions.h\n'}
+[5.399956] (divide_interface) StdoutLine: {'line': b'-- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/include/divide_interface/divide_interface/srv/detail/divide__type_support.h\n'}
+[5.400014] (divide_interface) StdoutLine: {'line': b'-- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/include/divide_interface/divide_interface/srv/detail/divide__functions.c\n'}
+[5.400067] (divide_interface) StdoutLine: {'line': b'-- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/include/divide_interface/divide_interface/srv/detail/divide__struct.h\n'}
+[5.400119] (divide_interface) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/include/divide_interface/divide_interface/msg\n'}
+[5.400171] (divide_interface) StdoutLine: {'line': b'-- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/include/divide_interface/divide_interface/msg/rosidl_generator_c__visibility_control.h\n'}
+[5.400225] (divide_interface) StdoutLine: {'line': b'-- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/share/divide_interface/environment/library_path.sh\n'}
+[5.400274] (divide_interface) StdoutLine: {'line': b'-- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/share/divide_interface/environment/library_path.dsv\n'}
+[5.400870] (divide_interface) StdoutLine: {'line': b'-- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/lib/libdivide_interface__rosidl_generator_c.so\n'}
+[5.401211] (divide_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/lib/libdivide_interface__rosidl_generator_c.so" to ""\n'}
+[5.401329] (divide_interface) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/include/divide_interface/divide_interface\n'}
+[5.401419] (divide_interface) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/include/divide_interface/divide_interface/srv\n'}
+[5.401515] (divide_interface) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/include/divide_interface/divide_interface/srv/detail\n'}
+[5.401691] (divide_interface) StdoutLine: {'line': b'-- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/include/divide_interface/divide_interface/srv/detail/divide__rosidl_typesupport_fastrtps_c.h\n'}
+[5.401948] (divide_interface) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/include/divide_interface/divide_interface/msg\n'}
+[5.402069] (divide_interface) StdoutLine: {'line': b'-- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/include/divide_interface/divide_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[5.402262] (divide_interface) StdoutLine: {'line': b'-- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/lib/libdivide_interface__rosidl_typesupport_fastrtps_c.so\n'}
+[5.402586] (divide_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/lib/libdivide_interface__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[5.402844] (divide_interface) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/include/divide_interface/divide_interface\n'}
+[5.402997] (divide_interface) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/include/divide_interface/divide_interface/srv\n'}
+[5.403130] (divide_interface) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/include/divide_interface/divide_interface/srv/detail\n'}
+[5.403278] (divide_interface) StdoutLine: {'line': b'-- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/include/divide_interface/divide_interface/srv/detail/divide__type_support.c\n'}
+[5.403426] (divide_interface) StdoutLine: {'line': b'-- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/include/divide_interface/divide_interface/srv/detail/divide__rosidl_typesupport_introspection_c.h\n'}
+[5.403693] (divide_interface) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/include/divide_interface/divide_interface/msg\n'}
+[5.403867] (divide_interface) StdoutLine: {'line': b'-- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/include/divide_interface/divide_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[5.403944] (divide_interface) StdoutLine: {'line': b'-- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/lib/libdivide_interface__rosidl_typesupport_introspection_c.so\n'}
+[5.404144] (divide_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/lib/libdivide_interface__rosidl_typesupport_introspection_c.so" to ""\n'}
+[5.404756] (divide_interface) StdoutLine: {'line': b'-- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/lib/libdivide_interface__rosidl_typesupport_c.so\n'}
+[5.404995] (divide_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/lib/libdivide_interface__rosidl_typesupport_c.so" to ""\n'}
+[5.405191] (divide_interface) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/include/divide_interface/divide_interface\n'}
+[5.405469] (divide_interface) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/include/divide_interface/divide_interface/srv\n'}
+[5.405552] (divide_interface) StdoutLine: {'line': b'-- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/include/divide_interface/divide_interface/srv/divide.hpp\n'}
+[5.405699] (divide_interface) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/include/divide_interface/divide_interface/srv/detail\n'}
+[5.405892] (divide_interface) StdoutLine: {'line': b'-- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/include/divide_interface/divide_interface/srv/detail/divide__struct.hpp\n'}
+[5.406020] (divide_interface) StdoutLine: {'line': b'-- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/include/divide_interface/divide_interface/srv/detail/divide__builder.hpp\n'}
+[5.406164] (divide_interface) StdoutLine: {'line': b'-- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/include/divide_interface/divide_interface/srv/detail/divide__traits.hpp\n'}
+[5.406307] (divide_interface) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/include/divide_interface/divide_interface\n'}
+[5.406449] (divide_interface) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/include/divide_interface/divide_interface/srv\n'}
+[5.406592] (divide_interface) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/include/divide_interface/divide_interface/srv/detail\n'}
+[5.406734] (divide_interface) StdoutLine: {'line': b'-- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/include/divide_interface/divide_interface/srv/detail/divide__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.406953] (divide_interface) StdoutLine: {'line': b'-- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/include/divide_interface/divide_interface/srv/detail/dds_fastrtps\n'}
+[5.407204] (divide_interface) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/include/divide_interface/divide_interface/msg\n'}
+[5.407276] (divide_interface) StdoutLine: {'line': b'-- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/include/divide_interface/divide_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[5.407423] (divide_interface) StdoutLine: {'line': b'-- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/lib/libdivide_interface__rosidl_typesupport_fastrtps_cpp.so\n'}
+[5.407720] (divide_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/lib/libdivide_interface__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[5.407837] (divide_interface) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/include/divide_interface/divide_interface\n'}
+[5.407898] (divide_interface) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/include/divide_interface/divide_interface/srv\n'}
+[5.407962] (divide_interface) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/include/divide_interface/divide_interface/srv/detail\n'}
+[5.408015] (divide_interface) StdoutLine: {'line': b'-- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/include/divide_interface/divide_interface/srv/detail/divide__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.408068] (divide_interface) StdoutLine: {'line': b'-- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/include/divide_interface/divide_interface/srv/detail/divide__type_support.cpp\n'}
+[5.408427] (divide_interface) StdoutLine: {'line': b'-- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/lib/libdivide_interface__rosidl_typesupport_introspection_cpp.so\n'}
+[5.408673] (divide_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/lib/libdivide_interface__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[5.409314] (divide_interface) StdoutLine: {'line': b'-- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/lib/libdivide_interface__rosidl_typesupport_cpp.so\n'}
+[5.409648] (divide_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/lib/libdivide_interface__rosidl_typesupport_cpp.so" to ""\n'}
+[5.409859] (divide_interface) StdoutLine: {'line': b'-- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/share/divide_interface/environment/pythonpath.sh\n'}
+[5.410097] (divide_interface) StdoutLine: {'line': b'-- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/share/divide_interface/environment/pythonpath.dsv\n'}
+[5.410211] (divide_interface) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/local/lib/python3.10/dist-packages/divide_interface-0.0.0-py3.10.egg-info\n'}
+[5.410354] (divide_interface) StdoutLine: {'line': b'-- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/local/lib/python3.10/dist-packages/divide_interface-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[5.410498] (divide_interface) StdoutLine: {'line': b'-- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/local/lib/python3.10/dist-packages/divide_interface-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[5.410798] (divide_interface) StdoutLine: {'line': b'-- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/local/lib/python3.10/dist-packages/divide_interface-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[5.411118] (divide_interface) StdoutLine: {'line': b'-- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/local/lib/python3.10/dist-packages/divide_interface-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[5.411260] (divide_interface) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/local/lib/python3.10/dist-packages/divide_interface\n'}
+[5.411415] (divide_interface) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/local/lib/python3.10/dist-packages/divide_interface/srv\n'}
+[5.411565] (divide_interface) StdoutLine: {'line': b'-- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/local/lib/python3.10/dist-packages/divide_interface/srv/_divide.py\n'}
+[5.411734] (divide_interface) StdoutLine: {'line': b'-- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/local/lib/python3.10/dist-packages/divide_interface/srv/__init__.py\n'}
+[5.411795] (divide_interface) StdoutLine: {'line': b'-- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/local/lib/python3.10/dist-packages/divide_interface/srv/_divide_s.c\n'}
+[5.411850] (divide_interface) StdoutLine: {'line': b'-- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/local/lib/python3.10/dist-packages/divide_interface/_divide_interface_s.ep.rosidl_typesupport_c.c\n'}
+[5.411907] (divide_interface) StdoutLine: {'line': b'-- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/local/lib/python3.10/dist-packages/divide_interface/_divide_interface_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[5.411960] (divide_interface) StdoutLine: {'line': b'-- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/local/lib/python3.10/dist-packages/divide_interface/__init__.py\n'}
+[5.412018] (divide_interface) StdoutLine: {'line': b'-- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/local/lib/python3.10/dist-packages/divide_interface/divide_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.412073] (divide_interface) StdoutLine: {'line': b'-- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/local/lib/python3.10/dist-packages/divide_interface/libdivide_interface__rosidl_generator_py.so\n'}
+[5.412126] (divide_interface) StdoutLine: {'line': b'-- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/local/lib/python3.10/dist-packages/divide_interface/_divide_interface_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[5.412179] (divide_interface) StdoutLine: {'line': b'-- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/local/lib/python3.10/dist-packages/divide_interface/divide_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.412233] (divide_interface) StdoutLine: {'line': b'-- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/local/lib/python3.10/dist-packages/divide_interface/divide_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.445040] (divide_interface) StdoutLine: {'line': b"Listing '/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/local/lib/python3.10/dist-packages/divide_interface'...\n"}
+[5.445208] (divide_interface) StdoutLine: {'line': b"Compiling '/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/local/lib/python3.10/dist-packages/divide_interface/__init__.py'...\n"}
+[5.445271] (divide_interface) StdoutLine: {'line': b"Listing '/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/local/lib/python3.10/dist-packages/divide_interface/srv'...\n"}
+[5.445325] (divide_interface) StdoutLine: {'line': b"Compiling '/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/local/lib/python3.10/dist-packages/divide_interface/srv/__init__.py'...\n"}
+[5.445380] (divide_interface) StdoutLine: {'line': b"Compiling '/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/local/lib/python3.10/dist-packages/divide_interface/srv/_divide.py'...\n"}
+[5.449901] (divide_interface) StdoutLine: {'line': b'-- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/local/lib/python3.10/dist-packages/divide_interface/divide_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.450324] (divide_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/local/lib/python3.10/dist-packages/divide_interface/divide_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[5.450650] (divide_interface) StdoutLine: {'line': b'-- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/local/lib/python3.10/dist-packages/divide_interface/divide_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.450775] (divide_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/local/lib/python3.10/dist-packages/divide_interface/divide_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[5.450855] (divide_interface) StdoutLine: {'line': b'-- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/local/lib/python3.10/dist-packages/divide_interface/divide_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.451055] (divide_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/local/lib/python3.10/dist-packages/divide_interface/divide_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[5.451596] (divide_interface) StdoutLine: {'line': b'-- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/lib/libdivide_interface__rosidl_generator_py.so\n'}
+[5.451844] (divide_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/lib/libdivide_interface__rosidl_generator_py.so" to ""\n'}
+[5.452107] (divide_interface) StdoutLine: {'line': b'-- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/share/divide_interface/srv/Divide.idl\n'}
+[5.452209] (divide_interface) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/share/divide_interface/srv/Divide.srv\n'}
+[5.452353] (divide_interface) StdoutLine: {'line': b'-- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/share/divide_interface/srv/Divide_Request.msg\n'}
+[5.452569] (divide_interface) StdoutLine: {'line': b'-- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/share/divide_interface/srv/Divide_Response.msg\n'}
+[5.452945] (divide_interface) StdoutLine: {'line': b'-- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/share/ament_index/resource_index/package_run_dependencies/divide_interface\n'}
+[5.453116] (divide_interface) StdoutLine: {'line': b'-- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/share/ament_index/resource_index/parent_prefix_path/divide_interface\n'}
+[5.453266] (divide_interface) StdoutLine: {'line': b'-- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/share/divide_interface/environment/ament_prefix_path.sh\n'}
+[5.453427] (divide_interface) StdoutLine: {'line': b'-- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/share/divide_interface/environment/ament_prefix_path.dsv\n'}
+[5.453571] (divide_interface) StdoutLine: {'line': b'-- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/share/divide_interface/environment/path.sh\n'}
+[5.453660] (divide_interface) StdoutLine: {'line': b'-- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/share/divide_interface/environment/path.dsv\n'}
+[5.453938] (divide_interface) StdoutLine: {'line': b'-- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/share/divide_interface/local_setup.bash\n'}
+[5.454017] (divide_interface) StdoutLine: {'line': b'-- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/share/divide_interface/local_setup.sh\n'}
+[5.454073] (divide_interface) StdoutLine: {'line': b'-- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/share/divide_interface/local_setup.zsh\n'}
+[5.454127] (divide_interface) StdoutLine: {'line': b'-- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/share/divide_interface/local_setup.dsv\n'}
+[5.454272] (divide_interface) StdoutLine: {'line': b'-- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/share/divide_interface/package.dsv\n'}
+[5.454431] (divide_interface) StdoutLine: {'line': b'-- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/share/ament_index/resource_index/packages/divide_interface\n'}
+[5.454572] (divide_interface) StdoutLine: {'line': b'-- Old export file "/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/share/divide_interface/cmake/export_divide_interface__rosidl_generator_cExport.cmake" will be replaced.  Removing files [/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/share/divide_interface/cmake/export_divide_interface__rosidl_generator_cExport-noconfig.cmake].\n'}
+[5.454719] (divide_interface) StdoutLine: {'line': b'-- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/share/divide_interface/cmake/export_divide_interface__rosidl_generator_cExport.cmake\n'}
+[5.454847] (divide_interface) StdoutLine: {'line': b'-- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/share/divide_interface/cmake/export_divide_interface__rosidl_generator_cExport-noconfig.cmake\n'}
+[5.455127] (divide_interface) StdoutLine: {'line': b'-- Old export file "/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/share/divide_interface/cmake/export_divide_interface__rosidl_typesupport_fastrtps_cExport.cmake" will be replaced.  Removing files [/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/share/divide_interface/cmake/export_divide_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake].\n'}
+[5.455275] (divide_interface) StdoutLine: {'line': b'-- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/share/divide_interface/cmake/export_divide_interface__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[5.455420] (divide_interface) StdoutLine: {'line': b'-- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/share/divide_interface/cmake/export_divide_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[5.455704] (divide_interface) StdoutLine: {'line': b'-- Old export file "/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/share/divide_interface/cmake/divide_interface__rosidl_typesupport_introspection_cExport.cmake" will be replaced.  Removing files [/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/share/divide_interface/cmake/divide_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake].\n'}
+[5.455872] (divide_interface) StdoutLine: {'line': b'-- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/share/divide_interface/cmake/divide_interface__rosidl_typesupport_introspection_cExport.cmake\n'}
+[5.456021] (divide_interface) StdoutLine: {'line': b'-- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/share/divide_interface/cmake/divide_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[5.456166] (divide_interface) StdoutLine: {'line': b'-- Old export file "/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/share/divide_interface/cmake/divide_interface__rosidl_typesupport_cExport.cmake" will be replaced.  Removing files [/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/share/divide_interface/cmake/divide_interface__rosidl_typesupport_cExport-noconfig.cmake].\n'}
+[5.456311] (divide_interface) StdoutLine: {'line': b'-- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/share/divide_interface/cmake/divide_interface__rosidl_typesupport_cExport.cmake\n'}
+[5.456456] (divide_interface) StdoutLine: {'line': b'-- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/share/divide_interface/cmake/divide_interface__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[5.456600] (divide_interface) StdoutLine: {'line': b'-- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/share/divide_interface/cmake/export_divide_interface__rosidl_generator_cppExport.cmake\n'}
+[5.456744] (divide_interface) StdoutLine: {'line': b'-- Old export file "/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/share/divide_interface/cmake/export_divide_interface__rosidl_typesupport_fastrtps_cppExport.cmake" will be replaced.  Removing files [/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/share/divide_interface/cmake/export_divide_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake].\n'}
+[5.456890] (divide_interface) StdoutLine: {'line': b'-- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/share/divide_interface/cmake/export_divide_interface__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[5.457032] (divide_interface) StdoutLine: {'line': b'-- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/share/divide_interface/cmake/export_divide_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[5.457159] (divide_interface) StdoutLine: {'line': b'-- Old export file "/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/share/divide_interface/cmake/divide_interface__rosidl_typesupport_introspection_cppExport.cmake" will be replaced.  Removing files [/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/share/divide_interface/cmake/divide_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake].\n'}
+[5.457381] (divide_interface) StdoutLine: {'line': b'-- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/share/divide_interface/cmake/divide_interface__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[5.457789] (divide_interface) StdoutLine: {'line': b'-- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/share/divide_interface/cmake/divide_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[5.457878] (divide_interface) StdoutLine: {'line': b'-- Old export file "/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/share/divide_interface/cmake/divide_interface__rosidl_typesupport_cppExport.cmake" will be replaced.  Removing files [/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/share/divide_interface/cmake/divide_interface__rosidl_typesupport_cppExport-noconfig.cmake].\n'}
+[5.457949] (divide_interface) StdoutLine: {'line': b'-- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/share/divide_interface/cmake/divide_interface__rosidl_typesupport_cppExport.cmake\n'}
+[5.458005] (divide_interface) StdoutLine: {'line': b'-- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/share/divide_interface/cmake/divide_interface__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[5.458060] (divide_interface) StdoutLine: {'line': b'-- Old export file "/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/share/divide_interface/cmake/export_divide_interface__rosidl_generator_pyExport.cmake" will be replaced.  Removing files [/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/share/divide_interface/cmake/export_divide_interface__rosidl_generator_pyExport-noconfig.cmake].\n'}
+[5.458114] (divide_interface) StdoutLine: {'line': b'-- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/share/divide_interface/cmake/export_divide_interface__rosidl_generator_pyExport.cmake\n'}
+[5.458185] (divide_interface) StdoutLine: {'line': b'-- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/share/divide_interface/cmake/export_divide_interface__rosidl_generator_pyExport-noconfig.cmake\n'}
+[5.458258] (divide_interface) StdoutLine: {'line': b'-- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/share/divide_interface/cmake/rosidl_cmake-extras.cmake\n'}
+[5.458314] (divide_interface) StdoutLine: {'line': b'-- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/share/divide_interface/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[5.458368] (divide_interface) StdoutLine: {'line': b'-- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/share/divide_interface/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[5.458420] (divide_interface) StdoutLine: {'line': b'-- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/share/divide_interface/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[5.458470] (divide_interface) StdoutLine: {'line': b'-- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/share/divide_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[5.458520] (divide_interface) StdoutLine: {'line': b'-- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/share/divide_interface/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[5.458569] (divide_interface) StdoutLine: {'line': b'-- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/share/divide_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[5.458617] (divide_interface) StdoutLine: {'line': b'-- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/share/divide_interface/cmake/divide_interfaceConfig.cmake\n'}
+[5.458666] (divide_interface) StdoutLine: {'line': b'-- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/share/divide_interface/cmake/divide_interfaceConfig-version.cmake\n'}
+[5.458805] (divide_interface) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/share/divide_interface/package.xml\n'}
+[5.459802] (divide_interface) CommandEnded: {'returncode': 0}
+[5.500778] (-) TimerEvent: {}
+[5.528740] (divide_interface) JobEnded: {'identifier': 'divide_interface', 'rc': 0}
+[5.530229] (divide_package) JobStarted: {'identifier': 'divide_package'}
+[5.587091] (divide_package) JobProgress: {'identifier': 'divide_package', 'progress': 'cmake'}
+[5.587394] (divide_package) Command: {'cmd': ['/usr/bin/cmake', '/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/src/divide_package', '-DCMAKE_INSTALL_PREFIX=/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_package'], 'cwd': '/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/build/divide_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7897'), ('no_proxy', '172.31.*,172.30.*,172.29.*,172.28.*,172.27.*,172.26.*,172.25.*,172.24.*,172.23.*,172.22.*,172.21.*,172.20.*,172.19.*,172.18.*,172.17.*,172.16.*,10.*,192.168.*,127.*,localhost,<local>'), ('USER', 'luna'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{17bf3de4-5353-5709-bcf9-835bd952a95e}'), ('HOME', '/home/luna'), ('OLDPWD', '/home/luna/robomaster/2025-vision-training/Wenxiang Shi'), ('NO_PROXY', '172.31.*,172.30.*,172.29.*,172.28.*,172.27.*,172.26.*,172.25.*,172.24.*,172.23.*,172.22.*,172.21.*,172.20.*,172.19.*,172.18.*,172.17.*,172.16.*,10.*,192.168.*,127.*,localhost,<local>'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://127.0.0.1:7897'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'luna'), ('NAME', 'swx-luna'), ('WSL_INTEROP', '/run/WSL/21838_interop'), ('http_proxy', 'http://127.0.0.1:7897'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/swx/AppData/Anaconda/Lib/Graphviz/bin/dot.exe:/mnt/c/Program Files/HP/HP One Agent:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/MATLAB/R2023a/bin:/mnt/c/Qt/6.7.1/mingw_64/bin:/mnt/c/Qt/Tools/mingw1120_64/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/nodejs/:/mnt/c/windows/system32:/mnt/c/Users/swx/AppData/Anaconda/Lib/Graphviz/bin:/mnt/c/Users/swx/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/swx/AppData/Local/gitkraken/bin:/mnt/c/Users/swx/.dotnet/tools:/mnt/c/Users/swx/AppData/Roaming/npm:/snap/bin'), ('WT_SESSION', '68cdb59e-cc04-473a-be32-8832c4ad7caa'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/build/divide_package'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7897'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:'), ('CMAKE_PREFIX_PATH', '/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface:/opt/ros/humble')]), 'shell': False}
+[5.601331] (-) TimerEvent: {}
+[5.681273] (divide_package) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[5.702885] (-) TimerEvent: {}
+[5.810284] (-) TimerEvent: {}
+[5.917669] (-) TimerEvent: {}
+[5.997383] (divide_package) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[6.019216] (-) TimerEvent: {}
+[6.122842] (-) TimerEvent: {}
+[6.230212] (-) TimerEvent: {}
+[6.337375] (-) TimerEvent: {}
+[6.437078] (divide_package) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[6.437388] (-) TimerEvent: {}
+[6.544765] (-) TimerEvent: {}
+[6.549778] (divide_package) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[6.556400] (divide_package) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[6.556661] (divide_package) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[6.557021] (divide_package) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[6.559772] (divide_package) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[6.650879] (-) TimerEvent: {}
+[6.666642] (divide_package) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[6.673850] (divide_package) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[6.674146] (divide_package) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[6.674699] (divide_package) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[6.676470] (divide_package) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[6.752664] (-) TimerEvent: {}
+[6.823101] (divide_package) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[6.854965] (-) TimerEvent: {}
+[6.904994] (divide_package) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[6.958648] (-) TimerEvent: {}
+[7.049937] (divide_package) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[7.053624] (divide_package) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[7.059090] (-) TimerEvent: {}
+[7.061257] (divide_package) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[7.072073] (divide_package) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[7.086418] (divide_package) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[7.142261] (divide_package) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[7.146420] (divide_package) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[7.160112] (-) TimerEvent: {}
+[7.263249] (-) TimerEvent: {}
+[7.370860] (-) TimerEvent: {}
+[7.476320] (-) TimerEvent: {}
+[7.581551] (-) TimerEvent: {}
+[7.686752] (-) TimerEvent: {}
+[7.789310] (-) TimerEvent: {}
+[7.896862] (-) TimerEvent: {}
+[8.004601] (-) TimerEvent: {}
+[8.113096] (-) TimerEvent: {}
+[8.221608] (-) TimerEvent: {}
+[8.240762] (divide_package) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[8.328321] (-) TimerEvent: {}
+[8.436313] (-) TimerEvent: {}
+[8.544837] (-) TimerEvent: {}
+[8.653367] (-) TimerEvent: {}
+[8.761879] (-) TimerEvent: {}
+[8.870477] (-) TimerEvent: {}
+[8.979335] (-) TimerEvent: {}
+[9.088073] (-) TimerEvent: {}
+[9.196649] (-) TimerEvent: {}
+[9.305159] (-) TimerEvent: {}
+[9.350691] (divide_package) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[9.409754] (-) TimerEvent: {}
+[9.517992] (-) TimerEvent: {}
+[9.626537] (-) TimerEvent: {}
+[9.735317] (-) TimerEvent: {}
+[9.844075] (-) TimerEvent: {}
+[9.952839] (-) TimerEvent: {}
+[10.061463] (-) TimerEvent: {}
+[10.170106] (-) TimerEvent: {}
+[10.278716] (-) TimerEvent: {}
+[10.387245] (-) TimerEvent: {}
+[10.495758] (-) TimerEvent: {}
+[10.603516] (-) TimerEvent: {}
+[10.712077] (-) TimerEvent: {}
+[10.820609] (-) TimerEvent: {}
+[10.929234] (-) TimerEvent: {}
+[11.037891] (-) TimerEvent: {}
+[11.146667] (-) TimerEvent: {}
+[11.255240] (-) TimerEvent: {}
+[11.363887] (-) TimerEvent: {}
+[11.472490] (-) TimerEvent: {}
+[11.581080] (-) TimerEvent: {}
+[11.605613] (divide_package) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[11.618677] (divide_package) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[11.686273] (-) TimerEvent: {}
+[11.717754] (divide_package) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[11.718125] (divide_package) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[11.792044] (-) TimerEvent: {}
+[11.867470] (divide_package) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[11.868509] (divide_package) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[11.894071] (-) TimerEvent: {}
+[11.943069] (divide_package) StdoutLine: {'line': b'-- Found divide_interface: 0.0.0 (/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/share/divide_interface/cmake)\n'}
+[11.954082] (divide_package) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[11.997454] (-) TimerEvent: {}
+[12.037742] (divide_package) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[12.038023] (divide_package) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[12.038095] (divide_package) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[12.039071] (divide_package) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[12.040597] (divide_package) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[12.040736] (divide_package) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[12.041497] (divide_package) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[12.042689] (divide_package) StdoutLine: {'line': b'-- Configuring done\n'}
+[12.053524] (divide_package) StdoutLine: {'line': b'-- Generating done\n'}
+[12.055628] (divide_package) StdoutLine: {'line': b'-- Build files have been written to: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/build/divide_package\n'}
+[12.066326] (divide_package) CommandEnded: {'returncode': 0}
+[12.068108] (divide_package) JobProgress: {'identifier': 'divide_package', 'progress': 'build'}
+[12.068162] (divide_package) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/build/divide_package', '--', '-j32', '-l32'], 'cwd': '/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/build/divide_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7897'), ('no_proxy', '172.31.*,172.30.*,172.29.*,172.28.*,172.27.*,172.26.*,172.25.*,172.24.*,172.23.*,172.22.*,172.21.*,172.20.*,172.19.*,172.18.*,172.17.*,172.16.*,10.*,192.168.*,127.*,localhost,<local>'), ('USER', 'luna'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{17bf3de4-5353-5709-bcf9-835bd952a95e}'), ('HOME', '/home/luna'), ('OLDPWD', '/home/luna/robomaster/2025-vision-training/Wenxiang Shi'), ('NO_PROXY', '172.31.*,172.30.*,172.29.*,172.28.*,172.27.*,172.26.*,172.25.*,172.24.*,172.23.*,172.22.*,172.21.*,172.20.*,172.19.*,172.18.*,172.17.*,172.16.*,10.*,192.168.*,127.*,localhost,<local>'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://127.0.0.1:7897'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'luna'), ('NAME', 'swx-luna'), ('WSL_INTEROP', '/run/WSL/21838_interop'), ('http_proxy', 'http://127.0.0.1:7897'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/swx/AppData/Anaconda/Lib/Graphviz/bin/dot.exe:/mnt/c/Program Files/HP/HP One Agent:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/MATLAB/R2023a/bin:/mnt/c/Qt/6.7.1/mingw_64/bin:/mnt/c/Qt/Tools/mingw1120_64/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/nodejs/:/mnt/c/windows/system32:/mnt/c/Users/swx/AppData/Anaconda/Lib/Graphviz/bin:/mnt/c/Users/swx/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/swx/AppData/Local/gitkraken/bin:/mnt/c/Users/swx/.dotnet/tools:/mnt/c/Users/swx/AppData/Roaming/npm:/snap/bin'), ('WT_SESSION', '68cdb59e-cc04-473a-be32-8832c4ad7caa'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/build/divide_package'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7897'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:'), ('CMAKE_PREFIX_PATH', '/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface:/opt/ros/humble')]), 'shell': False}
+[12.099891] (-) TimerEvent: {}
+[12.104110] (divide_package) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/server.dir/src/server.cpp.o\x1b[0m\n'}
+[12.104379] (divide_package) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/client.dir/src/client.cpp.o\x1b[0m\n'}
+[12.207874] (-) TimerEvent: {}
+[12.314134] (-) TimerEvent: {}
+[12.420781] (-) TimerEvent: {}
+[12.527470] (-) TimerEvent: {}
+[12.634124] (-) TimerEvent: {}
+[12.740773] (-) TimerEvent: {}
+[12.847430] (-) TimerEvent: {}
+[12.954072] (-) TimerEvent: {}
+[13.060724] (-) TimerEvent: {}
+[13.167391] (-) TimerEvent: {}
+[13.274010] (-) TimerEvent: {}
+[13.380764] (-) TimerEvent: {}
+[13.487494] (-) TimerEvent: {}
+[13.594170] (-) TimerEvent: {}
+[13.700920] (-) TimerEvent: {}
+[13.807450] (-) TimerEvent: {}
+[13.914036] (-) TimerEvent: {}
+[14.020636] (-) TimerEvent: {}
+[14.127163] (-) TimerEvent: {}
+[14.231011] (-) TimerEvent: {}
+[14.337453] (-) TimerEvent: {}
+[14.444026] (-) TimerEvent: {}
+[14.550613] (-) TimerEvent: {}
+[14.657120] (-) TimerEvent: {}
+[14.763652] (-) TimerEvent: {}
+[14.870233] (-) TimerEvent: {}
+[14.976760] (-) TimerEvent: {}
+[15.083256] (-) TimerEvent: {}
+[15.189866] (-) TimerEvent: {}
+[15.296404] (-) TimerEvent: {}
+[15.402937] (-) TimerEvent: {}
+[15.509449] (-) TimerEvent: {}
+[15.615957] (-) TimerEvent: {}
+[15.719722] (-) TimerEvent: {}
+[15.825994] (-) TimerEvent: {}
+[15.932583] (-) TimerEvent: {}
+[15.997821] (divide_package) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable client\x1b[0m\n'}
+[16.000260] (divide_package) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable server\x1b[0m\n'}
+[16.035326] (-) TimerEvent: {}
+[16.143862] (-) TimerEvent: {}
+[16.250333] (-) TimerEvent: {}
+[16.256646] (divide_package) StdoutLine: {'line': b'[100%] Built target server\n'}
+[16.257119] (divide_package) StdoutLine: {'line': b'[100%] Built target client\n'}
+[16.265851] (divide_package) CommandEnded: {'returncode': 0}
+[16.285974] (divide_package) JobProgress: {'identifier': 'divide_package', 'progress': 'install'}
+[16.286787] (divide_package) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/build/divide_package'], 'cwd': '/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/build/divide_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7897'), ('no_proxy', '172.31.*,172.30.*,172.29.*,172.28.*,172.27.*,172.26.*,172.25.*,172.24.*,172.23.*,172.22.*,172.21.*,172.20.*,172.19.*,172.18.*,172.17.*,172.16.*,10.*,192.168.*,127.*,localhost,<local>'), ('USER', 'luna'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{17bf3de4-5353-5709-bcf9-835bd952a95e}'), ('HOME', '/home/luna'), ('OLDPWD', '/home/luna/robomaster/2025-vision-training/Wenxiang Shi'), ('NO_PROXY', '172.31.*,172.30.*,172.29.*,172.28.*,172.27.*,172.26.*,172.25.*,172.24.*,172.23.*,172.22.*,172.21.*,172.20.*,172.19.*,172.18.*,172.17.*,172.16.*,10.*,192.168.*,127.*,localhost,<local>'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://127.0.0.1:7897'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'luna'), ('NAME', 'swx-luna'), ('WSL_INTEROP', '/run/WSL/21838_interop'), ('http_proxy', 'http://127.0.0.1:7897'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/swx/AppData/Anaconda/Lib/Graphviz/bin/dot.exe:/mnt/c/Program Files/HP/HP One Agent:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/MATLAB/R2023a/bin:/mnt/c/Qt/6.7.1/mingw_64/bin:/mnt/c/Qt/Tools/mingw1120_64/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/nodejs/:/mnt/c/windows/system32:/mnt/c/Users/swx/AppData/Anaconda/Lib/Graphviz/bin:/mnt/c/Users/swx/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/swx/AppData/Local/gitkraken/bin:/mnt/c/Users/swx/.dotnet/tools:/mnt/c/Users/swx/AppData/Roaming/npm:/snap/bin'), ('WT_SESSION', '68cdb59e-cc04-473a-be32-8832c4ad7caa'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/build/divide_package'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7897'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:'), ('CMAKE_PREFIX_PATH', '/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface:/opt/ros/humble')]), 'shell': False}
+[16.292082] (divide_package) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[16.293452] (divide_package) StdoutLine: {'line': b'-- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_package/lib/divide_package/server\n'}
+[16.294116] (divide_package) StdoutLine: {'line': b'-- Set runtime path of "/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_package/lib/divide_package/server" to ""\n'}
+[16.295245] (divide_package) StdoutLine: {'line': b'-- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_package/lib/divide_package/client\n'}
+[16.296041] (divide_package) StdoutLine: {'line': b'-- Set runtime path of "/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_package/lib/divide_package/client" to ""\n'}
+[16.296182] (divide_package) StdoutLine: {'line': b'-- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_package/share/ament_index/resource_index/package_run_dependencies/divide_package\n'}
+[16.296255] (divide_package) StdoutLine: {'line': b'-- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_package/share/ament_index/resource_index/parent_prefix_path/divide_package\n'}
+[16.296474] (divide_package) StdoutLine: {'line': b'-- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_package/share/divide_package/environment/ament_prefix_path.sh\n'}
+[16.296610] (divide_package) StdoutLine: {'line': b'-- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_package/share/divide_package/environment/ament_prefix_path.dsv\n'}
+[16.296880] (divide_package) StdoutLine: {'line': b'-- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_package/share/divide_package/environment/path.sh\n'}
+[16.297110] (divide_package) StdoutLine: {'line': b'-- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_package/share/divide_package/environment/path.dsv\n'}
+[16.297258] (divide_package) StdoutLine: {'line': b'-- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_package/share/divide_package/local_setup.bash\n'}
+[16.297404] (divide_package) StdoutLine: {'line': b'-- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_package/share/divide_package/local_setup.sh\n'}
+[16.297824] (divide_package) StdoutLine: {'line': b'-- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_package/share/divide_package/local_setup.zsh\n'}
+[16.297898] (divide_package) StdoutLine: {'line': b'-- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_package/share/divide_package/local_setup.dsv\n'}
+[16.297954] (divide_package) StdoutLine: {'line': b'-- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_package/share/divide_package/package.dsv\n'}
+[16.298008] (divide_package) StdoutLine: {'line': b'-- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_package/share/ament_index/resource_index/packages/divide_package\n'}
+[16.298062] (divide_package) StdoutLine: {'line': b'-- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_package/share/divide_package/cmake/divide_packageConfig.cmake\n'}
+[16.298113] (divide_package) StdoutLine: {'line': b'-- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_package/share/divide_package/cmake/divide_packageConfig-version.cmake\n'}
+[16.298165] (divide_package) StdoutLine: {'line': b'-- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_package/share/divide_package/package.xml\n'}
+[16.299711] (divide_package) CommandEnded: {'returncode': 0}
+[16.331146] (divide_package) JobEnded: {'identifier': 'divide_package', 'rc': 0}
+[16.332393] (-) EventReactorShutdown: {}
