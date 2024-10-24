@@ -26,6 +26,7 @@ int main(){
     vector<int> rad_list;
         for(int i=0; i<contours.size(); i++){
             for(int j=0; j<contours[i].size(); j++){
+                if(rand()%3) continue;
                 double z = rand()%500-250.0;
                 double scale = rad/(rad+z);
                 pos_list.push_back(Vector4d((contours[i][j].x-472.0)*scale,
