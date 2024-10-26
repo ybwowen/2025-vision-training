@@ -1,0 +1,37 @@
+[0.023s] Invoking command in '/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/build/action_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/build/action_demo -- -j32 -l32
+[0.049s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.233s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.770s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.773s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.781s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.794s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.810s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.857s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.857s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[5.797s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.869s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[6.261s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[6.689s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.856s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.888s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[6.920s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[6.920s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[6.920s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[6.933s] [0mCMake Deprecation Warning at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+[6.934s]   Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+[6.934s]   rosidl_target_interfaces()
+[6.934s] Call Stack (most recent call first):
+[6.934s]   CMakeLists.txt:23 (rosidl_target_interfaces)
+[6.934s] 
+[6.934s] [0m
+[6.934s] [31mCMake Error at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:38 (message):
+[6.934s]   rosidl_target_interfaces() the first argument 'client' must be a valid
+[6.934s]   target name
+[6.934s] Call Stack (most recent call first):
+[6.934s]   CMakeLists.txt:23 (rosidl_target_interfaces)
+[6.934s] 
+[6.934s] [0m
+[6.934s] -- Configuring incomplete, errors occurred!
+[6.935s] See also "/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/build/action_demo/CMakeFiles/CMakeOutput.log".
+[6.944s] gmake: *** [Makefile:829: cmake_check_build_system] Error 1
+[6.947s] Invoked command in '/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/build/action_demo' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/build/action_demo -- -j32 -l32

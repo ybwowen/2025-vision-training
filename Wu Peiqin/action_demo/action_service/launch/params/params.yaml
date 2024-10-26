@@ -1,0 +1,4 @@
+action_server:
+  ros__parameters:
+    v: 1.0
+    time_limit: 10.0

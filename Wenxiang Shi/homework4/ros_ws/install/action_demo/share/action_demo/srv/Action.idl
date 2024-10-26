@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from action_demo/srv/Action.srv
+// generated code does not contain a copyright notice
+
+
+module action_demo {
+  module srv {
+    struct Action_Request {
+      double distance;
+    };
+    struct Action_Response {
+      double remaining_distance;
+
+      boolean success;
+    };
+  };
+};

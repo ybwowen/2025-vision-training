@@ -1,0 +1,225 @@
+[0.021s] Invoking command in '/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/build/action_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/build/action_demo -- -j32 -l32
+[0.049s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.235s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.499s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.502s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.510s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.523s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.540s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.583s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.585s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[6.791s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.859s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[7.239s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[7.684s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.853s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.887s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[7.930s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[7.930s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[7.930s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[7.944s] [0mCMake Deprecation Warning at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+[7.944s]   Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+[7.945s]   rosidl_target_interfaces()
+[7.945s] Call Stack (most recent call first):
+[7.945s]   CMakeLists.txt:31 (rosidl_target_interfaces)
+[7.945s] 
+[7.945s] [0m
+[7.945s] [0mCMake Deprecation Warning at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+[7.945s]   Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+[7.945s]   rosidl_target_interfaces()
+[7.945s] Call Stack (most recent call first):
+[7.945s]   CMakeLists.txt:34 (rosidl_target_interfaces)
+[7.945s] 
+[7.945s] [0m
+[7.972s] -- Configuring done
+[8.097s] -- Generating done
+[8.101s] -- Build files have been written to: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/build/action_demo
+[8.137s] [35m[1mConsolidate compiler generated dependencies of target action_demo__rosidl_generator_c[0m
+[8.147s] [  2%] Built target action_demo__cpp
+[8.149s] [ 11%] Built target action_demo__rosidl_generator_c
+[8.156s] [ 11%] Built target ament_cmake_python_copy_action_demo
+[8.159s] [35m[1mConsolidate compiler generated dependencies of target action_demo__rosidl_typesupport_cpp[0m
+[8.159s] [35m[1mConsolidate compiler generated dependencies of target action_demo__rosidl_typesupport_introspection_cpp[0m
+[8.160s] [35m[1mConsolidate compiler generated dependencies of target action_demo__rosidl_typesupport_fastrtps_cpp[0m
+[8.161s] [35m[1mConsolidate compiler generated dependencies of target action_demo__rosidl_typesupport_c[0m
+[8.161s] [35m[1mConsolidate compiler generated dependencies of target action_demo__rosidl_typesupport_introspection_c[0m
+[8.163s] [35m[1mConsolidate compiler generated dependencies of target action_demo__rosidl_typesupport_fastrtps_c[0m
+[8.175s] [ 20%] Built target action_demo__rosidl_typesupport_cpp
+[8.176s] [ 28%] Built target action_demo__rosidl_typesupport_c
+[8.177s] [ 37%] Built target action_demo__rosidl_typesupport_introspection_c
+[8.177s] [ 45%] Built target action_demo__rosidl_typesupport_introspection_cpp
+[8.180s] [ 62%] Built target action_demo__rosidl_typesupport_fastrtps_c
+[8.180s] [ 60%] Built target action_demo__rosidl_typesupport_fastrtps_cpp
+[8.201s] [ 62%] Built target action_demo
+[8.224s] [ 65%] [34m[1mGenerating Python code for ROS interfaces[0m
+[8.224s] [ 68%] [32mBuilding CXX object CMakeFiles/client.dir/src/client.cpp.o[0m
+[8.225s] [ 71%] [32mBuilding CXX object CMakeFiles/server.dir/src/server.cpp.o[0m
+[8.493s] running egg_info
+[8.494s] writing action_demo.egg-info/PKG-INFO
+[8.495s] writing dependency_links to action_demo.egg-info/dependency_links.txt
+[8.495s] writing top-level names to action_demo.egg-info/top_level.txt
+[8.499s] reading manifest file 'action_demo.egg-info/SOURCES.txt'
+[8.500s] writing manifest file 'action_demo.egg-info/SOURCES.txt'
+[8.532s] [ 71%] Built target ament_cmake_python_build_action_demo_egg
+[8.861s] [ 71%] Built target action_demo__py
+[8.884s] [ 74%] [32mBuilding C object CMakeFiles/action_demo__rosidl_generator_py.dir/rosidl_generator_py/action_demo/srv/_action_s.c.o[0m
+[9.201s] [ 77%] [32m[1mLinking C shared library rosidl_generator_py/action_demo/libaction_demo__rosidl_generator_py.so[0m
+[9.396s] [ 77%] Built target action_demo__rosidl_generator_py
+[9.421s] [ 82%] [32mBuilding C object CMakeFiles/action_demo__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/action_demo/_action_demo_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[9.421s] [ 82%] [32mBuilding C object CMakeFiles/action_demo__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/action_demo/_action_demo_s.ep.rosidl_typesupport_c.c.o[0m
+[9.424s] [ 85%] [32mBuilding C object CMakeFiles/action_demo__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/action_demo/_action_demo_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[9.546s] [ 88%] [32m[1mLinking C shared library rosidl_generator_py/action_demo/action_demo_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[9.547s] [ 91%] [32m[1mLinking C shared library rosidl_generator_py/action_demo/action_demo_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[9.564s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/action_demo/action_demo_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[9.665s] [ 94%] Built target action_demo__rosidl_typesupport_c__pyext
+[9.668s] [ 94%] Built target action_demo__rosidl_typesupport_fastrtps_c__pyext
+[9.712s] [ 94%] Built target action_demo__rosidl_typesupport_introspection_c__pyext
+[13.364s] [ 97%] [32m[1mLinking CXX executable server[0m
+[13.366s] [100%] [32m[1mLinking CXX executable client[0m
+[13.668s] [100%] Built target server
+[13.668s] [100%] Built target client
+[13.686s] Invoked command in '/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/build/action_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/build/action_demo -- -j32 -l32
+[13.762s] Invoking command in '/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/build/action_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/build/action_demo
+[13.769s] -- Install configuration: ""
+[13.770s] -- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/share/ament_index/resource_index/rosidl_interfaces/action_demo
+[13.770s] -- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/include/action_demo/action_demo
+[13.771s] -- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/include/action_demo/action_demo/srv
+[13.771s] -- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/include/action_demo/action_demo/srv/action.h
+[13.772s] -- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/include/action_demo/action_demo/srv/detail
+[13.773s] -- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/include/action_demo/action_demo/srv/detail/action__functions.c
+[13.773s] -- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/include/action_demo/action_demo/srv/detail/action__functions.h
+[13.774s] -- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/include/action_demo/action_demo/srv/detail/action__struct.h
+[13.774s] -- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/include/action_demo/action_demo/srv/detail/action__type_support.h
+[13.774s] -- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/include/action_demo/action_demo/msg
+[13.775s] -- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/include/action_demo/action_demo/msg/rosidl_generator_c__visibility_control.h
+[13.775s] -- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/share/action_demo/environment/library_path.sh
+[13.775s] -- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/share/action_demo/environment/library_path.dsv
+[13.776s] -- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/lib/libaction_demo__rosidl_generator_c.so
+[13.777s] -- Set runtime path of "/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/lib/libaction_demo__rosidl_generator_c.so" to ""
+[13.777s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/include/action_demo/action_demo
+[13.777s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/include/action_demo/action_demo/srv
+[13.777s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/include/action_demo/action_demo/srv/detail
+[13.777s] -- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/include/action_demo/action_demo/srv/detail/action__rosidl_typesupport_fastrtps_c.h
+[13.778s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/include/action_demo/action_demo/msg
+[13.778s] -- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/include/action_demo/action_demo/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[13.778s] -- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/lib/libaction_demo__rosidl_typesupport_fastrtps_c.so
+[13.779s] -- Set runtime path of "/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/lib/libaction_demo__rosidl_typesupport_fastrtps_c.so" to ""
+[13.779s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/include/action_demo/action_demo
+[13.779s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/include/action_demo/action_demo/srv
+[13.780s] -- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/include/action_demo/action_demo/srv/action.hpp
+[13.780s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/include/action_demo/action_demo/srv/detail
+[13.780s] -- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/include/action_demo/action_demo/srv/detail/action__struct.hpp
+[13.780s] -- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/include/action_demo/action_demo/srv/detail/action__traits.hpp
+[13.780s] -- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/include/action_demo/action_demo/srv/detail/action__builder.hpp
+[13.781s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/include/action_demo/action_demo
+[13.781s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/include/action_demo/action_demo/srv
+[13.781s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/include/action_demo/action_demo/srv/detail
+[13.781s] -- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/include/action_demo/action_demo/srv/detail/action__rosidl_typesupport_fastrtps_cpp.hpp
+[13.782s] -- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/include/action_demo/action_demo/srv/detail/dds_fastrtps
+[13.782s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/include/action_demo/action_demo/msg
+[13.782s] -- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/include/action_demo/action_demo/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[13.782s] -- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/lib/libaction_demo__rosidl_typesupport_fastrtps_cpp.so
+[13.783s] -- Set runtime path of "/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/lib/libaction_demo__rosidl_typesupport_fastrtps_cpp.so" to ""
+[13.783s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/include/action_demo/action_demo
+[13.784s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/include/action_demo/action_demo/srv
+[13.784s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/include/action_demo/action_demo/srv/detail
+[13.784s] -- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/include/action_demo/action_demo/srv/detail/action__rosidl_typesupport_introspection_c.h
+[13.784s] -- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/include/action_demo/action_demo/srv/detail/action__type_support.c
+[13.785s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/include/action_demo/action_demo/msg
+[13.785s] -- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/include/action_demo/action_demo/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[13.785s] -- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/lib/libaction_demo__rosidl_typesupport_introspection_c.so
+[13.785s] -- Set runtime path of "/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/lib/libaction_demo__rosidl_typesupport_introspection_c.so" to ""
+[13.786s] -- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/lib/libaction_demo__rosidl_typesupport_c.so
+[13.786s] -- Set runtime path of "/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/lib/libaction_demo__rosidl_typesupport_c.so" to ""
+[13.787s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/include/action_demo/action_demo
+[13.787s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/include/action_demo/action_demo/srv
+[13.787s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/include/action_demo/action_demo/srv/detail
+[13.787s] -- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/include/action_demo/action_demo/srv/detail/action__type_support.cpp
+[13.787s] -- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/include/action_demo/action_demo/srv/detail/action__rosidl_typesupport_introspection_cpp.hpp
+[13.787s] -- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/lib/libaction_demo__rosidl_typesupport_introspection_cpp.so
+[13.788s] -- Set runtime path of "/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/lib/libaction_demo__rosidl_typesupport_introspection_cpp.so" to ""
+[13.788s] -- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/lib/libaction_demo__rosidl_typesupport_cpp.so
+[13.788s] -- Set runtime path of "/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/lib/libaction_demo__rosidl_typesupport_cpp.so" to ""
+[13.789s] -- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/share/action_demo/environment/pythonpath.sh
+[13.789s] -- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/share/action_demo/environment/pythonpath.dsv
+[13.789s] -- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/local/lib/python3.10/dist-packages/action_demo-0.0.0-py3.10.egg-info
+[13.790s] -- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/local/lib/python3.10/dist-packages/action_demo-0.0.0-py3.10.egg-info/top_level.txt
+[13.790s] -- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/local/lib/python3.10/dist-packages/action_demo-0.0.0-py3.10.egg-info/SOURCES.txt
+[13.790s] -- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/local/lib/python3.10/dist-packages/action_demo-0.0.0-py3.10.egg-info/dependency_links.txt
+[13.790s] -- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/local/lib/python3.10/dist-packages/action_demo-0.0.0-py3.10.egg-info/PKG-INFO
+[13.791s] -- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/local/lib/python3.10/dist-packages/action_demo
+[13.791s] -- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/local/lib/python3.10/dist-packages/action_demo/srv
+[13.791s] -- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/local/lib/python3.10/dist-packages/action_demo/srv/_action_s.c
+[13.792s] -- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/local/lib/python3.10/dist-packages/action_demo/srv/__init__.py
+[13.792s] -- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/local/lib/python3.10/dist-packages/action_demo/srv/_action.py
+[13.792s] -- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/local/lib/python3.10/dist-packages/action_demo/_action_demo_s.ep.rosidl_typesupport_fastrtps_c.c
+[13.792s] -- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/local/lib/python3.10/dist-packages/action_demo/action_demo_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[13.792s] -- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/local/lib/python3.10/dist-packages/action_demo/_action_demo_s.ep.rosidl_typesupport_introspection_c.c
+[13.793s] -- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/local/lib/python3.10/dist-packages/action_demo/libaction_demo__rosidl_generator_py.so
+[13.793s] -- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/local/lib/python3.10/dist-packages/action_demo/action_demo_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[13.793s] -- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/local/lib/python3.10/dist-packages/action_demo/__init__.py
+[13.793s] -- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/local/lib/python3.10/dist-packages/action_demo/_action_demo_s.ep.rosidl_typesupport_c.c
+[13.794s] -- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/local/lib/python3.10/dist-packages/action_demo/action_demo_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[13.842s] Listing '/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/local/lib/python3.10/dist-packages/action_demo'...
+[13.843s] Compiling '/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/local/lib/python3.10/dist-packages/action_demo/__init__.py'...
+[13.843s] Listing '/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/local/lib/python3.10/dist-packages/action_demo/srv'...
+[13.843s] Compiling '/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/local/lib/python3.10/dist-packages/action_demo/srv/__init__.py'...
+[13.843s] Compiling '/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/local/lib/python3.10/dist-packages/action_demo/srv/_action.py'...
+[13.849s] -- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/local/lib/python3.10/dist-packages/action_demo/action_demo_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[13.850s] -- Set runtime path of "/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/local/lib/python3.10/dist-packages/action_demo/action_demo_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[13.850s] -- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/local/lib/python3.10/dist-packages/action_demo/action_demo_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[13.850s] -- Set runtime path of "/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/local/lib/python3.10/dist-packages/action_demo/action_demo_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[13.850s] -- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/local/lib/python3.10/dist-packages/action_demo/action_demo_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[13.850s] -- Set runtime path of "/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/local/lib/python3.10/dist-packages/action_demo/action_demo_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[13.850s] -- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/lib/libaction_demo__rosidl_generator_py.so
+[13.851s] -- Set runtime path of "/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/lib/libaction_demo__rosidl_generator_py.so" to ""
+[13.851s] -- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/share/action_demo/srv/Action.idl
+[13.852s] -- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/share/action_demo/srv/Action.srv
+[13.852s] -- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/share/action_demo/srv/Action_Request.msg
+[13.852s] -- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/share/action_demo/srv/Action_Response.msg
+[13.852s] -- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/lib/action_demo/server
+[13.852s] -- Set runtime path of "/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/lib/action_demo/server" to ""
+[13.853s] -- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/lib/action_demo/client
+[13.853s] -- Set runtime path of "/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/lib/action_demo/client" to ""
+[13.854s] -- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/share/action_demo/launch
+[13.854s] -- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/share/action_demo/launch/action_demo_launch.py
+[13.855s] -- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/share/ament_index/resource_index/package_run_dependencies/action_demo
+[13.855s] -- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/share/ament_index/resource_index/parent_prefix_path/action_demo
+[13.855s] -- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/share/action_demo/environment/ament_prefix_path.sh
+[13.855s] -- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/share/action_demo/environment/ament_prefix_path.dsv
+[13.856s] -- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/share/action_demo/environment/path.sh
+[13.856s] -- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/share/action_demo/environment/path.dsv
+[13.856s] -- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/share/action_demo/local_setup.bash
+[13.857s] -- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/share/action_demo/local_setup.sh
+[13.857s] -- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/share/action_demo/local_setup.zsh
+[13.857s] -- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/share/action_demo/local_setup.dsv
+[13.858s] -- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/share/action_demo/package.dsv
+[13.858s] -- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/share/ament_index/resource_index/packages/action_demo
+[13.858s] -- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/share/action_demo/cmake/export_action_demo__rosidl_generator_cExport.cmake
+[13.858s] -- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/share/action_demo/cmake/export_action_demo__rosidl_generator_cExport-noconfig.cmake
+[13.858s] -- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/share/action_demo/cmake/export_action_demo__rosidl_typesupport_fastrtps_cExport.cmake
+[13.859s] -- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/share/action_demo/cmake/export_action_demo__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[13.859s] -- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/share/action_demo/cmake/export_action_demo__rosidl_generator_cppExport.cmake
+[13.859s] -- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/share/action_demo/cmake/export_action_demo__rosidl_typesupport_fastrtps_cppExport.cmake
+[13.859s] -- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/share/action_demo/cmake/export_action_demo__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[13.860s] -- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/share/action_demo/cmake/action_demo__rosidl_typesupport_introspection_cExport.cmake
+[13.860s] -- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/share/action_demo/cmake/action_demo__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[13.860s] -- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/share/action_demo/cmake/action_demo__rosidl_typesupport_cExport.cmake
+[13.860s] -- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/share/action_demo/cmake/action_demo__rosidl_typesupport_cExport-noconfig.cmake
+[13.861s] -- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/share/action_demo/cmake/action_demo__rosidl_typesupport_introspection_cppExport.cmake
+[13.861s] -- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/share/action_demo/cmake/action_demo__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[13.861s] -- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/share/action_demo/cmake/action_demo__rosidl_typesupport_cppExport.cmake
+[13.861s] -- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/share/action_demo/cmake/action_demo__rosidl_typesupport_cppExport-noconfig.cmake
+[13.861s] -- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/share/action_demo/cmake/export_action_demo__rosidl_generator_pyExport.cmake
+[13.862s] -- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/share/action_demo/cmake/export_action_demo__rosidl_generator_pyExport-noconfig.cmake
+[13.862s] -- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/share/action_demo/cmake/rosidl_cmake-extras.cmake
+[13.862s] -- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/share/action_demo/cmake/ament_cmake_export_include_directories-extras.cmake
+[13.864s] -- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/share/action_demo/cmake/ament_cmake_export_libraries-extras.cmake
+[13.864s] -- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/share/action_demo/cmake/ament_cmake_export_targets-extras.cmake
+[13.864s] -- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/share/action_demo/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[13.864s] -- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/share/action_demo/cmake/ament_cmake_export_dependencies-extras.cmake
+[13.864s] -- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/share/action_demo/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[13.865s] -- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/share/action_demo/cmake/action_demoConfig.cmake
+[13.865s] -- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/share/action_demo/cmake/action_demoConfig-version.cmake
+[13.865s] -- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo/share/action_demo/package.xml
+[13.867s] Invoked command in '/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/build/action_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/build/action_demo

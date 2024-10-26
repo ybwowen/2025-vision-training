@@ -1,0 +1,69 @@
+[0.023s] Invoking command in '/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/build/action_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/src/action_demo -DCMAKE_INSTALL_PREFIX=/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo
+[0.043s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.240s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.424s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.430s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.440s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.454s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.471s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.518s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.520s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[5.804s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.895s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[6.280s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[6.719s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.895s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.928s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[6.960s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[6.960s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[6.960s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[6.993s] -- Configuring done
+[7.050s] -- Generating done
+[7.054s] -- Build files have been written to: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/build/action_demo
+[7.069s] Invoked command in '/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/build/action_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/src/action_demo -DCMAKE_INSTALL_PREFIX=/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo
+[7.071s] Invoking command in '/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/build/action_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/build/action_demo -- -j32 -l32
+[7.114s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[7.124s] [  5%] [32mBuilding CXX object CMakeFiles/server.dir/src/server.cpp.o[0m
+[7.125s] [  8%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[7.126s] [ 11%] [32mBuilding CXX object CMakeFiles/client.dir/src/client.cpp.o[0m
+[7.135s] [ 11%] Built target ament_cmake_python_copy_action_demo
+[7.472s] running egg_info
+[7.473s] creating action_demo.egg-info
+[7.473s] writing action_demo.egg-info/PKG-INFO
+[7.474s] writing dependency_links to action_demo.egg-info/dependency_links.txt
+[7.474s] writing top-level names to action_demo.egg-info/top_level.txt
+[7.474s] writing manifest file 'action_demo.egg-info/SOURCES.txt'
+[7.477s] reading manifest file 'action_demo.egg-info/SOURCES.txt'
+[7.478s] writing manifest file 'action_demo.egg-info/SOURCES.txt'
+[7.510s] [ 11%] Built target ament_cmake_python_build_action_demo_egg
+[7.586s] [ 11%] Built target action_demo__cpp
+[7.596s] [ 14%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[7.597s] [ 17%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[7.599s] [ 20%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[7.617s] [ 22%] [32mBuilding C object CMakeFiles/action_demo__rosidl_generator_c.dir/rosidl_generator_c/action_demo/srv/detail/action__functions.c.o[0m
+[7.687s] [01m[K/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/src/action_demo/src/server.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Kaction_demo/srv/action.hpp: No such file or directory
+[7.687s]     3 | #include [01;31m[K"action_demo/srv/action.hpp"[m[K
+[7.687s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.687s] [01m[K/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/src/action_demo/src/client.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Kaction_demo/srv/action.hpp: No such file or directory
+[7.687s]     3 | #include [01;31m[K"action_demo/srv/action.hpp"[m[K
+[7.687s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.687s] compilation terminated.
+[7.688s] compilation terminated.
+[7.690s] gmake[2]: *** [CMakeFiles/server.dir/build.make:76: CMakeFiles/server.dir/src/server.cpp.o] Error 1
+[7.691s] gmake[2]: *** [CMakeFiles/client.dir/build.make:76: CMakeFiles/client.dir/src/client.cpp.o] Error 1
+[7.691s] gmake[1]: *** [CMakeFiles/Makefile2:594: CMakeFiles/server.dir/all] Error 2
+[7.692s] gmake[1]: *** Waiting for unfinished jobs....
+[7.692s] gmake[1]: *** [CMakeFiles/Makefile2:620: CMakeFiles/client.dir/all] Error 2
+[7.784s] [ 25%] [32m[1mLinking C shared library libaction_demo__rosidl_generator_c.so[0m
+[7.899s] [ 25%] Built target action_demo__rosidl_generator_c
+[7.973s] [ 28%] [32mBuilding CXX object CMakeFiles/action_demo__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/action_demo/srv/action__type_support.cpp.o[0m
+[8.010s] [ 31%] [32mBuilding CXX object CMakeFiles/action_demo__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/action_demo/srv/detail/action__type_support.cpp.o[0m
+[8.064s] [ 34%] [32mBuilding CXX object CMakeFiles/action_demo__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/action_demo/srv/detail/dds_fastrtps/action__type_support.cpp.o[0m
+[8.340s] [ 37%] [32m[1mLinking CXX shared library libaction_demo__rosidl_typesupport_cpp.so[0m
+[8.474s] [ 40%] [32m[1mLinking CXX shared library libaction_demo__rosidl_typesupport_introspection_cpp.so[0m
+[8.477s] [ 40%] Built target action_demo__rosidl_typesupport_cpp
+[8.555s] [ 42%] [32m[1mLinking CXX shared library libaction_demo__rosidl_typesupport_fastrtps_cpp.so[0m
+[8.607s] [ 42%] Built target action_demo__rosidl_typesupport_introspection_cpp
+[8.733s] [ 42%] Built target action_demo__rosidl_typesupport_fastrtps_cpp
+[8.734s] gmake: *** [Makefile:146: all] Error 2
+[8.738s] Invoked command in '/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/build/action_demo' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/build/action_demo -- -j32 -l32

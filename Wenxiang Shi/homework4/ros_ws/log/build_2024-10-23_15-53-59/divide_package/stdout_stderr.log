@@ -1,0 +1,14 @@
+[35m[1mConsolidate compiler generated dependencies of target client[0m
+[ 50%] Built target server
+[ 75%] [32mBuilding CXX object CMakeFiles/client.dir/src/client.cpp.o[0m
+[01m[K/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/src/divide_package/src/client.cpp:[m[K In constructor ‘[01m[KDivideClientNode::DivideClientNode(int, int)[m[K’:
+[01m[K/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/src/divide_package/src/client.cpp:39:27:[m[K [01;31m[Kerror: [m[K‘[01m[KServiceClient01[m[K’ has not been declared
+   39 |       request, std::bind(&[01;31m[KServiceClient01[m[K::result_callback_, this,
+      |                           [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/src/divide_package/src/client.cpp:[m[K At global scope:
+[01m[K/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/src/divide_package/src/client.cpp:54:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+   54 | [01;31m[K}[m[K;
+      | [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/client.dir/build.make:76: CMakeFiles/client.dir/src/client.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/client.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,3 +1,3 @@
 
-int32 quotient
-int32 remainder
+int64 quotient
+int64 remainder

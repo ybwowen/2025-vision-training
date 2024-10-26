@@ -1,0 +1,5 @@
+float32 v # 速度
+float32 s # 距离
+float32 time_limit # 时间限制
+---
+float32 s_remain # 剩余距离

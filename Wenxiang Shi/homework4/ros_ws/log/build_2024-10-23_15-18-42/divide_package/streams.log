@@ -1,0 +1,38 @@
+[0.078s] Invoking command in '/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/build/divide_package': CMAKE_PREFIX_PATH=/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface:/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_package:/opt/ros/humble /usr/bin/cmake --build /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/build/divide_package -- -j32 -l32
+[0.109s] [35m[1mConsolidate compiler generated dependencies of target server[0m
+[0.109s] [35m[1mConsolidate compiler generated dependencies of target client[0m
+[0.124s] [ 50%] Built target server
+[0.124s] [ 75%] [32mBuilding CXX object CMakeFiles/client.dir/src/client.cpp.o[0m
+[0.287s] [01m[K/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/src/divide_package/src/client.cpp:66:2:[m[K [01;31m[Kerror: [m[Kunterminated argument list invoking macro "RCLCPP_INFO"
+[0.287s]    66 | }
+[0.287s]       |  [01;31m[K^[m[K
+[2.107s] [01m[K/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/src/divide_package/src/client.cpp:17:20:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[2.107s]    17 |         RCLCPP_INFO[01;31m[K([m[Kthis->get_logger(), "节点已启动:client";
+[2.107s]       |                    [01;31m[K^[m[K
+[2.107s] [01m[K/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/src/divide_package/src/client.cpp:13:46:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[2.107s]    13 | class DivideClientNode : public rclcpp::Node [01;36m[K{[m[K
+[2.107s]       |                                              [01;36m[K^[m[K
+[2.115s] [01m[K/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/src/divide_package/src/client.cpp:[m[K In constructor ‘[01m[KDivideClientNode::DivideClientNode(int, int)[m[K’:
+[2.115s] [01m[K/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/src/divide_package/src/client.cpp:17:9:[m[K [01;31m[Kerror: [m[K‘[01m[KRCLCPP_INFO[m[K’ was not declared in this scope
+[2.115s]    17 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "节点已启动:client";
+[2.115s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[2.115s] [01m[K/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/src/divide_package/src/client.cpp:17:20:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[2.115s]    17 |         RCLCPP_INFO[01;31m[K([m[Kthis->get_logger(), "节点已启动:client";
+[2.115s]       |                    [01;31m[K^[m[K
+[2.115s] [01m[K/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/src/divide_package/src/client.cpp:15:73:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[2.115s]    15 |     DivideClientNode(int dividend, int divisor) : Node("divide_client") [01;36m[K{[m[K
+[2.115s]       |                                                                         [01;36m[K^[m[K
+[2.115s] [01m[K/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/src/divide_package/src/client.cpp:15:26:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdividend[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.115s]    15 |     DivideClientNode([01;35m[Kint dividend[m[K, int divisor) : Node("divide_client") {
+[2.116s]       |                      [01;35m[K~~~~^~~~~~~~[m[K
+[2.116s] [01m[K/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/src/divide_package/src/client.cpp:15:40:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdivisor[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.116s]    15 |     DivideClientNode(int dividend, [01;35m[Kint divisor[m[K) : Node("divide_client") {
+[2.116s]       |                                    [01;35m[K~~~~^~~~~~~[m[K
+[2.116s] [01m[K/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/src/divide_package/src/client.cpp:[m[K At global scope:
+[2.116s] [01m[K/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/src/divide_package/src/client.cpp:17:20:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+[2.116s]    17 |         RCLCPP_INFO[01;31m[K([m[Kthis->get_logger(), "节点已启动:client";
+[2.116s]       |                    [01;31m[K^[m[K
+[2.510s] gmake[2]: *** [CMakeFiles/client.dir/build.make:76: CMakeFiles/client.dir/src/client.cpp.o] Error 1
+[2.511s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/client.dir/all] Error 2
+[2.511s] gmake: *** [Makefile:146: all] Error 2
+[2.513s] Invoked command in '/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/build/divide_package' returned '2': CMAKE_PREFIX_PATH=/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface:/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_package:/opt/ros/humble /usr/bin/cmake --build /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/build/divide_package -- -j32 -l32

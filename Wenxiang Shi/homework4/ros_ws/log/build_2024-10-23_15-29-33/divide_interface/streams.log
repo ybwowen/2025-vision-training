@@ -1,0 +1,56 @@
+[0.017s] Invoking command in '/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/build/divide_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/build/divide_interface -- -j32 -l32
+[0.168s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.346s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.350s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.355s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.596s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.857s] [31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):
+[0.858s]   execute_process(/usr/bin/python3 -m rosidl_adapter --package-name
+[0.858s]   divide_interface --arguments-file
+[0.858s]   /home/luna/robomaster/2025-vision-training/Wenxiang
+[0.858s]   Shi/homework4/ros_ws/build/divide_interface/rosidl_adapter__arguments__divide_interface.json
+[0.858s]   --output-dir /home/luna/robomaster/2025-vision-training/Wenxiang
+[0.858s]   Shi/homework4/ros_ws/build/divide_interface/rosidl_adapter/divide_interface
+[0.858s]   --output-file /home/luna/robomaster/2025-vision-training/Wenxiang
+[0.858s]   Shi/homework4/ros_ws/build/divide_interface/rosidl_adapter/divide_interface.idls)
+[0.858s]   returned error code 1:
+[0.858s] 
+[0.858s]   Error processing 'int dividend' of 'divide_interface/Divide_Request':
+[0.858s]   ''int' is an invalid message name.  It should have the pattern
+[0.858s]   '^[A-Z][A-Za-z0-9]*$''
+[0.858s] 
+[0.858s]   Traceback (most recent call last):
+[0.858s] 
+[0.858s]     File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+[0.858s]       return _run_code(code, main_globals, None,
+[0.858s]     File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+[0.859s]       exec(code, run_globals)
+[0.859s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[0.859s]       sys.exit(main())
+[0.859s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main
+[0.859s]       abs_idl_file = convert_to_idl(
+[0.859s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 24, in convert_to_idl
+[0.859s]       return convert_srv_to_idl(
+[0.859s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/srv/__init__.py", line 28, in convert_srv_to_idl
+[0.859s]       srv = parse_service_string(package_name, input_file.stem, content)
+[0.859s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 859, in parse_service_string
+[0.859s]       request_message = parse_message_string(
+[0.859s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 520, in parse_message_string
+[0.859s]       Type(type_string, context_package_name=pkg_name),
+[0.859s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 277, in __init__
+[0.859s]       super(Type, self).__init__(
+[0.859s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 205, in __init__
+[0.859s]       raise InvalidResourceName(
+[0.859s] 
+[0.859s]   rosidl_adapter.parser.InvalidResourceName: 'int' is an invalid message
+[0.859s]   name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'
+[0.860s] 
+[0.860s] Call Stack (most recent call first):
+[0.860s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[0.860s]   CMakeLists.txt:13 (rosidl_generate_interfaces)
+[0.860s] 
+[0.860s] [0m
+[0.860s] -- Configuring incomplete, errors occurred!
+[0.860s] See also "/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/build/divide_interface/CMakeFiles/CMakeOutput.log".
+[0.867s] gmake: *** [Makefile:747: cmake_check_build_system] Error 1
+[0.870s] Invoked command in '/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/build/divide_interface' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/build/divide_interface -- -j32 -l32

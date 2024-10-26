@@ -12,8 +12,8 @@ set_target_properties(divide_interface::divide_interface__rosidl_typesupport_fas
   IMPORTED_SONAME_NOCONFIG "libdivide_interface__rosidl_typesupport_fastrtps_c.so"
   )
 
-list(APPEND _cmake_import_check_targets divide_interface::divide_interface__rosidl_typesupport_fastrtps_c )
-list(APPEND _cmake_import_check_files_for_divide_interface::divide_interface__rosidl_typesupport_fastrtps_c "${_IMPORT_PREFIX}/lib/libdivide_interface__rosidl_typesupport_fastrtps_c.so" )
+list(APPEND _IMPORT_CHECK_TARGETS divide_interface::divide_interface__rosidl_typesupport_fastrtps_c )
+list(APPEND _IMPORT_CHECK_FILES_FOR_divide_interface::divide_interface__rosidl_typesupport_fastrtps_c "${_IMPORT_PREFIX}/lib/libdivide_interface__rosidl_typesupport_fastrtps_c.so" )
 
 # Commands beyond this point should not need to know the version.
 set(CMAKE_IMPORT_FILE_VERSION)

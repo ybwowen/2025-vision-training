@@ -1,0 +1,18 @@
+[0.020s] Invoking command in '/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/build/action_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/src/action_demo -DCMAKE_INSTALL_PREFIX=/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo
+[0.034s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.224s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.410s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.413s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.422s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.434s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.451s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.497s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.500s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[5.489s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.559s] [31mCMake Error at CMakeLists.txt:11 (add_service_files):
+[5.559s]   Unknown CMake command "add_service_files".
+[5.559s] 
+[5.559s] [0m
+[5.559s] -- Configuring incomplete, errors occurred!
+[5.560s] See also "/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/build/action_demo/CMakeFiles/CMakeOutput.log".
+[5.573s] Invoked command in '/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/build/action_demo' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/src/action_demo -DCMAKE_INSTALL_PREFIX=/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/action_demo

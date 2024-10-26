@@ -60,13 +60,13 @@ class Divide_Request(metaclass=Metaclass_Divide_Request):
     ]
 
     _fields_and_field_types = {
-        'dividend': 'int32',
-        'divisor': 'int32',
+        'dividend': 'int64',
+        'divisor': 'int64',
     }
 
     SLOT_TYPES = (
-        rosidl_parser.definition.BasicType('int32'),  # noqa: E501
-        rosidl_parser.definition.BasicType('int32'),  # noqa: E501
+        rosidl_parser.definition.BasicType('int64'),  # noqa: E501
+        rosidl_parser.definition.BasicType('int64'),  # noqa: E501
     )
 
     def __init__(self, **kwargs):
@@ -127,8 +127,8 @@ class Divide_Request(metaclass=Metaclass_Divide_Request):
             assert \
                 isinstance(value, int), \
                 "The 'dividend' field must be of type 'int'"
-            assert value >= -2147483648 and value < 2147483648, \
-                "The 'dividend' field must be an integer in [-2147483648, 2147483647]"
+            assert value >= -9223372036854775808 and value < 9223372036854775808, \
+                "The 'dividend' field must be an integer in [-9223372036854775808, 9223372036854775807]"
         self._dividend = value
 
     @builtins.property
@@ -142,8 +142,8 @@ class Divide_Request(metaclass=Metaclass_Divide_Request):
             assert \
                 isinstance(value, int), \
                 "The 'divisor' field must be of type 'int'"
-            assert value >= -2147483648 and value < 2147483648, \
-                "The 'divisor' field must be an integer in [-2147483648, 2147483647]"
+            assert value >= -9223372036854775808 and value < 9223372036854775808, \
+                "The 'divisor' field must be an integer in [-9223372036854775808, 9223372036854775807]"
         self._divisor = value
 
 
@@ -206,13 +206,13 @@ class Divide_Response(metaclass=Metaclass_Divide_Response):
     ]
 
     _fields_and_field_types = {
-        'quotient': 'int32',
-        'remainder': 'int32',
+        'quotient': 'int64',
+        'remainder': 'int64',
     }
 
     SLOT_TYPES = (
-        rosidl_parser.definition.BasicType('int32'),  # noqa: E501
-        rosidl_parser.definition.BasicType('int32'),  # noqa: E501
+        rosidl_parser.definition.BasicType('int64'),  # noqa: E501
+        rosidl_parser.definition.BasicType('int64'),  # noqa: E501
     )
 
     def __init__(self, **kwargs):
@@ -273,8 +273,8 @@ class Divide_Response(metaclass=Metaclass_Divide_Response):
             assert \
                 isinstance(value, int), \
                 "The 'quotient' field must be of type 'int'"
-            assert value >= -2147483648 and value < 2147483648, \
-                "The 'quotient' field must be an integer in [-2147483648, 2147483647]"
+            assert value >= -9223372036854775808 and value < 9223372036854775808, \
+                "The 'quotient' field must be an integer in [-9223372036854775808, 9223372036854775807]"
         self._quotient = value
 
     @builtins.property
@@ -288,8 +288,8 @@ class Divide_Response(metaclass=Metaclass_Divide_Response):
             assert \
                 isinstance(value, int), \
                 "The 'remainder' field must be of type 'int'"
-            assert value >= -2147483648 and value < 2147483648, \
-                "The 'remainder' field must be an integer in [-2147483648, 2147483647]"
+            assert value >= -9223372036854775808 and value < 9223372036854775808, \
+                "The 'remainder' field must be an integer in [-9223372036854775808, 9223372036854775807]"
         self._remainder = value
 
 

@@ -12,8 +12,8 @@ set_target_properties(divide_interface::divide_interface__rosidl_typesupport_int
   IMPORTED_SONAME_NOCONFIG "libdivide_interface__rosidl_typesupport_introspection_cpp.so"
   )
 
-list(APPEND _cmake_import_check_targets divide_interface::divide_interface__rosidl_typesupport_introspection_cpp )
-list(APPEND _cmake_import_check_files_for_divide_interface::divide_interface__rosidl_typesupport_introspection_cpp "${_IMPORT_PREFIX}/lib/libdivide_interface__rosidl_typesupport_introspection_cpp.so" )
+list(APPEND _IMPORT_CHECK_TARGETS divide_interface::divide_interface__rosidl_typesupport_introspection_cpp )
+list(APPEND _IMPORT_CHECK_FILES_FOR_divide_interface::divide_interface__rosidl_typesupport_introspection_cpp "${_IMPORT_PREFIX}/lib/libdivide_interface__rosidl_typesupport_introspection_cpp.so" )
 
 # Commands beyond this point should not need to know the version.
 set(CMAKE_IMPORT_FILE_VERSION)

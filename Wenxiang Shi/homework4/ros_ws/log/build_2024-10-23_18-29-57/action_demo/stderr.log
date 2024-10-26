@@ -1,0 +1,17 @@
+[31mCMake Error at CMakeLists.txt:6 (find_package):
+  By not providing "Findaction_demo.cmake" in CMAKE_MODULE_PATH this project
+  has asked CMake to find a package configuration file provided by
+  "action_demo", but CMake did not find one.
+
+  Could not find a package configuration file provided by "action_demo" with
+  any of the following names:
+
+    action_demoConfig.cmake
+    action_demo-config.cmake
+
+  Add the installation prefix of "action_demo" to CMAKE_PREFIX_PATH or set
+  "action_demo_DIR" to a directory containing one of the above files.  If
+  "action_demo" provides a separate development package or SDK, be sure it
+  has been installed.
+
+[0m

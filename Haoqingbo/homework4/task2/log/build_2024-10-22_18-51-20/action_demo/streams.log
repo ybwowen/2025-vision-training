@@ -1,0 +1,27 @@
+[0.019s] Invoking command in '/home/rm-jiaolong/Workspace/homework4/task2/build/action_demo': CMAKE_PREFIX_PATH=/home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces:/home/rm-jiaolong/Workspace/homework4/task2/install/action_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 /usr/bin/cmake --build /home/rm-jiaolong/Workspace/homework4/task2/build/action_demo -- -j4 -l4
+[0.128s] [ 40%] Built target action_control
+[0.129s] [100%] Built target action_robot
+[0.155s] Invoked command in '/home/rm-jiaolong/Workspace/homework4/task2/build/action_demo' returned '0': CMAKE_PREFIX_PATH=/home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces:/home/rm-jiaolong/Workspace/homework4/task2/install/action_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 /usr/bin/cmake --build /home/rm-jiaolong/Workspace/homework4/task2/build/action_demo -- -j4 -l4
+[0.208s] Invoking command in '/home/rm-jiaolong/Workspace/homework4/task2/build/action_demo': CMAKE_PREFIX_PATH=/home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces:/home/rm-jiaolong/Workspace/homework4/task2/install/action_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 /usr/bin/cmake --install /home/rm-jiaolong/Workspace/homework4/task2/build/action_demo
+[0.215s] -- Install configuration: ""
+[0.215s] -- Up-to-date: /home/rm-jiaolong/Workspace/homework4/task2/install/action_demo/lib/action_demo/action_robot
+[0.215s] -- Up-to-date: /home/rm-jiaolong/Workspace/homework4/task2/install/action_demo/lib/action_demo/action_control
+[0.216s] -- Up-to-date: /home/rm-jiaolong/Workspace/homework4/task2/install/action_demo/share/action_demo/launch
+[0.216s] -- Up-to-date: /home/rm-jiaolong/Workspace/homework4/task2/install/action_demo/share/action_demo/launch/action_demo.launch.xml
+[0.216s] -- Installing: /home/rm-jiaolong/Workspace/homework4/task2/install/action_demo/share/action_demo/launch/action_demo.launch.py
+[0.216s] -- Up-to-date: /home/rm-jiaolong/Workspace/homework4/task2/install/action_demo/share/ament_index/resource_index/package_run_dependencies/action_demo
+[0.216s] -- Up-to-date: /home/rm-jiaolong/Workspace/homework4/task2/install/action_demo/share/ament_index/resource_index/parent_prefix_path/action_demo
+[0.216s] -- Up-to-date: /home/rm-jiaolong/Workspace/homework4/task2/install/action_demo/share/action_demo/environment/ament_prefix_path.sh
+[0.216s] -- Up-to-date: /home/rm-jiaolong/Workspace/homework4/task2/install/action_demo/share/action_demo/environment/ament_prefix_path.dsv
+[0.216s] -- Up-to-date: /home/rm-jiaolong/Workspace/homework4/task2/install/action_demo/share/action_demo/environment/path.sh
+[0.216s] -- Up-to-date: /home/rm-jiaolong/Workspace/homework4/task2/install/action_demo/share/action_demo/environment/path.dsv
+[0.217s] -- Up-to-date: /home/rm-jiaolong/Workspace/homework4/task2/install/action_demo/share/action_demo/local_setup.bash
+[0.217s] -- Up-to-date: /home/rm-jiaolong/Workspace/homework4/task2/install/action_demo/share/action_demo/local_setup.sh
+[0.217s] -- Up-to-date: /home/rm-jiaolong/Workspace/homework4/task2/install/action_demo/share/action_demo/local_setup.zsh
+[0.217s] -- Up-to-date: /home/rm-jiaolong/Workspace/homework4/task2/install/action_demo/share/action_demo/local_setup.dsv
+[0.217s] -- Up-to-date: /home/rm-jiaolong/Workspace/homework4/task2/install/action_demo/share/action_demo/package.dsv
+[0.217s] -- Up-to-date: /home/rm-jiaolong/Workspace/homework4/task2/install/action_demo/share/ament_index/resource_index/packages/action_demo
+[0.217s] -- Up-to-date: /home/rm-jiaolong/Workspace/homework4/task2/install/action_demo/share/action_demo/cmake/action_demoConfig.cmake
+[0.217s] -- Up-to-date: /home/rm-jiaolong/Workspace/homework4/task2/install/action_demo/share/action_demo/cmake/action_demoConfig-version.cmake
+[0.217s] -- Up-to-date: /home/rm-jiaolong/Workspace/homework4/task2/install/action_demo/share/action_demo/package.xml
+[0.224s] Invoked command in '/home/rm-jiaolong/Workspace/homework4/task2/build/action_demo' returned '0': CMAKE_PREFIX_PATH=/home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces:/home/rm-jiaolong/Workspace/homework4/task2/install/action_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/rm-jiaolong/Workspace/homework4/task2/install/action_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 /usr/bin/cmake --install /home/rm-jiaolong/Workspace/homework4/task2/build/action_demo

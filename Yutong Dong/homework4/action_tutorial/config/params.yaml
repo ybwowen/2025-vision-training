@@ -1,0 +1,4 @@
+move_action:
+  distance: 5.0
+  speed: 1.0
+  time_limit: 10.0

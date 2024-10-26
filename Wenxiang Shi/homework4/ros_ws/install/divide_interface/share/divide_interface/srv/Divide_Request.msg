@@ -1,2 +1,2 @@
-int32 dividend
-int32 divisor
+int64 dividend
+int64 divisor

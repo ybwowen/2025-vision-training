@@ -1,5 +1,5 @@
-int32 dividend
-int32 divisor
+int64 dividend
+int64 divisor
 ---
-int32 quotient
-int32 remainder
+int64 quotient
+int64 remainder

@@ -9,6 +9,7 @@ public:
   DivisionServer()
   : Node("division_server")
   {
+    RCLCPP_INFO(this->get_logger(), "节点已启动：%s.","division_server");
     service_ = create_service<divide_interface::srv::Divide>(
       "divide", std::bind(&DivisionServer::handle_division_request, this,
       std::placeholders::_1, std::placeholders::_2));
@@ -21,17 +22,18 @@ private:
   {
     RCLCPP_INFO(
       this->get_logger(),
-      "Incoming request\ndividend: %d\ndivisor: %d",
+      "Incoming request\ndividend: %ld\ndivisor: %ld",
       request->dividend, request->divisor);
 
     if (request->divisor == 0) {
       RCLCPP_ERROR(this->get_logger(), "Division by zero is not allowed");
       response->quotient = 0;
       response->remainder = 0;
-    } else {
-      response->quotient = request->dividend / request->divisor;
-      response->remainder = request->dividend % request->divisor;
-    }
+      return;
+    } 
+    response->quotient = request->dividend / request->divisor;
+    response->remainder = request->dividend % request->divisor;
+  
   }
 
   rclcpp::Service<divide_interface::srv::Divide>::SharedPtr service_;

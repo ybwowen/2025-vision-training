@@ -1,0 +1,4 @@
+float64 distance
+---
+float64 remaining_distance
+bool success

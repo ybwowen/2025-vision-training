@@ -1,0 +1,32 @@
+[01m[K/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/src/divide_package/src/client.cpp:66:2:[m[K [01;31m[Kerror: [m[Kunterminated argument list invoking macro "RCLCPP_INFO"
+   66 | }
+      |  [01;31m[K^[m[K
+[01m[K/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/src/divide_package/src/client.cpp:17:20:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+   17 |         RCLCPP_INFO[01;31m[K([m[Kthis->get_logger(), "节点已启动:client";
+      |                    [01;31m[K^[m[K
+[01m[K/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/src/divide_package/src/client.cpp:13:46:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   13 | class DivideClientNode : public rclcpp::Node [01;36m[K{[m[K
+      |                                              [01;36m[K^[m[K
+[01m[K/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/src/divide_package/src/client.cpp:[m[K In constructor ‘[01m[KDivideClientNode::DivideClientNode(int, int)[m[K’:
+[01m[K/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/src/divide_package/src/client.cpp:17:9:[m[K [01;31m[Kerror: [m[K‘[01m[KRCLCPP_INFO[m[K’ was not declared in this scope
+   17 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "节点已启动:client";
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/src/divide_package/src/client.cpp:17:20:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+   17 |         RCLCPP_INFO[01;31m[K([m[Kthis->get_logger(), "节点已启动:client";
+      |                    [01;31m[K^[m[K
+[01m[K/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/src/divide_package/src/client.cpp:15:73:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   15 |     DivideClientNode(int dividend, int divisor) : Node("divide_client") [01;36m[K{[m[K
+      |                                                                         [01;36m[K^[m[K
+[01m[K/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/src/divide_package/src/client.cpp:15:26:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdividend[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   15 |     DivideClientNode([01;35m[Kint dividend[m[K, int divisor) : Node("divide_client") {
+      |                      [01;35m[K~~~~^~~~~~~~[m[K
+[01m[K/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/src/divide_package/src/client.cpp:15:40:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdivisor[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   15 |     DivideClientNode(int dividend, [01;35m[Kint divisor[m[K) : Node("divide_client") {
+      |                                    [01;35m[K~~~~^~~~~~~[m[K
+[01m[K/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/src/divide_package/src/client.cpp:[m[K At global scope:
+[01m[K/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/src/divide_package/src/client.cpp:17:20:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+   17 |         RCLCPP_INFO[01;31m[K([m[Kthis->get_logger(), "节点已启动:client";
+      |                    [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/client.dir/build.make:76: CMakeFiles/client.dir/src/client.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/client.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

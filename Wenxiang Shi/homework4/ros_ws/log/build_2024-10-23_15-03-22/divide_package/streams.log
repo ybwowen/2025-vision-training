@@ -1,0 +1,74 @@
+[0.059s] Invoking command in '/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/build/divide_package': AMENT_PREFIX_PATH=/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/src/divide_package -DCMAKE_INSTALL_PREFIX=/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_package
+[0.151s] -- The C compiler identification is GNU 11.4.0
+[0.467s] -- The CXX compiler identification is GNU 11.4.0
+[0.907s] -- Detecting C compiler ABI info
+[1.020s] -- Detecting C compiler ABI info - done
+[1.026s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.026s] -- Detecting C compile features
+[1.027s] -- Detecting C compile features - done
+[1.030s] -- Detecting CXX compiler ABI info
+[1.136s] -- Detecting CXX compiler ABI info - done
+[1.144s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.144s] -- Detecting CXX compile features
+[1.145s] -- Detecting CXX compile features - done
+[1.146s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.293s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.375s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[1.520s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.523s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.531s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.542s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.556s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.612s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.616s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.711s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.821s] -- Found FastRTPS: /opt/ros/humble/include  
+[6.075s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.089s] -- Looking for pthread.h
+[6.188s] -- Looking for pthread.h - found
+[6.188s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.337s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[6.338s] -- Found Threads: TRUE  
+[6.413s] -- Found divide_interface: 0.0.0 (/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/share/divide_interface/cmake)
+[6.424s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[6.508s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[6.508s] -- Configured cppcheck include dirs: 
+[6.508s] -- Configured cppcheck exclude dirs and/or files: 
+[6.509s] -- Added test 'lint_cmake' to check CMake code style
+[6.510s] -- Added test 'uncrustify' to check C / C++ code style
+[6.510s] -- Configured uncrustify additional arguments: 
+[6.511s] -- Added test 'xmllint' to check XML markup files
+[6.512s] -- Configuring done
+[6.523s] -- Generating done
+[6.525s] -- Build files have been written to: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/build/divide_package
+[6.537s] Invoked command in '/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/build/divide_package' returned '0': AMENT_PREFIX_PATH=/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/src/divide_package -DCMAKE_INSTALL_PREFIX=/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_package
+[6.539s] Invoking command in '/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/build/divide_package': AMENT_PREFIX_PATH=/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/build/divide_package -- -j32 -l32
+[6.574s] [ 25%] [32mBuilding CXX object CMakeFiles/server.dir/src/server.cpp.o[0m
+[6.574s] [ 50%] [32mBuilding CXX object CMakeFiles/client.dir/src/client.cpp.o[0m
+[10.468s] [ 75%] [32m[1mLinking CXX executable client[0m
+[10.470s] [100%] [32m[1mLinking CXX executable server[0m
+[10.726s] [100%] Built target server
+[10.727s] [100%] Built target client
+[10.737s] Invoked command in '/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/build/divide_package' returned '0': AMENT_PREFIX_PATH=/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/build/divide_package -- -j32 -l32
+[10.757s] Invoking command in '/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/build/divide_package': AMENT_PREFIX_PATH=/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/build/divide_package
+[10.762s] -- Install configuration: ""
+[10.763s] -- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_package/lib/divide_package/server
+[10.764s] -- Set runtime path of "/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_package/lib/divide_package/server" to ""
+[10.765s] -- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_package/lib/divide_package/client
+[10.766s] -- Set runtime path of "/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_package/lib/divide_package/client" to ""
+[10.766s] -- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_package/share/ament_index/resource_index/package_run_dependencies/divide_package
+[10.766s] -- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_package/share/ament_index/resource_index/parent_prefix_path/divide_package
+[10.766s] -- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_package/share/divide_package/environment/ament_prefix_path.sh
+[10.766s] -- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_package/share/divide_package/environment/ament_prefix_path.dsv
+[10.767s] -- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_package/share/divide_package/environment/path.sh
+[10.767s] -- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_package/share/divide_package/environment/path.dsv
+[10.767s] -- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_package/share/divide_package/local_setup.bash
+[10.767s] -- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_package/share/divide_package/local_setup.sh
+[10.768s] -- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_package/share/divide_package/local_setup.zsh
+[10.768s] -- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_package/share/divide_package/local_setup.dsv
+[10.768s] -- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_package/share/divide_package/package.dsv
+[10.768s] -- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_package/share/ament_index/resource_index/packages/divide_package
+[10.768s] -- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_package/share/divide_package/cmake/divide_packageConfig.cmake
+[10.768s] -- Installing: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_package/share/divide_package/cmake/divide_packageConfig-version.cmake
+[10.768s] -- Up-to-date: /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_package/share/divide_package/package.xml
+[10.770s] Invoked command in '/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/build/divide_package' returned '0': AMENT_PREFIX_PATH=/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/install/divide_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/luna/robomaster/2025-vision-training/Wenxiang Shi/homework4/ros_ws/build/divide_package
