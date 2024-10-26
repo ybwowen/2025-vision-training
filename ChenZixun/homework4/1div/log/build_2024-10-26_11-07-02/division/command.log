@@ -1,0 +1,2 @@
+Invoking command in '/home/parahell/Documents/Robomaster/TestROS2/div/build/division': /usr/bin/cmake /home/parahell/Documents/Robomaster/TestROS2/div/src/division -DCMAKE_INSTALL_PREFIX=/home/parahell/Documents/Robomaster/TestROS2/div/install/division
+Invoked command in '/home/parahell/Documents/Robomaster/TestROS2/div/build/division' returned '1': /usr/bin/cmake /home/parahell/Documents/Robomaster/TestROS2/div/src/division -DCMAKE_INSTALL_PREFIX=/home/parahell/Documents/Robomaster/TestROS2/div/install/division
