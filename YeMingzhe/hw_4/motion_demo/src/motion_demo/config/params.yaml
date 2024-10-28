@@ -1,0 +1,5 @@
+robot_motion_params:
+  ros__parameters:
+    s: 10.0       # 初始距离
+    v: 1.0        # 机器人速度
+    time_limit: 10 # 超时时间

@@ -1,0 +1,4 @@
+[01m[K/home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/motion_demo/src/motion_demo/src/motion_server.cpp:[m[K In member function ‘[01m[Krclcpp_action::CancelResponse MotionServer::handle_cancel(std::shared_ptr<rclcpp_action::ServerGoalHandle<example_interfaces::action::Fibonacci> >)[m[K’:
+[01m[K/home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/motion_demo/src/motion_demo/src/motion_server.cpp:42:52:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal_handle[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   42 |         [01;35m[Kconst std::shared_ptr<GoalHandleFibonacci> goal_handle[m[K) {
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K

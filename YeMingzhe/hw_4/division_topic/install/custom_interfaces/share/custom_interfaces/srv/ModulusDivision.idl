@@ -1,0 +1,31 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from custom_interfaces/srv/ModulusDivision.srv
+// generated code does not contain a copyright notice
+
+
+module custom_interfaces {
+  module srv {
+    @verbatim (language="comment", text=
+      "请求部分：两个整数")
+    struct ModulusDivision_Request {
+      @verbatim (language="comment", text=
+        "被除数")
+      int64 dividend;
+
+      @verbatim (language="comment", text=
+        "除数")
+      int64 divisor;
+    };
+    @verbatim (language="comment", text=
+      "响应部分：商和余数")
+    struct ModulusDivision_Response {
+      @verbatim (language="comment", text=
+        "商")
+      int64 quotient;
+
+      @verbatim (language="comment", text=
+        "余数")
+      int64 remainder;
+    };
+  };
+};

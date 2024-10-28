@@ -1,0 +1,128 @@
+[0.000000] (-) TimerEvent: {}
+[0.000213] (-) JobUnselected: {'identifier': 'custom_interfaces'}
+[0.000263] (example_service_rclcpp) JobQueued: {'identifier': 'example_service_rclcpp', 'dependencies': OrderedDict([('custom_interfaces', '/home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/install/custom_interfaces')])}
+[0.000320] (example_service_rclcpp) JobStarted: {'identifier': 'example_service_rclcpp'}
+[0.031832] (example_service_rclcpp) JobProgress: {'identifier': 'example_service_rclcpp', 'progress': 'cmake'}
+[0.034593] (example_service_rclcpp) JobProgress: {'identifier': 'example_service_rclcpp', 'progress': 'build'}
+[0.034758] (example_service_rclcpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/build/example_service_rclcpp', '--', '-j4', '-l4'], 'cwd': '/home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/build/example_service_rclcpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7897/'), ('no_proxy', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,::1'), ('LANGUAGE', 'en_US:en'), ('USER', 'ymz'), ('LC_TIME', 'zh_CN.UTF-8'), ('all_proxy', 'socks://127.0.0.1:7897/'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/install/custom_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ymz'), ('OLDPWD', '/home/ymz'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('SYSTEMD_EXEC_PID', '1992'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://127.0.0.1:7897/'), ('COLCON_PREFIX_PATH', '/home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/install:/home/ymz/Codes/ros2_learning/chapt3/chapt3_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ymz'), ('ALL_PROXY', 'socks://127.0.0.1:7897/'), ('http_proxy', 'http://127.0.0.1:7897/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ymz'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ymz:@/tmp/.ICE-unix/1965,unix/ymz:/tmp/.ICE-unix/1965'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b3e713ef_d7b5_4cba_a7c7_66dce2d87ae3'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.YJ0AW2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.557'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/install/example_service_rclcpp:/home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/install/custom_interfaces:/home/ymz/Codes/ros2_learning/chapt3/chapt3_ws/install/example_topic_rclcpp:/home/ymz/Codes/ros2_learning/chapt3/chapt3_ws/install/example_service_rclcpp:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/build/example_service_rclcpp'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/install/custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7897/'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/install/custom_interfaces:/home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/install/example_service_rclcpp:/home/ymz/Codes/ros2_learning/chapt3/chapt3_ws/install/example_topic_rclcpp:/home/ymz/Codes/ros2_learning/chapt3/chapt3_ws/install/example_service_rclcpp:/opt/ros/humble')]), 'shell': False}
+[0.096831] (-) TimerEvent: {}
+[0.181167] (example_service_rclcpp) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.197095] (-) TimerEvent: {}
+[0.297637] (-) TimerEvent: {}
+[0.384032] (example_service_rclcpp) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.399439] (-) TimerEvent: {}
+[0.451305] (example_service_rclcpp) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.457786] (example_service_rclcpp) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.473698] (example_service_rclcpp) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.495336] (example_service_rclcpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.499574] (-) TimerEvent: {}
+[0.523835] (example_service_rclcpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.594679] (example_service_rclcpp) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.599077] (example_service_rclcpp) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.599698] (-) TimerEvent: {}
+[0.700062] (-) TimerEvent: {}
+[0.748125] (example_service_rclcpp) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.800259] (-) TimerEvent: {}
+[0.839973] (example_service_rclcpp) StdoutLine: {'line': b'-- Found custom_interfaces: 0.0.0 (/home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/install/custom_interfaces/share/custom_interfaces/cmake)\n'}
+[0.856424] (example_service_rclcpp) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.900511] (-) TimerEvent: {}
+[0.959195] (example_service_rclcpp) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.000687] (-) TimerEvent: {}
+[1.013100] (example_service_rclcpp) StdoutLine: {'line': b'-- Generating done\n'}
+[1.016077] (example_service_rclcpp) StdoutLine: {'line': b'-- Build files have been written to: /home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/build/example_service_rclcpp\n'}
+[1.066778] (example_service_rclcpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target service_server_01\x1b[0m\n'}
+[1.076841] (example_service_rclcpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target service_client_01\x1b[0m\n'}
+[1.100866] (-) TimerEvent: {}
+[1.145055] (example_service_rclcpp) StdoutLine: {'line': b'[ 50%] Built target service_server_01\n'}
+[1.145297] (example_service_rclcpp) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/service_client_01.dir/src/service_client_01.cpp.o\x1b[0m\n'}
+[1.201158] (-) TimerEvent: {}
+[1.301622] (-) TimerEvent: {}
+[1.402147] (-) TimerEvent: {}
+[1.503581] (-) TimerEvent: {}
+[1.604282] (-) TimerEvent: {}
+[1.704715] (-) TimerEvent: {}
+[1.805162] (-) TimerEvent: {}
+[1.908296] (-) TimerEvent: {}
+[2.008884] (-) TimerEvent: {}
+[2.109562] (-) TimerEvent: {}
+[2.210010] (-) TimerEvent: {}
+[2.311240] (-) TimerEvent: {}
+[2.411885] (-) TimerEvent: {}
+[2.513435] (-) TimerEvent: {}
+[2.614258] (-) TimerEvent: {}
+[2.714814] (-) TimerEvent: {}
+[2.815235] (-) TimerEvent: {}
+[2.915633] (-) TimerEvent: {}
+[3.016145] (-) TimerEvent: {}
+[3.116575] (-) TimerEvent: {}
+[3.217002] (-) TimerEvent: {}
+[3.317520] (-) TimerEvent: {}
+[3.417913] (-) TimerEvent: {}
+[3.518337] (-) TimerEvent: {}
+[3.618922] (-) TimerEvent: {}
+[3.719624] (-) TimerEvent: {}
+[3.820129] (-) TimerEvent: {}
+[3.920537] (-) TimerEvent: {}
+[4.021199] (-) TimerEvent: {}
+[4.121637] (-) TimerEvent: {}
+[4.222094] (-) TimerEvent: {}
+[4.322553] (-) TimerEvent: {}
+[4.423006] (-) TimerEvent: {}
+[4.523487] (-) TimerEvent: {}
+[4.623964] (-) TimerEvent: {}
+[4.724723] (-) TimerEvent: {}
+[4.825178] (-) TimerEvent: {}
+[4.925888] (-) TimerEvent: {}
+[5.026585] (-) TimerEvent: {}
+[5.131461] (-) TimerEvent: {}
+[5.232295] (-) TimerEvent: {}
+[5.333104] (-) TimerEvent: {}
+[5.434087] (-) TimerEvent: {}
+[5.534895] (-) TimerEvent: {}
+[5.635960] (-) TimerEvent: {}
+[5.736534] (-) TimerEvent: {}
+[5.837060] (-) TimerEvent: {}
+[5.937521] (-) TimerEvent: {}
+[6.037921] (-) TimerEvent: {}
+[6.138363] (-) TimerEvent: {}
+[6.238894] (-) TimerEvent: {}
+[6.339812] (-) TimerEvent: {}
+[6.441009] (-) TimerEvent: {}
+[6.541776] (-) TimerEvent: {}
+[6.642513] (-) TimerEvent: {}
+[6.743548] (-) TimerEvent: {}
+[6.844368] (-) TimerEvent: {}
+[6.946226] (-) TimerEvent: {}
+[7.016602] (example_service_rclcpp) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable service_client_01\x1b[0m\n'}
+[7.046394] (-) TimerEvent: {}
+[7.147079] (-) TimerEvent: {}
+[7.247503] (-) TimerEvent: {}
+[7.299330] (example_service_rclcpp) StdoutLine: {'line': b'[100%] Built target service_client_01\n'}
+[7.322041] (example_service_rclcpp) CommandEnded: {'returncode': 0}
+[7.347683] (-) TimerEvent: {}
+[7.407094] (example_service_rclcpp) JobProgress: {'identifier': 'example_service_rclcpp', 'progress': 'install'}
+[7.430886] (example_service_rclcpp) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/build/example_service_rclcpp'], 'cwd': '/home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/build/example_service_rclcpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7897/'), ('no_proxy', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,::1'), ('LANGUAGE', 'en_US:en'), ('USER', 'ymz'), ('LC_TIME', 'zh_CN.UTF-8'), ('all_proxy', 'socks://127.0.0.1:7897/'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/install/custom_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ymz'), ('OLDPWD', '/home/ymz'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('SYSTEMD_EXEC_PID', '1992'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://127.0.0.1:7897/'), ('COLCON_PREFIX_PATH', '/home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/install:/home/ymz/Codes/ros2_learning/chapt3/chapt3_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ymz'), ('ALL_PROXY', 'socks://127.0.0.1:7897/'), ('http_proxy', 'http://127.0.0.1:7897/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ymz'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ymz:@/tmp/.ICE-unix/1965,unix/ymz:/tmp/.ICE-unix/1965'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b3e713ef_d7b5_4cba_a7c7_66dce2d87ae3'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.YJ0AW2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.557'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/install/example_service_rclcpp:/home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/install/custom_interfaces:/home/ymz/Codes/ros2_learning/chapt3/chapt3_ws/install/example_topic_rclcpp:/home/ymz/Codes/ros2_learning/chapt3/chapt3_ws/install/example_service_rclcpp:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/build/example_service_rclcpp'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/install/custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7897/'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/install/custom_interfaces:/home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/install/example_service_rclcpp:/home/ymz/Codes/ros2_learning/chapt3/chapt3_ws/install/example_topic_rclcpp:/home/ymz/Codes/ros2_learning/chapt3/chapt3_ws/install/example_service_rclcpp:/opt/ros/humble')]), 'shell': False}
+[7.446370] (example_service_rclcpp) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.447667] (example_service_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/install/example_service_rclcpp/lib/example_service_rclcpp/service_server_01\n'}
+[7.447803] (-) TimerEvent: {}
+[7.449910] (example_service_rclcpp) StdoutLine: {'line': b'-- Installing: /home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/install/example_service_rclcpp/lib/example_service_rclcpp/service_client_01\n'}
+[7.453855] (example_service_rclcpp) StdoutLine: {'line': b'-- Set runtime path of "/home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/install/example_service_rclcpp/lib/example_service_rclcpp/service_client_01" to ""\n'}
+[7.454047] (example_service_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/install/example_service_rclcpp/share/ament_index/resource_index/package_run_dependencies/example_service_rclcpp\n'}
+[7.454141] (example_service_rclcpp) StdoutLine: {'line': b'-- Installing: /home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/install/example_service_rclcpp/share/ament_index/resource_index/parent_prefix_path/example_service_rclcpp\n'}
+[7.454921] (example_service_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/install/example_service_rclcpp/share/example_service_rclcpp/environment/ament_prefix_path.sh\n'}
+[7.455082] (example_service_rclcpp) StdoutLine: {'line': b'-- Installing: /home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/install/example_service_rclcpp/share/example_service_rclcpp/environment/ament_prefix_path.dsv\n'}
+[7.455171] (example_service_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/install/example_service_rclcpp/share/example_service_rclcpp/environment/path.sh\n'}
+[7.455259] (example_service_rclcpp) StdoutLine: {'line': b'-- Installing: /home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/install/example_service_rclcpp/share/example_service_rclcpp/environment/path.dsv\n'}
+[7.455474] (example_service_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/install/example_service_rclcpp/share/example_service_rclcpp/local_setup.bash\n'}
+[7.455577] (example_service_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/install/example_service_rclcpp/share/example_service_rclcpp/local_setup.sh\n'}
+[7.455886] (example_service_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/install/example_service_rclcpp/share/example_service_rclcpp/local_setup.zsh\n'}
+[7.456037] (example_service_rclcpp) StdoutLine: {'line': b'-- Installing: /home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/install/example_service_rclcpp/share/example_service_rclcpp/local_setup.dsv\n'}
+[7.456126] (example_service_rclcpp) StdoutLine: {'line': b'-- Installing: /home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/install/example_service_rclcpp/share/example_service_rclcpp/package.dsv\n'}
+[7.456213] (example_service_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/install/example_service_rclcpp/share/ament_index/resource_index/packages/example_service_rclcpp\n'}
+[7.456307] (example_service_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/install/example_service_rclcpp/share/example_service_rclcpp/cmake/example_service_rclcppConfig.cmake\n'}
+[7.456733] (example_service_rclcpp) StdoutLine: {'line': b'-- Up-to-date: /home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/install/example_service_rclcpp/share/example_service_rclcpp/cmake/example_service_rclcppConfig-version.cmake\n'}
+[7.456832] (example_service_rclcpp) StdoutLine: {'line': b'-- Installing: /home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/install/example_service_rclcpp/share/example_service_rclcpp/package.xml\n'}
+[7.458419] (example_service_rclcpp) CommandEnded: {'returncode': 0}
+[7.547985] (-) TimerEvent: {}
+[7.571162] (example_service_rclcpp) JobEnded: {'identifier': 'example_service_rclcpp', 'rc': 0}
+[7.572071] (-) EventReactorShutdown: {}

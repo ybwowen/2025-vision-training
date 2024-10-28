@@ -1,0 +1,8 @@
+# 请求部分：两个整数
+int64 dividend  # 被除数
+int64 divisor   # 除数
+
+---
+# 响应部分：商和余数
+int64 quotient  # 商
+int64 remainder # 余数

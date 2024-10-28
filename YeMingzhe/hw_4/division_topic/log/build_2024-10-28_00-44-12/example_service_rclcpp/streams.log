@@ -1,0 +1,46 @@
+[0.023s] Invoking command in '/home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/build/example_service_rclcpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/src/example_service_rclcpp -DCMAKE_INSTALL_PREFIX=/home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/install/example_service_rclcpp
+[0.125s] -- The C compiler identification is GNU 11.4.0
+[0.235s] -- The CXX compiler identification is GNU 11.4.0
+[0.248s] -- Detecting C compiler ABI info
+[0.383s] -- Detecting C compiler ABI info - done
+[0.388s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.389s] -- Detecting C compile features
+[0.389s] -- Detecting C compile features - done
+[0.393s] -- Detecting CXX compiler ABI info
+[0.541s] -- Detecting CXX compiler ABI info - done
+[0.547s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.547s] -- Detecting CXX compile features
+[0.547s] -- Detecting CXX compile features - done
+[0.551s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.747s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.860s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.917s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.923s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.938s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.958s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.979s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.033s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.037s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.177s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.206s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.257s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.267s] -- Looking for pthread.h
+[1.407s] -- Looking for pthread.h - found
+[1.409s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.549s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.551s] -- Found Threads: TRUE  
+[1.604s] -- Found custom_interfaces: 0.0.0 (/home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/install/custom_interfaces/share/custom_interfaces/cmake)
+[1.615s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.707s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/ament_environment_hooks.cmake:29 (message):
+[1.708s]   ament_environment_hooks() must be called before
+[1.708s]   ament_generate_package_environment() (which is invoked by ament_package())
+[1.708s] Call Stack (most recent call first):
+[1.708s]   /opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/ament_cmake_environment_hooks_package_hook.cmake:20 (ament_environment_hooks)
+[1.708s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[1.708s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package.cmake:66 (ament_execute_extensions)
+[1.708s]   CMakeLists.txt:40 (ament_package)
+[1.708s] 
+[1.708s] [0m
+[1.708s] -- Configuring incomplete, errors occurred!
+[1.708s] See also "/home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/build/example_service_rclcpp/CMakeFiles/CMakeOutput.log".
+[1.726s] Invoked command in '/home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/build/example_service_rclcpp' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/src/example_service_rclcpp -DCMAKE_INSTALL_PREFIX=/home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/install/example_service_rclcpp

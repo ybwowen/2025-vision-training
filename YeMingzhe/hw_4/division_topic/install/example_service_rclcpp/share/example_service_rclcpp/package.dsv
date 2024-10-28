@@ -1,0 +1,8 @@
+source;share/example_service_rclcpp/hook/cmake_prefix_path.ps1
+source;share/example_service_rclcpp/hook/cmake_prefix_path.dsv
+source;share/example_service_rclcpp/hook/cmake_prefix_path.sh
+source;share/example_service_rclcpp/local_setup.bash
+source;share/example_service_rclcpp/local_setup.dsv
+source;share/example_service_rclcpp/local_setup.ps1
+source;share/example_service_rclcpp/local_setup.sh
+source;share/example_service_rclcpp/local_setup.zsh

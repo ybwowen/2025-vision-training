@@ -1,0 +1,34 @@
+[0.019s] Invoking command in '/home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/motion_demo/build/motion_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/motion_demo/build/motion_demo -- -j4 -l4
+[0.124s] [35m[1mConsolidate compiler generated dependencies of target motion_server[0m
+[0.129s] [35m[1mConsolidate compiler generated dependencies of target motion_client[0m
+[0.189s] [ 25%] [32mBuilding CXX object CMakeFiles/motion_client.dir/src/motion_client.cpp.o[0m
+[0.192s] [ 75%] Built target motion_server
+[4.508s] [100%] [32m[1mLinking CXX executable motion_client[0m
+[4.812s] [100%] Built target motion_client
+[4.830s] Invoked command in '/home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/motion_demo/build/motion_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/motion_demo/build/motion_demo -- -j4 -l4
+[4.938s] Invoking command in '/home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/motion_demo/build/motion_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/motion_demo/build/motion_demo
+[4.952s] -- Install configuration: ""
+[4.952s] -- Installing: /home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/motion_demo/install/motion_demo/lib/motion_demo/motion_server
+[4.958s] -- Set runtime path of "/home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/motion_demo/install/motion_demo/lib/motion_demo/motion_server" to ""
+[4.958s] -- Installing: /home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/motion_demo/install/motion_demo/lib/motion_demo/motion_client
+[4.964s] -- Set runtime path of "/home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/motion_demo/install/motion_demo/lib/motion_demo/motion_client" to ""
+[4.964s] -- Installing: /home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/motion_demo/install/motion_demo/share/motion_demo/config
+[4.965s] -- Installing: /home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/motion_demo/install/motion_demo/share/motion_demo/config/params.yaml
+[4.965s] -- Installing: /home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/motion_demo/install/motion_demo/share/motion_demo/launch
+[4.965s] -- Installing: /home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/motion_demo/install/motion_demo/share/motion_demo/launch/motion_launch.py
+[4.966s] -- Installing: /home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/motion_demo/install/motion_demo/share/ament_index/resource_index/package_run_dependencies/motion_demo
+[4.966s] -- Installing: /home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/motion_demo/install/motion_demo/share/ament_index/resource_index/parent_prefix_path/motion_demo
+[4.966s] -- Installing: /home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/motion_demo/install/motion_demo/share/motion_demo/environment/ament_prefix_path.sh
+[4.966s] -- Installing: /home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/motion_demo/install/motion_demo/share/motion_demo/environment/ament_prefix_path.dsv
+[4.966s] -- Installing: /home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/motion_demo/install/motion_demo/share/motion_demo/environment/path.sh
+[4.967s] -- Installing: /home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/motion_demo/install/motion_demo/share/motion_demo/environment/path.dsv
+[4.967s] -- Installing: /home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/motion_demo/install/motion_demo/share/motion_demo/local_setup.bash
+[4.967s] -- Installing: /home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/motion_demo/install/motion_demo/share/motion_demo/local_setup.sh
+[4.968s] -- Installing: /home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/motion_demo/install/motion_demo/share/motion_demo/local_setup.zsh
+[4.968s] -- Installing: /home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/motion_demo/install/motion_demo/share/motion_demo/local_setup.dsv
+[4.969s] -- Installing: /home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/motion_demo/install/motion_demo/share/motion_demo/package.dsv
+[4.970s] -- Installing: /home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/motion_demo/install/motion_demo/share/ament_index/resource_index/packages/motion_demo
+[4.970s] -- Installing: /home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/motion_demo/install/motion_demo/share/motion_demo/cmake/motion_demoConfig.cmake
+[4.971s] -- Installing: /home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/motion_demo/install/motion_demo/share/motion_demo/cmake/motion_demoConfig-version.cmake
+[4.971s] -- Installing: /home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/motion_demo/install/motion_demo/share/motion_demo/package.xml
+[4.973s] Invoked command in '/home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/motion_demo/build/motion_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/motion_demo/build/motion_demo

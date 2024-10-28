@@ -1,0 +1,2 @@
+source;share/example_service_rclcpp/environment/ament_prefix_path.sh
+source;share/example_service_rclcpp/environment/path.sh

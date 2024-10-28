@@ -1,0 +1,44 @@
+[0.036s] Invoking command in '/home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/build/example_service_rclcpp': CMAKE_PREFIX_PATH=/home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/install/custom_interfaces:/home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/install/example_service_rclcpp:/home/ymz/Codes/ros2_learning/chapt3/chapt3_ws/install/example_topic_rclcpp:/home/ymz/Codes/ros2_learning/chapt3/chapt3_ws/install/example_service_rclcpp:/opt/ros/humble /usr/bin/cmake --build /home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/build/example_service_rclcpp -- -j4 -l4
+[0.182s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.384s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.451s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.458s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.474s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.495s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.524s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.594s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.599s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.748s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.840s] -- Found custom_interfaces: 0.0.0 (/home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/install/custom_interfaces/share/custom_interfaces/cmake)
+[0.856s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.959s] -- Configuring done
+[1.013s] -- Generating done
+[1.016s] -- Build files have been written to: /home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/build/example_service_rclcpp
+[1.067s] [35m[1mConsolidate compiler generated dependencies of target service_server_01[0m
+[1.077s] [35m[1mConsolidate compiler generated dependencies of target service_client_01[0m
+[1.145s] [ 50%] Built target service_server_01
+[1.145s] [ 75%] [32mBuilding CXX object CMakeFiles/service_client_01.dir/src/service_client_01.cpp.o[0m
+[7.016s] [100%] [32m[1mLinking CXX executable service_client_01[0m
+[7.299s] [100%] Built target service_client_01
+[7.322s] Invoked command in '/home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/build/example_service_rclcpp' returned '0': CMAKE_PREFIX_PATH=/home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/install/custom_interfaces:/home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/install/example_service_rclcpp:/home/ymz/Codes/ros2_learning/chapt3/chapt3_ws/install/example_topic_rclcpp:/home/ymz/Codes/ros2_learning/chapt3/chapt3_ws/install/example_service_rclcpp:/opt/ros/humble /usr/bin/cmake --build /home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/build/example_service_rclcpp -- -j4 -l4
+[7.431s] Invoking command in '/home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/build/example_service_rclcpp': CMAKE_PREFIX_PATH=/home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/install/custom_interfaces:/home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/install/example_service_rclcpp:/home/ymz/Codes/ros2_learning/chapt3/chapt3_ws/install/example_topic_rclcpp:/home/ymz/Codes/ros2_learning/chapt3/chapt3_ws/install/example_service_rclcpp:/opt/ros/humble /usr/bin/cmake --install /home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/build/example_service_rclcpp
+[7.446s] -- Install configuration: ""
+[7.447s] -- Up-to-date: /home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/install/example_service_rclcpp/lib/example_service_rclcpp/service_server_01
+[7.450s] -- Installing: /home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/install/example_service_rclcpp/lib/example_service_rclcpp/service_client_01
+[7.454s] -- Set runtime path of "/home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/install/example_service_rclcpp/lib/example_service_rclcpp/service_client_01" to ""
+[7.454s] -- Up-to-date: /home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/install/example_service_rclcpp/share/ament_index/resource_index/package_run_dependencies/example_service_rclcpp
+[7.454s] -- Installing: /home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/install/example_service_rclcpp/share/ament_index/resource_index/parent_prefix_path/example_service_rclcpp
+[7.455s] -- Up-to-date: /home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/install/example_service_rclcpp/share/example_service_rclcpp/environment/ament_prefix_path.sh
+[7.455s] -- Installing: /home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/install/example_service_rclcpp/share/example_service_rclcpp/environment/ament_prefix_path.dsv
+[7.455s] -- Up-to-date: /home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/install/example_service_rclcpp/share/example_service_rclcpp/environment/path.sh
+[7.455s] -- Installing: /home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/install/example_service_rclcpp/share/example_service_rclcpp/environment/path.dsv
+[7.455s] -- Up-to-date: /home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/install/example_service_rclcpp/share/example_service_rclcpp/local_setup.bash
+[7.455s] -- Up-to-date: /home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/install/example_service_rclcpp/share/example_service_rclcpp/local_setup.sh
+[7.456s] -- Up-to-date: /home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/install/example_service_rclcpp/share/example_service_rclcpp/local_setup.zsh
+[7.456s] -- Installing: /home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/install/example_service_rclcpp/share/example_service_rclcpp/local_setup.dsv
+[7.456s] -- Installing: /home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/install/example_service_rclcpp/share/example_service_rclcpp/package.dsv
+[7.456s] -- Up-to-date: /home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/install/example_service_rclcpp/share/ament_index/resource_index/packages/example_service_rclcpp
+[7.456s] -- Up-to-date: /home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/install/example_service_rclcpp/share/example_service_rclcpp/cmake/example_service_rclcppConfig.cmake
+[7.456s] -- Up-to-date: /home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/install/example_service_rclcpp/share/example_service_rclcpp/cmake/example_service_rclcppConfig-version.cmake
+[7.457s] -- Installing: /home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/install/example_service_rclcpp/share/example_service_rclcpp/package.xml
+[7.458s] Invoked command in '/home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/build/example_service_rclcpp' returned '0': CMAKE_PREFIX_PATH=/home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/install/custom_interfaces:/home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/install/example_service_rclcpp:/home/ymz/Codes/ros2_learning/chapt3/chapt3_ws/install/example_topic_rclcpp:/home/ymz/Codes/ros2_learning/chapt3/chapt3_ws/install/example_service_rclcpp:/opt/ros/humble /usr/bin/cmake --install /home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/build/example_service_rclcpp

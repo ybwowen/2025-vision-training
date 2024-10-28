@@ -1,0 +1,159 @@
+[0.114s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'example_service_rclcpp']
+[0.114s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['example_service_rclcpp'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7d9b6a9ff880>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7d9b6a9a5900>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7d9b6a9a5900>>)
+[0.282s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.282s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.282s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.282s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.282s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.282s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.282s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extension 'ignore'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extension 'ignore_ament_install'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extensions ['colcon_pkg']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extension 'colcon_pkg'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extensions ['colcon_meta']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extension 'colcon_meta'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extensions ['ros']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extension 'ros'
+[0.299s] DEBUG:colcon.colcon_core.package_identification:Package 'src/custom_interfaces' with type 'ros.ament_cmake' and name 'custom_interfaces'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_service_rclcpp) by extensions ['ignore', 'ignore_ament_install']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_service_rclcpp) by extension 'ignore'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_service_rclcpp) by extension 'ignore_ament_install'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_service_rclcpp) by extensions ['colcon_pkg']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_service_rclcpp) by extension 'colcon_pkg'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_service_rclcpp) by extensions ['colcon_meta']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_service_rclcpp) by extension 'colcon_meta'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_service_rclcpp) by extensions ['ros']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_service_rclcpp) by extension 'ros'
+[0.300s] DEBUG:colcon.colcon_core.package_identification:Package 'src/example_service_rclcpp' with type 'ros.ament_cmake' and name 'example_service_rclcpp'
+[0.300s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.300s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.300s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.300s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.300s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.320s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'custom_interfaces' in 'src/custom_interfaces'
+[0.320s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.320s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.321s] WARNING:colcon.colcon_core.prefix_path.colcon:The path '/home/ymz/Codes/ros2_learning/chapt3/chapt3_ws/install' in the environment variable COLCON_PREFIX_PATH doesn't exist
+[0.321s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/ymz/Codes/ros2_learning/chapt3/chapt3_ws/install/example_topic_rclcpp' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.321s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/ymz/Codes/ros2_learning/chapt3/chapt3_ws/install/example_service_rclcpp' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.321s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/ymz/Codes/ros2_learning/chapt3/chapt3_ws/install/example_topic_rclcpp' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.322s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/ymz/Codes/ros2_learning/chapt3/chapt3_ws/install/example_service_rclcpp' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.323s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/install
+[0.325s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 270 installed packages in /opt/ros/humble
+[0.326s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'example_service_rclcpp' build argument 'cmake_args' from command line to 'None'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'example_service_rclcpp' build argument 'cmake_target' from command line to 'None'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'example_service_rclcpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'example_service_rclcpp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'example_service_rclcpp' build argument 'cmake_clean_first' from command line to 'False'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'example_service_rclcpp' build argument 'cmake_force_configure' from command line to 'False'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'example_service_rclcpp' build argument 'ament_cmake_args' from command line to 'None'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'example_service_rclcpp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'example_service_rclcpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.380s] DEBUG:colcon.colcon_core.verb:Building package 'example_service_rclcpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/build/example_service_rclcpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/install/example_service_rclcpp', 'merge_install': False, 'path': '/home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/src/example_service_rclcpp', 'symlink_install': False, 'test_result_base': None}
+[0.380s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.381s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.381s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/src/example_service_rclcpp' with build type 'ament_cmake'
+[0.381s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/src/example_service_rclcpp'
+[0.384s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.384s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.385s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.410s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/build/example_service_rclcpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/src/example_service_rclcpp -DCMAKE_INSTALL_PREFIX=/home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/install/example_service_rclcpp
+[1.007s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/build/example_service_rclcpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/src/example_service_rclcpp -DCMAKE_INSTALL_PREFIX=/home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/install/example_service_rclcpp
+[1.010s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/build/example_service_rclcpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/build/example_service_rclcpp -- -j4 -l4
+[5.414s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/build/example_service_rclcpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/build/example_service_rclcpp -- -j4 -l4
+[5.513s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/build/example_service_rclcpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/build/example_service_rclcpp
+[5.553s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(example_service_rclcpp)
+[5.554s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/build/example_service_rclcpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/build/example_service_rclcpp
+[5.562s] Level 1:colcon.colcon_core.environment:checking '/home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/install/example_service_rclcpp' for CMake module files
+[5.563s] Level 1:colcon.colcon_core.environment:checking '/home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/install/example_service_rclcpp' for CMake config files
+[5.563s] Level 1:colcon.colcon_core.shell:create_environment_hook('example_service_rclcpp', 'cmake_prefix_path')
+[5.564s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/install/example_service_rclcpp/share/example_service_rclcpp/hook/cmake_prefix_path.ps1'
+[5.565s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/install/example_service_rclcpp/share/example_service_rclcpp/hook/cmake_prefix_path.dsv'
+[5.566s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/install/example_service_rclcpp/share/example_service_rclcpp/hook/cmake_prefix_path.sh'
+[5.567s] Level 1:colcon.colcon_core.environment:checking '/home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/install/example_service_rclcpp/lib'
+[5.567s] Level 1:colcon.colcon_core.environment:checking '/home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/install/example_service_rclcpp/bin'
+[5.567s] Level 1:colcon.colcon_core.environment:checking '/home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/install/example_service_rclcpp/lib/pkgconfig/example_service_rclcpp.pc'
+[5.567s] Level 1:colcon.colcon_core.environment:checking '/home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/install/example_service_rclcpp/lib/python3.10/site-packages'
+[5.568s] Level 1:colcon.colcon_core.environment:checking '/home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/install/example_service_rclcpp/bin'
+[5.568s] INFO:colcon.colcon_core.shell:Creating package script '/home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/install/example_service_rclcpp/share/example_service_rclcpp/package.ps1'
+[5.569s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/install/example_service_rclcpp/share/example_service_rclcpp/package.dsv'
+[5.570s] INFO:colcon.colcon_core.shell:Creating package script '/home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/install/example_service_rclcpp/share/example_service_rclcpp/package.sh'
+[5.571s] INFO:colcon.colcon_core.shell:Creating package script '/home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/install/example_service_rclcpp/share/example_service_rclcpp/package.bash'
+[5.572s] INFO:colcon.colcon_core.shell:Creating package script '/home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/install/example_service_rclcpp/share/example_service_rclcpp/package.zsh'
+[5.573s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/install/example_service_rclcpp/share/colcon-core/packages/example_service_rclcpp)
+[5.659s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(example_service_rclcpp)
+[5.659s] Level 1:colcon.colcon_core.environment:checking '/home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/install/example_service_rclcpp' for CMake module files
+[5.660s] Level 1:colcon.colcon_core.environment:checking '/home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/install/example_service_rclcpp' for CMake config files
+[5.660s] Level 1:colcon.colcon_core.shell:create_environment_hook('example_service_rclcpp', 'cmake_prefix_path')
+[5.660s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/install/example_service_rclcpp/share/example_service_rclcpp/hook/cmake_prefix_path.ps1'
+[5.661s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/install/example_service_rclcpp/share/example_service_rclcpp/hook/cmake_prefix_path.dsv'
+[5.662s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/install/example_service_rclcpp/share/example_service_rclcpp/hook/cmake_prefix_path.sh'
+[5.663s] Level 1:colcon.colcon_core.environment:checking '/home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/install/example_service_rclcpp/lib'
+[5.663s] Level 1:colcon.colcon_core.environment:checking '/home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/install/example_service_rclcpp/bin'
+[5.663s] Level 1:colcon.colcon_core.environment:checking '/home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/install/example_service_rclcpp/lib/pkgconfig/example_service_rclcpp.pc'
+[5.663s] Level 1:colcon.colcon_core.environment:checking '/home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/install/example_service_rclcpp/lib/python3.10/site-packages'
+[5.663s] Level 1:colcon.colcon_core.environment:checking '/home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/install/example_service_rclcpp/bin'
+[5.664s] INFO:colcon.colcon_core.shell:Creating package script '/home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/install/example_service_rclcpp/share/example_service_rclcpp/package.ps1'
+[5.664s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/install/example_service_rclcpp/share/example_service_rclcpp/package.dsv'
+[5.665s] INFO:colcon.colcon_core.shell:Creating package script '/home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/install/example_service_rclcpp/share/example_service_rclcpp/package.sh'
+[5.665s] INFO:colcon.colcon_core.shell:Creating package script '/home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/install/example_service_rclcpp/share/example_service_rclcpp/package.bash'
+[5.666s] INFO:colcon.colcon_core.shell:Creating package script '/home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/install/example_service_rclcpp/share/example_service_rclcpp/package.zsh'
+[5.667s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/install/example_service_rclcpp/share/colcon-core/packages/example_service_rclcpp)
+[5.667s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[5.667s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[5.667s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[5.667s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[5.692s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[5.692s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[5.692s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[5.726s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[5.727s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/install/local_setup.ps1'
+[5.728s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/install/_local_setup_util_ps1.py'
+[5.733s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/install/setup.ps1'
+[5.736s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/install/local_setup.sh'
+[5.737s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/install/_local_setup_util_sh.py'
+[5.738s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/install/setup.sh'
+[5.739s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/install/local_setup.bash'
+[5.741s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/install/setup.bash'
+[5.742s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/install/local_setup.zsh'
+[5.743s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/division_topic/install/setup.zsh'

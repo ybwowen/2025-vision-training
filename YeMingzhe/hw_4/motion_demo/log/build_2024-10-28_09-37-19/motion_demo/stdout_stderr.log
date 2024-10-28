@@ -1,0 +1,114 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found rclcpp_action: 16.0.10 (/opt/ros/humble/share/rclcpp_action/cmake)
+-- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/motion_demo/build/motion_demo
+[ 25%] [32mBuilding CXX object CMakeFiles/motion_server.dir/src/motion_server.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/motion_client.dir/src/motion_client.cpp.o[0m
+[01m[K/home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/motion_demo/src/motion_demo/src/motion_client.cpp:[m[K In member function ‘[01m[Kvoid MotionClient::send_goal(double)[m[K’:
+[01m[K/home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/motion_demo/src/motion_demo/src/motion_client.cpp:43:9:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Krclcpp_action::Client<example_interfaces::action::Fibonacci>::GoalResponseCallback[m[K’ {aka ‘[01m[Kstd::function<void(std::shared_ptr<rclcpp_action::ClientGoalHandle<example_interfaces::action::Fibonacci> >)>[m[K’} and ‘[01m[KMotionClient::send_goal(double)::<lambda(std::shared_future<std::shared_ptr<rclcpp_action::ClientGoalHandle<example_interfaces::action::Fibonacci> > >)>[m[K’)
+   43 |         [01;31m[K}[m[K;
+      |         [01;31m[K^[m[K
+In file included from [01m[K/usr/include/c++/11/future:47[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/motion_demo/src/motion_demo/src/motion_client.cpp:2[m[K:
+[01m[K/usr/include/c++/11/bits/std_function.h:530:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Functor> std::function<_Res(_ArgTypes ...)>::_Requires<std::function<_Res(_ArgTypes ...)>::_Callable<_Functor>, std::function<_Res(_ArgTypes ...)>&> std::function<_Res(_ArgTypes ...)>::operator=(_Functor&&) [with _Functor = _Functor; _Res = void; _ArgTypes = {std::shared_ptr<rclcpp_action::ClientGoalHandle<example_interfaces::action::Fibonacci> >}][m[K’
+  530 |         [01;36m[Koperator[m[K=(_Functor&& __f)
+      |         [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/std_function.h:530:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/usr/include/c++/11/bits/move.h:57[m[K,
+                 from [01m[K/usr/include/c++/11/bits/stl_pair.h:59[m[K,
+                 from [01m[K/usr/include/c++/11/bits/stl_algobase.h:64[m[K,
+                 from [01m[K/usr/include/c++/11/memory:63[m[K,
+                 from [01m[K/home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/motion_demo/src/motion_demo/src/motion_client.cpp:1[m[K:
+/usr/include/c++/11/type_traits: In substitution of ‘[01m[Ktemplate<bool _Cond, class _Tp> using __enable_if_t = typename std::enable_if::type [with bool _Cond = false; _Tp = std::function<void(std::shared_ptr<rclcpp_action::ClientGoalHandle<example_interfaces::action::Fibonacci> >)>&][m[K’:
+[01m[K/usr/include/c++/11/bits/std_function.h:353:8:[m[K   required by substitution of ‘[01m[Ktemplate<class _Res, class ... _ArgTypes> template<class _Cond, class _Tp> using _Requires = std::__enable_if_t<_Cond::value, _Tp> [with _Cond = std::function<void(std::shared_ptr<rclcpp_action::ClientGoalHandle<example_interfaces::action::Fibonacci> >)>::_Callable<MotionClient::send_goal(double)::<lambda(std::shared_future<std::shared_ptr<rclcpp_action::ClientGoalHandle<example_interfaces::action::Fibonacci> > >)>, MotionClient::send_goal(double)::<lambda(std::shared_future<std::shared_ptr<rclcpp_action::ClientGoalHandle<example_interfaces::action::Fibonacci> > >)>, std::__invoke_result<MotionClient::send_goal(double)::<lambda(std::shared_future<std::shared_ptr<rclcpp_action::ClientGoalHandle<example_interfaces::action::Fibonacci> > >)>&, std::shared_ptr<rclcpp_action::ClientGoalHandle<example_interfaces::action::Fibonacci> > > >; _Tp = std::function<void(std::shared_ptr<rclcpp_action::ClientGoalHandle<example_interfaces::action::Fibonacci> >)>&; _Res = void; _ArgTypes = {std::shared_ptr<rclcpp_action::ClientGoalHandle<example_interfaces::action::Fibonacci> >}][m[K’
+[01m[K/usr/include/c++/11/bits/std_function.h:530:2:[m[K   required by substitution of ‘[01m[Ktemplate<class _Functor> std::function<void(std::shared_ptr<rclcpp_action::ClientGoalHandle<example_interfaces::action::Fibonacci> >)>::_Requires<std::function<void(std::shared_ptr<rclcpp_action::ClientGoalHandle<example_interfaces::action::Fibonacci> >)>::_Callable<_Functor, typename std::enable_if<(! std::is_same<typename std::remove_cv<typename std::remove_reference<_Tp>::type>::type, std::function<void(std::shared_ptr<rclcpp_action::ClientGoalHandle<example_interfaces::action::Fibonacci> >)> >::value), std::decay<_Tp> >::type::type, std::__invoke_result<typename std::enable_if<(! std::is_same<typename std::remove_cv<typename std::remove_reference<_Tp>::type>::type, std::function<void(std::shared_ptr<rclcpp_action::ClientGoalHandle<example_interfaces::action::Fibonacci> >)> >::value), std::decay<_Tp> >::type::type&, std::shared_ptr<rclcpp_action::ClientGoalHandle<example_interfaces::action::Fibonacci> > > >, std::function<void(std::shared_ptr<rclcpp_action::ClientGoalHandle<example_interfaces::action::Fibonacci> >)>&> std::function<void(std::shared_ptr<rclcpp_action::ClientGoalHandle<example_interfaces::action::Fibonacci> >)>::operator=<_Functor>(_Functor&&) [with _Functor = MotionClient::send_goal(double)::<lambda(std::shared_future<std::shared_ptr<rclcpp_action::ClientGoalHandle<example_interfaces::action::Fibonacci> > >)>][m[K’
+[01m[K/home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/motion_demo/src/motion_demo/src/motion_client.cpp:43:9:[m[K   required from here
+[01m[K/usr/include/c++/11/type_traits:2205:11:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, std::function<void(std::shared_ptr<rclcpp_action::ClientGoalHandle<example_interfaces::action::Fibonacci> >)>&>[m[K’
+ 2205 |     using [01;31m[K__enable_if_t[m[K = typename enable_if<_Cond, _Tp>::type;
+      |           [01;31m[K^~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/future:47[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/motion_demo/src/motion_demo/src/motion_client.cpp:2[m[K:
+[01m[K/usr/include/c++/11/bits/std_function.h:540:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Functor> std::function<_Res(_ArgTypes ...)>& std::function<_Res(_ArgTypes ...)>::operator=(std::reference_wrapper<_Functor>) [with _Functor = _Functor; _Res = void; _ArgTypes = {std::shared_ptr<rclcpp_action::ClientGoalHandle<example_interfaces::action::Fibonacci> >}][m[K’
+  540 |         [01;36m[Koperator[m[K=(reference_wrapper<_Functor> __f) noexcept
+      |         [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/std_function.h:540:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/motion_demo/src/motion_demo/src/motion_client.cpp:43:9:[m[K [01;36m[Knote: [m[K  ‘[01m[KMotionClient::send_goal(double)::<lambda(std::shared_future<std::shared_ptr<rclcpp_action::ClientGoalHandle<example_interfaces::action::Fibonacci> > >)>[m[K’ is not derived from ‘[01m[Kstd::reference_wrapper<_Tp>[m[K’
+   43 |         [01;36m[K}[m[K;
+      |         [01;36m[K^[m[K
+In file included from [01m[K/usr/include/c++/11/future:47[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/motion_demo/src/motion_demo/src/motion_client.cpp:2[m[K:
+[01m[K/usr/include/c++/11/bits/std_function.h:469:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::function<_Res(_ArgTypes ...)>& std::function<_Res(_ArgTypes ...)>::operator=(const std::function<_Res(_ArgTypes ...)>&) [with _Res = void; _ArgTypes = {std::shared_ptr<rclcpp_action::ClientGoalHandle<example_interfaces::action::Fibonacci> >}][m[K’
+  469 |       [01;36m[Koperator[m[K=(const function& __x)
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/std_function.h:469:33:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KMotionClient::send_goal(double)::<lambda(std::shared_future<std::shared_ptr<rclcpp_action::ClientGoalHandle<example_interfaces::action::Fibonacci> > >)>[m[K’ to ‘[01m[Kconst std::function<void(std::shared_ptr<rclcpp_action::ClientGoalHandle<example_interfaces::action::Fibonacci> >)>&[m[K’
+  469 |       operator=([01;36m[Kconst function& __x[m[K)
+      |                 [01;36m[K~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/usr/include/c++/11/bits/std_function.h:487:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::function<_Res(_ArgTypes ...)>& std::function<_Res(_ArgTypes ...)>::operator=(std::function<_Res(_ArgTypes ...)>&&) [with _Res = void; _ArgTypes = {std::shared_ptr<rclcpp_action::ClientGoalHandle<example_interfaces::action::Fibonacci> >}][m[K’
+  487 |       [01;36m[Koperator[m[K=(function&& __x) noexcept
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/std_function.h:487:28:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KMotionClient::send_goal(double)::<lambda(std::shared_future<std::shared_ptr<rclcpp_action::ClientGoalHandle<example_interfaces::action::Fibonacci> > >)>[m[K’ to ‘[01m[Kstd::function<void(std::shared_ptr<rclcpp_action::ClientGoalHandle<example_interfaces::action::Fibonacci> >)>&&[m[K’
+  487 |       operator=([01;36m[Kfunction&& __x[m[K) noexcept
+      |                 [01;36m[K~~~~~~~~~~~^~~[m[K
+[01m[K/usr/include/c++/11/bits/std_function.h:501:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::function<_Res(_ArgTypes ...)>& std::function<_Res(_ArgTypes ...)>::operator=(std::nullptr_t) [with _Res = void; _ArgTypes = {std::shared_ptr<rclcpp_action::ClientGoalHandle<example_interfaces::action::Fibonacci> >}; std::nullptr_t = std::nullptr_t][m[K’
+  501 |       [01;36m[Koperator[m[K=(nullptr_t) noexcept
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/std_function.h:501:17:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KMotionClient::send_goal(double)::<lambda(std::shared_future<std::shared_ptr<rclcpp_action::ClientGoalHandle<example_interfaces::action::Fibonacci> > >)>[m[K’ to ‘[01m[Kstd::nullptr_t[m[K’
+  501 |       operator=([01;36m[Knullptr_t[m[K) noexcept
+      |                 [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/motion_demo/src/motion_demo/src/motion_server.cpp:[m[K In member function ‘[01m[Krclcpp_action::CancelResponse MotionServer::handle_cancel(std::shared_ptr<rclcpp_action::ServerGoalHandle<example_interfaces::action::Fibonacci> >)[m[K’:
+[01m[K/home/ymz/Codes/2025-vision-training/YeMingzhe/hw_4/motion_demo/src/motion_demo/src/motion_server.cpp:42:52:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal_handle[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   42 |         [01;35m[Kconst std::shared_ptr<GoalHandleFibonacci> goal_handle[m[K) {
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/motion_client.dir/build.make:76: CMakeFiles/motion_client.dir/src/motion_client.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/motion_client.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[ 75%] [32m[1mLinking CXX executable motion_server[0m
+[ 75%] Built target motion_server
+gmake: *** [Makefile:146: all] Error 2
